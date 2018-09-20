@@ -4,7 +4,7 @@ Understanding is a project designed to explore the possibilities inherent in lin
 
 ## Getting Started
 
-The project uses bitnami's base laravel/docker installer. Simpple clone the repo cd into the directory and 
+The project uses bitnami's base laravel/docker installer. Simply clone the repo, cd into the directory and 
 ```
 docker up
 ```
@@ -19,27 +19,29 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+The project uses bitnami's base laravel/docker installer. Simply clone the repo, cd into the directory and 
 ```
-Give the example
+docker up
 ```
-
-And repeat
+It's recomemnded you create a few aliases to simplify some of the commands you'll be doing over and over again during development. I recommend havingthe following in your ~/.bash_profile
 
 ```
-until finished
+alias dphp='docker-compose exec app php'
+alias dc='docker-compose exec app'
 ```
-If you get errors when seeding the database first make sure you DB is configured to allow emoji's (some of the content comes from YouTube for example). This means you need to configure the DB connection:
+
+If you get errors when seeding the database first make sure you DB is configured to allow emoji's (some of the content comes from YouTube for example). This means you need to configure the DB connection in config/database.php:
+```
 'charset' => 'utf8mb4',
 'collation' => 'utf8mb4_unicode_ci',
+```
 
 and make sure that the DB and media table at least are converted 
+```
 SET NAMES utf8mb4;
 ALTER DATABASE understanding CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
 ALTER TABLE media CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
 
 If you get an error like the following when migrating:
 ```
@@ -80,7 +82,6 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
