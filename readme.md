@@ -11,23 +11,35 @@ docker up
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+It's recomemnded you create a few aliases to simplify some of the commands you'll be doing over and over again during development. I recommend having the following (or similar) in your ~/.bash_profile
 
 ```
-Give examples
+alias dphp='docker-compose exec app php'
+alias dc='docker-compose exec app'
+```
+This allows you to run commands as:
+```
+dc composer install
+```
+and
+```
+dphp artisan <command>
 ```
 
 ### Installing
 
 The project uses bitnami's base laravel/docker installer. Simply clone the repo, cd into the directory and 
 ```
-docker up
+docker-compose up
 ```
-It's recomemnded you create a few aliases to simplify some of the commands you'll be doing over and over again during development. I recommend havingthe following in your ~/.bash_profile
-
+Once docker-compose has finished orchestrating everythign you should be able to do
 ```
-alias dphp='docker-compose exec app php'
-alias dc='docker-compose exec app'
+dc npm install
+dphp artisan migrate:refresh --seed
+```
+and then visit
+```
+http://localhost:3000/
 ```
 
 If you get errors when seeding the database first make sure you DB is configured to allow emoji's (some of the content comes from YouTube for example). This means you need to configure the DB connection in config/database.php:
@@ -52,7 +64,10 @@ Just follow the steps [here](https://laravel-news.com/laravel-5-4-key-too-long-e
 
 ## Running the tests
 
-./vendor/bin/phpunit runs the tests
+```
+dc ./vendor/bin/phpunit 
+```
+runs the tests if you have previously created the aliases mentioned above.
 
 ### Break down into end to end tests
 

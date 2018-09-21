@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PeopleController@list')->name('people');
+Route::get('/{qid}', 'PeopleController@view')->name('person');
+Route::post('/media/delete', 'MediaController@delete');
