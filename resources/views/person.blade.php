@@ -18,6 +18,8 @@
 			  @endforeach
 			</div>
 		@endforeach
+				<p><input class="select-all-checkbox" type="checkbox" id="select-all">
+				<label for="select-all">Select all videos for deletion</label></p>
 				<input class="btn btn-primary" type="submit" value="Submit">
 			</form>
 		</div>
@@ -26,7 +28,7 @@
 		<h2>Influenced:</h2>
 		<ul>
 		@foreach ($person->influences as $influence)
-			@if($influence->person)
+			@if($influence->available)
 				<li><a href="{{ route('person', ['id'=>$influence->qid]) }}">{{ $influence->name }} </a></li>
 			@else
 	      <li>{{ $influence->name }} </li>

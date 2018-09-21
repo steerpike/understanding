@@ -9,7 +9,7 @@
                      </a>
                 </h5>
 				<p class="card-text">{{media.description}}</p>
-                <input type="checkbox" :id="media.id" name="delete[]" :value="media.id">
+                <input class="media-checkbox" type="checkbox" :id="media.id" name="delete[]" :value="media.id">
                 <label :for="media.id">Delete this video</label>
 			</div>
         </div>

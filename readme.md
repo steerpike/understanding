@@ -6,7 +6,7 @@ Understanding is a project designed to explore the possibilities inherent in lin
 
 The project uses bitnami's base laravel/docker installer. Simply clone the repo, cd into the directory and 
 ```
-docker up
+docker-compose up
 ```
 
 ### Prerequisites
@@ -36,6 +36,7 @@ Once docker-compose has finished orchestrating everythign you should be able to 
 ```
 dc npm install
 dphp artisan migrate:refresh --seed
+dc npm run watch
 ```
 and then visit
 ```

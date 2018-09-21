@@ -20,3 +20,14 @@ Vue.component('media-component', require('./components/MediaComponent.vue'));
 const app = new Vue({
     el: '#app'
 });
+$(function() {
+
+    $('#select-all').click(function() {
+        if ($(this).prop('checked')) {
+            $('.media-checkbox').prop('checked', true);
+        } else {
+            $('.media-checkbox').prop('checked', false);
+        }
+    });
+
+});

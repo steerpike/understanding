@@ -14015,7 +14015,17 @@ window.Vue = __webpack_require__(37);
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('media-component', __webpack_require__(43));
 var app = new Vue({
-  el: '#app'
+    el: '#app'
+});
+$(function () {
+
+    $('#select-all').click(function () {
+        if ($(this).prop('checked')) {
+            $('.media-checkbox').prop('checked', true);
+        } else {
+            $('.media-checkbox').prop('checked', false);
+        }
+    });
 });
 
 /***/ }),
@@ -47793,6 +47803,7 @@ var render = function() {
         ]),
         _vm._v(" "),
         _c("input", {
+          staticClass: "media-checkbox",
           attrs: { type: "checkbox", id: _vm.media.id, name: "delete[]" },
           domProps: { value: _vm.media.id }
         }),
