@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-        props : ['title', 'media']
+        props : ['media']
     }
 </script>
 <style>

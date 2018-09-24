@@ -37,6 +37,7 @@ class CreatePeopleTable extends Migration
             $table->string('stored_json_file')->nullable();
             $table->text('description')->nullable();
             $table->smallInteger('type')->nullable();
+            $table->bigInteger('linked_articles')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

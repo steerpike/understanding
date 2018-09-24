@@ -14,7 +14,7 @@
 		@foreach($person->media->chunk(3) as $chunk)
 			<div class="row">
 				@foreach ($chunk as $media)
-					<media-component :title="'media title'" :media="{{$media}}"></media-component>
+					<media-component :media="{{$media}}"></media-component>
 			  @endforeach
 			</div>
 		@endforeach

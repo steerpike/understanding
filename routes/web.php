@@ -12,5 +12,7 @@
 */
 
 Route::get('/', 'PeopleController@list')->name('people');
+Route::get('/test', 'TestController@media');
 Route::get('/{qid}', 'PeopleController@view')->name('person');
 Route::post('/media/delete', 'MediaController@delete');
+
