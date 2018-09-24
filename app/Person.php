@@ -16,4 +16,11 @@ class Person extends Model
     {
         return $this->belongsToMany('App\Media')->whereNull('media.deleted_at');
     }
+    public function scopeGender($query, $gender=null)
+    {
+        if($gender != null){
+            return $query->where('sex', '=', $gender);
+        }
+        return $query;
+    }
 }

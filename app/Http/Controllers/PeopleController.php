@@ -4,15 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Person;
+use App\Media;
 
 class PeopleController extends Controller
 {
     //
-    public function list()
+    public function list($gender=null)
     {
         $people = Person::withCount('influences')
             ->withCount('media')
-            //->where('sex','=','female')
+            ->gender($gender)
             //->orderBy('year', 'asc')
             ->orderBy('linked_articles', 'desc')
             //->orderBy('influences_count', 'desc')
@@ -23,5 +24,10 @@ class PeopleController extends Controller
     {
         $person = Person::where('qid','=', $qid)->firstOrFail();
         return view('person', ['person' => $person]);
+    }
+    public function media()
+    {
+        $media = Media::all();
+        return view('media', ['videos' => $media]);
     }
 }

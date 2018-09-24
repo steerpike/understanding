@@ -28,13 +28,17 @@ class TestController extends Controller
         $media = Media::where('description', 'like', '%song%')
                         ->orWhere('description', 'like', '%lyric%')
                         ->orWhere('description', 'like', '%band%')
+                        ->orWhere('title', 'like', '%band%')
+                        ->orWhere('title', 'like', '%song%')
+                        ->orWhere('title', 'like', '%lyric%')
+                        ->orWhere('title', 'like', '%pumba%')
                         ->whereNull('deleted_at')
                         ->get();
         foreach($media as $video) {
             echo "This video: ".$video->id.": ".$video->title."<br />".
             $video->description."<br />";
-            $video->deleted_at = date("Y-m-d H:i:s");
-            $video->save();
+            //$video->deleted_at = date("Y-m-d H:i:s");
+            //$video->save();
         }
     }
 }

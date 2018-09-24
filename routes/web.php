@@ -13,6 +13,8 @@
 
 Route::get('/', 'PeopleController@list')->name('people');
 Route::get('/test', 'TestController@media');
+Route::get('/philosophers/media', 'PeopleController@media');
+Route::get('/philosophers/{gender?}', 'PeopleController@list');
 Route::get('/{qid}', 'PeopleController@view')->name('person');
 Route::post('/media/delete', 'MediaController@delete');
 

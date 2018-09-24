@@ -9,6 +9,9 @@
  </head>
  
  <body>
+   <div>
+      @include('partials.menu')
+   </div>
   <div id="app">
       @yield('content')
   </div>
