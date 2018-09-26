@@ -20,6 +20,16 @@ class PeopleController extends Controller
             ->paginate(20);
         return view('people', ['people' => $people]); 
     }
+    public function search(Request $request) 
+    {
+        $search_term = $request->input('search_term');
+        $people = Person::withCount('influences')
+                ->withCount('media')
+                ->where('name', 'like', '%'.$search_term.'%')
+                ->paginate(20);
+        return view('people', ['people' => $people]);
+
+    }
     public function view($qid)
     {
         $person = Person::where('qid','=', $qid)->firstOrFail();
@@ -29,5 +39,10 @@ class PeopleController extends Controller
     {
         $media = Media::all();
         return view('media', ['videos' => $media]);
+    }
+    public function timeline()
+    {
+        $people = array();
+        return view('timeline', ['people' => $people]);
     }
 }

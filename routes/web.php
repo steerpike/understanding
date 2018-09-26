@@ -12,8 +12,11 @@
 */
 
 Route::get('/', 'PeopleController@list')->name('people');
-Route::get('/test', 'TestController@media');
+Route::post('/', 'PeopleController@search')->name('search');
+Route::get('/test', 'TestController@tree');
+Route::get('/events', 'EventsController@events');
 Route::get('/philosophers/media', 'PeopleController@media');
+Route::get('/philosophers/timeline', 'PeopleController@timeline');
 Route::get('/philosophers/{gender?}', 'PeopleController@list');
 Route::get('/{qid}', 'PeopleController@view')->name('person');
 Route::post('/media/delete', 'MediaController@delete');

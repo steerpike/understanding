@@ -15,3 +15,4 @@
 
 
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />

@@ -11,6 +11,7 @@
  <body>
    <div>
       @include('partials.menu')
+      @include('partials.search')
    </div>
   <div id="app">
       @yield('content')
