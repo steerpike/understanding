@@ -62,6 +62,12 @@ Syntax error or access violation: 1071 Specified key was too long; max key lengt
 ```
 Just follow the steps [here](https://laravel-news.com/laravel-5-4-key-too-long-error)
 
+If you need to ssh into the Docker container
+```
+docker exec -it understanding_app_1 bash
+```
+This lets you do things like change the php.ini file
+	/opt/bitnami/php/lib/php.ini
 
 ## Running the tests
 

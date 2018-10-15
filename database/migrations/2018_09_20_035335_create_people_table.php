@@ -17,15 +17,14 @@ class CreatePeopleTable extends Migration
             $table->increments('id');
             $table->bigInteger('wikipedia_id')->nullable();
             $table->string('qid')->nullable();
-            $table->string('title')->nullable();
+            $table->text('intro')->nullable();
+            $table->text('description')->nullable();
             $table->string('wikipedia_path')->nullable();
             $table->string('wikipedia_canonical_path')->nullable();
             $table->string('wikipedia_canonical_url')->nullable();
             $table->string('name')->nullable();
             $table->string('sex')->nullable();
             $table->string('redirected_name')->nullable();
-            $table->string('given_name')->nullable();
-            $table->string('family_name')->nullable();
             $table->string('place_of_birth')->nullable();
             $table->decimal('place_of_birth_lng', 10, 7)->nullable();
             $table->decimal('place_of_birth_lat', 10, 7)->nullable();
@@ -33,10 +32,9 @@ class CreatePeopleTable extends Migration
             $table->smallInteger('year')->nullable();
             $table->smallInteger('month')->nullable();
             $table->smallInteger('day')->nullable();
-            $table->boolean('processed')->nullable();
-            $table->string('stored_json_file')->nullable();
-            $table->text('description')->nullable();
+            $table->longText('wikidata_response')->nullable(); //should be json() but version of mariaDB doens't support
             $table->smallInteger('type')->nullable();
+            $table->smallInteger('event')->nullable();
             $table->bigInteger('linked_articles')->nullable();
             $table->softDeletes();
             $table->timestamps();
