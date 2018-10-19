@@ -60,4 +60,41 @@ class Person extends Model
 		$this->description = $description;
         $this->save();
     }
+    public function applyDataFromWikidata($data) {
+        $sex = $data['sex or gender'];
+        $dob = $data['date of birth'];
+        $place = $data['place of birth'];
+        $country = $data['country of citizenship'];
+        $this->sex = $sex;
+        $this->processBirthDate($dob);
+        $this->place_of_birth = $place." ".$country;
+        $this->wikidata_response = json_encode($data);
+        $this->save();
+    }
+    public function processBirthDate($date)
+    {
+        $era = "CE";
+        if($date[0] == "-")
+        {
+            $era = "BCE";
+            $date = ltrim($date, '-');
+        }
+        $start = explode('T',$date);
+        $parts = explode('-', $start[0]);
+        if($era == "BCE") 
+        {
+            $parts[0] = '-'.$parts[0];
+            $date = "-".$date;
+        }
+        if(array_key_exists(0, $parts) && array_key_exists(1, $parts) && array_key_exists(2, $parts))
+        {
+            $this->year = $parts[0];
+            $this->month = $parts[1];
+            $this->day = $parts[2];
+        } else {
+            echo "Couldn't split date of ".$this->name."<br />";
+        }
+        $this->date_of_birth = $date;
+        $this->save();
+    }
 }
