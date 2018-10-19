@@ -17,6 +17,7 @@ Route::get('/test', 'TestController@media');
 Route::get('/events/{event?}', 'EventsController@events');
 Route::get('/philosophers/media', 'PeopleController@media');
 Route::get('/philosophers/timeline', 'PeopleController@timeline');
+Route::get('/philosophers/create/{name?}', 'PeopleController@create');
 Route::get('/philosophers/{gender?}', 'PeopleController@list');
 Route::get('/{qid}', 'PeopleController@view')->name('person');
 Route::post('/media/delete', 'MediaController@delete');

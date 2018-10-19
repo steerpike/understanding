@@ -27,9 +27,13 @@ class Wikidata {
             }
             $answers[$prop][] = $value;
         }
-        //echo "<pre>";
-        //print_r(json_encode($answers));
-        //echo "</pre>";
+        foreach($answers as $key=>$value) {
+            if( is_array( $value ) && count( $value ) == 1 && isset( $value[0] ))
+                $answers[$key] = $value[0]; 
+        }
+        echo "<pre>";
+        print_r(json_encode($answers));
+        echo "</pre>";
         return $answers;
     }
 }

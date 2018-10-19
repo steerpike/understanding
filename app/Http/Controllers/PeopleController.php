@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Person;
 use App\Media;
+use App\Jobs\ProcessNewPhilosopher;
 
 class PeopleController extends Controller
 {
@@ -44,5 +45,13 @@ class PeopleController extends Controller
     {
         $people = array();
         return view('timeline', ['people' => $people]);
+    }
+    public function create($name) 
+    {
+        //Create new Philosopher here
+        $philosopher = Person::updateOrCreate(['wikipedia_canonical_path'=>$name]);
+        ProcessNewPhilosopher::dispatch($philosopher);
+        //Trigger job queues to get data for newly created Philosopher
+
     }
 }

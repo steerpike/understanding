@@ -47,12 +47,15 @@ class Person extends Model
         }
         $intro = $data['query']['pages'][$key]['terms']['description'][0];
         $qid = $data['query']['pages'][$key]['pageprops']['wikibase_item'];
+        $wikiId = $data['query']['pages'][$key]['pageid'];
         $this->qid = $qid;
+        $this->wikipedia_id = $wikiId;
 		$this->redirected_name = $redirected_name;
 		$this->wikipedia_canonical_url = $wikipedia_canonical_url;
         $this->wikipedia_canonical_path = $wikipedia_canonical_path;
         $this->wikipedia_path = $wikipedia_path;
         $this->intro = $intro;
+        $this->name = $data['query']['pages'][$key]['title'];
         $this->event = 2;
 		$this->description = $description;
         $this->save();
