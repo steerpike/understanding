@@ -63,11 +63,14 @@ class Person extends Model
     public function applyDataFromWikidata($data) {
         $sex = $data['sex or gender'];
         $dob = $data['date of birth'];
-        $place = $data['place of birth'];
-        $country = $data['country of citizenship'];
+        if(is_array($dob)) {
+            $dob = $dob[0];
+        }
+        //$place = $data['place of birth'];
+        //$country = $data['country of citizenship'];
         $this->sex = $sex;
         $this->processBirthDate($dob);
-        $this->place_of_birth = $place." ".$country;
+        //$this->place_of_birth = $place." ".$country;
         $this->wikidata_response = json_encode($data);
         $this->save();
     }

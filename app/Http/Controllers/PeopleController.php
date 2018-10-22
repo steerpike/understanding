@@ -34,6 +34,7 @@ class PeopleController extends Controller
     public function view($qid)
     {
         $person = Person::where('qid','=', $qid)->firstOrFail();
+        //dd($person->wikidata_response);
         return view('person', ['person' => $person]);
     }
     public function media()

@@ -5,6 +5,32 @@ use PHPHtmlParser\Dom;
 
 
 class Wikidata {
+        
+    public function getInfluences($qid)
+    {
+        $url = "https://query.wikidata.org/sparql?format=json&".
+        "query=SELECT%20DISTINCT%20%3Fphilosophers%20%3FphilosophersLabel".
+        "%20%3Finfluenced_by%20%3Finfluenced_byLabel%20%3Fbirth_countryLabel".
+        "%20%3Fbirth_placeLabel%20%3Fphilosophers_birth_date%20WHERE%20%7B%0A%20%20VALUES".
+        "%20%3Fphilosophers%20%7B%0A%20%20%20%20wd%3A".$qid."%0A%20%20%20%20%7D%0A%20%20%3F".
+        "philosophers%20wdt%3AP569%20%3Fphilosophers_birth_date.%0A%20%20%3Fphilosophers".
+        "%20wdt%3AP19%20%3Fbirth_place.%0A%20%20%3Fphilosophers%20wdt%3AP19%2Fwdt%3AP17%20%3F".
+        "birth_country.%0A%20%20%3Finfluenced_by%20wdt%3AP737%20?philosophers.%0A%20%20SERVICE%20".
+        "wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D%0A".
+        "ORDER%20BY%20DESC(%3Fphilosophers_birth_date)";
+        $curl = new Curl();
+        $request = $curl->get($url);
+        $answers = array();
+        foreach($request->results->bindings as $influence) {
+            $tmp = explode('/',$influence->influenced_by->value);
+            $inf_qid = end($tmp);
+            $answers['influences'][$inf_qid] = $influence->influenced_byLabel->value;
+            $answers['birth_place'] = $influence->birth_placeLabel->value;
+            $answers['birth_country'] = $influence->birth_countryLabel->value;
+        }
+        dd($answers);
+        return $answers;
+    }
     public function getProperties($qid)
     {
         $url = "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FwdLabel".
@@ -31,9 +57,6 @@ class Wikidata {
             if( is_array( $value ) && count( $value ) == 1 && isset( $value[0] ))
                 $answers[$key] = $value[0]; 
         }
-        //echo "<pre>";
-        //print_r(json_encode($answers));
-        //echo "</pre>";
         return $answers;
     }
 }
