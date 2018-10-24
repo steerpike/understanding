@@ -39,6 +39,7 @@ class ProcessWikidataPhilosopher implements ShouldQueue
         $result = $wikidata->getProperties($this->philosopher->qid);
         $this->philosopher->applyDataFromWikidata($result);
         $influences = $wikidata->getInfluences($this->philosopher->qid);
+        $this->philosopher->applyInfluencesFromWikiData($influences);
 
     }
 }

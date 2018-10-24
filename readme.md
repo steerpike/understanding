@@ -65,9 +65,14 @@ Just follow the steps [here](https://laravel-news.com/laravel-5-4-key-too-long-e
 If you need to ssh into the Docker container
 ```
 docker exec -it understanding_app_1 bash
+sudo apt-get update
+sudo apt-get install vim
 ```
 This lets you do things like change the php.ini file
 	/opt/bitnami/php/lib/php.ini
+
+Change opcache.enable from 1 to 0 
+opcahe.revalidate_freq from 60 to 0
 
 ## Running the tests
 

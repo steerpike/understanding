@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Influence;
 
 class Person extends Model
 {
@@ -61,22 +62,55 @@ class Person extends Model
         $this->save();
     }
     public function applyDataFromWikidata($data) {
-        $sex = $data['sex or gender'];
-        $dob = $data['date of birth'];
-        if(is_array($dob)) {
-            $dob = $dob[0];
+        $sex = $data['sex or gender'] ?? null;
+        $dob = $data['date of birth'] ?? null;
+        if($dob)
+        {
+            if(is_array($dob)) {
+                $dob = $dob[0];
+            }
+            $birth_dates = $this->processDate($dob);
+            $this->year = $birth_dates['year'];
+            $this->month = $birth_dates['month'];
+            $this->day = $birth_dates['day'];
+            $this->date_of_birth = $birth_dates['date'];
         }
-        //$place = $data['place of birth'];
-        //$country = $data['country of citizenship'];
+        if(array_key_exists('date of death', $data)) {
+            $dod = $data['date of death'];
+            if(is_array($dod)) {
+                $dod = $dod[0];
+            }
+            $death_dates = $this->processDate($dod);
+            $this->death_year = $death_dates['year'];
+            $this->death_month = $death_dates['month'];
+            $this->death_day = $death_dates['day'];
+            $this->date_of_death = $death_dates['date'];
+        }
+        $this->image = $data['image'] ?? null;
         $this->sex = $sex;
-        $this->processBirthDate($dob);
-        //$this->place_of_birth = $place." ".$country;
         $this->wikidata_response = json_encode($data);
         $this->save();
     }
-    public function processBirthDate($date)
+    public function applyInfluencesFromWikiData($data)
+    {
+        $place = $data['birth_place'] ?? "";
+        $country = $data['birth_country'] ?? "";
+        $this->place_of_birth = $place.", ".$country;
+        if(array_key_exists('influences', $data)) 
+        {
+            foreach($data['influences'] as $key=>$val)
+            {
+                $model_influence = Influence::updateOrCreate(['qid'=>$key],['name'=>$val]);
+                echo $key." ".$val." ID:".$model_influence->id."<br />";
+                $this->influences()->syncWithoutDetaching($model_influence->id);
+            }
+        }
+        $this->save();
+    }
+    public function processDate($date)
     {
         $era = "CE";
+        $result = array();
         if($date[0] == "-")
         {
             $era = "BCE";
@@ -91,13 +125,14 @@ class Person extends Model
         }
         if(array_key_exists(0, $parts) && array_key_exists(1, $parts) && array_key_exists(2, $parts))
         {
-            $this->year = $parts[0];
-            $this->month = $parts[1];
-            $this->day = $parts[2];
+            $result['year'] = $parts[0];
+            $result['month'] = $parts[1];
+            $result['day'] = $parts[2];
         } else {
             echo "Couldn't split date of ".$this->name."<br />";
         }
-        $this->date_of_birth = $date;
-        $this->save();
+        $result['date'] = $date;
+
+        return $result;
     }
 }

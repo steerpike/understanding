@@ -25,6 +25,7 @@ class CreatePeopleTable extends Migration
             $table->string('name')->nullable();
             $table->string('sex')->nullable();
             $table->string('redirected_name')->nullable();
+            $table->string('image')->nullable();
             $table->string('place_of_birth')->nullable();
             $table->decimal('place_of_birth_lng', 10, 7)->nullable();
             $table->decimal('place_of_birth_lat', 10, 7)->nullable();
@@ -32,6 +33,10 @@ class CreatePeopleTable extends Migration
             $table->smallInteger('year')->nullable();
             $table->smallInteger('month')->nullable();
             $table->smallInteger('day')->nullable();
+            $table->string('date_of_death')->nullable();
+            $table->smallInteger('death_year')->nullable();
+            $table->smallInteger('death_month')->nullable();
+            $table->smallInteger('death_day')->nullable();
             $table->longText('wikidata_response')->nullable(); //should be json() but version of mariaDB doens't support
             $table->smallInteger('type')->nullable();
             $table->smallInteger('event')->nullable();
