@@ -4,6 +4,7 @@ namespace App\Jobs;
 
 use App\Person;
 use App\Requests\Wikipedia;
+use App\Requests\Youtube;
 use App\Jobs\ProcessWikidataPhilosopher;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
@@ -34,11 +35,17 @@ class ProcessNewPhilosopher implements ShouldQueue
      */
     public function handle()
     {
-        //
+        
         $wiki = new Wikipedia($this->philosopher->wikipedia_canonical_path);
         $result = $wiki->getDataFromWikipediaAPI();
         $result = json_decode($result, TRUE);
         $this->philosopher->applyDataFromWikipedia($result);
+        $wiki->getWhatLinksHere($this->philosopher->name);
+        $this->philosopher->linked_articles = $wiki->getTotalLinkedArticles();
+        $this->philosopher->save();
         ProcessWikidataPhilosopher::dispatch($this->philosopher);
+        $youtube = new Youtube($this->philosopher);
+        $youtube->collectVideos();
+        
     }
 }

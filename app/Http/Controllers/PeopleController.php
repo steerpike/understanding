@@ -34,6 +34,17 @@ class PeopleController extends Controller
     public function view($qid)
     {
         $person = Person::where('qid','=', $qid)->firstOrFail();
+        if($person->death_year && $person->year)
+        {
+            $people = Person::where(function($query) use ($person) {
+                $query->where('year', '<=', $person->death_year);
+                $query->where('death_year', '>=', $person->year);
+            })->get();
+            foreach($people as $p) {
+                echo $p->name."<br />";
+            }
+        }
+        echo "Image: ". $person->image;
         //dd($person->wikidata_response);
         return view('person', ['person' => $person]);
     }

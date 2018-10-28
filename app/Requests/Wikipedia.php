@@ -2,6 +2,8 @@
 use Curl\Curl;
 use PHPHtmlParser\Dom;
 
+use Illuminate\Support\Facades\Storage;
+
 
 class Wikipedia {
     
@@ -13,15 +15,16 @@ class Wikipedia {
         $this->name = $name;
         //$this->namespace = $namespace;    
     }
-    public function getWhatLinksHere() {
+    public function getWhatLinksHere($name) {
         $curl = new Curl();
         //first page
-        $curl->get('https://en.wikipedia.org/w/index.php?title=Special%3AWhatLinksHere&limit=500&target='.$this->name.'&namespace=0');
+        $curl->get('https://en.wikipedia.org/w/index.php?title=Special%3AWhatLinksHere&limit=500&target='.$name.'&namespace=0');
         if ($curl->error) {
-            Storage::append('logs/events.log', 'Error getting wikipedia links for '.$this->name.' '.
+            Storage::append('logs/events.log', 'Error getting wikipedia links for '.$name.' '.
                                         $curl->errorCode . ': ' . $curl->errorMessage . "\n");
         } else {
-            $$html = $curl->response;
+            //dd($curl->response);
+            $html = $curl->response;
             $this->parseNextLinks($html);
         }
     }

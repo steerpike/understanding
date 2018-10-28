@@ -86,7 +86,12 @@ class Person extends Model
             $this->death_day = $death_dates['day'];
             $this->date_of_death = $death_dates['date'];
         }
-        $this->image = $data['image'] ?? null;
+        if(is_array($data['image'])) {
+            $image = $data['image'][0];
+        } else {
+            $image = $data['image'];
+        }
+        $this->image = $image;
         $this->sex = $sex;
         $this->wikidata_response = json_encode($data);
         $this->save();
@@ -101,7 +106,7 @@ class Person extends Model
             foreach($data['influences'] as $key=>$val)
             {
                 $model_influence = Influence::updateOrCreate(['qid'=>$key],['name'=>$val]);
-                echo $key." ".$val." ID:".$model_influence->id."<br />";
+                //echo $key." ".$val." ID:".$model_influence->id."<br />";
                 $this->influences()->syncWithoutDetaching($model_influence->id);
             }
         }

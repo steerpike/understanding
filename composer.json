@@ -12,7 +12,9 @@
         "laravel/tinker": "^1.0",
         "orangehill/iseed": "dev-master",
         "paquettg/php-html-parser": "^1.7",
-        "php-curl-class/php-curl-class": "^8.3"
+        "php-curl-class/php-curl-class": "^8.3",
+        "nesbot/carbon": "2.3.0 as 1.34.0",
+        "kylekatarnls/laravel-carbon-2": "^1.0.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
