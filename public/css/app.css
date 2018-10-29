@@ -55,6 +55,10 @@ html {
 @-ms-viewport {
   width: device-width;
 }
+.card-text {
+  max-height: 160px;
+  overflow: hidden;
+}
 
 article,
 aside,

@@ -111,6 +111,8 @@ class Youtube {
         $al = $video['likes']/$days;
         $ad = $video['dislikes']/$days;
         $score = ($av * (1/50)) + ($al * 3) - ($ad * 6);
+        //likes/views
+        //dislikes/views
         return $score;
     }
 }

@@ -16,6 +16,7 @@ class ProcessWikidataPhilosopher implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
     protected $philosopher;
+    public $tries = 2;
     /**
      * Create a new job instance.
      *

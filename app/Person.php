@@ -57,7 +57,6 @@ class Person extends Model
         $this->wikipedia_path = $wikipedia_path;
         $this->intro = $intro;
         $this->name = $data['query']['pages'][$key]['title'];
-        $this->event = 2;
 		$this->description = $description;
         $this->save();
     }

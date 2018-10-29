@@ -371,11 +371,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 36,
                 'qid' => 'Q9438',
-                'name' => 'Santo Tomás de Aquinas',
+                'name' => 'Thomas Aquinas',
                 'available' => 1,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:23:32',
-                'updated_at' => '2018-08-09 01:07:09',
+                'updated_at' => '2018-10-28 23:15:52',
             ),
             36 => 
             array (
@@ -521,11 +521,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 51,
                 'qid' => 'Q2840364',
-                'name' => 'Q2840364',
+                'name' => 'Licinianus of Cartagena',
                 'available' => NULL,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:23:32',
-                'updated_at' => '2018-08-08 04:23:32',
+                'updated_at' => '2018-10-28 23:15:53',
             ),
             51 => 
             array (
@@ -621,11 +621,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 61,
                 'qid' => 'Q11104',
-                'name' => 'Ibn al-Ḥaytham',
+                'name' => 'Ibn al-Haytham',
                 'available' => NULL,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:23:37',
-                'updated_at' => '2018-08-08 04:23:37',
+                'updated_at' => '2018-10-29 03:17:08',
             ),
             61 => 
             array (
@@ -641,11 +641,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 63,
                 'qid' => 'Q39837',
-                'name' => 'Averroes',
+                'name' => 'Ibn Rushd',
                 'available' => 1,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:23:37',
-                'updated_at' => '2018-08-09 01:07:09',
+                'updated_at' => '2018-10-29 03:17:08',
             ),
             63 => 
             array (
@@ -671,11 +671,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 66,
                 'qid' => 'Q127398',
-                'name' => 'Maimonides',
+                'name' => 'Moses Maimonides',
                 'available' => 1,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:23:37',
-                'updated_at' => '2018-08-09 01:07:09',
+                'updated_at' => '2018-10-29 03:17:08',
             ),
             66 => 
             array (
@@ -2611,11 +2611,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 260,
                 'qid' => 'Q8027',
-                'name' => 'Martin Luther King, Jr.',
+                'name' => 'Martin Luther King Jr.',
                 'available' => NULL,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:26:45',
-                'updated_at' => '2018-08-08 04:26:45',
+                'updated_at' => '2018-10-29 04:17:26',
             ),
             260 => 
             array (
@@ -3001,11 +3001,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 299,
                 'qid' => 'Q6276882',
-                'name' => 'Jordan Peterson',
+                'name' => 'Jordan B. Peterson',
                 'available' => NULL,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:27:06',
-                'updated_at' => '2018-08-08 04:27:06',
+                'updated_at' => '2018-10-29 04:31:55',
             ),
             299 => 
             array (
@@ -3311,11 +3311,11 @@ class InfluencesTableSeeder extends Seeder
             array (
                 'id' => 330,
                 'qid' => 'Q443403',
-                'name' => 'José Augusto Trinidad Martínez Ruiz',
+                'name' => 'José Martínez Ruiz',
                 'available' => NULL,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-08 04:27:34',
-                'updated_at' => '2018-08-08 04:27:34',
+                'updated_at' => '2018-10-29 04:37:05',
             ),
             330 => 
             array (
@@ -7488,6 +7488,146 @@ class InfluencesTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-12 23:07:53',
                 'updated_at' => '2018-08-12 23:07:53',
+            ),
+            247 => 
+            array (
+                'id' => 748,
+                'qid' => 'Q76709',
+                'name' => 'Hermann Cohen',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-28 23:15:52',
+                'updated_at' => '2018-10-28 23:15:52',
+            ),
+            248 => 
+            array (
+                'id' => 749,
+                'qid' => 'Q355903',
+                'name' => 'Siger of Brabant',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 03:17:09',
+                'updated_at' => '2018-10-29 03:17:09',
+            ),
+            249 => 
+            array (
+                'id' => 750,
+                'qid' => 'Q481384',
+                'name' => 'Ebn Meskavayh',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 03:22:02',
+                'updated_at' => '2018-10-29 03:22:02',
+            ),
+            250 => 
+            array (
+                'id' => 751,
+                'qid' => 'Q4226680',
+                'name' => 'Q4226680',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:00:04',
+                'updated_at' => '2018-10-29 04:00:04',
+            ),
+            251 => 
+            array (
+                'id' => 752,
+                'qid' => 'Q20742885',
+                'name' => 'Petite Meller',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:05:19',
+                'updated_at' => '2018-10-29 04:05:19',
+            ),
+            252 => 
+            array (
+                'id' => 753,
+                'qid' => 'Q282280',
+                'name' => 'Vladimir Solovyov',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:13:38',
+                'updated_at' => '2018-10-29 04:13:38',
+            ),
+            253 => 
+            array (
+                'id' => 754,
+                'qid' => 'Q3380641',
+                'name' => 'Philippe Roch',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:17:26',
+                'updated_at' => '2018-10-29 04:17:26',
+            ),
+            254 => 
+            array (
+                'id' => 755,
+                'qid' => 'Q1678730',
+                'name' => 'Jaime Hurtado',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:19:08',
+                'updated_at' => '2018-10-29 04:19:08',
+            ),
+            255 => 
+            array (
+                'id' => 756,
+                'qid' => 'Q4305318',
+                'name' => 'Natalia Moszkowska',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:19:08',
+                'updated_at' => '2018-10-29 04:19:08',
+            ),
+            256 => 
+            array (
+                'id' => 757,
+                'qid' => 'Q345641',
+                'name' => 'Bernard Williams',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:31:54',
+                'updated_at' => '2018-10-29 04:31:54',
+            ),
+            257 => 
+            array (
+                'id' => 758,
+                'qid' => 'Q651943',
+                'name' => 'signifier',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:34:20',
+                'updated_at' => '2018-10-29 04:34:20',
+            ),
+            258 => 
+            array (
+                'id' => 759,
+                'qid' => 'Q19274854',
+                'name' => 'signified and signifier',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:34:20',
+                'updated_at' => '2018-10-29 04:34:20',
+            ),
+            259 => 
+            array (
+                'id' => 760,
+                'qid' => 'Q56642508',
+                'name' => 'signified',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 04:34:20',
+                'updated_at' => '2018-10-29 04:34:20',
+            ),
+            260 => 
+            array (
+                'id' => 761,
+                'qid' => 'Q57173928',
+                'name' => 'abject art',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-10-29 09:18:39',
+                'updated_at' => '2018-10-29 09:18:39',
             ),
         ));
         
