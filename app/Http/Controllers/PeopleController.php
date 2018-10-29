@@ -33,19 +33,17 @@ class PeopleController extends Controller
     }
     public function view($qid)
     {
-        $person = Person::where('qid','=', $qid)->firstOrFail();
+        $person = Person::with(['media' => function ($q) {
+                $q->orderBy('ranking', 'desc');
+            }])->where('qid','=', $qid)->firstOrFail();
         if($person->death_year && $person->year)
         {
             $people = Person::where(function($query) use ($person) {
                 $query->where('year', '<=', $person->death_year);
                 $query->where('death_year', '>=', $person->year);
             })->get();
-            foreach($people as $p) {
-                echo $p->name."<br />";
-            }
         }
-        echo "Image: ". $person->image;
-        //dd($person->wikidata_response);
+        $person->imdb = $person->getFromWikiData("IMDb ID");
         return view('person', ['person' => $person]);
     }
     public function media()

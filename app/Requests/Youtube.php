@@ -77,9 +77,9 @@ class Youtube {
                             'views'=>$views,'comments'=>$comments,'published'=>$published_at);
                 $values['score'] = $this->getScore($values);
                 $score = round($values['score'], 8);
-                if(property_exists($item->snippet->thumbnails, 'high'))
+                if(property_exists($video->snippet->thumbnails, 'high'))
                 {
-                    $thumbnail = $item->snippet->thumbnails->high->url;
+                    $thumbnail = $video->snippet->thumbnails->high->url;
                 } 
                 $model_media = Media::updateOrCreate(['source_id'=>$id],['title'=>$title, 
                     'description'=>$description, 'duration'=>$duration, 'likes'=>$likes, 

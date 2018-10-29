@@ -4,8 +4,17 @@
 <div class="container">
 	<h1>{{ $person->name }}</h1>
 	<div>
+			@if($person->image)
+				<img src="{{$person->image}}">
+			@endif
+		</div>
+	<div>
 		{!! $person->description !!}
 	</div>
+	<h2>Other Sources</h2>
+		@if($person->imdb)
+			
+		@endif
 	@if(count($person->media))
 		<h2>Media:</h2>
 		<div class="container">
@@ -15,7 +24,7 @@
 			<div class="row">
 				@foreach ($chunk as $media)
 					<media-component :media="{{$media}}"></media-component>
-			  @endforeach
+			  	@endforeach
 			</div>
 		@endforeach
 				<p><input class="select-all-checkbox" type="checkbox" id="select-all">

@@ -27,8 +27,8 @@ class Person extends Model
     public function getFromWikiData($field)
     {
         $array = json_decode($this->wikidata_response, TRUE);
-        if(array_key_exists($field, $array)){
-            return $array[$field][0];
+        if($array && array_key_exists($field, $array)){
+            return $array[$field];
         } 
         return 0;
     }
@@ -106,7 +106,6 @@ class Person extends Model
             foreach($data['influences'] as $key=>$val)
             {
                 $model_influence = Influence::updateOrCreate(['qid'=>$key],['name'=>$val]);
-                //echo $key." ".$val." ID:".$model_influence->id."<br />";
                 $this->influences()->syncWithoutDetaching($model_influence->id);
             }
         }
