@@ -25,7 +25,7 @@ class CreatePeopleTable extends Migration
             $table->string('name')->nullable();
             $table->string('sex')->nullable();
             $table->string('redirected_name')->nullable();
-            $table->string('image')->nullable();
+            $table->string('image', 255)->nullable();
             $table->string('place_of_birth')->nullable();
             $table->decimal('place_of_birth_lng', 10, 7)->nullable();
             $table->decimal('place_of_birth_lat', 10, 7)->nullable();

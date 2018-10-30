@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Person;
 use App\Media;
 use App\Jobs\ProcessNewPhilosopher;
+use App\Jobs\ProcessGeoLookup;
 
 class PeopleController extends Controller
 {
@@ -20,7 +21,7 @@ class PeopleController extends Controller
             //->orderBy('year', 'asc')
             ->orderBy('linked_articles', 'desc')
             //->orderBy('influences_count', 'desc')
-            ->paginate(20);
+            ->paginate(60);
         return view('people', ['people' => $people]); 
     }
     public function search(Request $request) 
@@ -29,7 +30,7 @@ class PeopleController extends Controller
         $people = Person::withCount('influences')
                 ->withCount('media')
                 ->where('name', 'like', '%'.$search_term.'%')
-                ->paginate(20);
+                ->paginate(60);
         return view('people', ['people' => $people]);
 
     }
@@ -44,7 +45,7 @@ class PeopleController extends Controller
         })
         ->withCount('influences')
         ->withCount('media')
-        ->paginate(20);
+        ->paginate(60);
         return view('people', ['people' => $people]);
     }
     public function view($qid)
@@ -61,6 +62,7 @@ class PeopleController extends Controller
             })->count();
         }
         $person->imdb = $person->getFromWikiData("IMDb ID");
+        $person->viafId = $person->getFromWikiData("VIAF ID");
         return view('person', ['person' => $person, 'people'=>$people]);
     }
     public function media()
@@ -80,13 +82,32 @@ class PeopleController extends Controller
         ProcessNewPhilosopher::dispatch($philosopher);
         //Trigger job queues to get data for newly created Philosopher
     }
-    public function process()
+    public function process($event = null)
     {
-        $people = Person::whereNull('event')->get();
-        echo count($people);
-        foreach($people as $philosopher)
-        {
-            ProcessNewPhilosopher::dispatch($philosopher);
+        switch($event) {
+            case "images":
+                $people = Person::whereNull('image')->get();
+                foreach($people as $philosopher)
+                {
+                    ProcessNewPhilosopher::dispatch($philosopher);
+                }
+            break;
+            case "geo":
+                //$person = Person::whereNull('place_of_birth_lng')->first();
+                //ProcessGeoLookup::dispatch($person);
+                $people = Person::whereNull('place_of_birth_lng')->get();
+                foreach($people as $philosopher)
+                {
+                    ProcessGeoLookup::dispatch($philosopher);
+                }
+            break;
+            default:
+                $people = Person::whereNull('event')->get();
+                foreach($people as $philosopher)
+                {
+                    ProcessNewPhilosopher::dispatch($philosopher);
+                }
+            break;
         }
     }
 }

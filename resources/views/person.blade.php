@@ -5,32 +5,44 @@
 	<div class="row">
 		<div class="col-4">
 			<div>
-					@if($person->image)
-						<img src="{{$person->image}}" height=400 width=300>
-					@endif
-				</div>
+				@if($person->image)
+					<img src="{{$person->image}}" height=400 width=300>
+				@endif
+			</div>
 			<h1>{{ $person->name }}</h1>
+			<h2>{{ $person->intro }}</h2>
 			<h3>{{ $person->year }} to {{ $person->death_year }}</h3>
 			@if($person->year && $person->death_year)
 				<p><a href="{{ route('between', ['start'=>$person->year, 'end'=>$person->death_year]) }}">{{$people}} other Philosophers during this period.</a></p>
 			@endif
 			<div>
-				<h3>Map goes here</h3>
+				<h3>Birthplace - {{ $person->place_of_birth }}</h3>
+				<div>
+					<iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp={{ $person->place_of_birth_lat }}~{{ $person->place_of_birth_lng }}&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8&pushpins={{ $person->place_of_birth_lat }}_{{ $person->place_of_birth_lng }}" scrolling="no">
+					</iframe>
+					<div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
+						<a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-35.282561836577216~149.15527233886718&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-8">
 			<div class="row">
 				<div>
 					{!! $person->description !!}
+					<p><a href="{{ $person->wikipedia_canonical_url }}">More on Wikipedia</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-				<h2>Other Sources</h2>
-					@if($person->imdb)
-						<p>{{$person->imdb}}</p>
-					@endif
-				</div>
+					<h2>Other Sources</h2>
+						@if($person->imdb)
+							<p><a href="https://www.imdb.com/name/{{$person->imdb}}">IMDB for {{$person->name}}</a></p>
+						@endif
+						@if($person->viafId)
+							<p><a href="https://viaf.org/viaf/{{$person->viafId}}">VIAF for {{$person->name}}</a></p>
+						@endif
+					</div>
 				<div class="col">
 					@if(count($person->influences))
 						<h2>Influenced:</h2>

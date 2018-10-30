@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(PeopleTableSeeder::class);
         $this->call(InfluencePersonTableSeeder::class);
         $this->call(InfluencesTableSeeder::class);
-        //$this->call(MediaTableSeeder::class);
-        //$this->call(MediaPersonTableSeeder::class);
+        $this->call(MediaTableSeeder::class);
+        $this->call(MediaPersonTableSeeder::class);
     }
 }

@@ -51,7 +51,9 @@ class ProcessNewPhilosopher implements ShouldQueue
             $youtube->collectVideos();
         } catch(\Exception $e) 
         {
-            Log::error("File: ".$e->getFile()." Line: ".$e->getLine()." Error: ". $e->getMessage()." ENDS");
+            Log::error("Processing: ".$this->philosopher->wikipedia_canonical_path.
+            " File: ".$e->getFile()." Line: ".$e->getLine().
+            " Error: ". $e->getMessage()." ENDS");
         }
         
     }

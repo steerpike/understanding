@@ -28,6 +28,10 @@ class Person extends Model
     {
         $array = json_decode($this->wikidata_response, TRUE);
         if($array && array_key_exists($field, $array)){
+            if(count($array[$field])>1)
+            {
+                return $array[$field][0];
+            }
             return $array[$field];
         } 
         return 0;
@@ -74,7 +78,7 @@ class Person extends Model
             $this->day = $birth_dates['day'];
             $this->date_of_birth = $birth_dates['date'];
         }
-        if(array_key_exists('date of death', $data)) {
+        if(array_key_exists('date of death', $data))  {
             $dod = $data['date of death'];
             if(is_array($dod)) {
                 $dod = $dod[0];
@@ -85,10 +89,14 @@ class Person extends Model
             $this->death_day = $death_dates['day'];
             $this->date_of_death = $death_dates['date'];
         }
-        if(is_array($data['image'])) {
-            $image = $data['image'][0];
-        } else {
-            $image = $data['image'];
+        if(array_key_exists('image', $data)) {
+            if(is_array($data['image'])) {
+                $image = $data['image'][0];
+            } else {
+                $image = $data['image'];
+            }
+         } else {
+            $image = NULL;
         }
         $this->image = $image;
         $this->sex = $sex;
