@@ -9,6 +9,8 @@ use App\Person;
 use App\Media;
 use App\Jobs\ProcessNewPhilosopher;
 use App\Jobs\ProcessGeoLookup;
+use App\Jobs\ProcessCategories;
+
 
 class PeopleController extends Controller
 {
@@ -52,7 +54,9 @@ class PeopleController extends Controller
     {
         $person = Person::with(['media' => function ($q) {
                 $q->orderBy('ranking', 'desc');
-            }])->where('qid','=', $qid)->firstOrFail();
+            }])
+            ->with('influences')
+            ->where('qid','=', $qid)->firstOrFail();
         $people = 0;
         if($person->death_year && $person->year)
         {
@@ -63,6 +67,8 @@ class PeopleController extends Controller
         }
         $person->imdb = $person->getFromWikiData("IMDb ID");
         $person->viafId = $person->getFromWikiData("VIAF ID");
+        $person->locaId = $person->getFromWikiData("Library of Congress authority ID");
+        $person->gutenbergId = $person->getFromWikiData("Project Gutenberg author ID");
         return view('person', ['person' => $person, 'people'=>$people]);
     }
     public function media()
@@ -93,14 +99,21 @@ class PeopleController extends Controller
                 }
             break;
             case "geo":
-                //$person = Person::whereNull('place_of_birth_lng')->first();
-                //ProcessGeoLookup::dispatch($person);
                 $people = Person::whereNull('place_of_birth_lng')->get();
                 foreach($people as $philosopher)
                 {
                     ProcessGeoLookup::dispatch($philosopher);
                 }
             break;
+            case "category":
+                $people = Person::take(1000)->get();
+                foreach($people as $philosopher)
+                {
+                    echo "STARTING ".$philosopher->name."<br />";
+                    ProcessCategories::dispatch($philosopher);
+                    echo "FINISHED ".$philosopher->name."<br />";
+                }
+                break;
             default:
                 $people = Person::whereNull('event')->get();
                 foreach($people as $philosopher)

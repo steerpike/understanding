@@ -13,12 +13,12 @@
 
 Route::get('/', 'PeopleController@list')->name('people');
 Route::post('/', 'PeopleController@search')->name('search');
-Route::get('/test', 'TestController@media');
+//Route::get('/test', 'TestController@raw');
 Route::get('/events/{event?}', 'EventsController@events');
 Route::get('/philosophers/media', 'PeopleController@media');
 Route::get('/philosophers/timeline', 'PeopleController@timeline');
 Route::get('/philosophers/process/{event?}', 'PeopleController@process');
-Route::get('/philosophers/between/{start}-{end}', 'PeopleController@between')->name('between');
+Route::get('/philosophers/between/{start}_{end}', 'PeopleController@between')->name('between');
 Route::get('/philosophers/create/{name?}', 'PeopleController@create');
 Route::get('/philosophers/{gender?}', 'PeopleController@list');
 Route::get('/{qid}', 'PeopleController@view')->name('person');

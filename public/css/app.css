@@ -72,7 +72,15 @@ nav,
 section {
   display: block;
 }
+.img-container {
+  width: 350px;
+}
 
+.img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;

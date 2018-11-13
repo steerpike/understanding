@@ -4,27 +4,33 @@
 <div class="container">
 	<div class="row">
 		<div class="col-4">
-			<div>
+			<div class="img-container">
 				@if($person->image)
-					<img src="{{$person->image}}" height=400 width=300>
+					<img src="{{$person->image}}">
 				@endif
 			</div>
 			<h1>{{ $person->name }}</h1>
 			<h2>{{ $person->intro }}</h2>
-			<h3>{{ $person->year }} to {{ $person->death_year }}</h3>
+			@if($person->year)
+				<h3>{{ $person->year }} to {{ $person->death_year }}</h3>
+			@endif
 			@if($person->year && $person->death_year)
 				<p><a href="{{ route('between', ['start'=>$person->year, 'end'=>$person->death_year]) }}">{{$people}} other Philosophers during this period.</a></p>
 			@endif
-			<div>
-				<h3>Birthplace - {{ $person->place_of_birth }}</h3>
+			@if($person->place_of_birth)
 				<div>
-					<iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp={{ $person->place_of_birth_lat }}~{{ $person->place_of_birth_lng }}&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8&pushpins={{ $person->place_of_birth_lat }}_{{ $person->place_of_birth_lng }}" scrolling="no">
-					</iframe>
-					<div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
-						<a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-35.282561836577216~149.15527233886718&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+					<h3>Birthplace - {{ $person->place_of_birth }}</h3>
+					@if($person->place_of_birth_lat && $person->place_of_birth_lng)
+					<div>
+						<iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp={{ $person->place_of_birth_lat }}~{{ $person->place_of_birth_lng }}&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8&pushpins={{ $person->place_of_birth_lat }}_{{ $person->place_of_birth_lng }}" scrolling="no">
+						</iframe>
+						<div style="white-space: nowrap; text-align: center; width: 325px; padding: 6px 0;">
+							<a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-35.282561836577216~149.15527233886718&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+						</div>
 					</div>
+					@endif
 				</div>
-			</div>
+			@endif
 		</div>
 		<div class="col-8">
 			<div class="row">
@@ -36,6 +42,12 @@
 			<div class="row">
 				<div class="col">
 					<h2>Other Sources</h2>
+						@if($person->gutenbergId)
+							<p><a href="https://www.gutenberg.org/ebooks/author/{{$person->gutenbergId}}">Books available on Project Gutenberg by {{$person->name}}</a></p>
+						@endif
+						@if($person->locaId)
+							<p><a href="http://id.loc.gov/authorities/names/{{$person->locaId}}">Library of Congress page for {{$person->name}}</a></p>
+						@endif
 						@if($person->imdb)
 							<p><a href="https://www.imdb.com/name/{{$person->imdb}}">IMDB for {{$person->name}}</a></p>
 						@endif

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     
-    <h1>People</h1>
+    <h1>Philosophers</h1>
     <div class="row">
     @foreach($people->chunk(20) as $chunk)
         <div class="col">
