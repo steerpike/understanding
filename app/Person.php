@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Influence;
+use App\Parsers\WikiParser;
+use Illuminate\Support\Facades\Storage;
 
 class Person extends Model
 {
@@ -16,6 +18,10 @@ class Person extends Model
     public function media()
     {
         return $this->belongsToMany('App\Media')->whereNull('media.deleted_at');
+    }
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category')->whereNull('categories.deleted_at');
     }
     public function scopeGender($query, $gender=null)
     {
@@ -145,5 +151,67 @@ class Person extends Model
         $result['date'] = $date;
 
         return $result;
+    }
+    public function findCategories() {
+        $wiki_name = $this->wikipedia_canonical_path;
+        $first_letter = substr($this->wikipedia_canonical_path, 0, 1);
+        $filename = "/philosophers/".$first_letter."/".$wiki_name.".txt";
+        $raw_wikipedia_syntax = Storage::get($filename);
+        $wikipedia_syntax_parser = new WikiParser($raw_wikipedia_syntax);
+        $parsed_wiki_syntax = $wikipedia_syntax_parser->parse();
+        echo "<h1>".$this->name." (".$this->id.") </h1><br /> ";
+        $categories = array();
+        if(array_key_exists('categories', $parsed_wiki_syntax)) {
+            foreach($parsed_wiki_syntax["categories"] as $category) {
+                $lccategory = strtolower($category);
+                if(strpos($lccategory, "philosophy") !== false ||
+                strpos($lccategory, "philosopher") !== false ||
+                strpos($lccategory, "feminist") !== false ||
+                strpos($lccategory, "ethic") !== false ||
+                strpos($lccategory, "ontolog") !== false ||
+                strpos($lccategory, "sophist") !== false ||
+                strpos($lccategory, "nihilist") !== false ||
+                strpos($lccategory, "metaph") !== false ||
+                strpos($lccategory, "atom") !== false ||
+                strpos($lccategory, "stoic") !== false ||
+                strpos($lccategory, "moral") !== false ||
+                strpos($lccategory, "epistem") !== false ||
+                strpos($lccategory, "logic") !== false ||
+                strpos($lccategory, "material") !== false ||
+                strpos($lccategory, "theoris") !== false ||
+                strpos($lccategory, "existen") !== false ||
+                strpos($lccategory, "theolog") !== false ||
+                strpos($lccategory, "vienna circle") !== false ||
+                strpos($lccategory, "marxist theor") !== false ||
+                strpos($lccategory, "critics of") !== false ||
+                strpos($lccategory, "structural") !== false ||
+                strpos($lccategory, "semiotic") !== false ||
+                strpos($lccategory, "cogniti") !== false ||
+                strpos($lccategory, "pythagoreans") !== false ||
+                //Indian
+                strpos($lccategory, "saints") !== false ||
+                strpos($lccategory, "sikhism") !== false ||
+                strpos($lccategory, "advaita") !== false ||
+                strpos($lccategory, "gurus") !== false ||
+                strpos($lccategory, "mystics") !== false ) {
+                    $category = str_replace(" women ", " ", $category);
+                    if($lccategory === "indian male philosophers" ) {
+                        $category = "Indian philosophers";
+                    }
+                    if(!in_array($category, $categories)) {
+                        $categories[] = $category;
+                    } 
+                }
+            }
+            foreach($categories as $category) {
+                $model_category = Category::updateOrCreate(['name'=>$category]);
+                $this->categories()->syncWithoutDetaching($model_category->id);
+            }
+            echo "<pre>";
+            print_r($categories);
+            echo "</pre>";
+        } else {
+            echo "No categories.<br />";
+        }
     }
 }

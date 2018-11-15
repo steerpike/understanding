@@ -9,6 +9,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use App\Parsers\WikiParser;
 
 class ProcessCategories implements ShouldQueue
 {
@@ -33,10 +34,37 @@ class ProcessCategories implements ShouldQueue
      */
     public function handle()
     {
+        try
+        {
+            $wiki_name = $this->philosopher->wikipedia_canonical_path;
+            $first_letter = substr($this->philosopher->wikipedia_canonical_path, 0, 1);
+            $filename = "/philosophers/".$first_letter."/".$wiki_name.".txt";
+            $wikipedia_syntax_parser = new WikiParser($raw_wikipedia_syntax);
+            $parsed_wiki_syntax = $wikipedia_syntax_parser->parse();
+            echo "<h1>".$this->philosopher->name." (".$this->philosopher->id.") </h1><br /> ";
+            if(array_key_exists('categories', $parsed_wiki_syntax)) {
+                echo "<pre>";
+                print_r($parsed_wiki_syntax["categories"]);
+                echo "</pre>";
+            } else {
+                echo "No categories.<br />";
+            }
+        } catch(\Exception $e) 
+        {
+            Log::error("Categories: ".$this->philosopher->wikipedia_canonical_path.
+            " File: ".$e->getFile()." Line: ".$e->getLine().
+            " Error: ". $e->getMessage()." ENDS");
+        }
+    }
+
+
+    /*
+    public function handle()
+    {
         $wiki_name = $this->philosopher->wikipedia_canonical_path;
         $first_letter = substr($this->philosopher->wikipedia_canonical_path, 0, 1);
         $filename = "/philosophers/".$first_letter."/".$wiki_name.".txt";
-        $content = Storage::get($filename);
+        
         echo "<h1>".$this->philosopher->name." (".$this->philosopher->id.") </h1><br /> ";
         foreach(explode(PHP_EOL, $content) as $line) {
             /* Fields doesn't offer much and data needs cleaning. Mostly mixed skillsets
@@ -50,6 +78,7 @@ class ProcessCategories implements ShouldQueue
                 $this->extractContent($parts[1]);
             }
             */
+        /*
             $interests_line = preg_replace('/<ref[\s\S]+?\/ref>/', '', $line);
             $interests_line = $this->getLine(strip_tags($line), "main_interests");
             if($interests_line) {
@@ -87,6 +116,7 @@ class ProcessCategories implements ShouldQueue
                 $this->extractContent($school);
             }
             */
+        /*
         }
     }
     public function getLine($line, $what) {
@@ -120,5 +150,5 @@ class ProcessCategories implements ShouldQueue
             echo "</pre>";
         }
     }
-
+    */
 }

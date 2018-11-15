@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 set_time_limit(1000);
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Person;
 use App\Media;
+use App\Category;
 use App\Jobs\ProcessNewPhilosopher;
 use App\Jobs\ProcessGeoLookup;
 use App\Jobs\ProcessCategories;
@@ -25,6 +27,26 @@ class PeopleController extends Controller
             //->orderBy('influences_count', 'desc')
             ->paginate(60);
         return view('people', ['people' => $people]); 
+    }
+    public function category($category=null)
+    {
+        $people = Person::withCount('influences')
+            ->withCount('media')
+            ->whereHas('categories', function($q) use ($category){
+                $q->where('name', $category);
+            })
+            //->orderBy('year', 'asc')
+            ->orderBy('linked_articles', 'desc')
+            //->orderBy('influences_count', 'desc')
+            ->paginate(60);
+        return view('people', ['people' => $people]); 
+    }
+    public function categories()
+    {
+        $categories = Category::withCount('people')
+            ->orderBy('people_count', 'desc')
+            ->paginate(60);
+        return view('categories', ['categories' => $categories]); 
     }
     public function search(Request $request) 
     {
@@ -99,19 +121,20 @@ class PeopleController extends Controller
                 }
             break;
             case "geo":
-                $people = Person::whereNull('place_of_birth_lng')->get();
+                //$people = Person::whereNull('place_of_birth_lng')->get();
+                $people = Person::take(1)->where('id', '=', 825)->get();
                 foreach($people as $philosopher)
                 {
                     ProcessGeoLookup::dispatch($philosopher);
                 }
             break;
             case "category":
-                $people = Person::take(1000)->get();
+                //$people = Person::take(1000)->where('id', '>', 784)->get();
+                $people = Person::take(1)->where('id', '=', 825)->get();
                 foreach($people as $philosopher)
                 {
-                    echo "STARTING ".$philosopher->name."<br />";
-                    ProcessCategories::dispatch($philosopher);
-                    echo "FINISHED ".$philosopher->name."<br />";
+                    $philosopher->findCategories();
+                    //ProcessCategories::dispatch($philosopher);                    
                 }
                 break;
             default:

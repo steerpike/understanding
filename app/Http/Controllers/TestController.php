@@ -47,8 +47,8 @@ class TestController extends Controller
     }
     public function raw() 
     {
-    /*
-        $people = Person::where('id', '>', 258)->get();
+    
+        $people = Person::where('id', '=', 824)->get();
         foreach($people as $person){
             $wiki_name = $person->wikipedia_canonical_path;
             $first_letter = substr($person->wikipedia_canonical_path, 0, 1);
@@ -57,7 +57,7 @@ class TestController extends Controller
             Storage::disk('local')->put("/philosophers/".$first_letter."/".$wiki_name.".txt", $result);
             echo "Retrieved ".$wiki_name."(".$person->id.")<br />";
         }
-    */
+    
     }
     public function tree()
     {

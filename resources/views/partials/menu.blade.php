@@ -4,6 +4,7 @@
     <li class="nav-item"><a class="nav-link" href="/philosophers/male">Male Philosophers</a></li>
     <li class="nav-item" ><a class="nav-link" href="/philosophers/female">Female Philosophers</a></li>
     <li class="nav-item"><a class="nav-link" href="/philosophers/media">Videos</a></li>
+    <li class="nav-item"><a class="nav-link" href="/philosophers/categories">Categories</a></li>
 </ul>
 @include('partials.search')
 </nav>

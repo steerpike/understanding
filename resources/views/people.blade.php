@@ -9,9 +9,9 @@
         <div class="col">
             <ul>
             @foreach ($chunk as $person)
-                <li><a href="{{ route('person', ['id'=>$person->qid]) }}">
-                {{ $person->year }} - {{ $person->name }}:{{ $person->linked_articles }} 
-                ({{ $person->influences_count }}) [{{ $person->media_count }}]
+                <li vocab="http://schema.org/" typeof="Person"><a href="{{ route('person', ['id'=>$person->qid]) }}">
+                <span property="name">{{ $person->name }}</span> 
+                [{{ $person->media_count }} videos]
                 </a></li>
             @endforeach
             </ul>

@@ -38,6 +38,14 @@
 					{!! $person->description !!}
 					<p><a href="{{ $person->wikipedia_canonical_url }}">More on Wikipedia</a>
 				</div>
+				<div>
+					<h3>Categories</h3>
+					<ul class="list-inline">
+					@foreach ($person->categories as $category)
+					<li class="list-inline-item"><a href="/philosophers/category/{{$category->name}}">{{$category->name}}</a></li>
+					@endforeach
+					</ul>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col">
