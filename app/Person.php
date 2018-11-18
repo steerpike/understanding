@@ -49,6 +49,7 @@ class Person extends Model
         $wikipedia_canonical_path = @end(explode('/',$wikipedia_canonical_url));
         $wikipedia_path = @end(explode('https://en.wikipedia.org',$wikipedia_canonical_url));
         $description = '';
+        $intro = '';
         $redirected_name = $this->name;
 		if(array_key_exists('redirects', $data['query'])) {
 			$redirected_name = $data['query']['redirects'][0]['to'];
@@ -56,7 +57,10 @@ class Person extends Model
         if(array_key_exists('extract', $data['query']['pages'][$key])) {
             $description = $data['query']['pages'][$key]['extract'];
         }
-        $intro = $data['query']['pages'][$key]['terms']['description'][0];
+        
+        if(array_key_exists('description', $data['query']['pages'][$key]['terms'])) {
+            $intro = $data['query']['pages'][$key]['terms']['description'][0];
+        }
         $qid = $data['query']['pages'][$key]['pageprops']['wikibase_item'];
         $wikiId = $data['query']['pages'][$key]['pageid'];
         $this->qid = $qid;
@@ -159,7 +163,6 @@ class Person extends Model
         $raw_wikipedia_syntax = Storage::get($filename);
         $wikipedia_syntax_parser = new WikiParser($raw_wikipedia_syntax);
         $parsed_wiki_syntax = $wikipedia_syntax_parser->parse();
-        echo "<h1>".$this->name." (".$this->id.") </h1><br /> ";
         $categories = array();
         if(array_key_exists('categories', $parsed_wiki_syntax)) {
             foreach($parsed_wiki_syntax["categories"] as $category) {
@@ -207,9 +210,6 @@ class Person extends Model
                 $model_category = Category::updateOrCreate(['name'=>$category]);
                 $this->categories()->syncWithoutDetaching($model_category->id);
             }
-            echo "<pre>";
-            print_r($categories);
-            echo "</pre>";
         } else {
             echo "No categories.<br />";
         }

@@ -41,7 +41,7 @@ class ProcessNewPhilosopher implements ShouldQueue
         try
         {
             $wiki = new Wikipedia($this->philosopher->wikipedia_canonical_path);
-            echo $this->philosopher->wikipedia_canonical_path;
+            echo $this->philosopher->wikipedia_canonical_path."<br />";
             $result = $wiki->getDataFromWikipediaAPI();
             $result = json_decode($result, TRUE);
             $this->philosopher->applyDataFromWikipedia($result);
@@ -59,6 +59,7 @@ class ProcessNewPhilosopher implements ShouldQueue
             $youtube = new Youtube($this->philosopher);
             $youtube->collectVideos();
             ProcessGeoLookup::dispatch($this->philosopher);
+            echo $this->philosopher->id;
         } catch(\Exception $e) 
         {
             Log::error("Processing: ".$this->philosopher->wikipedia_canonical_path.

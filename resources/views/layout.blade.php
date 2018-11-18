@@ -3,9 +3,12 @@
 <html lang="en">
  
  <head>
- 
-  @include('partials.head')
- 
+@if( ! empty($schema))
+    @include('partials.head', array('schema' => $schema, 'title'=>$title))
+@else
+    @include('partials.head')
+@endif
+
  </head>
  
  <body>

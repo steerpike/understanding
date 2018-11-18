@@ -9,8 +9,8 @@
         <div class="col">
             <ul>
             @foreach ($chunk as $person)
-                <li vocab="http://schema.org/" typeof="Person"><a href="{{ route('person', ['id'=>$person->qid]) }}">
-                <span property="name">{{ $person->name }}</span> 
+                <li><a href="{{ route('person', ['id'=>$person->id]) }}">
+                <span>{{ $person->name }}</span> 
                 [{{ $person->media_count }} videos]
                 </a></li>
             @endforeach

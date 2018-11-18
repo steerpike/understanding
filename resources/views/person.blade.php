@@ -47,6 +47,27 @@
 					</ul>
 				</div>
 			</div>
+			
+			<div class="row">
+				@if(count($person->media))
+					<h2>Media:</h2>
+					<div class="container">
+						<form action="/media/delete" method="POST">
+						{{ csrf_field() }}
+					@foreach($person->media->chunk(3) as $chunk)
+						<div class="row">
+							@foreach ($chunk as $media)
+								@include('partials.video', array('media' => $media))
+							  @endforeach
+						</div>
+					@endforeach
+							<p><input class="select-all-checkbox" type="checkbox" id="select-all">
+							<label for="select-all">Select all videos for deletion</label></p>
+							<input class="btn btn-primary" type="submit" value="Submit">
+						</form>
+					</div>
+				@endif
+			</div>	
 			<div class="row">
 				<div class="col">
 					<h2>Other Sources</h2>
@@ -80,23 +101,5 @@
 			</div>
 		</div>
 	</div>
-	@if(count($person->media))
-		<h2>Media:</h2>
-		<div class="container">
-			<form action="/media/delete" method="POST">
-			{{ csrf_field() }}
-		@foreach($person->media->chunk(3) as $chunk)
-			<div class="row">
-				@foreach ($chunk as $media)
-					<media-component :media="{{$media}}"></media-component>
-			  	@endforeach
-			</div>
-		@endforeach
-				<p><input class="select-all-checkbox" type="checkbox" id="select-all">
-				<label for="select-all">Select all videos for deletion</label></p>
-				<input class="btn btn-primary" type="submit" value="Submit">
-			</form>
-		</div>
-	@endif
 </div>
 @endsection

@@ -23,6 +23,6 @@ Route::get('/philosophers/category/{category?}', 'PeopleController@category');
 Route::get('/philosophers/between/{start}_{end}', 'PeopleController@between')->name('between');
 Route::get('/philosophers/create/{name?}', 'PeopleController@create');
 Route::get('/philosophers/{gender?}', 'PeopleController@list');
-Route::get('/{qid}', 'PeopleController@view')->name('person');
+Route::get('/{id}', 'PeopleController@view')->name('person');
 Route::post('/media/delete', 'MediaController@delete');
 

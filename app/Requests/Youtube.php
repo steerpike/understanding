@@ -33,10 +33,10 @@ class Youtube {
         $pdesc = trim( preg_replace( "/[^0-9a-z]+/i", " ", $pdesc ) );
         $names = explode(" ", strtolower($this->philosopher->name));
         $pdesc_stripped = $this->removeCommonWords(strtolower($pdesc), $names);
-        $always_words = array("philosophy", "philosopher","philosophise", 
-                            "philosophize", "philosophical","lecture", "lecturer",
+        $always_words = array("philosophy", "philosopher", "philosophise", 
+                            "philosophize", "philosophical", "lecture", "lecturer",
                         "morals", "ethics", "metaphysics", "linguistics",
-                        "sophism", "sophist", "ideas");
+                        "sophism", "sophist", "ideas", "feminist","feminism");
         $pdesc_array = explode(" ", $pdesc_stripped);
         $pdesc_array = array_merge($pdesc_array, $always_words);
         foreach($searchResponse->items as $item)
@@ -53,7 +53,7 @@ class Youtube {
             $thumbnail = 0;
             if(count($common)) {
                 $ids[] = $youtube_id;
-            }
+            } 
         }
         if(count($ids)) {
             $stringids = implode(",",$ids);
@@ -62,31 +62,39 @@ class Youtube {
             $details = $youtube->videos->listVideos('snippet,contentDetails,statistics', $params);
             foreach($details->items as $video)
             {
-                $id = $video->id;
-                $title = $video->snippet->title;
-                $description = $video->snippet->description;
-                $duration = $video->contentDetails->duration;
-                $dislikes = $video->statistics->dislikeCount;
-                $likes = $video->statistics->likeCount;
-                $views = $video->statistics->viewCount;
-                $comments = $video->statistics->commentCount;
-                $published = $item->snippet->publishedAt;
-                $published_at = date('Y-m-d H:i:s', strtotime($published));
-                $values = array('id'=>$id, 'title'=>$title, 'description'=>$description,
-                                'duration'=>$duration,'dislikes'=>$dislikes,'likes'=>$likes,
-                            'views'=>$views,'comments'=>$comments,'published'=>$published_at);
-                $values['score'] = $this->getScore($values);
-                $score = round($values['score'], 8);
-                if(property_exists($video->snippet->thumbnails, 'high'))
+                try
                 {
-                    $thumbnail = $video->snippet->thumbnails->high->url;
-                } 
-                $model_media = Media::updateOrCreate(['source_id'=>$id],['title'=>$title, 
-                    'description'=>$description, 'duration'=>$duration, 'likes'=>$likes, 
-                    'dislikes'=>$dislikes, 'views'=>$views,'comments'=>$comments,
-                    'source'=>'youtube', 'thumbnail_url'=>$thumbnail, 
-                    'published_at'=>$published_at, 'ranking'=>$score]);
-                    $this->philosopher->media()->syncWithoutDetaching($model_media->id);
+                        $id = $video->id;
+                        $title = $video->snippet->title;
+                        $description = $video->snippet->description;
+                        $duration = $video->contentDetails->duration;
+                        $dislikes = $video->statistics->dislikeCount;
+                        $likes = $video->statistics->likeCount;
+                        $views = $video->statistics->viewCount;
+                        $comments = $video->statistics->commentCount;
+                        $published = $item->snippet->publishedAt;
+                        $published_at = date('Y-m-d H:i:s', strtotime($published));
+                        $values = array('id'=>$id, 'title'=>$title, 'description'=>$description,
+                                        'duration'=>$duration,'dislikes'=>$dislikes,'likes'=>$likes,
+                                    'views'=>$views,'comments'=>$comments,'published'=>$published_at);
+                        $values['score'] = $this->getScore($values);
+                        $score = round($values['score'], 8);
+                        if(property_exists($video->snippet->thumbnails, 'high'))
+                        {
+                            $thumbnail = $video->snippet->thumbnails->high->url;
+                        } 
+                        $model_media = Media::updateOrCreate(['source_id'=>$id],['title'=>$title, 
+                            'description'=>$description, 'duration'=>$duration, 'likes'=>$likes, 
+                            'dislikes'=>$dislikes, 'views'=>$views,'comments'=>$comments,
+                            'source'=>'youtube', 'thumbnail_url'=>$thumbnail, 
+                            'published_at'=>$published_at, 'ranking'=>$score]);
+                        $this->philosopher->media()->syncWithoutDetaching($model_media->id);
+                    }catch(\Exception $e) 
+                    {
+                        Log::error("VIDEO: ".$video->id.
+                        " File: ".$e->getFile()." Line: ".$e->getLine().
+                        " Error: ". $e->getMessage()." ENDS");
+                    }
             }
         }
         

@@ -12,6 +12,7 @@ use App\Category;
 use App\Jobs\ProcessNewPhilosopher;
 use App\Jobs\ProcessGeoLookup;
 use App\Jobs\ProcessCategories;
+use Spatie\SchemaOrg\Schema;
 
 
 class PeopleController extends Controller
@@ -72,13 +73,13 @@ class PeopleController extends Controller
         ->paginate(60);
         return view('people', ['people' => $people]);
     }
-    public function view($qid)
+    public function view($id)
     {
         $person = Person::with(['media' => function ($q) {
                 $q->orderBy('ranking', 'desc');
             }])
-            ->with('influences')
-            ->where('qid','=', $qid)->firstOrFail();
+            ->where('id','=', $id)->firstOrFail();
+        
         $people = 0;
         if($person->death_year && $person->year)
         {
@@ -91,7 +92,16 @@ class PeopleController extends Controller
         $person->viafId = $person->getFromWikiData("VIAF ID");
         $person->locaId = $person->getFromWikiData("Library of Congress authority ID");
         $person->gutenbergId = $person->getFromWikiData("Project Gutenberg author ID");
-        return view('person', ['person' => $person, 'people'=>$people]);
+        $schemaPerson = Schema::person()
+            ->name($person->name)
+            ->gender($person->sex)
+            ->jobTitle('Philosopher')
+            ->image($person->image)
+            ->sameAs($person->wikipedia_canonical_url)
+            ->birthDate($person->date_of_birth)
+            ->deathDate($person->date_of_death);
+        return view('person', ['person' => $person, 'people'=>$people, 
+                            'schema'=>$schemaPerson, 'title'=>$person->name]);
     }
     public function media()
     {
