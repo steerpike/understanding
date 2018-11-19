@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Media;
 use App\Requests\Wikipedia;
 use App\Person;
+use Carbon\Carbon;
 
 set_time_limit(1000);
 ini_set('memory_limit', '-1'); 
@@ -58,6 +59,21 @@ class TestController extends Controller
             echo "Retrieved ".$wiki_name."(".$person->id.")<br />";
         }
     
+    }
+    public function videos() {
+        $videos = array();
+        $videos[] = array("likes"=>270, "published_date" =>"2018-03-31 11:42:15", "views"=>27226, 
+                            "dislikes"=>24, "comments"=>1);
+        $now = Carbon::now();
+        $published = Carbon::parse($videos[0]['published_date']);
+        $days = $published->diffInDays($now);
+        $seconds = $published->diffInSeconds($now);
+        $vids = Media::orderBy('views', 'asc')
+                        ->orderBy('likes', 'desc')
+                        ->get();
+        foreach($vids as $video) {
+            echo $video->title." (".$video->views.") vs (".$video->likes.")<br />";
+        }
     }
     public function tree()
     {
