@@ -62,17 +62,29 @@ class TestController extends Controller
     }
     public function videos() {
         $videos = array();
+        /*
         $videos[] = array("likes"=>270, "published_date" =>"2018-03-31 11:42:15", "views"=>27226, 
                             "dislikes"=>24, "comments"=>1);
         $now = Carbon::now();
         $published = Carbon::parse($videos[0]['published_date']);
         $days = $published->diffInDays($now);
         $seconds = $published->diffInSeconds($now);
+        */
         $vids = Media::orderBy('views', 'asc')
                         ->orderBy('likes', 'desc')
                         ->get();
         foreach($vids as $video) {
-            echo $video->title." (".$video->views.") vs (".$video->likes.")<br />";
+            $score = ($video->views+$video->likes)/$video->views;
+            //echo $video->title." (".$video->views.") vs (".$video->likes.")<br />";
+            $videos[] = array('title'=>$video->title, 'score'=>$score, 'id'=>$video->source_id);
+        }
+        //print_r($videos);
+        usort($videos, function($a, $b) {
+            return $a['score'] <=> $b['score'];
+        });
+    
+        foreach($videos as $v) {
+            echo $v['title']." ".$v['id']."(".$v['score'].")<br />";
         }
     }
     public function tree()

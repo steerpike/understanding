@@ -9,7 +9,7 @@
         <div class="col">
             <ul>
             @foreach ($chunk as $person)
-                <li><a href="{{ route('person', ['id'=>$person->id]) }}">
+                <li><a href="{{ route('person', ['id'=>$person->qid]) }}">
                 <span>{{ $person->name }}</span> 
                 [{{ $person->media_count }} videos]
                 </a></li>

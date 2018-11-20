@@ -12,6 +12,18 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
 .card-text {
-  max-height: 300px;
+  max-height: 160px;
+  overflow: hidden;
+}
+
+.img-container {
+  width: 350px;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

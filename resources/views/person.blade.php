@@ -10,6 +10,7 @@
 				@endif
 			</div>
 			<h1>{{ $person->name }}</h1>
+			<span>({{$person->id}})</span>
 			<h2>{{ $person->intro }}</h2>
 			@if($person->year)
 				<h3>{{ $person->year }} to {{ $person->death_year }}</h3>

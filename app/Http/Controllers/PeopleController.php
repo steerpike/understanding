@@ -78,7 +78,7 @@ class PeopleController extends Controller
         $person = Person::with(['media' => function ($q) {
                 $q->orderBy('ranking', 'desc');
             }])
-            ->where('id','=', $id)->firstOrFail();
+            ->where('qid','=', $id)->firstOrFail();
         
         $people = 0;
         if($person->death_year && $person->year)
