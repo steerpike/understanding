@@ -74,8 +74,16 @@ class TestController extends Controller
                         ->orderBy('likes', 'desc')
                         ->get();
         foreach($vids as $video) {
-            $score = ($video->views+$video->likes)/$video->views;
             //echo $video->title." (".$video->views.") vs (".$video->likes.")<br />";
+            $published = Carbon::parse($video->published_date);
+            
+            $now = Carbon::now();
+            $days = $published->diffInDays($now);
+            if($days === 0) {
+                $days = 1;
+            }
+            $av = $video['views']/$days;
+            $score = ($av+$video->likes)/$av;
             $videos[] = array('title'=>$video->title, 'score'=>$score, 'id'=>$video->source_id);
         }
         //print_r($videos);
