@@ -34,7 +34,7 @@ class Person extends Model
     {
         $array = json_decode($this->wikidata_response, TRUE);
         if($array && array_key_exists($field, $array)){
-            if(count($array[$field])>1)
+            if(is_array($array[$field]) && count($array[$field])>1)
             {
                 return $array[$field][0];
             }
