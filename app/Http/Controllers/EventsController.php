@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Requests\Wikipedia;
 use App\Requests\Wikidata;
 use App\Person;

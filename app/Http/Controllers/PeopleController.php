@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 set_time_limit(1000);
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 use App\Person;
 use App\Media;
 use App\Category;

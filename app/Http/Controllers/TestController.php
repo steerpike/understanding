@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Media;
 use App\Requests\Wikipedia;
@@ -59,6 +58,44 @@ class TestController extends Controller
             echo "Retrieved ".$wiki_name."(".$person->id.")<br />";
         }
     
+    }
+    public function dbpedia() 
+    {
+        //http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FSusan_Haack%3E&format=text%2Fcsv
+        $people = Person::where('id', '<', 1000)->get();
+        foreach($people as $person) {
+            $wiki_name = $person->wikipedia_canonical_path;
+            $first_letter = substr($person->wikipedia_canonical_path, 0, 1);
+            $url = "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F".$wiki_name."%3E&format=text%2Fcsv";
+            $result = file_get_contents($url);
+            Storage::disk('local')->put("/philosophers/".$first_letter."/".$wiki_name.".csv", $result);
+            echo "Retrieved ".$wiki_name."(".$person->id.")<br />";
+        }
+    }
+    public function readCsv() {
+        $people = Person::where('id', '>=', 1)->get();
+        foreach($people as $person) {
+            $wiki_name = $person->wikipedia_canonical_path;
+            $first_letter = substr($person->wikipedia_canonical_path, 0, 1);
+            $filename = "/philosophers/".$first_letter."/".$wiki_name.".csv";
+            $csv = Storage::get($filename);
+            $data = str_getcsv($csv, "\n"); //parse the rows 
+            echo $person->name."<br />";
+            foreach($data as &$row) {
+                $row = str_getcsv($row, ","); 
+                //parse the items in rows
+                if(array_key_exists(1, $row) && ($row[1] == "http://dbpedia.org/ontology/author" ||
+                    $row[1] =="http://dbpedia.org/property/authors")) {
+                    echo "<pre>";
+                    print_r($row[0]);
+                    echo "</pre>";
+                }
+                
+            }
+            echo "<pre>";
+            //print_r($data);
+            echo "</pre>";
+        }
     }
     public function videos() {
         $videos = array();

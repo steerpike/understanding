@@ -13,7 +13,7 @@
 
 Route::get('/', 'PeopleController@list')->name('people');
 Route::post('/', 'PeopleController@search')->name('search');
-Route::get('/test', 'TestController@videos');
+Route::get('/test', 'TestController@readCsv');
 Route::get('/events/{event?}', 'EventsController@events');
 Route::get('/philosophers/media', 'PeopleController@media');
 Route::get('/philosophers/timeline', 'PeopleController@timeline');
