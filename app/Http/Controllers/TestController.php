@@ -6,7 +6,9 @@ use Illuminate\Support\Facades\Storage;
 use App\Media;
 use App\Requests\Wikipedia;
 use App\Person;
+use App\Book;
 use Carbon\Carbon;
+use Curl\Curl;
 
 set_time_limit(1000);
 ini_set('memory_limit', '-1'); 
@@ -89,14 +91,83 @@ class TestController extends Controller
                     echo "<pre>";
                     print_r($row[0]);
                     echo "</pre>";
-                }
-                
+                    $book = Book::updateOrCreate(['dbpedia_url'=>$row[0]]);
+                    $person->books()->syncWithoutDetaching($book->id);
+                }   
             }
-            echo "<pre>";
-            //print_r($data);
-            echo "</pre>";
         }
     }
+    public function books() {
+        $books = Book::where('id', '>=', 1)->get();
+        foreach($books as $book) {
+            $url = $book->dbpedia_url.".json";
+            $url = str_replace ("http://dbpedia.org/resource/", "http://dbpedia.org/data/", $url);
+            $curl = new Curl();
+            $request = $curl->get($url);
+            $book->dbpedia_json = json_encode($request);;
+            $book->save();      
+        }
+    }
+    public function book() {
+        $books = Book::where('id', '>=', 1)->get();
+        foreach($books as $book) {
+            $string = $book->dbpedia_json;
+            $arrJson  = json_decode($string);
+            $title = '';
+            $category = '';
+            $desc = '';
+            $id = $book->id;
+            foreach($arrJson as $key=>$value){
+                foreach($value as $keyval=>$val){
+                    //echo $keyval."<br>";
+                    if($keyval === "http://www.w3.org/2000/01/rdf-schema#label") {                        
+                        $title = $this->getEnglish($val);
+                    }
+                    if($keyval === "http://xmlns.com/foaf/0.1/name" && $title == '') {
+                        $title = $this->getEnglish($val);
+                    }
+                    if($keyval === "http://dbpedia.org/property/title" && $title =='') {
+                        $title = $this->getEnglish($val);
+                    }
+                    if($keyval === "http://dbpedia.org/ontology/nonFictionSubject") {
+                        $category = $this->getCategory($val);
+                    }
+                    if($keyval === "http://dbpedia.org/property/genre" && $category == '') {
+                        $category = $this->getCategory($val);
+                    }
+                    if($keyval === "http://www.w3.org/2000/01/rdf-schema#comment") {
+                        $desc = $this->getEnglish($val);
+                    }
+                }
+            }  
+            echo "<h1>".$id."</h1>";
+            if($title == '') {
+                echo "<b>No Title</b><br />";
+            } else {
+                echo "<p>".$title."</p>";
+            }
+            if($category == '') {
+                echo "<b>No category</b><br />";
+            } else {
+                echo "<p>".$category."</p>";
+            }  
+            //$book->title = $title;
+            //$book->description = $desc;
+            //$book->save();
+        }
+    }
+    public function getCategory($val) {
+        return $val;
+    }
+    public function getEnglish($thing) {
+        $result = '';
+        foreach($thing as $language) {
+            if(property_exists($language, 'lang') && $language->lang=="en") {
+                $result = $language->value;
+            } 
+        }
+        return $result;
+    }   
     public function videos() {
         $videos = array();
         /*

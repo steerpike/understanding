@@ -6697,6 +6697,15 @@ class CategoriesTableSeeder extends Seeder
                 'created_at' => '2018-11-14 22:43:13',
                 'updated_at' => '2018-11-14 22:43:13',
             ),
+            242 => 
+            array (
+                'id' => 743,
+                'name' => 'Swedish philosophers',
+                'type' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-11-16 09:59:37',
+                'updated_at' => '2018-11-16 09:59:37',
+            ),
         ));
         
         

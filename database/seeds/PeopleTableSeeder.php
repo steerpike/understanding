@@ -192,10 +192,10 @@ class PeopleTableSeeder extends Seeder
                 'wikidata_response' => NULL,
                 'type' => NULL,
                 'event' => 2,
-                'linked_articles' => 1161,
+                'linked_articles' => 1164,
                 'deleted_at' => NULL,
                 'created_at' => '2018-07-24 03:40:34',
-                'updated_at' => '2018-11-14 22:46:08',
+                'updated_at' => '2018-11-16 01:46:15',
             ),
             5 => 
             array (
@@ -546,7 +546,7 @@ class PeopleTableSeeder extends Seeder
                 'wikipedia_id' => 98394,
                 'qid' => 'Q179785',
                 'intro' => 'Ancient greek philosopher',
-            'description' => '<p><b>Gorgias</b> (<span></span>; Greek: <span lang="grc" title="Ancient Greek language text">Γοργίας</span> <small></small><span title="Representation in the International Phonetic Alphabet (IPA)">[ɡorɡíaːs]</span>; c. 485 – c. 380 BC)  was a Greek sophist, Siceliote, pre-Socratic philosopher and rhetorician who was a native of Leontini in Sicily. Along with Protagoras, he forms the first generation of Sophists. Several doxographers report that he was a pupil of Empedocles, although he would only have been a few years younger. "Like other Sophists, he was an itinerant that practiced in various cities and giving public exhibitions of his skill at the great pan-Hellenic centers of Olympia and Delphi, and charged fees for his instruction and performances. A special feature of his displays was to ask miscellaneous questions from the audience and give impromptu replies." He has been called "Gorgias the Nihilist" although the degree to which this epithet adequately describes his philosophy is controversial.</p><p>His chief claim to recognition is that he transplanted rhetoric from his native Sicily to Attica, and contributed to the diffusion of the Attic dialect as the language of literary prose.
+            'description' => '<p><b>Gorgias</b> (<abbr title="circa">c.</abbr> 485 – <abbr title="circa">c.</abbr> 380 BC) was an ancient Greek sophist, pre-Socratic philosopher, and rhetorician who was a native of Leontinoi in Sicily. Along with Protagoras, he forms the first generation of Sophists. Several doxographers report that he was a pupil of Empedocles, although he would only have been a few years younger. "Like other Sophists, he was an itinerant that practiced in various cities and giving public exhibitions of his skill at the great pan-Hellenic centers of Olympia and Delphi, and charged fees for his instruction and performances. A special feature of his displays was to ask miscellaneous questions from the audience and give impromptu replies." He has been called "Gorgias the Nihilist" although the degree to which this epithet adequately describes his philosophy is controversial.</p><p>His chief claim to recognition is that he transplanted rhetoric from his native Sicily to Attica, and contributed to the diffusion of the Attic dialect as the language of literary prose.
 </p>',
                 'wikipedia_path' => '/wiki/Gorgias',
                 'wikipedia_canonical_path' => 'Gorgias',
@@ -555,24 +555,24 @@ class PeopleTableSeeder extends Seeder
                 'sex' => 'male',
                 'redirected_name' => 'Gorgias',
                 'image' => NULL,
-                'place_of_birth' => 'Leontini Italy',
+                'place_of_birth' => 'Leontini, Italy',
                 'place_of_birth_lng' => '12.3604425',
                 'place_of_birth_lat' => '41.7571408',
                 'date_of_birth' => '-482-01-01T00:00:00Z',
                 'year' => -482,
                 'month' => 1,
                 'day' => 1,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'date_of_death' => '-374-01-01T00:00:00Z',
+                'death_year' => -374,
+                'death_month' => 1,
+                'death_day' => 1,
+            'wikidata_response' => '{"field of work":"philosophy","occupation":"sophist","ethnic group":"Greeks","place of birth":"Leontini","place of death":"Larissa","sex or gender":"male","ISNI":"0000 0001 1241 4233","VIAF ID":"305414374","GND ID":"118696521","Library of Congress authority ID":"n82106049","instance of":"human","PTBNP ID":"100307","National Thesaurus for Author Names ID":"069958289","BIBSYS ID":"90088646","BAV ID":"ADV11507147","student of":"Empedocles","NUKAT (WarsawU) authorities ID":"n02060396","CANTIC-ID":"a10488984","CONOR ID":"70585955","Gran Enciclop\\u00e8dia Catalana ID":"0030562","languages spoken, written or signed":"Ancient Greek","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Gorgias-of-Leontini","Sandrart.net person ID":"336","NLP ID":"A27834335","CERL ID":"cnp00976346","LibriVox author ID":"8420","FAST ID":"96918","BnF ID":"12135750x","SUDOC authorities ID":"029810450","Great Russian Encyclopedia Online ID":"2370180","Encyclop\\u00e6dia Universalis ID":"gorgias","NE.se ID":"gorgias","PhilPapers topic":"gorgias","Quora topic ID":"Gorgias","SBN author ID":"IT\\\\ICCU\\\\MILV\\\\078449","PACTOLS thesaurus ID":"pcrt3DkSTD2PUo","Internet Encyclopedia of Philosophy ID":"gorgias","Herder Encyclopedia author ID":"Gorgias","Libris-URI":"0xbdhlhj0v44q9f","Biblioth\\u00e8que de la Pl\\u00e9iade ID":"Gorgias","date of birth":["-482-01-01T00:00:00Z","-482-01-01T00:00:00Z"],"date of death":["-374-01-01T00:00:00Z","-374-01-01T00:00:00Z"],"Freebase ID":"\\/m\\/0p7d0","student":["Hippocrates","Isocrates","Polus"],"InPhO ID":["3108","thinker\\/3108"],"SELIBR ID":"245686","BNE ID":"XX972490"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 612,
                 'deleted_at' => NULL,
                 'created_at' => '2018-07-24 03:40:34',
-                'updated_at' => '2018-11-14 22:46:22',
+                'updated_at' => '2018-11-17 23:31:49',
             ),
             16 => 
             array (
@@ -4571,25 +4571,25 @@ Bruno\'s case is still considered a landmark in the history of free thought and 
                 'name' => 'John Locke',
                 'sex' => 'male',
                 'redirected_name' => 'John Locke',
-                'image' => NULL,
-                'place_of_birth' => 'Wrington United Kingdom',
+                'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/John%20Locke%20by%20John%20Greenhill.jpg',
+                'place_of_birth' => 'Wrington, United Kingdom',
                 'place_of_birth_lng' => '-2.7637231',
                 'place_of_birth_lat' => '51.3616116',
                 'date_of_birth' => '1632-08-29T00:00:00Z',
                 'year' => 1632,
                 'month' => 8,
                 'day' => 29,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'date_of_death' => '1704-10-28T00:00:00Z',
+                'death_year' => 1704,
+                'death_month' => 10,
+                'death_day' => 28,
+            'wikidata_response' => '{"field of work":["philosophy","epistemology","political philosophy"],"occupation":["physician","politician","economist","philosopher"],"employer":["Anthony Ashley Cooper, 1st Earl of Shaftesbury","University of Oxford","Caleb Banks"],"signature":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/John%20Locke%20Signature.svg","movement":"empiricism","religion":"Anglicanism","award received":"Fellow of the Royal Society","ethnic group":"English people","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/John%20Locke%20by%20John%20Greenhill.jpg","place of birth":"Wrington","place of death":"Epping Forest","sex or gender":"male","ISNI":"0000 0001 2127 2329","VIAF ID":"34459614","father":"John Locke","GND ID":"118573748","Library of Congress authority ID":"n79090225","ULAN ID":"500222209","mother":"Agnes Keene","country of citizenship":"Kingdom of England","instance of":"human","educated at":["Christ Church","Christ Church","Westminster School"],"PTBNP ID":"91561","National Thesaurus for Author Names ID":"068239971","BIBSYS ID":"90100571","BAV ID":"ADV10196013","Regensburg Classification":"BF 4185","NUKAT (WarsawU) authorities ID":"n94000525","NNDB people ID":"813\\/000055648","CANTIC-ID":"a10489666","CONOR ID":"7712355","Gran Enciclop\\u00e8dia Catalana ID":"0038313","EGAXA ID":"000834656","People Australia ID":"906763","described by source":["Dictionary of National Biography (1885-1900)","Great Soviet Encyclopedia (1969\\u20131978)","Brockhaus and Efron Encyclopedic Dictionary","Otto\'s encyclopedia","Small Brockhaus and Efron Encyclopedic Dictionary"],"languages spoken, written or signed":["English","Latin"],"Oxford Dictionary of National Biography ID":"16885","Encyclop\\u00e6dia Britannica Online ID":"biography\\/John-Locke","zbMATH author ID":"locke.john","name in native language":"John Locke","British Museum person-institution":"36039","GTAA ID":"226287","EMLO person ID":"cccc8972-7adb-463d-b039-bcee2898b222","National Portrait Gallery (London) person ID":"mp02773","CERL ID":"cnp00395657","LibriVox author ID":"4362","Project Gutenberg author ID":"2447","FAST ID":"40818","BiblioNet author ID":"7142","Six Degrees of Francis Bacon ID":"10007541","BnF ID":"11913201p","SUDOC authorities ID":"027272494","Great Russian Encyclopedia Online ID":"2182350","WikiTree person ID":"Locke-2","permanent duplicated item":"John Locke","National Library of Wales ID":"locke-john-1632-1704-essay-by-notes-taken-from-nlw-ms-1960b","LBT person ID":"JoLocke1704","UK National Archives ID":"F51022","Kindred Britain ID":"I28149","Stanford Encyclopedia of Philosophy ID":"locke","Runeberg author ID":"lockejoh","Encyclop\\u00e6dia Universalis ID":"john-locke","NE.se ID":"john-locke","Treccani ID":"john-locke","Electronic Enlightenment ID":"lockejohn0002360","SNAC Ark ID":"w6j38szx","NDL Auth ID":"00447915","Cultureel Woordenboek identifier":"filosofie\\/john-locke","Babelio author ID":"16338","Commons category":"John Locke","openMLOL author ID":"11045","BNA authority ID":"000026118","SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\017247","SHARE Catalogue author ID":"44514","NLA (Australia) ID":"35309954","Christie\'s creator ID":"58682","PM20 folder ID":["pe\\/011584","pe\\/011584"],"Store norske leksikon ID":"John_Locke","Isidore ID":"locke_john_auteur_du_texte","RA Collections ID":"20086","Online Books Page author ID":"Locke, John, 1632-1704","member of":"Royal Society","on focus list of Wikimedia project":"Wikipedia:Vital articles","Internet Encyclopedia of Philosophy ID":"locke","Swedish Literature Bank AuthorID":"LockeJ","BIU Sant\\u00e9 person ID":"10029","Herder Encyclopedia author ID":"Locke,_John","date of birth":"1632-08-29T00:00:00Z","date of death":"1704-10-28T00:00:00Z","Angelicum author ID":"371","Freebase ID":"\\/m\\/043s3","Open Library ID":"OL77200A","NKCR AUT ID":"jn19990005145","DBNL author ID":"lock001","family name":"Locke","given name":"John","influenced by":["Robert Filmer","Samuel von Pufendorf","Thomas Hobbes","Thomas Sydenham","Anthony Ashley Cooper, 1st Earl of Shaftesbury","Hugo Grotius","Ren\\u00e9 Descartes"],"notable work":["An Essay Concerning Human Understanding","Of the Conduct of the Understanding","A Letter Concerning Toleration","Two Treatises of Government","Some Thoughts Concerning Education"],"InPhO ID":"thinker\\/3476","SELIBR ID":["239482","239481"],"topic\'s main category":"Category:John Locke","Commons gallery":"John Locke","BNE ID":"XX981831"}',
                 'type' => NULL,
                 'event' => 2,
-                'linked_articles' => 2120,
+                'linked_articles' => 2125,
                 'deleted_at' => NULL,
                 'created_at' => '2018-07-24 03:40:34',
-                'updated_at' => '2018-11-14 22:48:41',
+                'updated_at' => '2018-11-15 08:27:58',
             ),
             128 => 
             array (
@@ -11640,25 +11640,25 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'name' => 'Albert Camus',
                     'sex' => 'male',
                     'redirected_name' => 'Albert Camus',
-                    'image' => NULL,
-                    'place_of_birth' => 'Dréan Algeria',
+                    'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Camus%2C%20gagnant%20de%20prix%20Nobel%2C%20portrait%20en%20buste%2C%20pos%C3%A9%20au%20bureau%2C%20faisant%20face%20%C3%A0%20gauche%2C%20cigarette%20de%20tabagisme.jpg',
+                    'place_of_birth' => 'Dréan, Algeria',
                     'place_of_birth_lng' => '7.7470888',
                     'place_of_birth_lat' => '36.6851201',
-                    'date_of_birth' => '1913-11-07T00:00:00Z',
+                    'date_of_birth' => '1913-01-01T00:00:00Z',
                     'year' => 1913,
-                    'month' => 11,
-                    'day' => 7,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'month' => 1,
+                    'day' => 1,
+                    'date_of_death' => '1960-01-04T00:00:00Z',
+                    'death_year' => 1960,
+                    'death_month' => 1,
+                    'death_day' => 4,
+                'wikidata_response' => '{"field of work":"philosophy","member of political party":"French Communist Party","native language":"French","occupation":["journalist","novelist","screenwriter","essayist","playwright","trade unionist","author","writer","philosopher"],"employer":"L\'Express","signature":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Albert%20Camus%20signature.svg","place of burial":"Lourmarin","genre":"novel","religion":"atheism","award received":["Nobel Prize in Literature","Nobel Prize in Literature"],"ethnic group":"French people","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Albert%20Camus%2C%20gagnant%20de%20prix%20Nobel%2C%20portrait%20en%20buste%2C%20pos%C3%A9%20au%20bureau%2C%20faisant%20face%20%C3%A0%20gauche%2C%20cigarette%20de%20tabagisme.jpg","place of birth":"Dr\\u00e9an","place of death":"Villeblevin","sex or gender":"male","ISNI":"0000 0001 2283 2690","VIAF ID":"97000332","GND ID":"118518739","Library of Congress authority ID":"n79061368","spouse":["Simone Hi\\u00e9","Simone Hi\\u00e9","Simone Hi\\u00e9","Francine Faure","Francine Faure","Francine Faure"],"country of citizenship":"France","instance of":"human","child":["Jean Camus","Catherine Camus"],"educated at":["University of Algiers","University of Algiers","University of Algiers","University of Algiers"],"NLR (Romania) ID":"000325632","PTBNP ID":"25221","National Thesaurus for Author Names ID":"068350694","BIBSYS ID":"90052174","BAV ID":"ADV10234659","Regensburg Classification":"BF 5340","manner of death":"accident","NUKAT (WarsawU) authorities ID":"n93080464","Internet Broadway Database person ID":"10067","ISFDB author ID":"130822","NNDB people ID":"788\\/000028704","CANTIC-ID":"a10430064","CONOR ID":"6052195","Munzinger IBA":"00000001391","KLfG Critical Dictionary of foreign contemporary literature":"18000000084","Gran Enciclop\\u00e8dia Catalana ID":"0014099","EGAXA ID":"000846861","People Australia ID":"799015","described by source":["Orthodox Encyclopedia","Great Soviet Encyclopedia (1969\\u20131978)","Dictionary of African Biography"],"LNB ID":"000015259","nominated for":["Nobel Prize in Literature","Nobel Prize in Literature","Nobel Prize in Literature","Nobel Prize in Literature","Nobel Prize in Literature","Nobel Prize in Literature","Nobel Prize in Literature"],"languages spoken, written or signed":"French","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Albert-Camus","OpenPlaques subject ID":"7249","image of grave":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Tombe%20Albert%20Camus.jpg","name in native language":"Albert Camus","University of Barcelona authority ID":"a1228217","LAC ID":"0053D3862","NLP ID":"A11813842","GTAA ID":"88258","Spotify artist ID":"2UX7LGfl7zC1QA9LMxLb0U","National Library of Ireland authority ID":"vtls000018371","Discogs artist ID":"448200","Les Archives du Spectacle Person ID":"470","Cooper-Hewitt Person ID":"1108786459","FAST ID":"36855","BiblioNet author ID":"1586","Theatricalia person ID":"1ms2","BookBrainz creator ID":"1acd2e61-bc94-4d0a-b5e4-898dbb3fca90","Filmportal ID":"0a288dbbc64e44df9896cf796a994a08","BnF ID":"118949856","SUDOC authorities ID":"026764644","CiNii author ID (books)":"DA00331926","Deezer artist ID":"157197","BVMC person ID":"37304","iTunes artist ID":"57528162","exact match":"http:\\/\\/data.nobelprize.org\\/resource\\/laureate\\/628","Great Russian Encyclopedia Online ID":"2039923","WikiTree person ID":"Camus-12","Goodreads author ID":"957894","National Library of Wales ID":"camus-albert-1913-1960","Stanford Encyclopedia of Philosophy ID":"camus","Runeberg author ID":"camusalb","Nobel prize ID":"literature\\/laureates\\/1957\\/camus","Encyclop\\u00e6dia Universalis ID":["camus-reperes-chronologiques","albert-camus"],"NE.se ID":"albert-camus","PhilPapers author ID":"Albert Camus","PhilPapers topic":"albert-camus","BanQ author ID":"0000015256","Nobel Prize People Nomination ID":"1572","Quora topic ID":"Albert-Camus-author","SNAC Ark ID":"w6g73ckw","IMDb ID":"nm0133411","Songkick artist ID":"138421","NDL Auth ID":"00435195","Cultureel Woordenboek identifier":"literatuur-internationaal\\/albert-camus","Babelio author ID":"2615","Commons category":"Albert Camus","openMLOL author ID":"3196","BNA authority ID":"000046764","DBC author ID":"87097968194474","SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\030959","Bridgeman artist ID":"26672","SHARE Catalogue author ID":"131426","NLA (Australia) ID":"35025281","Christie\'s creator ID":"54563","PM20 folder ID":["pe\\/002944","pe\\/002944"],"MusicBrainz artist ID":"4819b042-108f-46a7-a396-d2831845deff","Enciclop\\u00e9dia Ita\\u00fa Cultural ID":"pessoa359865\\/albert-camus","Google Doodle":"albert-camuss-100th-birthday","Isidore ID":"http:\\/\\/www.idref.fr\\/026764644","partner":["Mar\\u00eda Casares","Mar\\u00eda Casares","Catherine Sellers","Catherine Sellers","Mar\\u00eda Casares","Mar\\u00eda Casares","Mamaine Koestler","Mette Ivers","Mette Ivers","Blanche Balain"],"Encyclopedia of Modern Ukraine ID":"10937","National Library of Brazil ID":"000558826","member of":"American Academy of Arts and Sciences","Amazon author page":"B000AQ541E","National Library of Korea Identifier":"KAC200807597","Flanders Arts Institute person ID":"1885389","Internet Encyclopedia of Philosophy ID":"camus","cause of death":"traffic crash","Nelson-Atkins Museum of Art person ID":"6577","BIU Sant\\u00e9 person ID":"11144","Classiques des sciences sociales author ID":"camus_albert","Herder Encyclopedia author ID":"Camus,_Albert","residence":"France","Libris-URI":"86lnhf8s0brdkvc","Biblioth\\u00e8que de la Pl\\u00e9iade ID":"Albert-Camus","date of birth":["1913-01-01T00:00:00Z","1913-11-07T00:00:00Z"],"date of death":"1960-01-04T00:00:00Z","LARB author ID":"albert-camus","Angelicum author ID":"50064","conflict":"World War II","Freebase ID":"\\/m\\/0lcx","Open Library ID":"OL124171A","RKDartists ID":"440161","NKCR AUT ID":"jn19990001315","DBNL author ID":"camu001","family name":"Camus","given name":"Albert","influenced by":["Jean-Paul Sartre","S\\u00f8ren Kierkegaard"],"notable work":["A Happy Death","The Rebel","Albert Camus, Mar\\u00eda Casares. Correspondence (1944-1959)","The Stranger","The Fall","The Myth of Sisyphus","The Plague"],"InPhO ID":"thinker\\/2753","Perlentaucher ID":"albert-camus","SELIBR ID":"44544","topic\'s main category":"Category:Albert Camus","Commons gallery":"Albert Camus","work location":"Paris","National Library of Israel ID":"000027982","BNE ID":"XX1721208"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 1677,
+                    'linked_articles' => 1678,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:40:35',
-                    'updated_at' => '2018-11-14 22:52:51',
+                    'updated_at' => '2018-11-15 23:27:36',
                 ),
                 323 => 
                 array (
@@ -12039,24 +12039,24 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'sex' => 'male',
                     'redirected_name' => 'Gilles Deleuze',
                     'image' => NULL,
-                    'place_of_birth' => 'Paris France',
+                    'place_of_birth' => 'Paris, France',
                     'place_of_birth_lng' => '2.3514992',
                     'place_of_birth_lat' => '48.8566101',
                     'date_of_birth' => '1925-01-18T00:00:00Z',
                     'year' => 1925,
                     'month' => 1,
                     'day' => 18,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'date_of_death' => '1995-11-04T00:00:00Z',
+                    'death_year' => 1995,
+                    'death_month' => 11,
+                    'death_day' => 4,
+                'wikidata_response' => '{"field of work":"philosophy","native language":"French","occupation":["writer","university teacher","historian","journalist","philosophy historian","philosopher"],"employer":["CNRS","CNRS","Lyc\\u00e9e Louis-le-Grand","University of Paris","University of Lyon (1896-1966)","University of Lyon (1896-1966)","Paris 8 University","Paris 8 University"],"movement":["materialism","metaphysics","post-structuralism"],"religion":"Franc\\u00e9s","place of birth":"Paris","place of death":"Paris","sex or gender":"male","ISNI":"0000 0001 2277 323X","VIAF ID":"22140703","GND ID":"118524534","Library of Congress authority ID":"n79006797","ULAN ID":"500238717","country of citizenship":"France","instance of":"human","child":"\\u00c9milie Deleuze","educated at":["University of Paris","Lyc\\u00e9e Carnot","agr\\u00e9gation de philosophie"],"National Thesaurus for Author Names ID":"06860873X","manner of death":"suicide","CANTIC-ID":"a10073140","Gran Enciclop\\u00e8dia Catalana ID":"0021863","instrument":"musical saw","described by source":"UbuWeb","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Gilles-Deleuze","zbMATH author ID":"deleuze.gilles","name in native language":"Gilles Deleuze","University of Barcelona authority ID":"a1278419","Dialnet author ID":"118845","Discogs artist ID":"29037","FAST ID":"1427364","BnF ID":"118993325","SUDOC authorities ID":"026820552","BVMC person ID":"12266","Great Russian Encyclopedia Online ID":"1945626","Stanford Encyclopedia of Philosophy ID":"deleuze","Encyclop\\u00e6dia Universalis ID":"gilles-deleuze","NE.se ID":"gilles-deleuze","PhilPapers topic":"gilles-deleuze","National Library of Greece ID":"79472","Quora topic ID":"Gilles-Deleuze-philosopher","SNAC Ark ID":"w61z453q","IMDb ID":"nm0989127","NDL Auth ID":"00437622","Babelio author ID":"2062","Commons category":"Gilles Deleuze","SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\011822","SHARE Catalogue author ID":"139769","MusicBrainz artist ID":"b30c7361-1432-45a1-89ab-cb3f737a33e9","Enciclop\\u00e9dia Ita\\u00fa Cultural ID":"pessoa18878\\/gilles-deleuze","Isidore ID":"http:\\/\\/isni.org\\/isni\\/000000012277323X","Internet Encyclopedia of Philosophy ID":"deleuze","cause of death":"falling","Herder Encyclopedia author ID":"Deleuze,_Gilles","IDIH ID":"Gilles_Deleuze","Libris-URI":"fcrttrzz0xmxvk5","date of birth":"1925-01-18T00:00:00Z","date of death":"1995-11-04T00:00:00Z","Angelicum author ID":"26051","Freebase ID":"\\/m\\/0399p","Open Library ID":"OL4334052A","NKCR AUT ID":"jn20000601302","DBNL author ID":"dele032","given name":"Gilles","influenced by":["F\\u00e9lix Guattari","Michel Foucault","Maurice de Gandillac","Pierre Klossowski","Gilbert Simondon","William S. Burroughs","Immanuel Kant","Jean-Paul Sartre","Alfred North Whitehead","Marcel Proust","Jakob Johann von Uexk\\u00fcll","Duns Scotus","Gottfried Wilhelm Leibniz","Jean Hyppolite","Jorge Luis Borges","Louis Althusser","Karl Marx","Georges Canguilhem","Jean Wahl","Jacques Lacan","David Hume","Charles Sanders Peirce","Sigmund Freud","Ferdinand Alqui\\u00e9","Henri Bergson","Friedrich Nietzsche","Baruch Spinoza"],"notable work":["Cin\\u00e9ma","Anti-Oedipus","A Thousand Plateaus","Difference and Repetition","The Logic of Sense"],"InPhO ID":"thinker\\/2895","Perlentaucher ID":"gilles-deleuze","SELIBR ID":"183629","topic\'s main category":"Category:Gilles Deleuze","National Library of Israel ID":["001846734","001861453"],"BNE ID":"XX1153545"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 665,
+                    'linked_articles' => 668,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:40:35',
-                    'updated_at' => '2018-11-14 22:53:05',
+                    'updated_at' => '2018-11-17 09:51:38',
                 ),
                 334 => 
                 array (
@@ -12299,24 +12299,24 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'sex' => 'male',
                     'redirected_name' => 'Bernard Williams',
                     'image' => NULL,
-                    'place_of_birth' => 'Westcliff-on-Sea United Kingdom',
+                    'place_of_birth' => 'Westcliff-on-Sea, United Kingdom',
                     'place_of_birth_lng' => '0.6859213',
                     'place_of_birth_lat' => '51.5428858',
                     'date_of_birth' => '1929-09-21T00:00:00Z',
                     'year' => 1929,
                     'month' => 9,
                     'day' => 21,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'date_of_death' => '2003-06-11T00:00:00Z',
+                    'death_year' => 2003,
+                    'death_month' => 6,
+                    'death_day' => 11,
+                'wikidata_response' => '{"field of work":["ethics","identity"],"occupation":["university teacher","philosopher"],"employer":["University College London","University of California, Berkeley"],"movement":"Western philosophy","religion":"atheism","place of birth":"Westcliff-on-Sea","place of death":"Rome","sex or gender":"male","ISNI":"0000 0001 0856 1169","VIAF ID":"27082490","GND ID":"11927311X","Library of Congress authority ID":"n50015362","spouse":["Shirley Williams","Shirley Williams"],"country of citizenship":"United Kingdom","instance of":"human","educated at":"Balliol College","National Thesaurus for Author Names ID":"071447717","manner of death":"natural causes","NUKAT (WarsawU) authorities ID":"n99010047","NNDB people ID":"723\\/000180183","CANTIC-ID":"a10178764","CONOR ID":"83350883","LNB ID":"000094522","languages spoken, written or signed":"English","Oxford Dictionary of National Biography ID":"90066","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Bernard-Williams","National Portrait Gallery (London) person ID":"mp64356","different from":"Bernard Williams","FAST ID":"1858119","time period":"contemporary philosophy","BnF ID":"120370989","SUDOC authorities ID":"028559347","Stanford Encyclopedia of Philosophy ID":"williams-bernard","Encyclop\\u00e6dia Universalis ID":"bernard-williams","NE.se ID":"bernard-williams","National Library of Greece ID":"74084","Quora topic ID":"Bernard-Williams-3","SNAC Ark ID":"w6ss3ht0","Babelio author ID":"217703","SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\072064","SHARE Catalogue author ID":"129032","member of":["American Academy of Arts and Sciences","British Academy"],"cause of death":"multiple myeloma","NYRB contributor ID":"bernard-williams","Libris-URI":"gdsw06p02wjxp8z","date of birth":"1929-09-21T00:00:00Z","date of death":["2003-06-11T00:00:00Z","2003-06-10T00:00:00Z"],"Angelicum author ID":"59806","Freebase ID":"\\/m\\/02p76c","family name":"Williams","given name":["Arthur","Owen","Bernard"],"influenced by":["Friedrich Nietzsche","Philippa Foot"],"InPhO ID":"thinker\\/4123","Perlentaucher ID":"bernard-williams","SELIBR ID":"276030","National Library of Israel ID":"000142014","BNE ID":"XX1129430"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 384,
+                    'linked_articles' => 383,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:40:35',
-                    'updated_at' => '2018-11-14 22:53:13',
+                    'updated_at' => '2018-11-17 09:19:49',
                 ),
                 341 => 
                 array (
@@ -12581,27 +12581,27 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'wikipedia_canonical_path' => 'Guy_Debord',
                     'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Guy_Debord',
                     'name' => 'Guy Debord',
-                    'sex' => 'male',
+                    'sex' => NULL,
                     'redirected_name' => 'Guy Debord',
                     'image' => NULL,
-                    'place_of_birth' => 'Paris France',
+                    'place_of_birth' => 'Paris, France',
                     'place_of_birth_lng' => '2.3514992',
                     'place_of_birth_lat' => '48.8566101',
                     'date_of_birth' => '1931-12-28T00:00:00Z',
                     'year' => 1931,
                     'month' => 12,
                     'day' => 28,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'date_of_death' => '1994-11-30T00:00:00Z',
+                    'death_year' => 1994,
+                    'death_month' => 11,
+                    'death_day' => 30,
+                'wikidata_response' => '{"field of work":"philosophy","native language":"French","occupation":["autobiographer","writer","screenwriter","peace activist","film director","essayist","translator","graphic designer","philosopher","artist","filmmaker"],"signature":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Debord%27s%20Will.jpg","place of birth":"Paris","place of death":"Bellevue-la-Montagne","ISNI":"0000 0001 2130 2372","VIAF ID":"44297675","GND ID":"119215365","Library of Congress authority ID":"n85228329","ULAN ID":"500125444","country of citizenship":"France","instance of":"human","PTBNP ID":"39436","National Thesaurus for Author Names ID":"069683980","manner of death":"suicide","NUKAT (WarsawU) authorities ID":"n98048011","AlloCin\\u00e9 person ID":"36053","CANTIC-ID":"a11555713","CONOR ID":"29827171","Gran Enciclop\\u00e8dia Catalana ID":"0516758","EGAXA ID":"002004814","described by source":"UbuWeb","languages spoken, written or signed":["Spanish","French"],"birth name":"Guy-Ernest Debord","name in native language":"Guy Debord","University of Barcelona authority ID":"a1298401","MovieMeter director ID":"22943","Les Archives du Spectacle Person ID":"19204","AllMovie artist ID":"p569080","FAST ID":"1774974","SFDb person ID":"160304","Academic Tree ID":"2571","Elonet person ID":"1445187","Kinopoisk person ID":"1042534","\\u010cSFD person ID":"35436","Filmportal ID":"012c20192c304e98a3919f3d27f65831","BnF ID":"11898959m","SUDOC authorities ID":"026815672","Encyclop\\u00e6dia Universalis ID":"guy-ernest-debord","NE.se ID":"guy-debord","National Library of Greece ID":"74515","SNAC Ark ID":"w6892xr6","IMDb ID":"nm0213499","NDL Auth ID":"00465454","Babelio author ID":"2259","Commons category":"Guy Debord","openMLOL author ID":"169204","SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\104818","Bridgeman artist ID":"54800","SHARE Catalogue author ID":"142221","NLA (Australia) ID":"35728532","Christie\'s creator ID":"61266","MNCARS artist ID":"debord-guy","Online Books Page author ID":"Debord, Guy, 1931-1994","cause of death":"ballistic trauma","date of birth":"1931-12-28T00:00:00Z","date of death":"1994-11-30T00:00:00Z","Freebase ID":"\\/m\\/014pkc","Open Library ID":"OL503964A","RKDartists ID":"253296","NKCR AUT ID":"jo2007284439","family name":"Debord","given name":"Guy","InPhO ID":"thinker\\/2893","Perlentaucher ID":"guy-debord","topic\'s main category":"Category:Guy Debord","National Library of Israel ID":"000038003","BNE ID":"XX903035"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 908,
+                    'linked_articles' => 967,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:40:35',
-                    'updated_at' => '2018-11-14 22:53:23',
+                    'updated_at' => '2018-11-17 09:47:36',
                 ),
                 349 => 
                 array (
@@ -12854,10 +12854,7 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'wikipedia_id' => 26275,
                     'qid' => 'Q205927',
                     'intro' => 'American political philosopher',
-                'description' => '<p><b>Robert Nozick</b> (<span></span>; November 16, 1938 – January 23, 2002) was an American philosopher. He held the Joseph Pellegrino University Professorship at Harvard University, and was president of the American Philosophical Association. He is best known for his books <i>Philosophical Explanations</i> (1981), which included his counterfactual theory of knowledge, and <i>Anarchy, State, and Utopia</i> (1974), a libertarian answer to John Rawls\' <i>A Theory of Justice</i> (1971), in which Nozick also presented his own theory of utopia as one in which people can freely choose the rules of the society they enter into. His other work involved ethics, decision theory, philosophy of mind, metaphysics and epistemology. His final work before his death, <i>Invariances</i> (2001), introduced his theory of evolutionary cosmology, by which he argues invariances, and hence objectivity itself, emerged through a theory of evolutionary cosmology across possible worlds.</p>
-
-
-',
+                'description' => '<p><b>Robert Nozick</b> (<span></span>; November 16, 1938 – January 23, 2002) was an American philosopher. He held the Joseph Pellegrino University Professorship at Harvard University, and was president of the American Philosophical Association. He is best known for his books <i>Philosophical Explanations</i> (1981), which included his counterfactual theory of knowledge, and <i>Anarchy, State, and Utopia</i> (1974), a libertarian answer to John Rawls\' <i>A Theory of Justice</i> (1971), in which Nozick also presented his own theory of utopia as one in which people can freely choose the rules of the society they enter into. His other work involved ethics, decision theory, philosophy of mind, metaphysics and epistemology. His final work before his death, <i>Invariances</i> (2001), introduced his theory of evolutionary cosmology, by which he argues invariances, and hence objectivity itself, emerged through a theory of evolutionary cosmology across possible worlds.</p>',
                     'wikipedia_path' => '/wiki/Robert_Nozick',
                     'wikipedia_canonical_path' => 'Robert_Nozick',
                     'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Robert_Nozick',
@@ -12865,24 +12862,24 @@ Her works cover a broad range of topics, but she is best known for those dealing
                     'sex' => 'male',
                     'redirected_name' => 'Robert Nozick',
                     'image' => NULL,
-                    'place_of_birth' => 'Brooklyn United States of America',
+                    'place_of_birth' => 'Brooklyn, United States of America',
                     'place_of_birth_lng' => '-73.9495823',
                     'place_of_birth_lat' => '40.6501038',
                     'date_of_birth' => '1938-11-16T00:00:00Z',
                     'year' => 1938,
                     'month' => 11,
                     'day' => 16,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'date_of_death' => '2002-01-23T00:00:00Z',
+                    'death_year' => 2002,
+                    'death_month' => 1,
+                    'death_day' => 23,
+                'wikidata_response' => '{"occupation":["university teacher","philosopher"],"employer":"Harvard University","place of burial":"Mount Auburn Cemetery","religion":"atheism","award received":["Fulbright Scholarship","Ralph Waldo Emerson Award","John Simon Guggenheim Memorial Foundation Fellowship","National Book Award"],"doctoral student":"Tamar Gendler","place of birth":"Brooklyn","place of death":"Cambridge","sex or gender":"male","ISNI":"0000 0001 1025 482X","VIAF ID":"41848718","GND ID":"118588974","Library of Congress authority ID":"n81010466","country of citizenship":"United States of America","instance of":"human","educated at":["Princeton University","Columbia University"],"PTBNP ID":"1382295","National Thesaurus for Author Names ID":"069367094","BIBSYS ID":"90078477","manner of death":"natural causes","NUKAT (WarsawU) authorities ID":"n93090355","NNDB people ID":"872\\/000044740","CANTIC-ID":"a11437169","Gran Enciclop\\u00e8dia Catalana ID":"0247918","People Australia ID":"936835","LNB ID":"000228017","NSK ID":"000279215","languages spoken, written or signed":"English","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Robert-Nozick","name in native language":"Robert Nozick","LAC ID":"1008E3621","NLP ID":"A15171383","FAST ID":"67083","NILF author id":"NILF22752","Academic Tree ID":"174561","BnF ID":"11982092g","SUDOC authorities ID":"029255813","CiNii author ID (books)":"DA00552255","iTunes artist ID":"497270818","Great Russian Encyclopedia Online ID":"2669512","Goodreads author ID":"43159","NE.se ID":"robert-nozick","PhilPapers author ID":"Robert Nozick","SNAC Ark ID":"w6hj96x0","NDL Auth ID":"00451533","Babelio author ID":"105982","SHARE Catalogue author ID":"145618","member of":"American Academy of Arts and Sciences","American National Biography ID":"0802380","National Library of Korea Identifier":"KAC199620421","cause of death":"stomach cancer","Find A Grave memorial ID":"42435235","Libris-URI":"75kmq08r3hs106j","date of birth":"1938-11-16T00:00:00Z","date of death":"2002-01-23T00:00:00Z","Angelicum author ID":"50026","Freebase ID":"\\/m\\/06k0y","Open Library ID":"OL540855A","NKCR AUT ID":"js20020617004","given name":"Robert","InPhO ID":"thinker\\/3651","SELIBR ID":"249773","National Library of Israel ID":"000100498","BNE ID":"XX1032401"}',
                     'type' => NULL,
                     'event' => 2,
                     'linked_articles' => 865,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:40:35',
-                    'updated_at' => '2018-11-14 22:53:33',
+                    'updated_at' => '2018-11-17 09:53:37',
                 ),
                 357 => 
                 array (
@@ -13696,24 +13693,24 @@ Gaozi\'s teachings are no longer extant, but he was a contemporary of Mencius (c
                     'sex' => 'male',
                     'redirected_name' => 'Mozi',
                     'image' => NULL,
-                    'place_of_birth' => 'Lu Zhou dynasty',
+                    'place_of_birth' => 'Lu, Zhou dynasty',
                     'place_of_birth_lng' => '114.1145586',
                     'place_of_birth_lat' => '22.3679468',
                     'date_of_birth' => '-469-01-01T00:00:00Z',
                     'year' => -469,
                     'month' => 1,
                     'day' => 1,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'date_of_death' => '-390-01-01T00:00:00Z',
+                    'death_year' => -390,
+                    'death_month' => 1,
+                    'death_day' => 1,
+                'wikidata_response' => '{"field of work":"philosophy","occupation":["philosopher","engineer","combat engineer"],"ethnic group":"Han Chinese","place of birth":"Lu","sex or gender":"male","ISNI":["0000 0004 3958 6088","0000 0004 4712 692X","0000 0001 1804 6072"],"VIAF ID":"86994370","GND ID":"118584553","Library of Congress authority ID":"n79105731","country of citizenship":"Zhou dynasty","instance of":"human","National Thesaurus for Author Names ID":["318678934","140224068"],"BIBSYS ID":"90518113","Dharma Drum Buddhist College person ID":"A006931","CANTIC-ID":"a1165899x","CONOR ID":"258293603","People Australia ID":"443646","described by source":["Armenian Soviet Encyclopedia","Armenian Soviet Encyclopedia"],"LNB ID":"000220001","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Mozi-Chinese-philosopher","Commons Creator page":"Mozi","zbMATH author ID":"mozi.","name in native language":"\\u58a8\\u5b50","CERL ID":"cnp00560240","FAST ID":"1835434","BnF ID":"12030062m","SUDOC authorities ID":"028471822","CiNii author ID (books)":"DA01496750","Great Russian Encyclopedia Online ID":"2235194","RERO ID":"02-A000116615","Encyclop\\u00e6dia Universalis ID":"mozi-mo-tseu","NDL Auth ID":"00626490","Commons category":"Mozi","openMLOL author ID":"178935","SBN author ID":"IT\\\\ICCU\\\\CUBV\\\\134287","NLA (Australia) ID":"36732186","residence":"Song","date of birth":"-469-01-01T00:00:00Z","date of death":"-390-01-01T00:00:00Z","Freebase ID":"\\/m\\/01by94","NKCR AUT ID":"jx20071123012","family name":"Q10931275","student":"Qin Guli","National Library of Israel ID":"001744899","BNE ID":"XX1225133"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 499,
+                    'linked_articles' => 501,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:53:22',
-                    'updated_at' => '2018-11-14 22:54:02',
+                    'updated_at' => '2018-11-17 23:33:36',
                 ),
                 380 => 
                 array (
@@ -16043,7 +16040,11 @@ was a Chinese male feminist  of the Qing Dynasty. He was a noted critic of foot 
                     'description' => '<p class="mw-empty-elt">
 
 </p>
-<p><b>Kapila</b> (Sanskrit: <span lang="sa">कपिल</span>) is a given name of different individuals in ancient and medieval Indian texts, of which the most well-known is the founder of the Samkhya school of Hindu philosophy. Kapila of Samkhya fame is considered a Vedic sage, estimated to have lived in the 6th-century BCE, or the 7th-century BCE.</p><p>Rishi Kapila is credited with authoring the influential Samkhya-sutra, in which aphoristic sutras present the dualistic philosophy of Samkhya. Kapila\'s influence on Buddha and Buddhism have long been the subject of scholarly studies.</p><p>Many historic personalities in Hinduism and Jainism, mythical figures, pilgrimage sites in Indian religion, as well as an ancient variety of cow went by the name Kapila.</p>',
+<p><b>Kapila</b> (Sanskrit: <span lang="sa">कपिल</span>) is a given name of different individuals in ancient and medieval Indian texts, of which the most well-known is the founder of the Samkhya school of Hindu philosophy. Kapila of Samkhya fame is considered a Vedic sage, estimated to have lived in the 6th-century BCE, or the 7th-century BCE.</p><p>Rishi Kapila is credited with authoring the influential Samkhya-sutra, in which aphoristic sutras present the dualistic philosophy of Samkhya. Kapila\'s influence on Buddha and Buddhism have long been the subject of scholarly studies.</p><p>Many historic personalities in Hinduism and Jainism, mythical figures, pilgrimage sites in Indian religion, as well as an ancient variety of cow went by the name Kapila.</p>
+
+
+
+',
                     'wikipedia_path' => '/wiki/Kapila',
                     'wikipedia_canonical_path' => 'Kapila',
                     'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Kapila',
@@ -16065,10 +16066,10 @@ was a Chinese male feminist  of the Qing Dynasty. He was a noted critic of foot 
                     'wikidata_response' => '{"occupation":"philosopher","religion":"Hinduism","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Kapila%20muni.jpg","sex or gender":"male","ISNI":"0000 0004 1029 5471","VIAF ID":"9848428","GND ID":"119244233","Library of Congress authority ID":"n50059441","instance of":["human who may be fictional","human"],"National Thesaurus for Author Names ID":"070623406","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Kapila","CERL ID":"cnp00404927","FAST ID":"18590","BnF ID":"11909405v","SUDOC authorities ID":"026945258","Commons category":"Kapila","date of birth":"-549-01-01T00:00:00Z","Freebase ID":"\\/m\\/02sf9l"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 1300,
+                    'linked_articles' => 1299,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:53:22',
-                    'updated_at' => '2018-10-29 05:33:48',
+                    'updated_at' => '2018-11-17 09:44:52',
                 ),
                 447 => 
                 array (
@@ -16652,44 +16653,6 @@ The grammar in particular, takes a holistic view of language, countering the com
                 ),
                 463 => 
                 array (
-                    'id' => 464,
-                    'wikipedia_id' => NULL,
-                    'qid' => 'Q774847',
-                    'intro' => NULL,
-                    'description' => '<p class="mw-empty-elt">
-
-</p>
-<p><b><i lang="sa-Latn" title="International Alphabet of Sanskrit transliteration">Kumārila Bhaṭṭa</i></b> (fl. roughly 700) was a Hindu philosopher and Mīmāṃsā scholar from present-day India. He is famous for many of his various theses on Mimamsa, such as <i>Mimamsaslokavarttika</i>. Bhaṭṭa was a staunch believer in the supreme validity of Vedic injunction, a great champion of Pūrva-Mīmāṃsā and a confirmed ritualist. The <i>Varttika</i> is mainly written as a subcommentary of Sabara\'s commentary on Jaimini\'s Purva Mimamsa Sutras. His philosophy is classified by some scholars as existential realism.</p><p>Scholars differ as regards Kumārila Bhaṭṭa\'s views on a personal God. For example, Manikka Vachakar believed that Bhaṭṭa promoted a personal God (saguna brahman), which conflicts with the Mīmāṃsā school. In his <i>Varttika</i>, Kumārila Bhaṭṭa goes to great lengths to argue against the theory of a creator God and held that the actions enjoined in the Veda had definite results without an external interference.
-</p><p>Bhaṭṭa is also credited with the logical formulation of the Mimamsic belief that the Vedas are unauthored (apauruṣeyā). In particular, his defence against medieval Buddhist positions on Vedic rituals is noteworthy. Some believe that this contributed to the decline of Buddhism in India, because his lifetime coincides with the period in which Buddhism began to decline. Indeed, his dialectical success against Buddhists is confirmed by Buddhist historian Taranatha, who reports that Bhaṭṭa defeated disciples of Buddhapalkita, Bhavya, Dharmadasa, Dignaga and others. His work strongly influenced other schools of Indian philosophy, with the exception that while Mimamsa considers the Upanishads to be subservient to the Vedas, the Vedanta school does not think so.
-</p>',
-                    'wikipedia_path' => '/wiki/Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
-                    'wikipedia_canonical_path' => 'Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
-                    'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
-                    'name' => 'Kumārila Bhaṭṭa',
-                    'sex' => 'male',
-                    'redirected_name' => 'Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
-                    'image' => NULL,
-                    'place_of_birth' => NULL,
-                    'place_of_birth_lng' => NULL,
-                    'place_of_birth_lat' => NULL,
-                    'date_of_birth' => '0700-01-01T00:00:00Z',
-                    'year' => 700,
-                    'month' => 1,
-                    'day' => 1,
-                    'date_of_death' => NULL,
-                    'death_year' => NULL,
-                    'death_month' => NULL,
-                    'death_day' => NULL,
-                    'wikidata_response' => NULL,
-                    'type' => NULL,
-                    'event' => NULL,
-                    'linked_articles' => 1038,
-                    'deleted_at' => NULL,
-                    'created_at' => '2018-07-24 03:53:22',
-                    'updated_at' => '2018-09-24 02:13:56',
-                ),
-                464 => 
-                array (
                     'id' => 465,
                     'wikipedia_id' => 10997784,
                     'qid' => 'Q3633956',
@@ -16728,7 +16691,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:37:05',
                 ),
-                465 => 
+                464 => 
                 array (
                     'id' => 466,
                     'wikipedia_id' => 10866474,
@@ -16761,7 +16724,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:37:14',
                 ),
-                466 => 
+                465 => 
                 array (
                     'id' => 467,
                     'wikipedia_id' => 1893748,
@@ -16797,7 +16760,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:37:23',
                 ),
-                467 => 
+                466 => 
                 array (
                     'id' => 468,
                     'wikipedia_id' => 3434018,
@@ -16833,7 +16796,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:37:37',
                 ),
-                468 => 
+                467 => 
                 array (
                     'id' => 469,
                     'wikipedia_id' => 186184,
@@ -16871,7 +16834,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:27',
                 ),
-                469 => 
+                468 => 
                 array (
                     'id' => 470,
                     'wikipedia_id' => 1308312,
@@ -16906,7 +16869,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:38:01',
                 ),
-                470 => 
+                469 => 
                 array (
                     'id' => 471,
                     'wikipedia_id' => 1308360,
@@ -16939,7 +16902,7 @@ The grammar in particular, takes a holistic view of language, countering the com
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:28',
                 ),
-                471 => 
+                470 => 
                 array (
                     'id' => 472,
                     'wikipedia_id' => 4194477,
@@ -16976,7 +16939,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:29',
                 ),
-                472 => 
+                471 => 
                 array (
                     'id' => 473,
                     'wikipedia_id' => 11846110,
@@ -17012,7 +16975,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:38:27',
                 ),
-                473 => 
+                472 => 
                 array (
                     'id' => 474,
                     'wikipedia_id' => 1241813,
@@ -17048,7 +17011,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:31',
                 ),
-                474 => 
+                473 => 
                 array (
                     'id' => 475,
                     'wikipedia_id' => 1071011,
@@ -17087,7 +17050,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:31',
                 ),
-                475 => 
+                474 => 
                 array (
                     'id' => 476,
                     'wikipedia_id' => 4248813,
@@ -17123,7 +17086,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:39:01',
                 ),
-                476 => 
+                475 => 
                 array (
                     'id' => 477,
                     'wikipedia_id' => 724922,
@@ -17159,7 +17122,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:34',
                 ),
-                477 => 
+                476 => 
                 array (
                     'id' => 478,
                     'wikipedia_id' => 1082730,
@@ -17196,7 +17159,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:35',
                 ),
-                478 => 
+                477 => 
                 array (
                     'id' => 479,
                     'wikipedia_id' => 1163083,
@@ -17211,9 +17174,9 @@ Bihar.</p>',
                     'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Gangesha_Upadhyaya',
                     'name' => 'Gangesha Upadhyaya',
                     'sex' => 'male',
-                    'redirected_name' => 'Gangeśa Upādhyāya',
+                    'redirected_name' => 'Gangesha Upadhyaya',
                     'image' => NULL,
-                    'place_of_birth' => NULL,
+                    'place_of_birth' => ', ',
                     'place_of_birth_lng' => NULL,
                     'place_of_birth_lat' => NULL,
                     'date_of_birth' => NULL,
@@ -17224,15 +17187,15 @@ Bihar.</p>',
                     'death_year' => NULL,
                     'death_month' => NULL,
                     'death_day' => NULL,
-                    'wikidata_response' => NULL,
+                    'wikidata_response' => '{"occupation":["philosopher","mathematician"],"sex or gender":"male","instance of":"human","Quora topic ID":"Gangesha-Upadhyaya","InPhO ID":"thinker\\/3054"}',
                     'type' => NULL,
                     'event' => 2,
-                    'linked_articles' => 859,
+                    'linked_articles' => 858,
                     'deleted_at' => NULL,
                     'created_at' => '2018-07-24 03:53:22',
-                    'updated_at' => '2018-10-29 05:39:43',
+                    'updated_at' => '2018-11-17 23:31:16',
                 ),
-                479 => 
+                478 => 
                 array (
                     'id' => 480,
                     'wikipedia_id' => 1192172,
@@ -17270,7 +17233,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:39:55',
                 ),
-                480 => 
+                479 => 
                 array (
                     'id' => 481,
                     'wikipedia_id' => 2046630,
@@ -17308,7 +17271,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:40:05',
                 ),
-                481 => 
+                480 => 
                 array (
                     'id' => 482,
                     'wikipedia_id' => 77032,
@@ -17347,7 +17310,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:38',
                 ),
-                482 => 
+                481 => 
                 array (
                     'id' => 483,
                     'wikipedia_id' => 4495698,
@@ -17388,7 +17351,7 @@ Bihar.</p>',
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:39',
                 ),
-                483 => 
+                482 => 
                 array (
                     'id' => 484,
                     'wikipedia_id' => 10997720,
@@ -17425,7 +17388,7 @@ Raghunatha: A Name of Negatives. The contemporary deployment of a new category, 
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:40',
                 ),
-                484 => 
+                483 => 
                 array (
                     'id' => 485,
                     'wikipedia_id' => 3026718,
@@ -17461,7 +17424,7 @@ Raghunatha: A Name of Negatives. The contemporary deployment of a new category, 
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:41',
                 ),
-                485 => 
+                484 => 
                 array (
                     'id' => 486,
                     'wikipedia_id' => 174267,
@@ -17497,7 +17460,7 @@ Raghunatha: A Name of Negatives. The contemporary deployment of a new category, 
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:43',
                 ),
-                486 => 
+                485 => 
                 array (
                     'id' => 487,
                     'wikipedia_id' => 13644060,
@@ -17533,7 +17496,7 @@ Raghunatha: A Name of Negatives. The contemporary deployment of a new category, 
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:43',
                 ),
-                487 => 
+                486 => 
                 array (
                     'id' => 488,
                     'wikipedia_id' => 309110,
@@ -17572,7 +17535,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:44',
                 ),
-                488 => 
+                487 => 
                 array (
                     'id' => 489,
                     'wikipedia_id' => 23427012,
@@ -17609,7 +17572,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:46',
                 ),
-                489 => 
+                488 => 
                 array (
                     'id' => 490,
                     'wikipedia_id' => NULL,
@@ -17646,7 +17609,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-09-24 02:16:04',
                 ),
-                490 => 
+                489 => 
                 array (
                     'id' => 491,
                     'wikipedia_id' => 1278463,
@@ -17679,7 +17642,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:41:54',
                 ),
-                491 => 
+                490 => 
                 array (
                     'id' => 492,
                     'wikipedia_id' => 882048,
@@ -17720,7 +17683,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:47',
                 ),
-                492 => 
+                491 => 
                 array (
                     'id' => 493,
                     'wikipedia_id' => 45654,
@@ -17760,7 +17723,7 @@ Thousands of devotional poems in passionate praise of Lord Krishna are attribute
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:49',
                 ),
-                493 => 
+                492 => 
                 array (
                     'id' => 494,
                     'wikipedia_id' => 144175,
@@ -17802,7 +17765,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-10-29 05:42:31',
                 ),
-                494 => 
+                493 => 
                 array (
                     'id' => 495,
                     'wikipedia_id' => 422504,
@@ -17839,7 +17802,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:50',
                 ),
-                495 => 
+                494 => 
                 array (
                     'id' => 496,
                     'wikipedia_id' => 45660,
@@ -17882,7 +17845,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:52',
                 ),
-                496 => 
+                495 => 
                 array (
                     'id' => 497,
                     'wikipedia_id' => 297166,
@@ -17921,7 +17884,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:53',
                 ),
-                497 => 
+                496 => 
                 array (
                     'id' => 498,
                     'wikipedia_id' => 5052533,
@@ -17959,7 +17922,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:53',
                 ),
-                498 => 
+                497 => 
                 array (
                     'id' => 499,
                     'wikipedia_id' => 2330500,
@@ -17996,7 +17959,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:55',
                 ),
-                499 => 
+                498 => 
                 array (
                     'id' => 500,
                     'wikipedia_id' => 23475401,
@@ -18038,45 +18001,45 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                     'created_at' => '2018-07-24 03:53:22',
                     'updated_at' => '2018-11-14 22:55:56',
                 ),
-            ));
-        \DB::table('people')->insert(array (
-            0 => 
-            array (
-                'id' => 501,
-                'wikipedia_id' => 34348533,
-                'qid' => 'Q484141',
-                'intro' => 'Urdu poet and leader of the Pakistan Movement',
-                'description' => '<p class="mw-empty-elt">
+                499 => 
+                array (
+                    'id' => 501,
+                    'wikipedia_id' => 34348533,
+                    'qid' => 'Q484141',
+                    'intro' => 'Urdu poet and leader of the Pakistan Movement',
+                    'description' => '<p class="mw-empty-elt">
 
 </p>
 <p><b>Sir Muhammad Iqbal</b> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">محمد اِقبال</span>‬</span>‎) (November 9, 1877 – April 21, 1938),  widely known as <b>Allama Iqbal</b>, was a poet, philosopher and politician, as well as an academic, barrister and scholar in British India who is widely regarded as having inspired the Pakistan Movement. He is called the "Spiritual Father of Pakistan." He is considered one of the most important figures in Urdu literature, with literary work in both Urdu and Persian.</p><p>Iqbal is admired as a prominent poet by Indians, Pakistanis, Iranians and other international scholars of literature. Though Iqbal is best known as an eminent poet, he is also a highly acclaimed "Muslim philosophical thinker of modern times". His first poetry book, <i>The Secrets of the Self</i>, appeared in the Persian language in 1915, and other books of poetry include <i>The Secrets of Selflessness</i>, <i>Message from the East</i> and <i>Persian Psalms</i>. Amongst these, his best known Urdu works are <i>The Call of the Marching Bell</i>, <i>Gabriel\'s Wing</i>, <i>The Rod of Moses</i> and a part of <i>Gift from Hijaz</i>. Along with his Urdu and Persian poetry, his Urdu and English lectures and letters have been very influential in cultural, social, religious and political disputes.</p><p>In the 1923 New Years Honours he was made a Knight Bachelor by King George V, While studying law and philosophy in England, Iqbal became a member of the London branch of the All-India Muslim League. Later, during the League\'s December 1930 session, he delivered his most famous presidential speech known as the Allahabad Address in which he pushed for the creation of a Muslim state in northwest India.</p><p>In much of South Asia and the Urdu-speaking world, Iqbal is regarded as the <i>Shair-e-Mashriq</i> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">شاعر مشرق</span>‬</span>‎, "Poet of the East"). He is also called <i>Mufakkir-e-Pakistan</i> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">مفکر پاکستان</span>‬</span>‎, "The Thinker of Pakistan"), <i>Musawar-e-Pakistan</i> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">مصور پاکستان</span>‬</span>‎, "Artist of Pakistan") and <i>Hakeem-ul-Ummat</i> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">حکیم الامت</span>‬</span>‎, "The Sage of the Ummah"). The Pakistan government officially named him  "National Poet of Pakistan". His birthday <i>Yōm-e Welādat-e Muḥammad Iqbāl</i> (Urdu: <span lang="ur" dir="rtl"><span dir="rtl" title="Nastaliq">یوم ولادت محمد اقبال</span>‬</span>‎), or Iqbal Day, is a public holiday in Pakistan.</p><p>Iqbal\'s house is still located in Sialkot and is recognized as Iqbal\'s Manzil and is open for visitors. His other house where he lived most of his life and died is in Lahore, named as Javed Manzil.( "Javed Manzil". ualberta.ca. Retrieved 24 July 2014.) The museum is located on Allama Iqbal Road near Lahore Railway Station, Punjab, Pakistan. It was protected under the Punjab Antiquities Act of 1975, and declared a Pakistani national monument in 1977.</p>',
-                'wikipedia_path' => '/wiki/Muhammad_Iqbal',
-                'wikipedia_canonical_path' => 'Muhammad_Iqbal',
-                'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Muhammad_Iqbal',
-                'name' => 'Muhammad Iqbal',
-                'sex' => 'male',
-                'redirected_name' => 'Allama Iqbal',
-                'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Iqbal%20in%201933.jpg',
-                'place_of_birth' => 'Sialkot, Pakistan',
-                'place_of_birth_lng' => '74.5411575',
-                'place_of_birth_lat' => '32.4935378',
-                'date_of_birth' => '1877-11-09T00:00:00Z',
-                'year' => 1877,
-                'month' => 11,
-                'day' => 9,
-                'date_of_death' => '1938-04-21T00:00:00Z',
-                'death_year' => 1938,
-                'death_month' => 4,
-                'death_day' => 21,
-            'wikidata_response' => '{"occupation":["poet","children\'s writer","writer","politician","lawyer","philosopher"],"religion":"Islam","ethnic group":"Punjabi people","image":["http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Iqbal%20in%201933.jpg","http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Iqbal.jpg"],"place of birth":"Sialkot","place of death":"Lahore","sex or gender":"male","ISNI":"0000 0001 2145 2813","VIAF ID":["8752708","100267743"],"father":"Sheikh Noor Muhammad","GND ID":"11855574X","Library of Congress authority ID":["n83011081","nr00036614","n79110521"],"country of citizenship":"British Raj","instance of":"human","child":"Javid Iqbal","educated at":["Trinity College","Trinity College","Government College University","Government College University","Government College University","Government College University","Government College University","Government College University","Heidelberg University","Murray College","Ludwig Maximilian University of Munich","Ludwig Maximilian University of Munich","Ludwig Maximilian University of Munich","University of Cambridge","Murray College","City Law School","Murray College"],"NLR (Romania) ID":["RUNLRAUTH7717567","RUNLRAUTH7785639"],"PTBNP ID":["40265","252038"],"National Thesaurus for Author Names ID":"070347867","BIBSYS ID":"90911117","NUKAT (WarsawU) authorities ID":"n02047451","CONOR ID":"163992675","Munzinger IBA":"00000010490","Gran Enciclop\\u00e8dia Catalana ID":"0033825","EGAXA ID":"002752585","People Australia ID":"876418","languages spoken, written or signed":"Urdu","Oxford Dictionary of National Biography ID":"34108","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Muhammad-Iqbal","LAC ID":"1005A8221","British Museum person-institution":["12662","135994"],"National Portrait Gallery (London) person ID":"mp84910","Project Gutenberg author ID":"41313","National Library of Ireland authority ID":["vtls000288512","vtls000797193"],"FAST ID":"43214","BnF ID":"11908261j","SUDOC authorities ID":"026931109","Great Russian Encyclopedia Online ID":"2004223","permanent duplicated item":"Q25689735","Iranica ID":"iqbal-muhammad","Encyclop\\u00e6dia Universalis ID":"mohammad-iqbal","NE.se ID":"muhammad-iqbal","Quora topic ID":"Muhammad-Iqbal-Allama-Iqbal","SNAC Ark ID":"w6h784tb","NDL Auth ID":"01224622","Babelio author ID":"185842","Commons category":"Muhammad Iqbal","openMLOL author ID":"176422","SBN author ID":"IT\\\\ICCU\\\\PUVV\\\\144690","SHARE Catalogue author ID":"196085","NLA (Australia) ID":"35236285","PM20 folder ID":["pe\\/008548","pe\\/008548"],"Online Books Page author ID":"Iqbal, Muhammad, Sir, 1877-1938","BNB person ID":"IqbalMuhammadSir1877-1938","residence":["Sialkot","Lahore"],"date of birth":"1877-11-09T00:00:00Z","date of death":"1938-04-21T00:00:00Z","Angelicum author ID":"67673","Freebase ID":"\\/m\\/01y58x","Open Library ID":"OL733A","NKCR AUT ID":"jx20080730003","given name":"Muhammed","influenced by":["Aristotle","Johann Wolfgang von Goethe","Bayazid Bastami","Abul Ala Maududi","Rumi","Leo Tolstoy","Muhammad","Georg Wilhelm Friedrich Hegel","Friedrich Nietzsche","Henri Bergson","Thomas Walker Arnold","Ahmad Sirhindi"],"official website":"http:\\/\\/www.allamaiqbal.com","InPhO ID":"thinker\\/3295","SELIBR ID":["323241","63575"],"topic\'s main category":"Category:Muhammad Iqbal","Commons gallery":"Muhammad Iqbal","National Library of Israel ID":["000604238","000068469","000613008","000632743"],"BNE ID":"XX1207093"}',
-                'type' => NULL,
-                'event' => 2,
-                'linked_articles' => 1043,
-                'deleted_at' => NULL,
-                'created_at' => '2018-07-24 03:53:22',
-                'updated_at' => '2018-11-14 22:55:58',
-            ),
-            1 => 
+                    'wikipedia_path' => '/wiki/Muhammad_Iqbal',
+                    'wikipedia_canonical_path' => 'Muhammad_Iqbal',
+                    'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Muhammad_Iqbal',
+                    'name' => 'Muhammad Iqbal',
+                    'sex' => 'male',
+                    'redirected_name' => 'Allama Iqbal',
+                    'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Iqbal%20in%201933.jpg',
+                    'place_of_birth' => 'Sialkot, Pakistan',
+                    'place_of_birth_lng' => '74.5411575',
+                    'place_of_birth_lat' => '32.4935378',
+                    'date_of_birth' => '1877-11-09T00:00:00Z',
+                    'year' => 1877,
+                    'month' => 11,
+                    'day' => 9,
+                    'date_of_death' => '1938-04-21T00:00:00Z',
+                    'death_year' => 1938,
+                    'death_month' => 4,
+                    'death_day' => 21,
+                'wikidata_response' => '{"occupation":["poet","children\'s writer","writer","politician","lawyer","philosopher"],"religion":"Islam","ethnic group":"Punjabi people","image":["http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Iqbal%20in%201933.jpg","http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Iqbal.jpg"],"place of birth":"Sialkot","place of death":"Lahore","sex or gender":"male","ISNI":"0000 0001 2145 2813","VIAF ID":["8752708","100267743"],"father":"Sheikh Noor Muhammad","GND ID":"11855574X","Library of Congress authority ID":["n83011081","nr00036614","n79110521"],"country of citizenship":"British Raj","instance of":"human","child":"Javid Iqbal","educated at":["Trinity College","Trinity College","Government College University","Government College University","Government College University","Government College University","Government College University","Government College University","Heidelberg University","Murray College","Ludwig Maximilian University of Munich","Ludwig Maximilian University of Munich","Ludwig Maximilian University of Munich","University of Cambridge","Murray College","City Law School","Murray College"],"NLR (Romania) ID":["RUNLRAUTH7717567","RUNLRAUTH7785639"],"PTBNP ID":["40265","252038"],"National Thesaurus for Author Names ID":"070347867","BIBSYS ID":"90911117","NUKAT (WarsawU) authorities ID":"n02047451","CONOR ID":"163992675","Munzinger IBA":"00000010490","Gran Enciclop\\u00e8dia Catalana ID":"0033825","EGAXA ID":"002752585","People Australia ID":"876418","languages spoken, written or signed":"Urdu","Oxford Dictionary of National Biography ID":"34108","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Muhammad-Iqbal","LAC ID":"1005A8221","British Museum person-institution":["12662","135994"],"National Portrait Gallery (London) person ID":"mp84910","Project Gutenberg author ID":"41313","National Library of Ireland authority ID":["vtls000288512","vtls000797193"],"FAST ID":"43214","BnF ID":"11908261j","SUDOC authorities ID":"026931109","Great Russian Encyclopedia Online ID":"2004223","permanent duplicated item":"Q25689735","Iranica ID":"iqbal-muhammad","Encyclop\\u00e6dia Universalis ID":"mohammad-iqbal","NE.se ID":"muhammad-iqbal","Quora topic ID":"Muhammad-Iqbal-Allama-Iqbal","SNAC Ark ID":"w6h784tb","NDL Auth ID":"01224622","Babelio author ID":"185842","Commons category":"Muhammad Iqbal","openMLOL author ID":"176422","SBN author ID":"IT\\\\ICCU\\\\PUVV\\\\144690","SHARE Catalogue author ID":"196085","NLA (Australia) ID":"35236285","PM20 folder ID":["pe\\/008548","pe\\/008548"],"Online Books Page author ID":"Iqbal, Muhammad, Sir, 1877-1938","BNB person ID":"IqbalMuhammadSir1877-1938","residence":["Sialkot","Lahore"],"date of birth":"1877-11-09T00:00:00Z","date of death":"1938-04-21T00:00:00Z","Angelicum author ID":"67673","Freebase ID":"\\/m\\/01y58x","Open Library ID":"OL733A","NKCR AUT ID":"jx20080730003","given name":"Muhammed","influenced by":["Aristotle","Johann Wolfgang von Goethe","Bayazid Bastami","Abul Ala Maududi","Rumi","Leo Tolstoy","Muhammad","Georg Wilhelm Friedrich Hegel","Friedrich Nietzsche","Henri Bergson","Thomas Walker Arnold","Ahmad Sirhindi"],"official website":"http:\\/\\/www.allamaiqbal.com","InPhO ID":"thinker\\/3295","SELIBR ID":["323241","63575"],"topic\'s main category":"Category:Muhammad Iqbal","Commons gallery":"Muhammad Iqbal","National Library of Israel ID":["000604238","000068469","000613008","000632743"],"BNE ID":"XX1207093"}',
+                    'type' => NULL,
+                    'event' => 2,
+                    'linked_articles' => 1043,
+                    'deleted_at' => NULL,
+                    'created_at' => '2018-07-24 03:53:22',
+                    'updated_at' => '2018-11-14 22:55:58',
+                ),
+            ));
+        \DB::table('people')->insert(array (
+            0 => 
             array (
                 'id' => 502,
                 'wikipedia_id' => 301483,
@@ -18114,7 +18077,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:55:58',
             ),
-            2 => 
+            1 => 
             array (
                 'id' => 503,
                 'wikipedia_id' => 31183283,
@@ -18152,7 +18115,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:49:20',
             ),
-            3 => 
+            2 => 
             array (
                 'id' => 504,
                 'wikipedia_id' => 319048,
@@ -18191,7 +18154,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:01',
             ),
-            4 => 
+            3 => 
             array (
                 'id' => 505,
                 'wikipedia_id' => 3939521,
@@ -18229,7 +18192,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:02',
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 506,
                 'wikipedia_id' => 45651,
@@ -18266,7 +18229,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:03',
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 507,
                 'wikipedia_id' => 2000159,
@@ -18305,7 +18268,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:04',
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 508,
                 'wikipedia_id' => 197522,
@@ -18343,7 +18306,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:06',
             ),
-            8 => 
+            7 => 
             array (
                 'id' => 509,
                 'wikipedia_id' => 179095,
@@ -18382,7 +18345,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:06',
             ),
-            9 => 
+            8 => 
             array (
                 'id' => 510,
                 'wikipedia_id' => 45667,
@@ -18418,7 +18381,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:08',
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 511,
                 'wikipedia_id' => 426453,
@@ -18456,7 +18419,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:09',
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 512,
                 'wikipedia_id' => 2016528,
@@ -18495,7 +18458,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:51:50',
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 513,
                 'wikipedia_id' => 469965,
@@ -18533,7 +18496,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:52:02',
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 514,
                 'wikipedia_id' => 851595,
@@ -18571,7 +18534,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:12',
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 515,
                 'wikipedia_id' => 15516149,
@@ -18609,7 +18572,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:52:28',
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 516,
                 'wikipedia_id' => 186224,
@@ -18648,7 +18611,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:14',
             ),
-            16 => 
+            15 => 
             array (
                 'id' => 517,
                 'wikipedia_id' => 51335,
@@ -18686,7 +18649,7 @@ Saibaba is now revered as incarnation of Sri Dattatreya, and considered as Sagun
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:15',
             ),
-            17 => 
+            16 => 
             array (
                 'id' => 518,
                 'wikipedia_id' => 2754344,
@@ -18723,7 +18686,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:53:04',
             ),
-            18 => 
+            17 => 
             array (
                 'id' => 519,
                 'wikipedia_id' => 297137,
@@ -18760,7 +18723,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:17',
             ),
-            19 => 
+            18 => 
             array (
                 'id' => 520,
                 'wikipedia_id' => 291747,
@@ -18795,7 +18758,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:18',
             ),
-            20 => 
+            19 => 
             array (
                 'id' => 521,
                 'wikipedia_id' => 222428,
@@ -18831,7 +18794,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:19',
             ),
-            21 => 
+            20 => 
             array (
                 'id' => 522,
                 'wikipedia_id' => 293932,
@@ -18865,7 +18828,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:20',
             ),
-            22 => 
+            21 => 
             array (
                 'id' => 523,
                 'wikipedia_id' => 75340,
@@ -18904,7 +18867,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:22',
             ),
-            23 => 
+            22 => 
             array (
                 'id' => 524,
                 'wikipedia_id' => 22135,
@@ -18941,7 +18904,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:23',
             ),
-            24 => 
+            23 => 
             array (
                 'id' => 525,
                 'wikipedia_id' => 659316,
@@ -18977,7 +18940,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:23',
             ),
-            25 => 
+            24 => 
             array (
                 'id' => 526,
                 'wikipedia_id' => 7722381,
@@ -19010,7 +18973,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:25',
             ),
-            26 => 
+            25 => 
             array (
                 'id' => 527,
                 'wikipedia_id' => 19381,
@@ -19044,7 +19007,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:27',
             ),
-            27 => 
+            26 => 
             array (
                 'id' => 528,
                 'wikipedia_id' => 5356726,
@@ -19078,7 +19041,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:27',
             ),
-            28 => 
+            27 => 
             array (
                 'id' => 529,
                 'wikipedia_id' => 6994466,
@@ -19113,7 +19076,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:29',
             ),
-            29 => 
+            28 => 
             array (
                 'id' => 530,
                 'wikipedia_id' => 5356924,
@@ -19150,7 +19113,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:30',
             ),
-            30 => 
+            29 => 
             array (
                 'id' => 531,
                 'wikipedia_id' => 5912092,
@@ -19184,7 +19147,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:31',
             ),
-            31 => 
+            30 => 
             array (
                 'id' => 532,
                 'wikipedia_id' => 1156687,
@@ -19218,7 +19181,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:55:55',
             ),
-            32 => 
+            31 => 
             array (
                 'id' => 533,
                 'wikipedia_id' => 34019754,
@@ -19252,7 +19215,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:56:02',
             ),
-            33 => 
+            32 => 
             array (
                 'id' => 534,
                 'wikipedia_id' => 292149,
@@ -19285,7 +19248,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:33',
             ),
-            34 => 
+            33 => 
             array (
                 'id' => 535,
                 'wikipedia_id' => 4419644,
@@ -19319,7 +19282,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:34',
             ),
-            35 => 
+            34 => 
             array (
                 'id' => 536,
                 'wikipedia_id' => 1032989,
@@ -19353,7 +19316,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:35',
             ),
-            36 => 
+            35 => 
             array (
                 'id' => 537,
                 'wikipedia_id' => 730735,
@@ -19389,7 +19352,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:37',
             ),
-            37 => 
+            36 => 
             array (
                 'id' => 538,
                 'wikipedia_id' => 8624261,
@@ -19424,7 +19387,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:38',
             ),
-            38 => 
+            37 => 
             array (
                 'id' => 539,
                 'wikipedia_id' => 186577,
@@ -19458,7 +19421,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:39',
             ),
-            39 => 
+            38 => 
             array (
                 'id' => 540,
                 'wikipedia_id' => 1475958,
@@ -19492,7 +19455,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:40',
             ),
-            40 => 
+            39 => 
             array (
                 'id' => 541,
                 'wikipedia_id' => 1803753,
@@ -19525,7 +19488,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:42',
             ),
-            41 => 
+            40 => 
             array (
                 'id' => 542,
                 'wikipedia_id' => 3948372,
@@ -19559,7 +19522,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:42',
             ),
-            42 => 
+            41 => 
             array (
                 'id' => 543,
                 'wikipedia_id' => 1118424,
@@ -19593,7 +19556,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:57:33',
             ),
-            43 => 
+            42 => 
             array (
                 'id' => 544,
                 'wikipedia_id' => 26852332,
@@ -19627,7 +19590,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:57:39',
             ),
-            44 => 
+            43 => 
             array (
                 'id' => 545,
                 'wikipedia_id' => 293350,
@@ -19661,7 +19624,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:57:55',
             ),
-            45 => 
+            44 => 
             array (
                 'id' => 546,
                 'wikipedia_id' => 293376,
@@ -19701,7 +19664,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:58:05',
             ),
-            46 => 
+            45 => 
             array (
                 'id' => 547,
                 'wikipedia_id' => NULL,
@@ -19735,7 +19698,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-09-24 02:19:57',
             ),
-            47 => 
+            46 => 
             array (
                 'id' => 548,
                 'wikipedia_id' => 2244964,
@@ -19773,7 +19736,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:47',
             ),
-            48 => 
+            47 => 
             array (
                 'id' => 549,
                 'wikipedia_id' => 2601835,
@@ -19808,7 +19771,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:48',
             ),
-            49 => 
+            48 => 
             array (
                 'id' => 550,
                 'wikipedia_id' => 293196,
@@ -19842,7 +19805,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:50',
             ),
-            50 => 
+            49 => 
             array (
                 'id' => 551,
                 'wikipedia_id' => 729827,
@@ -19875,7 +19838,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:50',
             ),
-            51 => 
+            50 => 
             array (
                 'id' => 552,
                 'wikipedia_id' => 25190817,
@@ -19908,7 +19871,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:58:56',
             ),
-            52 => 
+            51 => 
             array (
                 'id' => 553,
                 'wikipedia_id' => 2246470,
@@ -19941,7 +19904,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:52',
             ),
-            53 => 
+            52 => 
             array (
                 'id' => 554,
                 'wikipedia_id' => 34891569,
@@ -19975,7 +19938,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:54',
             ),
-            54 => 
+            53 => 
             array (
                 'id' => 555,
                 'wikipedia_id' => 342419,
@@ -20008,7 +19971,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:55',
             ),
-            55 => 
+            54 => 
             array (
                 'id' => 556,
                 'wikipedia_id' => 342409,
@@ -20042,7 +20005,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:55',
             ),
-            56 => 
+            55 => 
             array (
                 'id' => 557,
                 'wikipedia_id' => 2072260,
@@ -20076,7 +20039,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 08:59:38',
             ),
-            57 => 
+            56 => 
             array (
                 'id' => 558,
                 'wikipedia_id' => 1838339,
@@ -20111,7 +20074,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:58',
             ),
-            58 => 
+            57 => 
             array (
                 'id' => 559,
                 'wikipedia_id' => 26234322,
@@ -20146,7 +20109,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:56:59',
             ),
-            59 => 
+            58 => 
             array (
                 'id' => 560,
                 'wikipedia_id' => 55146358,
@@ -20180,7 +20143,7 @@ was the Spalding Professor of Eastern Religion and Ethics at the University of O
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:00',
             ),
-            60 => 
+            59 => 
             array (
                 'id' => 561,
                 'wikipedia_id' => 153422,
@@ -20216,7 +20179,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:02',
             ),
-            61 => 
+            60 => 
             array (
                 'id' => 562,
                 'wikipedia_id' => 5865712,
@@ -20250,7 +20213,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:03',
             ),
-            62 => 
+            61 => 
             array (
                 'id' => 563,
                 'wikipedia_id' => 3628109,
@@ -20284,7 +20247,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:00:58',
             ),
-            63 => 
+            62 => 
             array (
                 'id' => 564,
                 'wikipedia_id' => 3173918,
@@ -20318,7 +20281,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:01:10',
             ),
-            64 => 
+            63 => 
             array (
                 'id' => 565,
                 'wikipedia_id' => 73193,
@@ -20352,7 +20315,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:01:22',
             ),
-            65 => 
+            64 => 
             array (
                 'id' => 566,
                 'wikipedia_id' => 1323461,
@@ -20386,7 +20349,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:01:35',
             ),
-            66 => 
+            65 => 
             array (
                 'id' => 567,
                 'wikipedia_id' => 14786372,
@@ -20420,7 +20383,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:01:53',
             ),
-            67 => 
+            66 => 
             array (
                 'id' => 568,
                 'wikipedia_id' => 102420,
@@ -20454,7 +20417,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:01:58',
             ),
-            68 => 
+            67 => 
             array (
                 'id' => 569,
                 'wikipedia_id' => 6438774,
@@ -20488,7 +20451,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:02:08',
             ),
-            69 => 
+            68 => 
             array (
                 'id' => 570,
                 'wikipedia_id' => 6438910,
@@ -20523,7 +20486,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-10-29 09:02:16',
             ),
-            70 => 
+            69 => 
             array (
                 'id' => 571,
                 'wikipedia_id' => 1831048,
@@ -20557,7 +20520,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:12',
             ),
-            71 => 
+            70 => 
             array (
                 'id' => 572,
                 'wikipedia_id' => NULL,
@@ -20591,7 +20554,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:12',
             ),
-            72 => 
+            71 => 
             array (
                 'id' => 573,
                 'wikipedia_id' => 2137577,
@@ -20624,7 +20587,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-07-24 03:53:22',
                 'updated_at' => '2018-11-14 22:57:14',
             ),
-            73 => 
+            72 => 
             array (
                 'id' => 574,
                 'wikipedia_id' => 8591180,
@@ -20663,7 +20626,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:02:52',
             ),
-            74 => 
+            73 => 
             array (
                 'id' => 575,
                 'wikipedia_id' => 8591068,
@@ -20672,7 +20635,10 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'description' => '<p class="mw-empty-elt">
 </p>
 <p><b>Gargi Vachaknavi</b> (born about c. 7th century BCE) was an ancient Indian philosopher. In Vedic Literature, she is honored as a great natural philosopher, renowned expounder of the Vedas, and known as Brahmavadini, a person with knowledge of Brahma Vidya. In the Sixth and the eighth Brahmana of Brihadaranyaka Upanishad, her name is prominent as she participates in the <i>brahmayajna</i>, a philosophic debate organized by King Janaka of Videha and challenges the sage Yajnavalkya with perplexing questions on the issue of <i>atman</i> (soul). She is also said to have written many hymns in the Rigveda. She remained a celibate all her life and was held in veneration by the conventional Hindus.</p><p>Gargi, the daughter of sage Vachaknu in the lineage of sage Garga (c. 800-500 BCE) was named after her father as Gargi Vachaknavi. From a young age she evinced keen interest in Vedic scriptures and became very proficient in fields of philosophy. She became highly knowledgeable in the Vedas and Upanishads in the Vedic times and held intellectual debates with other philosophers.
-</p>',
+</p>
+
+
+',
                 'wikipedia_path' => '/wiki/Gargi_Vachaknavi',
                 'wikipedia_canonical_path' => 'Gargi_Vachaknavi',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Gargi_Vachaknavi',
@@ -20680,26 +20646,26 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Gargi Vachaknavi',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
-                'date_of_birth' => '0700-01-01T00:00:00Z',
-                'year' => 700,
+                'date_of_birth' => '-700-01-01T00:00:00Z',
+                'year' => -700,
                 'month' => 1,
                 'day' => 1,
                 'date_of_death' => NULL,
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":["writer","poet","philosopher"],"religion":"Hinduism","sex or gender":"female","instance of":"human","Quora topic ID":"Gargi-Vachaknavi","on focus list of Wikimedia project":"Art+Feminism","date of birth":"-700-01-01T00:00:00Z","Freebase ID":"\\/m\\/02793_4"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 354,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:02:59',
+                'updated_at' => '2018-11-15 08:43:20',
             ),
-            75 => 
+            74 => 
             array (
                 'id' => 576,
                 'wikipedia_id' => 936952,
@@ -20733,7 +20699,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:16',
             ),
-            76 => 
+            75 => 
             array (
                 'id' => 577,
                 'wikipedia_id' => 29228549,
@@ -20767,7 +20733,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:03:12',
             ),
-            77 => 
+            76 => 
             array (
                 'id' => 578,
                 'wikipedia_id' => 231443,
@@ -20800,7 +20766,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:17',
             ),
-            78 => 
+            77 => 
             array (
                 'id' => 579,
                 'wikipedia_id' => 3454408,
@@ -20833,7 +20799,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:19',
             ),
-            79 => 
+            78 => 
             array (
                 'id' => 580,
                 'wikipedia_id' => 15547416,
@@ -20867,7 +20833,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:19',
             ),
-            80 => 
+            79 => 
             array (
                 'id' => 581,
                 'wikipedia_id' => 4662368,
@@ -20902,7 +20868,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:20',
             ),
-            81 => 
+            80 => 
             array (
                 'id' => 582,
                 'wikipedia_id' => 15345479,
@@ -20935,7 +20901,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:03:50',
             ),
-            82 => 
+            81 => 
             array (
                 'id' => 583,
                 'wikipedia_id' => 85731,
@@ -20969,7 +20935,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:22',
             ),
-            83 => 
+            82 => 
             array (
                 'id' => 584,
                 'wikipedia_id' => NULL,
@@ -21002,7 +20968,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:21:15',
             ),
-            84 => 
+            83 => 
             array (
                 'id' => 585,
                 'wikipedia_id' => 611036,
@@ -21036,7 +21002,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:24',
             ),
-            85 => 
+            84 => 
             array (
                 'id' => 586,
                 'wikipedia_id' => 7277939,
@@ -21070,7 +21036,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:25',
             ),
-            86 => 
+            85 => 
             array (
                 'id' => 587,
                 'wikipedia_id' => 1653730,
@@ -21103,7 +21069,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:04:30',
             ),
-            87 => 
+            86 => 
             array (
                 'id' => 588,
                 'wikipedia_id' => 31331538,
@@ -21137,7 +21103,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:04:39',
             ),
-            88 => 
+            87 => 
             array (
                 'id' => 589,
                 'wikipedia_id' => 38375,
@@ -21176,7 +21142,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:28',
             ),
-            89 => 
+            88 => 
             array (
                 'id' => 590,
                 'wikipedia_id' => 13774949,
@@ -21209,7 +21175,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:04:59',
             ),
-            90 => 
+            89 => 
             array (
                 'id' => 591,
                 'wikipedia_id' => 53569165,
@@ -21242,7 +21208,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:05:05',
             ),
-            91 => 
+            90 => 
             array (
                 'id' => 592,
                 'wikipedia_id' => 1241056,
@@ -21280,7 +21246,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:31',
             ),
-            92 => 
+            91 => 
             array (
                 'id' => 593,
                 'wikipedia_id' => 4627130,
@@ -21314,7 +21280,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:05:25',
             ),
-            93 => 
+            92 => 
             array (
                 'id' => 594,
                 'wikipedia_id' => 5457582,
@@ -21348,7 +21314,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:32',
             ),
-            94 => 
+            93 => 
             array (
                 'id' => 595,
                 'wikipedia_id' => 7471,
@@ -21389,7 +21355,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:34',
             ),
-            95 => 
+            94 => 
             array (
                 'id' => 596,
                 'wikipedia_id' => 19669921,
@@ -21422,7 +21388,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:35',
             ),
-            96 => 
+            95 => 
             array (
                 'id' => 597,
                 'wikipedia_id' => 13684,
@@ -21459,7 +21425,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:37',
             ),
-            97 => 
+            96 => 
             array (
                 'id' => 598,
                 'wikipedia_id' => 1059197,
@@ -21496,7 +21462,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:37',
             ),
-            98 => 
+            97 => 
             array (
                 'id' => 599,
                 'wikipedia_id' => 1647075,
@@ -21532,7 +21498,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:39',
             ),
-            99 => 
+            98 => 
             array (
                 'id' => 600,
                 'wikipedia_id' => 168171,
@@ -21571,7 +21537,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:40',
             ),
-            100 => 
+            99 => 
             array (
                 'id' => 601,
                 'wikipedia_id' => 1059441,
@@ -21605,7 +21571,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:41',
             ),
-            101 => 
+            100 => 
             array (
                 'id' => 602,
                 'wikipedia_id' => 1079161,
@@ -21639,50 +21605,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:43',
             ),
-            102 => 
-            array (
-                'id' => 603,
-                'wikipedia_id' => 127312,
-                'qid' => 'Q242640',
-                'intro' => 'English aristocrat, a prolific writer, and a scientist',
-                'description' => '<p class="mw-empty-elt">
-
-</p>
-
-
-<p><b>Margaret Lucas Cavendish, Duchess of Newcastle-upon-Tyne </b>(1623 – 15 December 1673) was an English aristocrat, philosopher, poet, scientist, fiction-writer, and playwright during the 17th century. Born <b>Margaret Lucas</b>, she was the youngest sister of prominent royalists Sir John Lucas and Sir Charles Lucas, who owned the manor of St. John\'s Abbey in Colchester. She became an attendant of Queen Henrietta Maria and traveled with her into exile in France, living for a time at the court of the young King Louis XIV. She became the second wife of William Cavendish, 1st Duke of Newcastle-upon-Tyne in 1645, when he was a marquess.</p><p>Cavendish was a poet, philosopher, writer of prose romances, essayist, and playwright who published under her own name at a time when most women writers published anonymously. Her writing addressed a number of topics, including gender, power, manners, scientific method, and philosophy. Her utopian romance, <i>The Blazing World</i>, is one of the earliest examples of science fiction. She is singular in having published extensively in natural philosophy and early modern science. She published over a dozen original works; inclusion of her revised works brings her total number of publications to twenty-one.</p><p>Cavendish has been championed and criticized as a unique and groundbreaking woman writer. She rejected the Aristotelianism and mechanical philosophy of the seventeenth century, preferring a vitalist model instead. She was the first woman to attend a meeting at Royal Society of London in 1667 and she criticized and engaged with members and philosophers Thomas Hobbes, René Descartes, and Robert Boyle. She has been claimed as an advocate for animals and as an early opponent of animal testing.</p>
-<ul class="gallery mw-gallery-traditional"><li class="gallerybox" style="width: 155px">
-<li class="gallerybox" style="width: 155px">
-<li class="gallerybox" style="width: 155px">
-<li class="gallerybox" style="width: 155px">
-</ul>',
-                'wikipedia_path' => '/wiki/Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne',
-                'wikipedia_canonical_path' => 'Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne',
-                'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne',
-                'name' => 'Margaret Cavendish, Duchess of Newcastle-upon-Tyne',
-                'sex' => 'female',
-                'redirected_name' => 'Margaret Cavendish',
-                'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Cavendish%2C%20Duchess%20of%20Newcastle%2C%20by%20Peter%20Lely.jpg',
-                'place_of_birth' => 'Colchester, United Kingdom',
-                'place_of_birth_lng' => '0.9046293',
-                'place_of_birth_lat' => '51.8931303',
-                'date_of_birth' => '1623-01-01T00:00:00Z',
-                'year' => 1623,
-                'month' => 1,
-                'day' => 1,
-                'date_of_death' => '1673-12-15T00:00:00Z',
-                'death_year' => 1673,
-                'death_month' => 12,
-                'death_day' => 15,
-            'wikidata_response' => '{"field of work":["essay","poetry"],"occupation":["feminist","writer","essayist","poet","science fiction writer","physicist","philosopher"],"place of burial":"Westminster Abbey","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Margaret%20Cavendish%2C%20Duchess%20of%20Newcastle%2C%20by%20Peter%20Lely.jpg","place of birth":"Colchester","place of death":"Kingdom of England","sex or gender":"female","ISNI":"0000 0001 2125 9917","VIAF ID":"29597878","GND ID":"118866230","Library of Congress authority ID":"n83206596","spouse":"William Cavendish, 1st Duke of Newcastle","country of citizenship":["United Kingdom","Kingdom of England"],"instance of":"human","National Thesaurus for Author Names ID":"071057293","BIBSYS ID":"90635260","NUKAT (WarsawU) authorities ID":"n99709627","ISFDB author ID":"117770","People Australia ID":"1263958","described by source":"Dictionary of National Biography (1885-1900)","languages spoken, written or signed":"English","Oxford Dictionary of National Biography ID":"4940","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Margaret-Cavendish-Duchess-of-Newcastle-upon-Tyne","PRDL Author ID":"1042","LAC ID":"0053F2929","DVN ID":"Lucas","EMLO person ID":"97adc9a7-e04a-4315-8bee-a68df5e037ef","genealogics.org person ID":"I00107576","CERL ID":"cnp00401564","LibriVox author ID":"2071","Project Gutenberg author ID":"46554","FAST ID":"120454","Six Degrees of Francis Bacon ID":"10002223","WomenWriters ID":"4d43ba5f-c497-4f1c-b1c8-c33124e822ae","BnF ID":"12293271f","SUDOC authorities ID":"029150280","WikiTree person ID":"Lucas-2486","Kindred Britain ID":"I4544","Stanford Encyclopedia of Philosophy ID":"margaret-cavendish","PhilPapers topic":"margaret-cavendish","sibling":["John Lucas, 1st Baron Lucas of Shenfield","Thomas Lucas","Charles Lucas"],"Electronic Enlightenment ID":"cavenmarga004547","NDL Auth ID":"00744530","Commons category":"Margaret Cavendish","openMLOL author ID":"179530","BHL creator ID":"14539","NLA (Australia) ID":"36509509","WeRelate person ID":"Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne_(1)","Collective Biographies of Women ID":"8602","Internet Encyclopedia of Philosophy ID":"cavend-m","Poetry Foundation ID":"margaret-cavendish","Poets.org poet ID":"margaret-cavendish","The Encyclopedia of Science Fiction ID":"cavendish_margaret","Herder Encyclopedia author ID":"Cavendish,_Margaret","NooSFere author ID":"-47772","Libris-URI":"64jlmbzq184w0tt","date of birth":"1623-01-01T00:00:00Z","date of death":"1673-12-15T00:00:00Z","Freebase ID":"\\/m\\/0y8pb","Open Library ID":["OL114329A","OL547852A"],"Biografisch Portaal number":"33349674","NKCR AUT ID":"jo2015891498","DBNL author ID":"newc010","given name":"Margaret","InPhO ID":"thinker\\/2772","Perlentaucher ID":"margaret-cavendish","SELIBR ID":"205432","National Library of Israel ID":"000099327"}',
-                'type' => NULL,
-                'event' => 2,
-                'linked_articles' => 57,
-                'deleted_at' => NULL,
-                'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-11-14 22:57:44',
-            ),
-            103 => 
+            101 => 
             array (
                 'id' => 604,
                 'wikipedia_id' => 1002045,
@@ -21717,45 +21640,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:46',
             ),
-            104 => 
-            array (
-                'id' => 605,
-                'wikipedia_id' => 2157753,
-                'qid' => 'Q1091103',
-                'intro' => 'English novelist, dramatist, philosopher',
-                'description' => '<p class="mw-empty-elt">
-
-</p>
-<p><b>Catharine Trotter Cockburn</b> (16 August 1679 – 11 May 1749) was a novelist, dramatist, and philosopher. She wrote on moral philosophy,  theological tracts, and had a voluminous correspondence.
-</p><p>Trotter\'s work addresses a range of issues including necessity, the infinitude of space, and the substance, but she focuses on moral issues. She thought that moral principles are not innate, but discoverable by each individual through the use of the faculty of reason endowed by God. In 1702, she published her first major philosophical work, <i>A Defence of Mr. Lock\'s [sic.] An Essay Concerning Human Understanding</i>.  John Locke was so pleased with this defence that he made gifts of money and books to his young apologist acting through Elizabeth Burnet who had first made Locke aware of Trotter\'s "Defence".</p><p>Her work attracted the attention of William Warburton, who prefaced her last philosophical work.  She also had a request from the biographer Thomas Birch to aid him in compiling a collection of her works.  She agreed to the project but died before the work could be printed.  Birch posthumously published a two-volume collection entitled <i>The Works of Mrs. Catharine Cockburn, Theological, Moral, Dramatic, and Poetical</i> in 1751. It is largely through this text that readers and history have come to know her.
-</p>',
-                'wikipedia_path' => '/wiki/Catharine_Trotter_Cockburn',
-                'wikipedia_canonical_path' => 'Catharine_Trotter_Cockburn',
-                'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Catharine_Trotter_Cockburn',
-                'name' => 'Catharine Trotter Cockburn',
-                'sex' => 'female',
-                'redirected_name' => 'Catharine Trotter Cockburn',
-                'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Catharine%20Cockburn.jpg',
-                'place_of_birth' => 'London, United Kingdom',
-                'place_of_birth_lng' => '-0.1276474',
-                'place_of_birth_lat' => '51.5073219',
-                'date_of_birth' => '1679-08-16T00:00:00Z',
-                'year' => 1679,
-                'month' => 8,
-                'day' => 16,
-                'date_of_death' => '1749-05-11T00:00:00Z',
-                'death_year' => 1749,
-                'death_month' => 5,
-                'death_day' => 11,
-            'wikidata_response' => '{"occupation":["philosopher","novelist","writer","playwright"],"place of burial":"Protestant Cemetery","religion":"Catholic Church","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Portrait%20of%20Catharine%20Cockburn.jpg","place of birth":"London","place of death":"Longhorsley","sex or gender":"female","ISNI":"0000 0001 0855 1833","VIAF ID":"12400006","GND ID":"118814974","Library of Congress authority ID":"n82144856","country of citizenship":"Kingdom of Great Britain","instance of":"human","National Thesaurus for Author Names ID":"339719257","NUKAT (WarsawU) authorities ID":"n2008059917","People Australia ID":"1276995","described by source":"Dictionary of National Biography (1885-1900)","languages spoken, written or signed":"English","Oxford Dictionary of National Biography ID":"5768","National Portrait Gallery (London) person ID":"mp50801","CERL ID":"cnp01343067","Project Gutenberg author ID":"38725","FAST ID":"101221","Six Degrees of Francis Bacon ID":"10012100","BnF ID":"12434222k","SUDOC authorities ID":"112363865","UK National Archives ID":"F60441","Stanford Encyclopedia of Philosophy ID":"cockburn","Electronic Enlightenment ID":"trottcatha004889","SNAC Ark ID":"w6c54690","openMLOL author ID":"156146","NLA (Australia) ID":"36533135","Online Books Page author ID":"Trotter, Catharine, 1679-1749","Internet Encyclopedia of Philosophy ID":"cockburn","Libris-URI":"fcrtwzbz523l2ms","date of birth":"1679-08-16T00:00:00Z","date of death":"1749-05-11T00:00:00Z","Freebase ID":"\\/m\\/06r2xr","Open Library ID":"OL5147956A","given name":"Catharine","InPhO ID":["thinker\\/2827","thinker\\/4188"],"SELIBR ID":"216359","National Library of Israel ID":"000560360"}',
-                'type' => NULL,
-                'event' => 2,
-                'linked_articles' => 15,
-                'deleted_at' => NULL,
-                'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-11-14 22:57:47',
-            ),
-            105 => 
+            102 => 
             array (
                 'id' => 606,
                 'wikipedia_id' => 10774189,
@@ -21789,7 +21674,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:48',
             ),
-            106 => 
+            103 => 
             array (
                 'id' => 607,
                 'wikipedia_id' => 13049,
@@ -21826,7 +21711,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:49',
             ),
-            107 => 
+            104 => 
             array (
                 'id' => 608,
                 'wikipedia_id' => 2016634,
@@ -21859,7 +21744,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:51',
             ),
-            108 => 
+            105 => 
             array (
                 'id' => 609,
                 'wikipedia_id' => 363533,
@@ -21892,7 +21777,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:51',
             ),
-            109 => 
+            106 => 
             array (
                 'id' => 610,
                 'wikipedia_id' => 762447,
@@ -21930,7 +21815,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:08:22',
             ),
-            110 => 
+            107 => 
             array (
                 'id' => 611,
                 'wikipedia_id' => 43501,
@@ -21967,7 +21852,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:53',
             ),
-            111 => 
+            108 => 
             array (
                 'id' => 612,
                 'wikipedia_id' => 43288512,
@@ -22001,7 +21886,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:08:40',
             ),
-            112 => 
+            109 => 
             array (
                 'id' => 613,
                 'wikipedia_id' => 2015815,
@@ -22035,7 +21920,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:55',
             ),
-            113 => 
+            110 => 
             array (
                 'id' => 614,
                 'wikipedia_id' => 41555446,
@@ -22068,7 +21953,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:08:55',
             ),
-            114 => 
+            111 => 
             array (
                 'id' => 615,
                 'wikipedia_id' => 8224510,
@@ -22084,7 +21969,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Lilli Alanen',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1946-01-01T00:00:00Z',
@@ -22095,15 +21980,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":"Uppsala University","sex or gender":"female","ISNI":"0000 0003 6368 6655","VIAF ID":"226040390","father":"Harry Gullichsen","mother":"Maire Gullichsen","country of citizenship":"Finland","instance of":"human","sibling":["Kristian Gullichsen","Johan Gullichsen"],"member of":"Academia Europaea","AE member ID":"Alanen_Lilli","date of birth":"1946-01-01T00:00:00Z","family name":"Alanen","given name":"Lilli"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 12,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:09:01',
+                'updated_at' => '2018-11-16 10:08:40',
             ),
-            115 => 
+            112 => 
             array (
                 'id' => 616,
                 'wikipedia_id' => 7519608,
@@ -22137,7 +22022,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:57',
             ),
-            116 => 
+            113 => 
             array (
                 'id' => 617,
                 'wikipedia_id' => 41385075,
@@ -22170,7 +22055,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:09:12',
             ),
-            117 => 
+            114 => 
             array (
                 'id' => 618,
                 'wikipedia_id' => 2113603,
@@ -22204,7 +22089,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:57:59',
             ),
-            118 => 
+            115 => 
             array (
                 'id' => 619,
                 'wikipedia_id' => 446058,
@@ -22237,7 +22122,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:00',
             ),
-            119 => 
+            116 => 
             array (
                 'id' => 620,
                 'wikipedia_id' => 7624133,
@@ -22273,7 +22158,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:09:33',
             ),
-            120 => 
+            117 => 
             array (
                 'id' => 621,
                 'wikipedia_id' => 593083,
@@ -22311,7 +22196,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:01',
             ),
-            121 => 
+            118 => 
             array (
                 'id' => 622,
                 'wikipedia_id' => 41893508,
@@ -22346,21 +22231,21 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:09:53',
             ),
-            122 => 
+            119 => 
             array (
                 'id' => 623,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 42309779,
                 'qid' => 'Q16733443',
-                'intro' => NULL,
+                'intro' => '',
             'description' => '<p><b>Nomy Arpaly</b> is a Professor of Philosophy at Brown University. Her main research interests include ethics, moral psychology, action theory, and free will; she has written two books on moral agency (<i>Unprincipled Virtue: an Inquiry into Human Agency</i> and <i>In Praise of Desire</i>,) and one (<i>Merit, Meaning, and Human Bondage – an Essay on Free Will</i>) on free will.</p>',
                 'wikipedia_path' => '/wiki/Nomy_Arpaly',
                 'wikipedia_canonical_path' => 'Nomy_Arpaly',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Nomy_Arpaly',
                 'name' => 'Nomy Arpaly',
                 'sex' => 'female',
-                'redirected_name' => 'Nomy_Arpaly',
+                'redirected_name' => 'Nomy Arpaly',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -22371,15 +22256,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":["Brown University","University of Michigan"],"sex or gender":"female","instance of":"human"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 5,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-09-24 02:22:56',
+                'updated_at' => '2018-11-16 10:07:49',
             ),
-            123 => 
+            120 => 
             array (
                 'id' => 624,
                 'wikipedia_id' => 9059338,
@@ -22394,7 +22279,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Babette Babich',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1956-11-14T00:00:00Z',
@@ -22405,15 +22290,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","sex or gender":"female","ISNI":"0000 0000 8125 2277","VIAF ID":"46865968","country of citizenship":"United States of America","instance of":"human","National Thesaurus for Author Names ID":"14298258X","languages spoken, written or signed":"English","BnF ID":"12502265x","SUDOC authorities ID":"03424753X","SHARE Catalogue author ID":"61521","Libris-URI":"b8nrzxxv1kdj58k","date of birth":"1956-11-14T00:00:00Z","family name":"Babich","given name":"Babette","SELIBR ID":"352886"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 61,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:10:00',
+                'updated_at' => '2018-11-15 10:11:20',
             ),
-            124 => 
+            121 => 
             array (
                 'id' => 625,
                 'wikipedia_id' => 2015918,
@@ -22447,7 +22332,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:03',
             ),
-            125 => 
+            122 => 
             array (
                 'id' => 626,
                 'wikipedia_id' => NULL,
@@ -22480,7 +22365,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:23:01',
             ),
-            126 => 
+            123 => 
             array (
                 'id' => 627,
                 'wikipedia_id' => 42354754,
@@ -22513,7 +22398,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:10:13',
             ),
-            127 => 
+            124 => 
             array (
                 'id' => 628,
                 'wikipedia_id' => 15482554,
@@ -22546,7 +22431,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:05',
             ),
-            128 => 
+            125 => 
             array (
                 'id' => 629,
                 'wikipedia_id' => 27810381,
@@ -22580,7 +22465,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:10:24',
             ),
-            129 => 
+            126 => 
             array (
                 'id' => 630,
                 'wikipedia_id' => 40281351,
@@ -22597,7 +22482,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Helen Beebee',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -22608,15 +22493,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":"University College London","sex or gender":"female","country of citizenship":"United Kingdom","instance of":"human","educated at":["University of Warwick","University of Liverpool","King\'s College London"],"given name":"Helen"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 10,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:10:30',
+                'updated_at' => '2018-11-16 10:12:58',
             ),
-            130 => 
+            127 => 
             array (
                 'id' => 631,
                 'wikipedia_id' => 4076926,
@@ -22650,7 +22535,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:06',
             ),
-            131 => 
+            128 => 
             array (
                 'id' => 632,
                 'wikipedia_id' => 43284046,
@@ -22684,7 +22569,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:10:44',
             ),
-            132 => 
+            129 => 
             array (
                 'id' => 633,
                 'wikipedia_id' => 42319895,
@@ -22717,7 +22602,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:10:49',
             ),
-            133 => 
+            130 => 
             array (
                 'id' => 634,
                 'wikipedia_id' => 33162494,
@@ -22733,7 +22618,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Susanne Bobzien',
                 'image' => NULL,
-                'place_of_birth' => 'Hamburg Germany',
+                'place_of_birth' => 'Hamburg, Germany',
                 'place_of_birth_lng' => '10.0006540',
                 'place_of_birth_lat' => '53.5503410',
                 'date_of_birth' => '1960-01-01T00:00:00Z',
@@ -22744,15 +22629,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":["philosopher","university teacher"],"employer":"All Souls College","place of birth":"Hamburg","sex or gender":"female","ISNI":"0000 0000 8127 330X","VIAF ID":"49248172","Library of Congress authority ID":"n87931103","country of citizenship":"Germany","instance of":"human","National Thesaurus for Author Names ID":"073043451","BIBSYS ID":"99030974","languages spoken, written or signed":"German","BnF ID":"12070044h","SUDOC authorities ID":"028976851","PhilPeople profile":"3193","member of":"British Academy","date of birth":"1960-01-01T00:00:00Z","Open Library ID":"OL229039A","family name":"Bobzien","given name":"Susanne"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 55,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-11-14 22:58:08',
+                'updated_at' => '2018-11-17 09:12:22',
             ),
-            134 => 
+            131 => 
             array (
                 'id' => 635,
                 'wikipedia_id' => 44096839,
@@ -22785,7 +22670,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:04',
             ),
-            135 => 
+            132 => 
             array (
                 'id' => 636,
                 'wikipedia_id' => 40041147,
@@ -22818,21 +22703,21 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:10',
             ),
-            136 => 
+            133 => 
             array (
                 'id' => 637,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 40870950,
                 'qid' => 'Q16981802',
-                'intro' => NULL,
+                'intro' => '',
             'description' => '<p><b>Teresa Blankmeyer Burke</b> is an Assistant Professor of Philosophy at Gallaudet University. She is the first signing Deaf woman in the world to receive a doctorate of philosophy, having conducted her graduate education through American Sign Language.</p><p>Her work primarily focuses on deaf philosophy (the intersection of philosophy and Deaf studies.) Her primary interests lay in areas such as virtue ethics, moral justification, and the ethics of sign-language interpreting. Since the use of American Sign Language to discuss topics in philosophy is a relatively new development, Burke has had to grapple with not only a lack of an existing philosophical lexicon in ASL, but also philosophical considerations as to what the development of that lexicon could or should look like.</p>',
                 'wikipedia_path' => '/wiki/Teresa_Blankmeyer_Burke',
                 'wikipedia_canonical_path' => 'Teresa_Blankmeyer_Burke',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Teresa_Blankmeyer_Burke',
                 'name' => 'Teresa Blankmeyer Burke',
                 'sex' => 'female',
-                'redirected_name' => 'Teresa_Blankmeyer_Burke',
+                'redirected_name' => 'Teresa Blankmeyer Burke',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -22843,15 +22728,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","sex or gender":"female","instance of":"human","educated at":"University of New Mexico","given name":"Teresa"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 4,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-09-24 02:23:18',
+                'updated_at' => '2018-11-17 23:40:26',
             ),
-            137 => 
+            134 => 
             array (
                 'id' => 638,
                 'wikipedia_id' => 51407770,
@@ -22884,7 +22769,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:17',
             ),
-            138 => 
+            135 => 
             array (
                 'id' => 639,
                 'wikipedia_id' => 41328840,
@@ -22917,7 +22802,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:23',
             ),
-            139 => 
+            136 => 
             array (
                 'id' => 640,
                 'wikipedia_id' => 41688069,
@@ -22953,7 +22838,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:28',
             ),
-            140 => 
+            137 => 
             array (
                 'id' => 641,
                 'wikipedia_id' => 43649030,
@@ -22986,7 +22871,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:12',
             ),
-            141 => 
+            138 => 
             array (
                 'id' => 642,
                 'wikipedia_id' => 1677762,
@@ -23020,7 +22905,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:14',
             ),
-            142 => 
+            139 => 
             array (
                 'id' => 643,
                 'wikipedia_id' => 38249326,
@@ -23053,7 +22938,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:11:50',
             ),
-            143 => 
+            140 => 
             array (
                 'id' => 644,
                 'wikipedia_id' => 425385,
@@ -23086,7 +22971,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:17',
             ),
-            144 => 
+            141 => 
             array (
                 'id' => 645,
                 'wikipedia_id' => 168445,
@@ -23122,7 +23007,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:16',
             ),
-            145 => 
+            142 => 
             array (
                 'id' => 646,
                 'wikipedia_id' => 35632253,
@@ -23156,7 +23041,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:18',
             ),
-            146 => 
+            143 => 
             array (
                 'id' => 647,
                 'wikipedia_id' => 41428393,
@@ -23189,7 +23074,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:12:30',
             ),
-            147 => 
+            144 => 
             array (
                 'id' => 648,
                 'wikipedia_id' => 40338902,
@@ -23222,7 +23107,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:12:35',
             ),
-            148 => 
+            145 => 
             array (
                 'id' => 649,
                 'wikipedia_id' => NULL,
@@ -23255,7 +23140,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:23:43',
             ),
-            149 => 
+            146 => 
             array (
                 'id' => 650,
                 'wikipedia_id' => NULL,
@@ -23288,7 +23173,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:23:45',
             ),
-            150 => 
+            147 => 
             array (
                 'id' => 651,
                 'wikipedia_id' => 42372856,
@@ -23321,7 +23206,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:12:44',
             ),
-            151 => 
+            148 => 
             array (
                 'id' => 652,
                 'wikipedia_id' => 46571650,
@@ -23354,7 +23239,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:12:49',
             ),
-            152 => 
+            149 => 
             array (
                 'id' => 653,
                 'wikipedia_id' => 955000,
@@ -23388,7 +23273,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:20',
             ),
-            153 => 
+            150 => 
             array (
                 'id' => 654,
                 'wikipedia_id' => 1150164,
@@ -23402,7 +23287,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Dorothy Edgington',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1941-04-29T00:00:00Z',
@@ -23413,15 +23298,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":["Magdalen College","Birkbeck, University of London"],"sex or gender":"female","ISNI":"0000 0000 3420 562X","VIAF ID":"66627932","country of citizenship":"United Kingdom","instance of":"human","National Thesaurus for Author Names ID":"161767184","BnF ID":"13537686z","SUDOC authorities ID":"067010695","member of":"British Academy","date of birth":"1941-04-29T00:00:00Z","family name":"Edgington","given name":"Dorothy","InPhO ID":"thinker\\/2954"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 21,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:13:06',
+                'updated_at' => '2018-11-16 10:10:23',
             ),
-            154 => 
+            151 => 
             array (
                 'id' => 655,
                 'wikipedia_id' => NULL,
@@ -23454,7 +23339,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:23:53',
             ),
-            155 => 
+            152 => 
             array (
                 'id' => 656,
                 'wikipedia_id' => 23356392,
@@ -23490,21 +23375,21 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:23',
             ),
-            156 => 
+            153 => 
             array (
                 'id' => 657,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 40345527,
                 'qid' => 'Q16972043',
-                'intro' => NULL,
+                'intro' => '',
                 'description' => '<p><b>Carla Fehr</b> is an Associate Professor of Philosophy at the University of Waterloo where she holds the Wolfe Chair in Scientific and Technological Literacy.</p>',
                 'wikipedia_path' => '/wiki/Carla_Fehr',
                 'wikipedia_canonical_path' => 'Carla_Fehr',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Carla_Fehr',
                 'name' => 'Carla Fehr',
                 'sex' => 'female',
-                'redirected_name' => 'Carla_Fehr',
+                'redirected_name' => 'Carla Fehr',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -23515,15 +23400,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":"University of Waterloo","sex or gender":"female","country of citizenship":"Canada","instance of":"human","family name":"Fehr","given name":"Carla"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 16,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-09-24 02:23:57',
+                'updated_at' => '2018-11-16 10:11:01',
             ),
-            157 => 
+            154 => 
             array (
                 'id' => 658,
                 'wikipedia_id' => 40623156,
@@ -23556,7 +23441,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:13:22',
             ),
-            158 => 
+            155 => 
             array (
                 'id' => 659,
                 'wikipedia_id' => 42540623,
@@ -23589,7 +23474,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:13:27',
             ),
-            159 => 
+            156 => 
             array (
                 'id' => 660,
                 'wikipedia_id' => 40553655,
@@ -23623,7 +23508,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:13:33',
             ),
-            160 => 
+            157 => 
             array (
                 'id' => 661,
                 'wikipedia_id' => 1385364,
@@ -23632,7 +23517,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'description' => '<p class="mw-empty-elt">
 
 </p>
-<p><b>Philippa Ruth Foot</b>, FBA (<span></span>; née <b>Bosanquet</b>; 3 October 1920 –  3 October 2010) was a British philosopher. She was one of the founders of contemporary virtue ethics, inspired by the ethics of Aristotle. Her later career marked a significant change in view from her work in the 1950s and 1960s, and may be seen as an attempt to modernize Aristotelian ethical theory, to show that it is adaptable to a contemporary world view, and thus, that it could compete with such popular theories as modern deontological and utilitarian ethics.  Some of her work was crucial in the re-emergence of normative ethics within analytic philosophy, especially her critique of consequentialism and of non-cognitivism. A familiar example is the continuing discussion of an example of hers referred to as the trolley problem. Foot\'s approach was influenced by the later work of Wittgenstein, although she rarely dealt explicitly with materials treated by him. She is the granddaughter of American President Grover Cleveland.
+<p><b>Philippa Ruth Foot</b>, FBA (<span></span>; née <b>Bosanquet</b>; 3 October 1920 –  3 October 2010) was a British philosopher. She was one of the founders of contemporary virtue ethics, inspired by the ethics of Aristotle. Her later career marked a significant change in view from her work in the 1950s and 1960s, and may be seen as an attempt to modernize Aristotelian ethical theory, to show that it is adaptable to a contemporary world view, and thus, that it could compete with such popular theories as modern deontological and utilitarian ethics.  Some of her work was crucial in the re-emergence of normative ethics within analytic philosophy, especially her critique of consequentialism and of non-cognitivism. A familiar example is the continuing discussion of an example of hers referred to as the trolley problem. Foot\'s approach was influenced by the later work of Wittgenstein, although she rarely dealt explicitly with materials treated by him. She was the granddaughter of American President Grover Cleveland.
 </p>',
                 'wikipedia_path' => '/wiki/Philippa_Foot',
                 'wikipedia_canonical_path' => 'Philippa_Foot',
@@ -23641,26 +23526,26 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Philippa Foot',
                 'image' => NULL,
-                'place_of_birth' => 'Owston Ferry United Kingdom',
+                'place_of_birth' => 'Owston Ferry, United Kingdom',
                 'place_of_birth_lng' => '-0.7800150',
                 'place_of_birth_lat' => '53.4926549',
                 'date_of_birth' => '1920-10-03T00:00:00Z',
                 'year' => 1920,
                 'month' => 10,
                 'day' => 3,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'date_of_death' => '2010-10-03T00:00:00Z',
+                'death_year' => 2010,
+                'death_month' => 10,
+                'death_day' => 3,
+                'wikidata_response' => '{"occupation":["philosopher","university teacher"],"employer":"University of California, Los Angeles","religion":"unbeliever","place of birth":"Owston Ferry","place of death":"Oxford","sex or gender":"female","ISNI":"0000 0001 1271 3444","VIAF ID":"108873879","father":"Frederick Albert Bosanquet","GND ID":"119282410","Library of Congress authority ID":"n79055655","mother":"Esther Cleveland","spouse":"M. R. D. Foot","country of citizenship":"United Kingdom","instance of":"human","educated at":"Somerville College","National Thesaurus for Author Names ID":"068249489","languages spoken, written or signed":"English","Oxford Dictionary of National Biography ID":"102723","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Philippa-Foot","FAST ID":"35681","BnF ID":"120328927","SUDOC authorities ID":"028506413","Encyclop\\u00e6dia Universalis ID":"philippa-foot","NDL Auth ID":"001178552","member of":"American Academy of Arts and Sciences","date of birth":"1920-10-03T00:00:00Z","date of death":"2010-10-03T00:00:00Z","Angelicum author ID":"28921","Freebase ID":"\\/m\\/04ycgp","given name":"Philippa","InPhO ID":"thinker\\/3021","Perlentaucher ID":"philippa-foot"}',
                 'type' => NULL,
                 'event' => 2,
-                'linked_articles' => 298,
+                'linked_articles' => 299,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-11-14 22:58:24',
+                'updated_at' => '2018-11-15 08:44:34',
             ),
-            161 => 
+            158 => 
             array (
                 'id' => 662,
                 'wikipedia_id' => 2356142,
@@ -23694,7 +23579,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:26',
             ),
-            162 => 
+            159 => 
             array (
                 'id' => 663,
                 'wikipedia_id' => 3860328,
@@ -23728,7 +23613,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:27',
             ),
-            163 => 
+            160 => 
             array (
                 'id' => 664,
                 'wikipedia_id' => 40956775,
@@ -23761,7 +23646,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:14:02',
             ),
-            164 => 
+            161 => 
             array (
                 'id' => 665,
                 'wikipedia_id' => 27496652,
@@ -23795,7 +23680,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:29',
             ),
-            165 => 
+            162 => 
             array (
                 'id' => 666,
                 'wikipedia_id' => 3032458,
@@ -23831,7 +23716,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:14:16',
             ),
-            166 => 
+            163 => 
             array (
                 'id' => 667,
                 'wikipedia_id' => 42373480,
@@ -23864,7 +23749,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:14:22',
             ),
-            167 => 
+            164 => 
             array (
                 'id' => 668,
                 'wikipedia_id' => 40357056,
@@ -23897,7 +23782,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:14:31',
             ),
-            168 => 
+            165 => 
             array (
                 'id' => 669,
                 'wikipedia_id' => 38549424,
@@ -23931,7 +23816,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:31',
             ),
-            169 => 
+            166 => 
             array (
                 'id' => 670,
                 'wikipedia_id' => 42650568,
@@ -23964,7 +23849,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:14:43',
             ),
-            170 => 
+            167 => 
             array (
                 'id' => 671,
                 'wikipedia_id' => 19332140,
@@ -24000,7 +23885,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:32',
             ),
-            171 => 
+            168 => 
             array (
                 'id' => 672,
                 'wikipedia_id' => 2659049,
@@ -24034,7 +23919,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:34',
             ),
-            172 => 
+            169 => 
             array (
                 'id' => 673,
                 'wikipedia_id' => 321979,
@@ -24071,7 +23956,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:35',
             ),
-            173 => 
+            170 => 
             array (
                 'id' => 674,
                 'wikipedia_id' => 37630970,
@@ -24105,7 +23990,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:37',
             ),
-            174 => 
+            171 => 
             array (
                 'id' => 675,
                 'wikipedia_id' => 2364304,
@@ -24142,7 +24027,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:38',
             ),
-            175 => 
+            172 => 
             array (
                 'id' => 676,
                 'wikipedia_id' => 233258,
@@ -24175,7 +24060,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:39',
             ),
-            176 => 
+            173 => 
             array (
                 'id' => 677,
                 'wikipedia_id' => 1496291,
@@ -24210,7 +24095,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:15:46',
             ),
-            177 => 
+            174 => 
             array (
                 'id' => 678,
                 'wikipedia_id' => 31362188,
@@ -24245,7 +24130,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:41',
             ),
-            178 => 
+            175 => 
             array (
                 'id' => 679,
                 'wikipedia_id' => 34497525,
@@ -24279,7 +24164,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:16:01',
             ),
-            179 => 
+            176 => 
             array (
                 'id' => 680,
                 'wikipedia_id' => 39776845,
@@ -24315,7 +24200,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:42',
             ),
-            180 => 
+            177 => 
             array (
                 'id' => 681,
                 'wikipedia_id' => 2173176,
@@ -24349,7 +24234,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:44',
             ),
-            181 => 
+            178 => 
             array (
                 'id' => 682,
                 'wikipedia_id' => 19362228,
@@ -24386,7 +24271,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:45',
             ),
-            182 => 
+            179 => 
             array (
                 'id' => 683,
                 'wikipedia_id' => 1891198,
@@ -24419,7 +24304,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:45',
             ),
-            183 => 
+            180 => 
             array (
                 'id' => 684,
                 'wikipedia_id' => 40078727,
@@ -24453,7 +24338,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:16:46',
             ),
-            184 => 
+            181 => 
             array (
                 'id' => 685,
                 'wikipedia_id' => 2015642,
@@ -24470,7 +24355,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Jennifer Hornsby',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1951-01-01T00:00:00Z',
@@ -24481,15 +24366,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+            'wikidata_response' => '{"occupation":"philosopher","employer":["University of Oxford","Birkbeck, University of London"],"award received":"Fellow of the British Academy","sex or gender":"female","ISNI":"0000 0001 1658 6083","VIAF ID":"64116057","Library of Congress authority ID":"n86829127","country of citizenship":"United Kingdom","instance of":"human","educated at":"University of Cambridge","National Thesaurus for Author Names ID":"067842313","BIBSYS ID":"90601346","NUKAT (WarsawU) authorities ID":"n98036436","CANTIC-ID":"a10922350","LNB ID":"000002943","languages spoken, written or signed":"English","name in native language":"Jennifer Hornsby","NLP ID":"A2208468X","interested in":["feminist philosophy","action theory","philosophy of mind","philosophy of language"],"BnF ID":"12533459d","SUDOC authorities ID":"03459471X","PhilPapers author ID":"Jennifer Hornsby","member of":["Aristotelian Society","Norwegian Academy of Science and Letters","British Academy"],"date of birth":"1951-01-01T00:00:00Z","Freebase ID":"\\/m\\/06f712","Open Library ID":"OL541339A","family name":"Hornsby","given name":"Jennifer","InPhO ID":"thinker\\/3240"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 79,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:16:51',
+                'updated_at' => '2018-11-16 10:09:11',
             ),
-            185 => 
+            182 => 
             array (
                 'id' => 686,
                 'wikipedia_id' => 14852812,
@@ -24523,7 +24408,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:16:57',
             ),
-            186 => 
+            183 => 
             array (
                 'id' => 687,
                 'wikipedia_id' => 298849,
@@ -24560,7 +24445,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-11-14 22:58:48',
             ),
-            187 => 
+            184 => 
             array (
                 'id' => 688,
                 'wikipedia_id' => 612650,
@@ -24574,7 +24459,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Luce Irigaray',
                 'image' => NULL,
-                'place_of_birth' => 'Blaton Belgium',
+                'place_of_birth' => 'Blaton, Belgium',
                 'place_of_birth_lng' => '3.6605529',
                 'place_of_birth_lat' => '50.5010007',
                 'date_of_birth' => '1930-05-03T00:00:00Z',
@@ -24585,15 +24470,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+            'wikidata_response' => '{"occupation":["feminist","university teacher","linguist","philosopher"],"employer":"CNRS","place of birth":"Blaton","sex or gender":"female","ISNI":"0000 0001 2280 0349","VIAF ID":"54149176","GND ID":"119010941","Library of Congress authority ID":"n82070348","ULAN ID":"500292666","country of citizenship":["Belgium","France"],"instance of":"human","educated at":["Paris 8 University","Catholic University of Leuven"],"National Thesaurus for Author Names ID":"072857072","BIBSYS ID":"90110405","NUKAT (WarsawU) authorities ID":"n99005973","CONOR ID":"11071331","People Australia ID":"876581","languages spoken, written or signed":"French","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Luce-Irigaray","name in native language":"Luce Irigaray","LAC ID":"0011B7712","FAST ID":"92697","BnF ID":"11908265x","SUDOC authorities ID":"02693115X","Pers\\u00e9e author ID":"40875","Encyclop\\u00e6dia Universalis ID":"luce-irigaray","NE.se ID":"luce-irigaray","PhilPapers topic":"luce-irigaray","BanQ author ID":"0000062631","Quora topic ID":"Luce-Irigaray","SNAC Ark ID":"w6kb952x","NDL Auth ID":"00444279","Babelio author ID":"57008","SHARE Catalogue author ID":"147515","NLA (Australia) ID":"35236653","Store norske leksikon ID":"Luce_Irigaray","member of":"\\u00c9cole Freudienne de Paris","Flanders Arts Institute person ID":"1894663","Internet Encyclopedia of Philosophy ID":"irigaray","Libris-URI":"gdsvwp901nqrx77","date of birth":"1930-05-03T00:00:00Z","Angelicum author ID":"12659","Freebase ID":"\\/m\\/02wjfw","NKCR AUT ID":"js20060421015","given name":"Luce","InPhO ID":["thinker\\/3296","3296"],"SELIBR ID":"208170","BNE ID":"XX977418"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 415,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-11-14 22:58:49',
+                'updated_at' => '2018-11-17 23:33:57',
             ),
-            188 => 
+            185 => 
             array (
                 'id' => 689,
                 'wikipedia_id' => NULL,
@@ -24627,7 +24512,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-09-24 02:24:56',
             ),
-            189 => 
+            186 => 
             array (
                 'id' => 690,
                 'wikipedia_id' => 40274026,
@@ -24660,7 +24545,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:17:24',
             ),
-            190 => 
+            187 => 
             array (
                 'id' => 691,
                 'wikipedia_id' => 40298608,
@@ -24693,7 +24578,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:17:30',
             ),
-            191 => 
+            188 => 
             array (
                 'id' => 692,
                 'wikipedia_id' => 42548138,
@@ -24707,7 +24592,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'sex' => 'female',
                 'redirected_name' => 'Carrie Ichikawa Jenkins',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -24718,15 +24603,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":["University of British Columbia","University of Michigan"],"sex or gender":"female","country of citizenship":"Canada","instance of":"human","educated at":"Trinity College","given name":"Carrie"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 7,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:28',
-                'updated_at' => '2018-10-29 09:17:37',
+                'updated_at' => '2018-11-16 10:13:50',
             ),
-            192 => 
+            189 => 
             array (
                 'id' => 693,
                 'wikipedia_id' => 5226029,
@@ -24760,7 +24645,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:17:42',
             ),
-            193 => 
+            190 => 
             array (
                 'id' => 694,
                 'wikipedia_id' => 40081048,
@@ -24794,21 +24679,24 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:28',
                 'updated_at' => '2018-10-29 09:17:48',
             ),
-            194 => 
+            191 => 
             array (
                 'id' => 695,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 42346098,
                 'qid' => 'Q16730899',
-                'intro' => NULL,
-            'description' => '<p><b>Eva Feder Kittay</b> is an American philosopher. She is Distinguished Professor of Philosophy (Emerita) at SUNY Stony Brook. Her primary interests include feminist philosophy, ethics, social and political theory, metaphor, and the application of these disciplines to disability studies. Kittay has also attempted to bring philosophical concerns into the public spotlight, including leading The Women\'s Committee of One Hundred in 1995, an organization that opposed the perceived punitive nature of the social welfare reforms taking place in the United States at the time.</p>',
+                'intro' => '',
+            'description' => '<p><b>Eva Feder Kittay</b> is an American philosopher. She is Distinguished Professor of Philosophy (Emerita) at SUNY Stony Brook. Her primary interests include feminist philosophy, ethics, social and political theory, metaphor, and the application of these disciplines to disability studies. Kittay has also attempted to bring philosophical concerns into the public spotlight, including leading The Women\'s Committee of One Hundred in 1995, an organization that opposed the perceived punitive nature of the social welfare reforms taking place in the United States at the time.</p>
+
+
+',
                 'wikipedia_path' => '/wiki/Eva_Kittay',
                 'wikipedia_canonical_path' => 'Eva_Kittay',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Eva_Kittay',
                 'name' => 'Eva Kittay',
                 'sex' => 'female',
-                'redirected_name' => 'Eva_Kittay',
+                'redirected_name' => 'Eva Kittay',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -24819,15 +24707,15 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","place of birth":"Malm\\u00f6","sex or gender":"female","instance of":"human","educated at":"Sarah Lawrence College","given name":"Eva"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 11,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-09-24 02:25:05',
+                'updated_at' => '2018-11-15 08:36:59',
             ),
-            195 => 
+            192 => 
             array (
                 'id' => 696,
                 'wikipedia_id' => 1584086,
@@ -24862,7 +24750,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:17:55',
             ),
-            196 => 
+            193 => 
             array (
                 'id' => 697,
                 'wikipedia_id' => 38310587,
@@ -24896,7 +24784,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:18:00',
             ),
-            197 => 
+            194 => 
             array (
                 'id' => 698,
                 'wikipedia_id' => 42380317,
@@ -24929,7 +24817,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:51',
             ),
-            198 => 
+            195 => 
             array (
                 'id' => 699,
                 'wikipedia_id' => 7643921,
@@ -24963,7 +24851,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:53',
             ),
-            199 => 
+            196 => 
             array (
                 'id' => 700,
                 'wikipedia_id' => 195180,
@@ -24996,7 +24884,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:54',
             ),
-            200 => 
+            197 => 
             array (
                 'id' => 701,
                 'wikipedia_id' => 16489,
@@ -25031,7 +24919,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:55',
             ),
-            201 => 
+            198 => 
             array (
                 'id' => 702,
                 'wikipedia_id' => 20265342,
@@ -25064,7 +24952,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:56',
             ),
-            202 => 
+            199 => 
             array (
                 'id' => 703,
                 'wikipedia_id' => 42540664,
@@ -25097,7 +24985,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:18:54',
             ),
-            203 => 
+            200 => 
             array (
                 'id' => 704,
                 'wikipedia_id' => 41415619,
@@ -25133,73 +25021,40 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:58:58',
             ),
-            204 => 
+            201 => 
             array (
                 'id' => 705,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 40075722,
                 'qid' => 'Q17069372',
-                'intro' => NULL,
+                'intro' => '',
             'description' => '<p><b>Thelma Zeno Lavine</b> (1915–2011), was an American philosopher, professor, and writer, specializing mainly in the areas of 19th and 20th century, especially the writing of John Dewey. She taught courses that highlighted the correlation between philosophy and other topics such as economics, history, and contemporary American culture.</p>',
                 'wikipedia_path' => '/wiki/Thelma_Z._Lavine',
                 'wikipedia_canonical_path' => 'Thelma_Z._Lavine',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Thelma_Z._Lavine',
                 'name' => 'Thelma Z. Lavine',
                 'sex' => 'female',
-                'redirected_name' => 'Thelma_Z._Lavine',
+                'redirected_name' => 'Thelma Z. Lavine',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1915-01-01T00:00:00Z',
                 'year' => 1915,
                 'month' => 1,
                 'day' => 1,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'date_of_death' => '2011-01-01T00:00:00Z',
+                'death_year' => 2011,
+                'death_month' => 1,
+                'death_day' => 1,
+                'wikidata_response' => '{"occupation":"philosopher","employer":["Brooklyn College","George Mason University"],"sex or gender":"female","ISNI":"0000 0001 1754 3085","instance of":"human","educated at":"Radcliffe College","date of birth":"1915-01-01T00:00:00Z","date of death":"2011-01-01T00:00:00Z","given name":"Thelma"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 4,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-09-24 02:25:23',
+                'updated_at' => '2018-11-18 08:39:25',
             ),
-            205 => 
-            array (
-                'id' => 706,
-                'wikipedia_id' => 2016453,
-                'qid' => 'Q3311648',
-                'intro' => 'French philosopher',
-            'description' => '<p><b>Michèle Le Dœuff</b> (<small>French: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[lə dœf]</span>; born 1948) is a French philosopher with a scholarly interest in the philosophy of Francis Bacon, and Sir Thomas More\'s utopianism. She questions the boundaries of philosophy, while insisting upon philosophy\'s importance (for example, in "Ants and Women"). She is critical of professional philosophers\' neglectful attitude to science, and argues that disputes within sciences are often epistemological (that is, properly philosophical). In <i>Hipparchia\'s Choice</i> (1989) she questions philosophy\'s pretensions to being a unique practice which achieves a pure clarity: philosophy is inevitably shaped by language, metaphor, and power relations. According to Le Dœuff feminists make a special contribution. Their critique of gender categories in philosophy, science, and the humanities is empirical, philosophical, political, and interdisciplinary. Feminists see clearly how discourses are elevated to the status of \'philosophical\' by a process in which social power is involved.</p>',
-                'wikipedia_path' => '/wiki/Mich%C3%A8le_Le_D%C5%93uff',
-                'wikipedia_canonical_path' => 'Mich%C3%A8le_Le_D%C5%93uff',
-                'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Mich%C3%A8le_Le_D%C5%93uff',
-                'name' => 'Michèle Le Dœuff',
-                'sex' => 'female',
-                'redirected_name' => 'Michèle Le Dœuff',
-                'image' => NULL,
-                'place_of_birth' => NULL,
-                'place_of_birth_lng' => NULL,
-                'place_of_birth_lat' => NULL,
-                'date_of_birth' => '1948-01-01T00:00:00Z',
-                'year' => 1948,
-                'month' => 1,
-                'day' => 1,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
-                'type' => NULL,
-                'event' => 2,
-                'linked_articles' => 12,
-                'deleted_at' => NULL,
-                'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-10-29 09:19:09',
-            ),
-            206 => 
+            202 => 
             array (
                 'id' => 707,
                 'wikipedia_id' => 32004102,
@@ -25233,7 +25088,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:19:15',
             ),
-            207 => 
+            203 => 
             array (
                 'id' => 708,
                 'wikipedia_id' => 41567488,
@@ -25266,7 +25121,7 @@ In 2000, Sok-Hon Ham was selected by the Republic of Korea as a national cultura
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:19:21',
             ),
-            208 => 
+            204 => 
             array (
                 'id' => 709,
                 'wikipedia_id' => 5356017,
@@ -25301,7 +25156,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:19:27',
             ),
-            209 => 
+            205 => 
             array (
                 'id' => 710,
                 'wikipedia_id' => 42501777,
@@ -25334,7 +25189,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:00',
             ),
-            210 => 
+            206 => 
             array (
                 'id' => 711,
                 'wikipedia_id' => 4023241,
@@ -25368,7 +25223,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:02',
             ),
-            211 => 
+            207 => 
             array (
                 'id' => 712,
                 'wikipedia_id' => 369743,
@@ -25401,7 +25256,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:02',
             ),
-            212 => 
+            208 => 
             array (
                 'id' => 713,
                 'wikipedia_id' => 41878731,
@@ -25434,7 +25289,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:19:53',
             ),
-            213 => 
+            209 => 
             array (
                 'id' => 714,
                 'wikipedia_id' => 42346651,
@@ -25467,7 +25322,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:19:59',
             ),
-            214 => 
+            210 => 
             array (
                 'id' => 715,
                 'wikipedia_id' => 41408129,
@@ -25501,7 +25356,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:20:05',
             ),
-            215 => 
+            211 => 
             array (
                 'id' => 716,
                 'wikipedia_id' => 51096330,
@@ -25536,7 +25391,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:20:10',
             ),
-            216 => 
+            212 => 
             array (
                 'id' => 717,
                 'wikipedia_id' => NULL,
@@ -25569,14 +25424,14 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-09-24 02:25:42',
             ),
-            217 => 
+            213 => 
             array (
                 'id' => 718,
                 'wikipedia_id' => 38573521,
                 'qid' => 'Q7648174',
                 'intro' => 'British political philosopher',
                 'description' => '<p>
-<b>Susan Lesley "Sue" Mendus</b>, CBE, FBA, FLSW (born 25 August 1951) is a Welsh academic specialising in political philosophy. She is currently Professor Emerita of Political Philosophy at the University of York. She was Vice-President (Social Sciences) of the British Academy between 2008 and 2012.
+<b>Susan Lesley "Sue" Mendus</b>, , FLSW (born 25 August 1951) is a Welsh academic specialising in political philosophy. She is currently Professor Emerita of Political Philosophy at the University of York. She was Vice-President (Social Sciences) of the British Academy between 2008 and 2012.
 </p>',
                 'wikipedia_path' => '/wiki/Susan_Mendus',
                 'wikipedia_canonical_path' => 'Susan_Mendus',
@@ -25585,7 +25440,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'sex' => 'female',
                 'redirected_name' => 'Susan Mendus',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => '1951-01-01T00:00:00Z',
@@ -25596,15 +25451,15 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","award received":"Commander of the Order of the British Empire","sex or gender":"female","ISNI":"0000 0001 0877 8974","VIAF ID":"22169395","country of citizenship":"United Kingdom","instance of":"human","educated at":"Aberystwyth University","National Thesaurus for Author Names ID":"07164461X","languages spoken, written or signed":"English","BnF ID":"120931578","SUDOC authorities ID":"029268540","SHARE Catalogue author ID":"267464","member of":"British Academy","date of birth":"1951-01-01T00:00:00Z","given name":"Susan","BNE ID":"XX1016147"}',
                 'type' => NULL,
                 'event' => 2,
-                'linked_articles' => 6,
+                'linked_articles' => 7,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-10-29 09:20:18',
+                'updated_at' => '2018-11-17 09:21:22',
             ),
-            218 => 
+            214 => 
             array (
                 'id' => 719,
                 'wikipedia_id' => 37335543,
@@ -25637,7 +25492,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:20:23',
             ),
-            219 => 
+            215 => 
             array (
                 'id' => 720,
                 'wikipedia_id' => 852943,
@@ -25674,7 +25529,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:04',
             ),
-            220 => 
+            216 => 
             array (
                 'id' => 721,
                 'wikipedia_id' => 2015850,
@@ -25708,7 +25563,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:20:42',
             ),
-            221 => 
+            217 => 
             array (
                 'id' => 722,
                 'wikipedia_id' => 60315,
@@ -25717,7 +25572,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'description' => '<p class="mw-empty-elt">
 
 </p>
-<p><b>Dame Jean Iris Murdoch</b>  (<span></span>; 15 July 1919 – 8 February 1999) was a British novelist and philosopher born in Ireland to Irish parentage. Murdoch is best known for her novels about good and evil, sexual relationships, morality, and the power of the unconscious. Her first published novel, <i>Under the Net</i>, was selected in 1998 as one of Modern Library\'s 100 best English-language novels of the 20th century. In 1987, she was made a Dame Commander of the Order of the British Empire. Her books include <i>The Bell</i> (1958), <i>A Severed Head</i> (1961), <i>The Red and the Green</i> (1965), <i>The Nice and the Good</i> (1968), <i>The Black Prince</i> (1973), <i>Henry and Cato</i> (1976), <i>The Sea, the Sea</i> (1978, Booker Prize), <i>The Philosopher\'s Pupil</i> (1983), <i>The Good Apprentice</i> (1985), <i>The Book and the Brotherhood</i> (1987), <i>The Message to the Planet</i> (1989), and <i>The Green Knight</i> (1993). In 2008, <i>The Times</i> ranked Murdoch twelfth on a list of "The 50 greatest British writers since 1945".</p>',
+<p><b>Dame Jean Iris Murdoch</b>  (<span></span>; 15 July 1919 – 8 February 1999) was an Irish-born British novelist and philosopher. Murdoch is best known for her novels about good and evil, sexual relationships, morality, and the power of the unconscious. Her first published novel, <i>Under the Net</i>, was selected in 1998 as one of Modern Library\'s 100 best English-language novels of the 20th century. In 1987, she was made a Dame Commander of the Order of the British Empire. Her books include <i>The Bell</i> (1958), <i>A Severed Head</i> (1961), <i>The Red and the Green</i> (1965), <i>The Nice and the Good</i> (1968), <i>The Black Prince</i> (1973), <i>Henry and Cato</i> (1976), <i>The Sea, the Sea</i> (1978, Booker Prize), <i>The Philosopher\'s Pupil</i> (1983), <i>The Good Apprentice</i> (1985), <i>The Book and the Brotherhood</i> (1987), <i>The Message to the Planet</i> (1989), and <i>The Green Knight</i> (1993). In 2008, <i>The Times</i> ranked Murdoch twelfth on a list of "The 50 greatest British writers since 1945".</p>',
                 'wikipedia_path' => '/wiki/Iris_Murdoch',
                 'wikipedia_canonical_path' => 'Iris_Murdoch',
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Iris_Murdoch',
@@ -25725,26 +25580,26 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'sex' => 'female',
                 'redirected_name' => 'Iris Murdoch',
                 'image' => NULL,
-                'place_of_birth' => 'Dublin Ireland',
+                'place_of_birth' => 'Dublin, Ireland',
                 'place_of_birth_lng' => '-6.2602732',
                 'place_of_birth_lat' => '53.3497645',
                 'date_of_birth' => '1919-07-15T00:00:00Z',
                 'year' => 1919,
                 'month' => 7,
                 'day' => 15,
-                'date_of_death' => NULL,
-                'death_year' => NULL,
-                'death_month' => NULL,
-                'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'date_of_death' => '1999-02-08T00:00:00Z',
+                'death_year' => 1999,
+                'death_month' => 2,
+                'death_day' => 8,
+            'wikidata_response' => '{"field of work":"poetry","occupation":["writer","poet","novelist","biographer","philosopher","professor"],"employer":["St Anne\'s College","University of Oxford"],"award received":["James Tait Black Memorial Prize","Dame Commander of the Order of the British Empire","Man Booker Prize"],"place of birth":"Dublin","place of death":"Oxford","sex or gender":"female","ISNI":"0000 0001 1507 1934","VIAF ID":"89499452","GND ID":"118585835","Library of Congress authority ID":"n80013587","spouse":"John Bayley","country of citizenship":["United Kingdom","Ireland"],"instance of":"human","educated at":["Newnham College","Badminton School","Somerville College"],"PTBNP ID":"100603","National Thesaurus for Author Names ID":"068935757","BIBSYS ID":"90057894","BAV ID":"ADV11282820","medical condition":"Alzheimer\'s disease","manner of death":"natural causes","NUKAT (WarsawU) authorities ID":"n95200066","Internet Broadway Database person ID":"6446","NNDB people ID":"439\\/000104127","CANTIC-ID":"a10127963","Munzinger IBA":"00000007598","KLfG Critical Dictionary of foreign contemporary literature":"18000000323","Gran Enciclop\\u00e8dia Catalana ID":"0044985","described by source":"Great Soviet Encyclopedia (1969\\u20131978)","languages spoken, written or signed":"English","Oxford Dictionary of National Biography ID":"71228","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Iris-Murdoch","GTAA ID":"135126","National Portrait Gallery (London) person ID":"mp05608","FAST ID":"49735","Theatricalia person ID":"yd6","BnF ID":"11917259z","SUDOC authorities ID":"027511898","BVMC person ID":"65335","Great Russian Encyclopedia Online ID":"2205276","UK National Archives ID":"F52753","Runeberg author ID":"murdoiri","Encyclop\\u00e6dia Universalis ID":"iris-murdoch","NE.se ID":"iris-murdoch","Quora topic ID":"Iris-Murdoch","SNAC Ark ID":"w6tx7nv9","IMDb ID":"nm0613755","NDL Auth ID":"00450833","openMLOL author ID":["149641","149636"],"SBN author ID":"IT\\\\ICCU\\\\CFIV\\\\023576","SHARE Catalogue author ID":"132791","NLA (Australia) ID":"35416349","Christie\'s creator ID":"60157","MusicBrainz artist ID":"f4958f9e-2ec7-41a9-b6d7-db6f2d4ef22f","member of":"American Academy of Arts and Sciences","cause of death":"Alzheimer\'s disease","BNB person ID":"MurdochIris","The Paris Review interviewee ID":"2313","Literature Ireland ID":"232","Libris-URI":"sq46718b2wthx77","date of birth":"1919-07-15T00:00:00Z","date of death":"1999-02-08T00:00:00Z","Angelicum author ID":"87623","Freebase ID":"\\/m\\/0gdgq","Open Library ID":"OL135196A","NKCR AUT ID":"jn19981001872","family name":"Murdoch","given name":"Iris","InPhO ID":"thinker\\/3612","Perlentaucher ID":"iris-murdoch","SELIBR ID":"208750","topic\'s main category":"Category:Iris Murdoch","National Library of Israel ID":["001701173","000096406"],"BNE ID":"XX1062858"}',
                 'type' => NULL,
                 'event' => 2,
                 'linked_articles' => 408,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-11-14 22:59:06',
+                'updated_at' => '2018-11-15 08:40:44',
             ),
-            222 => 
+            218 => 
             array (
                 'id' => 723,
                 'wikipedia_id' => 4829063,
@@ -25778,12 +25633,12 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:20:55',
             ),
-            223 => 
+            219 => 
             array (
                 'id' => 724,
-                'wikipedia_id' => NULL,
+                'wikipedia_id' => 51927142,
                 'qid' => 'Q27450442',
-                'intro' => NULL,
+                'intro' => '',
             'description' => '<p><b>Jennifer Nagel</b> is a Canadian philosopher in the Department of Philosophy at the University of Toronto.  Her research focuses on epistemology, philosophy of mind, and metacognition. She has also written on 17th century (Western) philosophy, including on John Locke and René Descartes.
 </p>',
                 'wikipedia_path' => '/wiki/Jennifer_Nagel',
@@ -25791,9 +25646,9 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Jennifer_Nagel',
                 'name' => 'Jennifer Nagel',
                 'sex' => 'female',
-                'redirected_name' => 'Jennifer_Nagel',
+                'redirected_name' => 'Jennifer Nagel',
                 'image' => NULL,
-                'place_of_birth' => NULL,
+                'place_of_birth' => ', ',
                 'place_of_birth_lng' => NULL,
                 'place_of_birth_lat' => NULL,
                 'date_of_birth' => NULL,
@@ -25804,15 +25659,15 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'death_year' => NULL,
                 'death_month' => NULL,
                 'death_day' => NULL,
-                'wikidata_response' => NULL,
+                'wikidata_response' => '{"occupation":"philosopher","employer":"University of Toronto","sex or gender":"female","country of citizenship":"Canada","instance of":"human","educated at":"University of Toronto","given name":"Jennifer"}',
                 'type' => NULL,
-                'event' => NULL,
+                'event' => 2,
                 'linked_articles' => 3,
                 'deleted_at' => NULL,
                 'created_at' => '2018-08-10 06:30:29',
-                'updated_at' => '2018-09-24 02:25:56',
+                'updated_at' => '2018-11-16 10:14:55',
             ),
-            224 => 
+            220 => 
             array (
                 'id' => 725,
                 'wikipedia_id' => 3317391,
@@ -25849,7 +25704,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:21:03',
             ),
-            225 => 
+            221 => 
             array (
                 'id' => 726,
                 'wikipedia_id' => 9849640,
@@ -25883,7 +25738,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:08',
             ),
-            226 => 
+            222 => 
             array (
                 'id' => 727,
                 'wikipedia_id' => 7159985,
@@ -25920,7 +25775,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:21:21',
             ),
-            227 => 
+            223 => 
             array (
                 'id' => 728,
                 'wikipedia_id' => 40355735,
@@ -25953,7 +25808,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:21:27',
             ),
-            228 => 
+            224 => 
             array (
                 'id' => 729,
                 'wikipedia_id' => 341297,
@@ -25988,7 +25843,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:10',
             ),
-            229 => 
+            225 => 
             array (
                 'id' => 730,
                 'wikipedia_id' => 41961484,
@@ -26022,7 +25877,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:21:49',
             ),
-            230 => 
+            226 => 
             array (
                 'id' => 731,
                 'wikipedia_id' => 25934304,
@@ -26055,7 +25910,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:21:54',
             ),
-            231 => 
+            227 => 
             array (
                 'id' => 732,
                 'wikipedia_id' => 470897,
@@ -26092,7 +25947,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:11',
             ),
-            232 => 
+            228 => 
             array (
                 'id' => 733,
                 'wikipedia_id' => 5840789,
@@ -26126,7 +25981,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:12',
             ),
-            233 => 
+            229 => 
             array (
                 'id' => 734,
                 'wikipedia_id' => 2015702,
@@ -26163,7 +26018,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-10-29 09:22:23',
             ),
-            234 => 
+            230 => 
             array (
                 'id' => 735,
                 'wikipedia_id' => 6903182,
@@ -26196,7 +26051,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:15',
             ),
-            235 => 
+            231 => 
             array (
                 'id' => 736,
                 'wikipedia_id' => 45170694,
@@ -26230,7 +26085,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:16',
             ),
-            236 => 
+            232 => 
             array (
                 'id' => 737,
                 'wikipedia_id' => 1050242,
@@ -26266,7 +26121,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:17',
             ),
-            237 => 
+            233 => 
             array (
                 'id' => 738,
                 'wikipedia_id' => 1826352,
@@ -26299,7 +26154,7 @@ She is the Clarence Irving Lewis Professor of Philosophy at Stanford University.
                 'created_at' => '2018-08-10 06:30:29',
                 'updated_at' => '2018-11-14 22:59:18',
             ),
-            238 => 
+            234 => 
             array (
                 'id' => 739,
                 'wikipedia_id' => 40095131,
@@ -26333,7 +26188,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:20',
         ),
-        239 => 
+        235 => 
         array (
             'id' => 740,
             'wikipedia_id' => 28584043,
@@ -26367,7 +26222,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:20',
         ),
-        240 => 
+        236 => 
         array (
             'id' => 741,
             'wikipedia_id' => 38172329,
@@ -26403,7 +26258,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:23:28',
         ),
-        241 => 
+        237 => 
         array (
             'id' => 742,
             'wikipedia_id' => 40034493,
@@ -26437,7 +26292,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:23:33',
         ),
-        242 => 
+        238 => 
         array (
             'id' => 743,
             'wikipedia_id' => 39035529,
@@ -26470,7 +26325,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:23:39',
         ),
-        243 => 
+        239 => 
         array (
             'id' => 744,
             'wikipedia_id' => 40336070,
@@ -26503,7 +26358,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:23:44',
         ),
-        244 => 
+        240 => 
         array (
             'id' => 745,
             'wikipedia_id' => 4424066,
@@ -26539,7 +26394,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:22',
         ),
-        245 => 
+        241 => 
         array (
             'id' => 746,
             'wikipedia_id' => 40305789,
@@ -26553,7 +26408,7 @@ and Descartes), and moral philosophy.</p>',
             'sex' => 'female',
             'redirected_name' => 'Sally Scholz',
             'image' => NULL,
-            'place_of_birth' => NULL,
+            'place_of_birth' => ', ',
             'place_of_birth_lng' => NULL,
             'place_of_birth_lat' => NULL,
             'date_of_birth' => '1968-01-01T00:00:00Z',
@@ -26564,15 +26419,15 @@ and Descartes), and moral philosophy.</p>',
             'death_year' => NULL,
             'death_month' => NULL,
             'death_day' => NULL,
-            'wikidata_response' => NULL,
+            'wikidata_response' => '{"occupation":"philosopher","employer":"Villanova University","sex or gender":"female","country of citizenship":"United States of America","instance of":"human","educated at":"Purdue University","date of birth":"1968-01-01T00:00:00Z","given name":"Sally"}',
             'type' => NULL,
             'event' => 2,
             'linked_articles' => 5,
             'deleted_at' => NULL,
             'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-10-29 09:23:59',
+            'updated_at' => '2018-11-17 23:39:09',
         ),
-        246 => 
+        242 => 
         array (
             'id' => 747,
             'wikipedia_id' => NULL,
@@ -26605,7 +26460,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-09-24 02:26:42',
         ),
-        247 => 
+        243 => 
         array (
             'id' => 748,
             'wikipedia_id' => 32255007,
@@ -26638,7 +26493,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:06',
         ),
-        248 => 
+        244 => 
         array (
             'id' => 749,
             'wikipedia_id' => 41350665,
@@ -26672,7 +26527,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:12',
         ),
-        249 => 
+        245 => 
         array (
             'id' => 750,
             'wikipedia_id' => 40061732,
@@ -26705,7 +26560,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:18',
         ),
-        250 => 
+        246 => 
         array (
             'id' => 751,
             'wikipedia_id' => 80072,
@@ -26743,7 +26598,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:24',
         ),
-        251 => 
+        247 => 
         array (
             'id' => 752,
             'wikipedia_id' => 40290971,
@@ -26778,7 +26633,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:35',
         ),
-        252 => 
+        248 => 
         array (
             'id' => 753,
             'wikipedia_id' => 42584452,
@@ -26812,7 +26667,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:41',
         ),
-        253 => 
+        249 => 
         array (
             'id' => 754,
             'wikipedia_id' => 40040934,
@@ -26847,7 +26702,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:46',
         ),
-        254 => 
+        250 => 
         array (
             'id' => 755,
             'wikipedia_id' => 1082492,
@@ -26881,7 +26736,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:25',
         ),
-        255 => 
+        251 => 
         array (
             'id' => 756,
             'wikipedia_id' => 42481477,
@@ -26914,7 +26769,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:24:57',
         ),
-        256 => 
+        252 => 
         array (
             'id' => 757,
             'wikipedia_id' => 40516523,
@@ -26948,7 +26803,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:03',
         ),
-        257 => 
+        253 => 
         array (
             'id' => 758,
             'wikipedia_id' => 40550052,
@@ -26981,7 +26836,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:11',
         ),
-        258 => 
+        254 => 
         array (
             'id' => 759,
             'wikipedia_id' => 41404789,
@@ -27014,7 +26869,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:18',
         ),
-        259 => 
+        255 => 
         array (
             'id' => 760,
             'wikipedia_id' => 3783415,
@@ -27051,7 +26906,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:24',
         ),
-        260 => 
+        256 => 
         array (
             'id' => 761,
             'wikipedia_id' => 4285713,
@@ -27085,7 +26940,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:28',
         ),
-        261 => 
+        257 => 
         array (
             'id' => 762,
             'wikipedia_id' => 40359759,
@@ -27118,7 +26973,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:39',
         ),
-        262 => 
+        258 => 
         array (
             'id' => 763,
             'wikipedia_id' => 41085737,
@@ -27151,7 +27006,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:45',
         ),
-        263 => 
+        259 => 
         array (
             'id' => 764,
             'wikipedia_id' => 2157918,
@@ -27187,7 +27042,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:30',
         ),
-        264 => 
+        260 => 
         array (
             'id' => 765,
             'wikipedia_id' => 41360141,
@@ -27220,7 +27075,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:25:56',
         ),
-        265 => 
+        261 => 
         array (
             'id' => 766,
             'wikipedia_id' => 42308748,
@@ -27253,7 +27108,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:26:05',
         ),
-        266 => 
+        262 => 
         array (
             'id' => 767,
             'wikipedia_id' => 40272509,
@@ -27286,7 +27141,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:26:10',
         ),
-        267 => 
+        263 => 
         array (
             'id' => 768,
             'wikipedia_id' => 40349649,
@@ -27319,7 +27174,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:26:16',
         ),
-        268 => 
+        264 => 
         array (
             'id' => 769,
             'wikipedia_id' => 2016044,
@@ -27355,7 +27210,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:34',
         ),
-        269 => 
+        265 => 
         array (
             'id' => 770,
             'wikipedia_id' => 42434655,
@@ -27370,26 +27225,26 @@ and Descartes), and moral philosophy.</p>',
             'sex' => 'female',
             'redirected_name' => 'Elsie Whetnall',
             'image' => NULL,
-            'place_of_birth' => NULL,
+            'place_of_birth' => ', ',
             'place_of_birth_lng' => NULL,
             'place_of_birth_lat' => NULL,
             'date_of_birth' => '1897-12-24T00:00:00Z',
             'year' => 1897,
             'month' => 12,
             'day' => 24,
-            'date_of_death' => NULL,
-            'death_year' => NULL,
-            'death_month' => NULL,
-            'death_day' => NULL,
-            'wikidata_response' => NULL,
+            'date_of_death' => '1998-01-01T00:00:00Z',
+            'death_year' => 1998,
+            'death_month' => 1,
+            'death_day' => 1,
+            'wikidata_response' => '{"occupation":"philosopher","sex or gender":"female","country of citizenship":["United Kingdom","United Kingdom of Great Britain and Ireland","United Kingdom of Great Britain and Ireland"],"instance of":"human","educated at":"Bedford College","date of birth":"1897-12-24T00:00:00Z","date of death":"1998-01-01T00:00:00Z","given name":"Elsie"}',
             'type' => NULL,
             'event' => 2,
             'linked_articles' => 4,
             'deleted_at' => NULL,
             'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-10-29 09:26:28',
+            'updated_at' => '2018-11-17 23:39:48',
         ),
-        270 => 
+        266 => 
         array (
             'id' => 771,
             'wikipedia_id' => NULL,
@@ -27422,7 +27277,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-09-24 02:27:21',
         ),
-        271 => 
+        267 => 
         array (
             'id' => 772,
             'wikipedia_id' => 42352443,
@@ -27455,7 +27310,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:26:38',
         ),
-        272 => 
+        268 => 
         array (
             'id' => 773,
             'wikipedia_id' => 31937862,
@@ -27488,7 +27343,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:36',
         ),
-        273 => 
+        269 => 
         array (
             'id' => 774,
             'wikipedia_id' => 40338695,
@@ -27521,7 +27376,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:26:50',
         ),
-        274 => 
+        270 => 
         array (
             'id' => 775,
             'wikipedia_id' => 1467673,
@@ -27554,7 +27409,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:38',
         ),
-        275 => 
+        271 => 
         array (
             'id' => 776,
             'wikipedia_id' => 188736,
@@ -27587,7 +27442,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:27:01',
         ),
-        276 => 
+        272 => 
         array (
             'id' => 777,
             'wikipedia_id' => 23791886,
@@ -27624,7 +27479,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:40',
         ),
-        277 => 
+        273 => 
         array (
             'id' => 778,
             'wikipedia_id' => 2211590,
@@ -27660,7 +27515,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:42',
         ),
-        278 => 
+        274 => 
         array (
             'id' => 779,
             'wikipedia_id' => 8101680,
@@ -27694,7 +27549,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:27:28',
         ),
-        279 => 
+        275 => 
         array (
             'id' => 780,
             'wikipedia_id' => 42347365,
@@ -27727,7 +27582,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:27:33',
         ),
-        280 => 
+        276 => 
         array (
             'id' => 781,
             'wikipedia_id' => 1040692,
@@ -27760,7 +27615,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:27:39',
         ),
-        281 => 
+        277 => 
         array (
             'id' => 782,
             'wikipedia_id' => 41886869,
@@ -27793,7 +27648,7 @@ and Descartes), and moral philosophy.</p>',
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:27:44',
         ),
-        282 => 
+        278 => 
         array (
             'id' => 783,
             'wikipedia_id' => 5555607,
@@ -27828,7 +27683,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:44',
         ),
-        283 => 
+        279 => 
         array (
             'id' => 784,
             'wikipedia_id' => NULL,
@@ -27864,74 +27719,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-09-24 02:27:42',
         ),
-        284 => 
-        array (
-            'id' => 785,
-            'wikipedia_id' => 29228549,
-            'qid' => 'Q44912',
-            'intro' => 'priestess at Delphi',
-        'description' => '<p><b>Themistoclea</b> (<span></span>; Greek: <span lang="grc" title="Ancient Greek language text">Θεμιστόκλεια</span> <i>Themistokleia</i>; also <b>Aristoclea</b> (<span></span>; Ἀριστοκλεία <i>Aristokleia</i>), <b>Theoclea</b> (<span></span>; Θεοκλεία <i>Theokleia</i>); fl. 6th century BCE) was a priestess at Delphi.
-</p>',
-            'wikipedia_path' => '/wiki/Themistoclea',
-            'wikipedia_canonical_path' => 'Themistoclea',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Themistoclea',
-            'name' => 'Themistoclea',
-            'sex' => 'female',
-            'redirected_name' => 'Aristoclea',
-            'image' => NULL,
-            'place_of_birth' => NULL,
-            'place_of_birth_lng' => NULL,
-            'place_of_birth_lat' => NULL,
-            'date_of_birth' => '-599-01-01T00:00:00Z',
-            'year' => -599,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => NULL,
-            'death_year' => NULL,
-            'death_month' => NULL,
-            'death_day' => NULL,
-            'wikidata_response' => NULL,
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 9,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-10-29 09:27:57',
-        ),
-        285 => 
-        array (
-            'id' => 786,
-            'wikipedia_id' => 231443,
-            'qid' => 'Q228564',
-            'intro' => 'Milesian woman, involved with Athenian statesman Pericles',
-        'description' => '<p><b>Aspasia</b> (<span></span>; Greek: <span lang="grc" title="Ancient Greek language text">Ἀσπασία</span>; c. 470 BC – c. 400 BC) was an influential immigrant to Classical-era Athens who was the lover and partner of the statesman Pericles. The couple had a son, Pericles the Younger, but the full details of the couple\'s marital status are unknown. According to Plutarch, her house became an intellectual centre in Athens, attracting the most prominent writers and thinkers, including the philosopher Socrates. It has also been suggested that the teachings of Aspasia influenced Socrates. Aspasia is mentioned in the writings of Plato, Aristophanes, Xenophon, and others.  Though she spent most of her adult life in Greece, few details of her life are fully known. Some scholars suggest that Aspasia was a brothel keeper and a prostitute. Aspasia\'s role in history provides crucial insight to the understanding of the women of ancient Greece. Very little is known about women from her time period. One scholar stated that, "To ask questions about Aspasia\'s life is to ask questions about half of humanity."</p>',
-            'wikipedia_path' => '/wiki/Aspasia',
-            'wikipedia_canonical_path' => 'Aspasia',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Aspasia',
-            'name' => 'Aspasia',
-            'sex' => 'female',
-            'redirected_name' => 'Aspasia',
-            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Aspasie%20-%20Mus%C3%A9e%20de%20Pergame%20-%20Berlin.jpg',
-            'place_of_birth' => 'Miletus, Turkey',
-            'place_of_birth_lng' => '27.2746005',
-            'place_of_birth_lat' => '37.5256776',
-            'date_of_birth' => '-469-01-01T00:00:00Z',
-            'year' => -469,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => '-399-01-01T00:00:00Z',
-            'death_year' => -399,
-            'death_month' => 1,
-            'death_day' => 1,
-        'wikidata_response' => '{"field of work":"poetry","occupation":["writer","poet","philosopher","hetaera"],"image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Aspasie%20-%20Mus%C3%A9e%20de%20Pergame%20-%20Berlin.jpg","place of birth":"Miletus","place of death":"Athens","sex or gender":"female","ISNI":"0000 0001 1805 4670","VIAF ID":"168992389","GND ID":"118650718","Library of Congress authority ID":"n50002056","spouse":"Pericles","instance of":"human","child":"Pericles the Younger","CANTIC-ID":"a11624723","Gran Enciclop\\u00e8dia Catalana ID":"0005713","described by source":["Armenian Soviet Encyclopedia","Small Brockhaus and Efron Encyclopedic Dictionary","Great Soviet Encyclopedia (1926\\u20131947)","Brockhaus and Efron Encyclopedic Dictionary"],"Encyclop\\u00e6dia Britannica Online ID":"biography\\/Aspasia","Sandrart.net person ID":"1327","CERL ID":"cnp00397391","FAST ID":"476","Persons of Ancient Athens":"222330","SUDOC authorities ID":"083851208","Great Russian Encyclopedia Online ID":"1834623","Encyclop\\u00e6dia Universalis ID":"aspasie","Treccani ID":"aspasia-di-mileto","SNAC Ark ID":"w6p69cx5","Commons category":"Aspasia","Collective Biographies of Women ID":"9047","date of birth":"-469-01-01T00:00:00Z","date of death":"-399-01-01T00:00:00Z","Freebase ID":"\\/m\\/01hnxb","given name":"Aspazja","BNE ID":"XX982891"}',
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 437,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-11-14 22:59:45',
-        ),
-        286 => 
+        280 => 
         array (
             'id' => 787,
             'wikipedia_id' => NULL,
@@ -27964,7 +27752,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-09-24 02:27:51',
         ),
-        287 => 
+        281 => 
         array (
             'id' => 788,
             'wikipedia_id' => 3573079,
@@ -27997,7 +27785,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:47',
         ),
-        288 => 
+        282 => 
         array (
             'id' => 789,
             'wikipedia_id' => 17946392,
@@ -28031,7 +27819,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:49',
         ),
-        289 => 
+        283 => 
         array (
             'id' => 790,
             'wikipedia_id' => 105811,
@@ -28067,7 +27855,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:50',
         ),
-        290 => 
+        284 => 
         array (
             'id' => 791,
             'wikipedia_id' => 20824873,
@@ -28101,7 +27889,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:51',
         ),
-        291 => 
+        285 => 
         array (
             'id' => 792,
             'wikipedia_id' => 407530,
@@ -28138,7 +27926,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:54',
         ),
-        292 => 
+        286 => 
         array (
             'id' => 793,
             'wikipedia_id' => 1234674,
@@ -28172,7 +27960,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:56',
         ),
-        293 => 
+        287 => 
         array (
             'id' => 794,
             'wikipedia_id' => 1483476,
@@ -28189,7 +27977,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'sex' => 'female',
             'redirected_name' => 'Celia Green',
             'image' => NULL,
-            'place_of_birth' => NULL,
+            'place_of_birth' => ', ',
             'place_of_birth_lng' => NULL,
             'place_of_birth_lat' => NULL,
             'date_of_birth' => '1935-11-26T00:00:00Z',
@@ -28200,15 +27988,15 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'death_year' => NULL,
             'death_month' => NULL,
             'death_day' => NULL,
-            'wikidata_response' => NULL,
+            'wikidata_response' => '{"occupation":"philosopher","sex or gender":"female","ISNI":"0000 0001 0990 5410","VIAF ID":"77170613","Library of Congress authority ID":"n50033542","instance of":"human","educated at":"Somerville College","National Thesaurus for Author Names ID":"070817693","FAST ID":"1898117","SUDOC authorities ID":"073984779","date of birth":"1935-11-26T00:00:00Z","family name":"Green","given name":"Celia","InPhO ID":"thinker\\/3119"}',
             'type' => NULL,
             'event' => 2,
             'linked_articles' => 34,
             'deleted_at' => NULL,
             'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-10-29 09:29:14',
+            'updated_at' => '2018-11-17 09:16:37',
         ),
-        294 => 
+        288 => 
         array (
             'id' => 795,
             'wikipedia_id' => 51347991,
@@ -28241,7 +28029,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 22:59:56',
         ),
-        295 => 
+        289 => 
         array (
             'id' => 796,
             'wikipedia_id' => NULL,
@@ -28275,45 +28063,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-09-24 02:28:10',
         ),
-        296 => 
-        array (
-            'id' => 797,
-            'wikipedia_id' => 1241056,
-            'qid' => 'Q5656',
-            'intro' => 'French nun, writer, scholar, and abbess',
-            'description' => '<p class="mw-empty-elt">
-</p>
-
-<p><b>Héloïse</b> (<span></span> or <span></span>; <small>French: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[e.lɔ.iz]</span>; 1090?/1100–1? – 16 May 1164) was a French nun, writer, scholar, and abbess, best known for her love affair and correspondence with Peter Abélard.
-</p><p>Héloïse is accorded an important place in French literary history and in the development of feminist representation. While few of her letters survive, those that do have been considered a foundational "monument" of French literature from the late thirteenth century onwards. Her correspondence, more erudite than it is erotic, is the Latin basis for the <i>bildungsroman</i> and a model of the classical epistolary genre, and which influenced writers as diverse as Madame de Lafayette, Laclos, Rousseau and Dominique Aury. 
-</p>',
-            'wikipedia_path' => '/wiki/H%C3%A9lo%C3%AFse',
-            'wikipedia_canonical_path' => 'H%C3%A9lo%C3%AFse',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/H%C3%A9lo%C3%AFse',
-            'name' => 'Héloïse',
-            'sex' => 'female',
-            'redirected_name' => 'Heloise',
-            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A9lo%C3%AFse%20%28chapelle%20de%20lHumanit%C3%A9%20%C3%A0%20Paris%29%20%283927771867%29.jpg',
-            'place_of_birth' => 'Paris, France',
-            'place_of_birth_lng' => '2.3514992',
-            'place_of_birth_lat' => '48.8566101',
-            'date_of_birth' => '1101-01-01T00:00:00Z',
-            'year' => 1101,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => '1164-05-30T00:00:00Z',
-            'death_year' => 1164,
-            'death_month' => 5,
-            'death_day' => 30,
-        'wikidata_response' => '{"occupation":["philosopher","nun","writer"],"place of burial":["P\\u00e8re Lachaise Cemetery","P\\u00e8re Lachaise Cemetery"],"religion":"Catholic Church","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/H%C3%A9lo%C3%AFse%20%28chapelle%20de%20lHumanit%C3%A9%20%C3%A0%20Paris%29%20%283927771867%29.jpg","place of birth":"Paris","place of death":"Oratory of the Paraclete","sex or gender":"female","ISNI":["0000 0004 4022 8376","0000 0001 2138 6094"],"VIAF ID":"71392176","GND ID":"118548980","Library of Congress authority ID":["nr89011057","n50081967"],"mother":"Hersende de Champagn\\u00e9","spouse":"Peter Abelard","country of citizenship":"France","instance of":"human","position held":"abbess","PTBNP ID":"83947","National Thesaurus for Author Names ID":"068306830","BIBSYS ID":"90056338","BAV ID":["ADV12514764","ADV12293399","ADV12293400","ADV10178705"],"NUKAT (WarsawU) authorities ID":"n99008116","CANTIC-ID":"a10988415","CONOR ID":"60798307","People Australia ID":["1133699","856618"],"described by source":"Brockhaus and Efron Encyclopedic Dictionary","LNB ID":"000079785","NSK ID":"000379608","languages spoken, written or signed":"Latin","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Heloise-French-nun","image of grave":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/P%C3%A8re-Lachaise%20-%20Division%207%20-%20Ab%C3%A9lard%2017.jpg","Commons Creator page":"H\\u00e9lo\\u00efse","name in native language":"H\\u00e9lo\\u00efse d\'Argenteuil","University of Barcelona authority ID":"a1375664","CERL ID":"cnp00395121","LibriVox author ID":"6239","FAST ID":"19687","WomenWriters ID":"2728234c-fa2c-4b13-a30a-9d7c0d032850","BnF ID":"11907201f","SUDOC authorities ID":"026918390","RERO ID":"02-A000082560","Encyclop\\u00e6dia Universalis ID":"heloise","NE.se ID":"heloise","BanQ author ID":"0000023559","NDL Auth ID":"00546506","Babelio author ID":"353854","Commons category":"H\\u00e9lo\\u00efse d\\u2019Argenteuil","openMLOL author ID":"179904","SBN author ID":"IT\\\\ICCU\\\\RAVV\\\\030179","SHARE Catalogue author ID":"195385","NLA (Australia) ID":["35890714","35186267"],"Collective Biographies of Women ID":"10145","ARLIMA ID":"1347","National Library of Brazil ID":"000494250","Find A Grave memorial ID":"1636","Herder Encyclopedia author ID":"Elo\\u00edsa","Libris-URI":"qn247lz82z4hglv","date of birth":"1101-01-01T00:00:00Z","date of death":"1164-05-30T00:00:00Z","Angelicum author ID":"38732","Muziekweb performer ID":"M00000438608","Freebase ID":"\\/m\\/04ldg6","Open Library ID":"OL4862859A","NKCR AUT ID":"ola2002161346","DBNL author ID":"helo003","given name":"H\\u00e9lo\\u00efse","SELIBR ID":"252638","topic\'s main category":"Category:H\\u00e9lo\\u00efse d\\u2019Argenteuil","Commons gallery":"H\\u00e9lo\\u00efse","National Library of Israel ID":"000061920","BNE ID":"XX966895"}',
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 41,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-11-14 22:59:58',
-        ),
-        297 => 
+        290 => 
         array (
             'id' => 798,
             'wikipedia_id' => 51357536,
@@ -28346,7 +28096,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:29:43',
         ),
-        298 => 
+        291 => 
         array (
             'id' => 799,
             'wikipedia_id' => 6223385,
@@ -28380,43 +28130,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:00',
         ),
-        299 => 
-        array (
-            'id' => 800,
-            'wikipedia_id' => 41415619,
-            'qid' => 'Q15990111',
-            'intro' => 'philosopher',
-            'description' => '<p class="mw-empty-elt">
-</p>
-<p><b>Rae Helen Langton</b>, FBA (born 14 February 1961) is an Australian and British professor of philosophy. She is currently the Knightbridge Professor of Philosophy at the University of Cambridge. She has published widely on Immanuel Kant\'s philosophy, moral philosophy, political philosophy, metaphysics, and feminist philosophy. She is also well known for her work on pornography and objectification.
-</p>',
-            'wikipedia_path' => '/wiki/Rae_Langton',
-            'wikipedia_canonical_path' => 'Rae_Langton',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Rae_Langton',
-            'name' => 'Rae Langton',
-            'sex' => 'female',
-            'redirected_name' => 'Rae Helen Langton',
-            'image' => NULL,
-            'place_of_birth' => 'Ludhiana India',
-            'place_of_birth_lng' => '75.8516010',
-            'place_of_birth_lat' => '30.9090157',
-            'date_of_birth' => '1961-01-01T00:00:00Z',
-            'year' => 1961,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => NULL,
-            'death_year' => NULL,
-            'death_month' => NULL,
-            'death_day' => NULL,
-            'wikidata_response' => NULL,
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 44,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-11-14 23:00:02',
-        ),
-        300 => 
+        292 => 
         array (
             'id' => 801,
             'wikipedia_id' => 4490831,
@@ -28450,7 +28164,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:30:02',
         ),
-        301 => 
+        293 => 
         array (
             'id' => 802,
             'wikipedia_id' => 1095862,
@@ -28487,7 +28201,7 @@ She is a Slovenian psychoanalytic theorist and philosopher who along with Mladen
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:03',
         ),
-        302 => 
+        294 => 
         array (
             'id' => 803,
             'wikipedia_id' => 213936,
@@ -28527,7 +28241,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:04',
         ),
-        303 => 
+        295 => 
         array (
             'id' => 804,
             'wikipedia_id' => 1882623,
@@ -28560,44 +28274,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:05',
         ),
-        304 => 
-        array (
-            'id' => 805,
-            'wikipedia_id' => 1535933,
-            'qid' => 'Q2332520',
-            'intro' => 'British philosopher',
-            'description' => '<p class="mw-empty-elt">
-
-</p>
-<p><b>Damaris Cudworth, Lady Masham</b> (18 January 1659 – 20 April 1708) was an English theological writer and advocate for women\'s education who is characterized as a proto-feminist. She overcame some weakness of eyesight and lack of access to formal higher education to win high regard among eminent thinkers of her time. With an extensive correspondence, she published two works, <i>A Discourse Concerning the Love of God</i> (1696) and <i>Thoughts in reference to a Vertuous or Christian Life</i> (1705). She is particularly noted for her long, mutually-influential friendship with the philosopher John Locke.
-</p>',
-            'wikipedia_path' => '/wiki/Damaris_Cudworth_Masham',
-            'wikipedia_canonical_path' => 'Damaris_Cudworth_Masham',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Damaris_Cudworth_Masham',
-            'name' => 'Damaris Cudworth Masham',
-            'sex' => 'female',
-            'redirected_name' => 'Damaris Cudworth Masham',
-            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Damaris%20Cudworth.jpg',
-            'place_of_birth' => 'Cambridge, United Kingdom',
-            'place_of_birth_lng' => '0.1235817',
-            'place_of_birth_lat' => '52.2034823',
-            'date_of_birth' => '1659-01-18T00:00:00Z',
-            'year' => 1659,
-            'month' => 1,
-            'day' => 18,
-            'date_of_death' => '1708-04-20T00:00:00Z',
-            'death_year' => 1708,
-            'death_month' => 4,
-            'death_day' => 20,
-        'wikidata_response' => '{"occupation":"philosopher","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Damaris%20Cudworth.jpg","place of birth":"Cambridge","place of death":"London","sex or gender":"female","ISNI":"0000 0000 8099 2871","VIAF ID":"19926890","father":"Ralph Cudworth","GND ID":"100459307","Library of Congress authority ID":"n85035134","country of citizenship":"Kingdom of Great Britain","instance of":"human","PTBNP ID":"1525445","National Thesaurus for Author Names ID":"24585861X","BIBSYS ID":"1450248439840","People Australia ID":"1119807","described by source":"Dictionary of National Biography (1885-1900)","Oxford Dictionary of National Biography ID":"18262","EMLO person ID":"f7d4c7ee-d98a-4f7e-a343-53ade2dfa5ea","CERL ID":"cnp00130571","FAST ID":"1467751","Six Degrees of Francis Bacon ID":"10008053","BnF ID":"14583982m","SUDOC authorities ID":"152490728","UK National Archives ID":"F34024","Kindred Britain ID":"I28153","Stanford Encyclopedia of Philosophy ID":"lady-masham","Electronic Enlightenment ID":"cudwodamar004736","openMLOL author ID":"174397","NLA (Australia) ID":"35860116","Collective Biographies of Women ID":"8591","Online Books Page author ID":"Masham, Damaris, Lady, 1658-1708","date of birth":"1659-01-18T00:00:00Z","date of death":"1708-04-20T00:00:00Z","Freebase ID":"\\/m\\/058sj2","Open Library ID":"OL5154242A","given name":"Damaris","InPhO ID":["thinker\\/4187","thinker\\/3541"]}',
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 23,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:29',
-            'updated_at' => '2018-11-14 23:00:07',
-        ),
-        305 => 
+        296 => 
         array (
             'id' => 806,
             'wikipedia_id' => 301680,
@@ -28631,7 +28308,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:08',
         ),
-        306 => 
+        297 => 
         array (
             'id' => 807,
             'wikipedia_id' => 29229751,
@@ -28665,7 +28342,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-10-29 09:30:58',
         ),
-        307 => 
+        298 => 
         array (
             'id' => 808,
             'wikipedia_id' => 3139147,
@@ -28699,7 +28376,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:29',
             'updated_at' => '2018-11-14 23:00:11',
         ),
-        308 => 
+        299 => 
         array (
             'id' => 809,
             'wikipedia_id' => NULL,
@@ -28732,7 +28409,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:11',
         ),
-        309 => 
+        300 => 
         array (
             'id' => 810,
             'wikipedia_id' => 41434002,
@@ -28768,7 +28445,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:12',
         ),
-        310 => 
+        301 => 
         array (
             'id' => 811,
             'wikipedia_id' => 7628,
@@ -28805,7 +28482,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:14',
         ),
-        311 => 
+        302 => 
         array (
             'id' => 812,
             'wikipedia_id' => 34797734,
@@ -28838,7 +28515,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-10-29 09:31:40',
         ),
-        312 => 
+        303 => 
         array (
             'id' => 813,
             'wikipedia_id' => 3314471,
@@ -28871,7 +28548,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:15',
         ),
-        313 => 
+        304 => 
         array (
             'id' => 814,
             'wikipedia_id' => 38018638,
@@ -28904,43 +28581,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-10-29 09:31:55',
         ),
-        314 => 
-        array (
-            'id' => 815,
-            'wikipedia_id' => 210684,
-            'qid' => 'Q123041',
-            'intro' => 'Swiss author',
-            'description' => '<p class="mw-empty-elt">
-</p>
-<p><b>Anne Louise Germaine de Staël-Holstein</b> (<small>French: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[stal]</span>; née <b>Necker</b>; 22 April 1766 – 14 July 1817), commonly known as <b>Madame de Staël</b>, was a French woman of letters of Genevan origin whose lifetime overlapped with the events of the French Revolution and the Napoleonic era. For many years she lived as an exile under the Reign of Terror and under Napoleonic persecution. Known as a witty and brilliant conversationalist, often dressed in flashy and revealing outfits, she participated actively in the political and intellectual life of her times. She was present at the first opening of the Estates General and at the Declaration of the Rights of Man and of the Citizen. Her intellectual collaboration with Benjamin Constant between 1795 and 1811 made them one of the most celebrated intellectual couples of their time. They discovered sooner than others the tyrannical character and designs of Napoleon. In 1814 one of her contemporaries observed that "there are three great powers struggling against Napoleon for the soul of Europe: England, Russia, and Madame de Staël". Her works, both novels and travel literature, with emphasis on passion, individuality and oppositional politics made their mark on European Romanticism. 
-</p>',
-            'wikipedia_path' => '/wiki/Germaine_de_Sta%C3%ABl',
-            'wikipedia_canonical_path' => 'Germaine_de_Sta%C3%ABl',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl',
-            'name' => 'Germaine de Staël',
-            'sex' => 'female',
-            'redirected_name' => 'Germaine de Staël',
-            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Tieck%20-%20Madame%20de%20Sta%C3%ABl%20-%20disegno.jpg',
-            'place_of_birth' => 'Paris, France',
-            'place_of_birth_lng' => '2.3514992',
-            'place_of_birth_lat' => '48.8566101',
-            'date_of_birth' => '1766-04-22T00:00:00Z',
-            'year' => 1766,
-            'month' => 4,
-            'day' => 22,
-            'date_of_death' => '1817-07-14T00:00:00Z',
-            'death_year' => 1817,
-            'death_month' => 7,
-            'death_day' => 14,
-        'wikidata_response' => '{"native language":"French","occupation":["writer","diarist","literary critic","salonni\\u00e8re","correspondent","politician"],"image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Friedrich%20Tieck%20-%20Madame%20de%20Sta%C3%ABl%20-%20disegno.jpg","place of birth":"Paris","place of death":"Paris","sex or gender":"female","ISNI":"0000 0001 2259 1946","VIAF ID":"89204033","father":"Jacques Necker","GND ID":"118616617","Library of Congress authority ID":"n78089038","ULAN ID":"500250034","mother":"Suzanne Curchod","spouse":["Albert Jean Michel de Rocca","Erik Magnus Sta\\u00ebl von Holstein","Erik Magnus Sta\\u00ebl von Holstein"],"country of citizenship":["Republic of Geneva","France"],"instance of":"human","child":["Albertine, baroness Sta\\u00ebl von Holstein","Auguste-Louis de Sta\\u00ebl-Holstein"],"PTBNP ID":"56905","National Thesaurus for Author Names ID":"068622554","BAV ID":["ADV10927482","ADV12364611"],"manner of death":"natural causes","NUKAT (WarsawU) authorities ID":"n97086133","NNDB people ID":"980\\/000115635","CANTIC-ID":"a10458104","CONOR ID":"32250467","Gran Enciclop\\u00e8dia Catalana ID":"0064005","People Australia ID":"1002628","described by source":["Armenian Soviet Encyclopedia","BEIC Digital Library","Krugosvet","Concise Literary Encyclopedia"],"languages spoken, written or signed":"French","Oxford Dictionary of National Biography ID":"57371","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Germaine-de-Stael","OpenPlaques subject ID":"4739","Commons Creator page":"Germaine de Sta\\u00ebl","birth name":"Anne-Louise Germaine Necker","name in native language":"Germaine de Sta\\u00ebl","commemorative plaque image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Plaque%20H%C3%B4tel%20de%20Galliffet-Mme%20de%20Stael%2C%2050%20rue%20de%20Varenne%2C%20Paris%207.jpg","National Portrait Gallery (London) person ID":"mp52343","genealogics.org person ID":"I00143689","owner of":"Coppet Castle","CERL ID":"cnp01259639","National Library of Ireland authority ID":"vtls000435463","Les Archives du Spectacle Person ID":"24893","FAST ID":"28434","BiblioNet author ID":"50736","NILF author id":"NILF11507","CESAR person ID":"103785","AGORHA person\\/institution ID":"113344","WomenWriters ID":"51acfe1c-176b-4b2f-9da9-4acd8dc8f638","BnF ID":"11925397h","SUDOC authorities ID":"02714691X","BVMC person ID":"1962","Great Russian Encyclopedia Online ID":"4162616","WikiTree person ID":"Necker-21","LBT person ID":"GeStael1817","Encyclop\\u00e6dia Universalis ID":"madame-de-stael","NE.se ID":"germaine-de-stael","Electronic Enlightenment ID":"staelannel003218","SNAC Ark ID":"w6mf2dgw","NDL Auth ID":"00475532","Cultureel Woordenboek identifier":"literatuur-internationaal\\/madame-de-stael","Commons category":"Madame de Sta\\u00ebl","openMLOL author ID":["113096","2107","858"],"SBN author ID":"IT\\\\ICCU\\\\RAVV\\\\062478","NLA (Australia) ID":"35580150","MusicBrainz artist ID":"3c9d6d2a-4507-4f1e-a94a-60221739020b","pronunciation audio":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/LL-Q150%20%28fra%29-Fhala.K-Germaine%20de%20Sta%C3%ABl.wav","partner":"Benjamin Constant","Collective Biographies of Women ID":"8920","RA Collections ID":"12952","Online Books Page author ID":"Sta\\u00ebl, Madame de (Anne-Louise-Germaine), 1766-1817","cause of death":"cerebral hemorrhage","Swedish Literature Bank AuthorID":"StaelHolsteinG","Libris-URI":"64jlm2tq2sfvlp6","Biblioth\\u00e8que de la Pl\\u00e9iade ID":"Madame-de-Stael","date of birth":"1766-04-22T00:00:00Z","date of death":"1817-07-14T00:00:00Z","Freebase ID":"\\/m\\/01dxr6","Open Library ID":"OL3114663A","NKCR AUT ID":"jn19981002159","given name":["Louise","Germaine","Anne"],"notable work":"Q18633317","InPhO ID":"thinker\\/3942","HDS ID":"16051","SELIBR ID":"198112","work location":"Weimar","National Library of Israel ID":"000126339","BNE ID":"XX1134693"}',
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 819,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:30',
-            'updated_at' => '2018-11-14 23:00:17',
-        ),
-        315 => 
+        305 => 
         array (
             'id' => 816,
             'wikipedia_id' => 2016158,
@@ -28974,7 +28615,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:17',
         ),
-        316 => 
+        306 => 
         array (
             'id' => 817,
             'wikipedia_id' => 55451,
@@ -29008,7 +28649,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:19',
         ),
-        317 => 
+        307 => 
         array (
             'id' => 818,
             'wikipedia_id' => 43583,
@@ -29044,75 +28685,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:20',
         ),
-        318 => 
-        array (
-            'id' => 819,
-            'wikipedia_id' => 936952,
-            'qid' => 'Q235426',
-            'intro' => 'Ancient philosopher',
-        'description' => '<p><b>Theano</b> (<span></span>; Greek: <span lang="el">Θεανώ</span>; fl. 6th-century BC), or <b>Theano of Crotone</b>, is the name given to perhaps two Pythagorean philosophers. She has been called the pupil, daughter or wife of Pythagoras, although others made her the wife of Brontinus. Her place of birth and the identity of her father are just as uncertain, leading some authors to suggest that there was more than one person whose details have become merged (these are sometimes referred to as Theano I and Theano II). A few fragments and letters ascribed to her have survived which are of uncertain authorship.
-</p>',
-        'wikipedia_path' => '/wiki/Theano_(philosopher)',
-        'wikipedia_canonical_path' => 'Theano_(philosopher)',
-        'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Theano_(philosopher)',
-        'name' => 'Theano (philosopher)',
-            'sex' => 'female',
-            'redirected_name' => 'Theano',
-            'image' => NULL,
-            'place_of_birth' => 'Crotone Italy',
-            'place_of_birth_lng' => '17.1271960',
-            'place_of_birth_lat' => '39.0806223',
-            'date_of_birth' => '-600-01-01T00:00:00Z',
-            'year' => -600,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => NULL,
-            'death_year' => NULL,
-            'death_month' => NULL,
-            'death_day' => NULL,
-            'wikidata_response' => NULL,
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 112,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:30',
-            'updated_at' => '2018-11-14 23:00:21',
-        ),
-        319 => 
-        array (
-            'id' => 820,
-            'wikipedia_id' => 29228549,
-            'qid' => 'Q44912',
-            'intro' => 'priestess at Delphi',
-        'description' => '<p><b>Themistoclea</b> (<span></span>; Greek: <span lang="grc" title="Ancient Greek language text">Θεμιστόκλεια</span> <i>Themistokleia</i>; also <b>Aristoclea</b> (<span></span>; Ἀριστοκλεία <i>Aristokleia</i>), <b>Theoclea</b> (<span></span>; Θεοκλεία <i>Theokleia</i>); fl. 6th century BCE) was a priestess at Delphi.
-</p>',
-            'wikipedia_path' => '/wiki/Themistoclea',
-            'wikipedia_canonical_path' => 'Themistoclea',
-            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Themistoclea',
-            'name' => 'Themistoclea',
-            'sex' => 'female',
-            'redirected_name' => 'Themistoclea',
-            'image' => NULL,
-            'place_of_birth' => NULL,
-            'place_of_birth_lng' => NULL,
-            'place_of_birth_lat' => NULL,
-            'date_of_birth' => '-599-01-01T00:00:00Z',
-            'year' => -599,
-            'month' => 1,
-            'day' => 1,
-            'date_of_death' => NULL,
-            'death_year' => NULL,
-            'death_month' => NULL,
-            'death_day' => NULL,
-            'wikidata_response' => NULL,
-            'type' => NULL,
-            'event' => 2,
-            'linked_articles' => 9,
-            'deleted_at' => NULL,
-            'created_at' => '2018-08-10 06:30:30',
-            'updated_at' => '2018-10-29 09:34:24',
-        ),
-        320 => 
+        308 => 
         array (
             'id' => 821,
             'wikipedia_id' => 1016061,
@@ -29149,7 +28722,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:23',
         ),
-        321 => 
+        309 => 
         array (
             'id' => 822,
             'wikipedia_id' => 98954,
@@ -29185,7 +28758,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-08-10 06:30:30',
             'updated_at' => '2018-11-14 23:00:24',
         ),
-        322 => 
+        310 => 
         array (
             'id' => 823,
             'wikipedia_id' => 8756,
@@ -29199,7 +28772,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Daniel_Dennett',
             'name' => 'Daniel Dennett',
             'sex' => 'male',
-            'redirected_name' => NULL,
+            'redirected_name' => 'Daniel Dennett',
             'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Dennett.jpg',
             'place_of_birth' => 'Boston, United States of America',
             'place_of_birth_lng' => '-71.0582912',
@@ -29218,9 +28791,9 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'linked_articles' => 1032,
             'deleted_at' => NULL,
             'created_at' => '2018-10-28 23:12:54',
-            'updated_at' => '2018-11-14 23:00:25',
+            'updated_at' => '2018-11-15 23:27:22',
         ),
-        323 => 
+        311 => 
         array (
             'id' => 824,
             'wikipedia_id' => 23820760,
@@ -29255,7 +28828,7 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'created_at' => '2018-11-14 22:26:28',
             'updated_at' => '2018-11-14 22:43:16',
         ),
-        324 => 
+        312 => 
         array (
             'id' => 825,
             'wikipedia_id' => 5341017,
@@ -29289,6 +28862,189 @@ The novelist Margaret Oliphant said "as a born lecturer and politician [Martinea
             'deleted_at' => NULL,
             'created_at' => '2018-11-15 03:38:13',
             'updated_at' => '2018-11-15 03:44:43',
+        ),
+        313 => 
+        array (
+            'id' => 833,
+            'wikipedia_id' => 408292,
+            'qid' => 'Q460475',
+            'intro' => 'Swedish philosopher',
+            'description' => '<p class="mw-empty-elt">
+</p>
+<p><b>Nick Bostrom</b> (<span><small>English: </small></span>; Swedish: <i lang="sv">Niklas Boström</i>, <small>IPA: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[²buːstrœm]</span>; born 10 March 1973) is a Swedish philosopher at the University of Oxford known for his work on existential risk, the anthropic principle, human enhancement ethics, superintelligence risks, and the reversal test. In 2011, he founded the Oxford Martin Programme on the Impacts of Future Technology, and he is currently the founding director of the Future of Humanity Institute at Oxford University.
+</p><p>Bostrom is the author of over 200 publications, including <i>Superintelligence: Paths, Dangers, Strategies</i> (2014), a <i>New York Times</i> bestseller and <i>Anthropic Bias: Observation Selection Effects in Science and Philosophy</i> (2002). In 2009 and 2015, he was included in <i>Foreign Policy</i><span>\'</span>s Top 100 Global Thinkers list. Bostrom believes there are potentially great benefits from Artificial General Intelligence, but warns it might very quickly transform into a Superintelligence that would deliberately extinguish humanity out of precautionary self-preservation or some unfathomable motive, making solving the problems of control beforehand an absolute priority. Although his book on superintelligence was recommended by both Elon Musk and Bill Gates, Bostrom has expressed frustration that the reaction to its thesis typically falls into two camps, one calling his recommendations absurdly alarmist because creation of superintelligence is unfeasible, and the other deeming them futile because superintelligence would be uncontrollable. Bostrom notes that both these lines of reasoning converge on inaction rather than trying to <i>solve</i> the control problem while there may still be time.</p>
+
+
+',
+            'wikipedia_path' => '/wiki/Nick_Bostrom',
+            'wikipedia_canonical_path' => 'Nick_Bostrom',
+            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Nick_Bostrom',
+            'name' => 'Nick Bostrom',
+            'sex' => 'male',
+            'redirected_name' => NULL,
+            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Nick%20Bostrom%2C%20Stanford%202006%20%28square%20crop%29.jpg',
+            'place_of_birth' => 'Helsingborg, Sweden',
+            'place_of_birth_lng' => '12.7040684',
+            'place_of_birth_lat' => '56.0441984',
+            'date_of_birth' => '1973-03-10T00:00:00Z',
+            'year' => 1973,
+            'month' => 3,
+            'day' => 10,
+            'date_of_death' => NULL,
+            'death_year' => NULL,
+            'death_month' => NULL,
+            'death_day' => NULL,
+        'wikidata_response' => '{"field of work":"philosophy","occupation":["philosopher","computer scientist","university teacher"],"employer":"University of Oxford","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Nick%20Bostrom%2C%20Stanford%202006%20%28square%20crop%29.jpg","place of birth":"Helsingborg","sex or gender":"male","ISNI":"0000 0001 2276 1693","VIAF ID":"7723572","GND ID":"135992451","Library of Congress authority ID":"n2001093242","country of citizenship":"Sweden","instance of":"human","educated at":["London School of Economics","King\'s College London"],"National Thesaurus for Author Names ID":"316337250","BIBSYS ID":"3018206","Scopus Author ID":"6508071947","NUKAT (WarsawU) authorities ID":"n2010155791","CANTIC-ID":"a12306137","CONOR ID":"152119139","LNB ID":"000210401","University of Barcelona authority ID":"a1381145","NLP ID":"A34111323","GTAA ID":"237550","Google Scholar author ID":"oQwpz3QAAAAJ","BiblioNet author ID":"92259","DBLP ID":"25\\/6200","TED speaker ID":"nick_bostrom","BnF ID":"15907251j","SUDOC authorities ID":"129852945","Quora topic ID":"Nick-Bostrom","IMDb ID":"nm1580947","Commons category":"Nick Bostrom","Libris-URI":"khw055x344wpgj3","date of birth":"1973-03-10T00:00:00Z","Freebase ID":"\\/m\\/024r3r","NKCR AUT ID":"jx20100831002","family name":"Bostr\\u00f6m","given name":["Nick","Niklas"],"official website":"http:\\/\\/www.nickbostrom.com\\/","SELIBR ID":"326553","topic\'s main category":"Category:Nick Bostrom","BNE ID":"XX5602520"}',
+            'type' => NULL,
+            'event' => 2,
+            'linked_articles' => 244,
+            'deleted_at' => NULL,
+            'created_at' => '2018-11-16 09:59:21',
+            'updated_at' => '2018-11-16 09:59:54',
+        ),
+        314 => 
+        array (
+            'id' => 834,
+            'wikipedia_id' => 250196,
+            'qid' => 'Q123273',
+            'intro' => 'Swiss writer',
+            'description' => '<p class="mw-empty-elt">
+</p>
+<p><b>Alain de Botton</b>, FRSL (<span></span>; born 20 December 1969) is a Swiss-born British philosopher and author. His books discuss various contemporary subjects and themes, emphasizing philosophy\'s relevance to everyday life. He published <i>Essays in Love</i> (1993), which went on to sell two million copies. Other bestsellers include <i>How Proust Can Change Your Life</i> (1997), <i>Status Anxiety</i> (2004) and <i>The Architecture of Happiness</i> (2006).
+</p><p>He co-founded The School of Life in 2008 and Living Architecture in 2009. In 2015, he was awarded "The Fellowship of Schopenhauer", an annual writers\' award from the Melbourne Writers Festival, for this work.
+</p>
+
+
+',
+            'wikipedia_path' => '/wiki/Alain_de_Botton',
+            'wikipedia_canonical_path' => 'Alain_de_Botton',
+            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Alain_de_Botton',
+            'name' => 'Alain de Botton',
+            'sex' => 'male',
+            'redirected_name' => NULL,
+            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Alain%20de%20Botton.jpg',
+            'place_of_birth' => 'Zürich, Switzerland',
+            'place_of_birth_lng' => '8.5414061',
+            'place_of_birth_lat' => '47.3769434',
+            'date_of_birth' => '1969-12-20T00:00:00Z',
+            'year' => 1969,
+            'month' => 12,
+            'day' => 20,
+            'date_of_death' => NULL,
+            'death_year' => NULL,
+            'death_month' => NULL,
+            'death_day' => NULL,
+        'wikidata_response' => '{"occupation":["philosopher","publisher","writer","journalist"],"religion":"atheism","award received":"Prix Europ\\u00e9en de l\'Essai Charles Veillon","image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Alain%20de%20Botton.jpg","place of birth":"Z\\u00fcrich","sex or gender":"male","ISNI":"0000 0001 2148 5025","VIAF ID":"115804284","father":"Gilbert de Botton","GND ID":"115650830","Library of Congress authority ID":"n93046808","ULAN ID":"500291385","country of citizenship":["United Kingdom","Switzerland"],"instance of":"human","educated at":["King\'s College London","King\'s College London","King\'s College London","Dragon School","Harrow School","Gonville and Caius College","Gonville and Caius College","Gonville and Caius College"],"PTBNP ID":"984254","National Thesaurus for Author Names ID":"11209760X","BIBSYS ID":"90872453","NUKAT (WarsawU) authorities ID":"n99033739","CANTIC-ID":"a10425299","CONOR ID":"6711651","Munzinger IBA":"00000029126","languages spoken, written or signed":["English","German","French"],"name in native language":"Alain de Botton","University of Barcelona authority ID":"a1243296","GTAA ID":"84977","National Portrait Gallery (London) person ID":"mp16216","FAST ID":"321892","TED speaker ID":"alain_de_botton","BnF ID":"12384334q","SUDOC authorities ID":"032903898","National Library of Greece ID":"184475","Quora topic ID":"Alain-de-Botton","IMDb ID":"nm1066940","NDL Auth ID":"00674995","Commons category":"Alain de Botton","SBN author ID":"IT\\\\ICCU\\\\LO1V\\\\145974","SHARE Catalogue author ID":"281125","member of":"Royal Society of Literature","Libris-URI":"sq46131b1lrqfmb","date of birth":"1969-12-20T00:00:00Z","LARB author ID":"alain-de-botton","Freebase ID":"\\/m\\/01l3vf","Open Library ID":"OL2659735A","NKCR AUT ID":"xx0029147","family name":"de Botton","given name":"Alain","notable work":"The Architecture of Happiness","official website":"http:\\/\\/www.alaindebotton.com","Perlentaucher ID":"alain-de-botton","SELIBR ID":"48340","National Library of Israel ID":"000037637","BNE ID":"XX945434","audio recording of the subject\'s spoken voice":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Alain%20de%20Botton%20-%20voice%20-%20en.flac"}',
+            'type' => NULL,
+            'event' => 2,
+            'linked_articles' => 124,
+            'deleted_at' => NULL,
+            'created_at' => '2018-11-16 10:01:47',
+            'updated_at' => '2018-11-16 10:02:03',
+        ),
+        315 => 
+        array (
+            'id' => 835,
+            'wikipedia_id' => 2016453,
+            'qid' => 'Q3311648',
+            'intro' => 'French philosopher',
+        'description' => '<p><b>Michèle Le Dœuff</b> (<small>French: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[lə dœf]</span>; born 1948) is a French philosopher with a scholarly interest in the philosophy of Francis Bacon, and Sir Thomas More\'s utopianism. She questions the boundaries of philosophy, while insisting upon philosophy\'s importance (for example, in "Ants and Women"). She is critical of professional philosophers\' neglectful attitude to science, and argues that disputes within sciences are often epistemological (that is, properly philosophical). In <i>Hipparchia\'s Choice</i> (1989) she questions philosophy\'s pretensions to being a unique practice which achieves a pure clarity: philosophy is inevitably shaped by language, metaphor, and power relations. According to Le Dœuff feminists make a special contribution. Their critique of gender categories in philosophy, science, and the humanities is empirical, philosophical, political, and interdisciplinary. Feminists see clearly how discourses are elevated to the status of \'philosophical\' by a process in which social power is involved.</p>',
+            'wikipedia_path' => '/wiki/Mich%C3%A8le_Le_D%C5%93uff',
+            'wikipedia_canonical_path' => 'Mich%C3%A8le_Le_D%C5%93uff',
+            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Mich%C3%A8le_Le_D%C5%93uff',
+            'name' => 'Michèle Le Dœuff',
+            'sex' => 'female',
+            'redirected_name' => NULL,
+            'image' => NULL,
+            'place_of_birth' => ', ',
+            'place_of_birth_lng' => NULL,
+            'place_of_birth_lat' => NULL,
+            'date_of_birth' => '1948-01-01T00:00:00Z',
+            'year' => 1948,
+            'month' => 1,
+            'day' => 1,
+            'date_of_death' => NULL,
+            'death_year' => NULL,
+            'death_month' => NULL,
+            'death_day' => NULL,
+            'wikidata_response' => '{"occupation":["writer","playwright","philosopher","feminist"],"employer":["University of Geneva","University of Oxford","University of Oxford"],"sex or gender":"female","ISNI":"0000 0001 1029 9964","VIAF ID":"79029504","GND ID":"119345757","Library of Congress authority ID":"n81006815","country of citizenship":"France","instance of":"human","educated at":"Q3578285","National Thesaurus for Author Names ID":"068312725","languages spoken, written or signed":"French","FAST ID":"66652","BnF ID":"11911578m","SUDOC authorities ID":"02697245X","Theses.fr person ID":"02697245X","Cairn author ID":"112039","Diffusion ENS ID":"1018","Savoirs ENS ID":"1046","date of birth":"1948-01-01T00:00:00Z","given name":"Mich\\u00e8le","InPhO ID":"thinker\\/3434"}',
+            'type' => NULL,
+            'event' => 2,
+            'linked_articles' => 12,
+            'deleted_at' => NULL,
+            'created_at' => '2018-11-16 10:11:14',
+            'updated_at' => '2018-11-16 10:11:24',
+        ),
+        316 => 
+        array (
+            'id' => 837,
+            'wikipedia_id' => 5992663,
+            'qid' => 'Q774847',
+            'intro' => '',
+            'description' => '<p class="mw-empty-elt">
+
+</p>
+<p><b><i lang="sa-Latn" title="International Alphabet of Sanskrit transliteration">Kumārila Bhaṭṭa</i></b> (fl. roughly 700) was a Hindu or brahminical philosopher and Mīmāṃsā scholar from present-day India. He is famous for many of his various theses on Mimamsa, such as <i>Mimamsaslokavarttika</i>. Bhaṭṭa was a staunch believer in the supreme validity of Vedic injunction, a great champion of Pūrva-Mīmāṃsā and a confirmed ritualist. The <i>Varttika</i> is mainly written as a subcommentary of Sabara\'s commentary on Jaimini\'s Purva Mimamsa Sutras. His philosophy is classified by some scholars as existential realism.</p><p>Scholars differ as regards Kumārila Bhaṭṭa\'s views on a personal God. For example, Manikka Vachakar believed that Bhaṭṭa promoted a personal God (saguna brahman), which conflicts with the Mīmāṃsā school. In his <i>Varttika</i>, Kumārila Bhaṭṭa goes to great lengths to argue against the theory of a creator God and held that the actions enjoined in the Veda had definite results without an external interference.
+</p><p>Kumārila is also credited with the logical formulation of the Mimamsic belief that the Vedas are unauthored (apauruṣeyā). In particular, his defence against medieval Buddhist positions on Vedic rituals is noteworthy. Some believe that this contributed to the decline of Buddhism in India, because his lifetime coincides with the period in which Buddhism began to decline. Indeed, his dialectical success against Buddhists is confirmed by Buddhist historian Taranatha, who reports that Kumārila defeated disciples of Buddhapalkita, Bhavya, Dharmadasa, Dignaga and others. His work strongly influenced other schools of Indian philosophy, with the exception that while Mimamsa considers the Upanishads to be subservient to the Vedas, the Vedanta school does not think so.
+</p>',
+            'wikipedia_path' => '/wiki/Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
+            'wikipedia_canonical_path' => 'Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
+            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Kum%C4%81rila_Bha%E1%B9%AD%E1%B9%ADa',
+            'name' => 'Kumārila Bhaṭṭa',
+            'sex' => 'male',
+            'redirected_name' => NULL,
+            'image' => NULL,
+            'place_of_birth' => ', ',
+            'place_of_birth_lng' => NULL,
+            'place_of_birth_lat' => NULL,
+            'date_of_birth' => '0700-01-01T00:00:00Z',
+            'year' => 700,
+            'month' => 1,
+            'day' => 1,
+            'date_of_death' => '0700-01-01T00:00:00Z',
+            'death_year' => 700,
+            'death_month' => 1,
+            'death_day' => 1,
+            'wikidata_response' => '{"occupation":["philosopher","linguist"],"religion":"Hinduism","sex or gender":"male","ISNI":"0000 0001 0878 6149","VIAF ID":"22362615","GND ID":"118568027","Library of Congress authority ID":"n81131926","instance of":"human","National Thesaurus for Author Names ID":"069495254","Encyclop\\u00e6dia Britannica Online ID":"biography\\/Kumarila","CERL ID":"cnp00395556","FAST ID":"82266","BnF ID":"14444717v","SUDOC authorities ID":"077104374","Great Russian Encyclopedia Online ID":"2121493","Stanford Encyclopedia of Philosophy ID":"kumaarila","Encyclop\\u00e6dia Universalis ID":"kumarila","date of birth":"0700-01-01T00:00:00Z","date of death":"0700-01-01T00:00:00Z","Freebase ID":"\\/m\\/0fjl1z","NKCR AUT ID":"jx20080415010","InPhO ID":"thinker\\/5375"}',
+            'type' => NULL,
+            'event' => 2,
+            'linked_articles' => 1043,
+            'deleted_at' => NULL,
+            'created_at' => '2018-11-17 09:45:29',
+            'updated_at' => '2018-11-17 09:45:45',
+        ),
+        317 => 
+        array (
+            'id' => 839,
+            'wikipedia_id' => 59658,
+            'qid' => 'Q78497',
+            'intro' => 'Austrian-born philosopher of science',
+        'description' => '<p><b>Paul Karl Feyerabend</b> (<span></span>; <small>German: </small><span title="Representation in the International Phonetic Alphabet (IPA)">[ˈfaɪɐˌʔaːbn̩t, -ˌʔaːbm̩t]</span>; January 13, 1924 – February 11, 1994) was an Austrian-born philosopher of science best known for his work as a professor of philosophy at the University of California, Berkeley, where he worked for three decades (1958–1989). At various different points in his life, he lived in England, the United States, New Zealand, Italy, Germany, and finally Switzerland. His major works include <i>Against Method</i> (published in 1975), <i>Science in a Free Society</i> (published in 1978) and <i>Farewell to Reason</i> (a collection of papers published in 1987). Feyerabend became famous for his purportedly anarchistic view of science and his rejection of the existence of universal methodological rules. He was an influential figure in the sociology of scientific knowledge. Asteroid (22356) Feyerabend is named in his honour.</p>',
+            'wikipedia_path' => '/wiki/Paul_Feyerabend',
+            'wikipedia_canonical_path' => 'Paul_Feyerabend',
+            'wikipedia_canonical_url' => 'https://en.wikipedia.org/wiki/Paul_Feyerabend',
+            'name' => 'Paul Feyerabend',
+            'sex' => 'male',
+            'redirected_name' => NULL,
+            'image' => 'http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Feyerabend%20Berkeley.jpg',
+            'place_of_birth' => 'Vienna, Austria',
+            'place_of_birth_lng' => '16.3725042',
+            'place_of_birth_lat' => '48.2083537',
+            'date_of_birth' => '1924-01-13T00:00:00Z',
+            'year' => 1924,
+            'month' => 1,
+            'day' => 13,
+            'date_of_death' => '1994-02-11T00:00:00Z',
+            'death_year' => 1994,
+            'death_month' => 2,
+            'death_day' => 11,
+            'wikidata_response' => '{"field of work":"economic theory","native language":"German","occupation":["university teacher","philosopher"],"employer":["Freie Universit\\u00e4t Berlin","London School of Economics"],"image":"http:\\/\\/commons.wikimedia.org\\/wiki\\/Special:FilePath\\/Paul%20Feyerabend%20Berkeley.jpg","place of birth":"Vienna","place of death":"Genolier","ISNI":"0000 0001 2124 4096","VIAF ID":"24601381","GND ID":"118532812","Library of Congress authority ID":"n80131686","ULAN ID":"500224453","country of citizenship":["United States of America","Austria"],"instance of":"human","educated at":["London School of Economics","University of Vienna"],"National Thesaurus for Author Names ID":"06870058X","student of":"Karl Popper","manner of death":"natural causes","NNDB people ID":"537\\/000179997","CANTIC-ID":"a10084678","CONOR ID":"27247203","Gran Enciclop\\u00e8dia Catalana ID":"0026948","People Australia ID":"821221","languages spoken, written or signed":["English","German"],"Encyclop\\u00e6dia Britannica Online ID":"biography\\/Paul-Karl-Feyerabend","University of Barcelona authority ID":"a1319557","Discogs artist ID":"2525752","FAST ID":"1427556","Academic Tree ID":"66597","BnF ID":"11902714z","SUDOC authorities ID":"026864207","Great Russian Encyclopedia Online ID":"4707913","WikiTree person ID":"Feyerabend-15","UK National Archives ID":"F67032","Stanford Encyclopedia of Philosophy ID":"feyerabend","Runeberg author ID":"feyerpau","Encyclop\\u00e6dia Universalis ID":"paul-feyerabend","NE.se ID":"paul-feyerabend","PhilPapers author ID":"Paul Feyerabend","PhilPapers topic":"paul-feyerabend","Quora topic ID":"Paul-Feyerabend","SNAC Ark ID":"w6t79tv7","IMDb ID":"nm0275503","NDL Auth ID":"00439461","Cultureel Woordenboek identifier":"filosofie\\/paul-feyerabend","Babelio author ID":"13322","Commons category":"Paul Feyerabend","SHARE Catalogue author ID":"45134","PM20 folder ID":["pe\\/005126","pe\\/005126"],"American National Biography ID":"1401110","cause of death":"brain cancer","academic degree":"doctorate","Herder Encyclopedia author ID":"Feyerabend,_Paul_K.","Libris-URI":"75kmmnbr5fmqz2d","date of birth":"1924-01-13T00:00:00Z","date of death":"1994-02-11T00:00:00Z","Angelicum author ID":"24882","Freebase ID":"\\/m\\/0g7kc","Open Library ID":"OL26715A","NKCR AUT ID":"jn20000601562","family name":"Feyerabend","given name":"Paul","influenced by":"Imre Lakatos","notable work":["Against Method","Killing Time","Science in a Free Society"],"InPhO ID":"thinker\\/3001","Perlentaucher ID":"paul-feyerabend","SELIBR ID":"186833","National Library of Israel ID":"000046549","BNE ID":"XX864947"}',
+            'type' => NULL,
+            'event' => 2,
+            'linked_articles' => 442,
+            'deleted_at' => NULL,
+            'created_at' => '2018-11-19 01:02:11',
+            'updated_at' => '2018-11-19 01:02:49',
         ),
     ));
         

@@ -7629,6 +7629,16 @@ class InfluencesTableSeeder extends Seeder
                 'created_at' => '2018-10-29 09:18:39',
                 'updated_at' => '2018-10-29 09:18:39',
             ),
+            261 => 
+            array (
+                'id' => 762,
+                'qid' => 'Q242616',
+                'name' => 'Patricia Churchland',
+                'available' => NULL,
+                'deleted_at' => NULL,
+                'created_at' => '2018-11-19 01:02:37',
+                'updated_at' => '2018-11-19 01:02:37',
+            ),
         ));
         
         
