@@ -48,11 +48,20 @@
 					</ul>
 				</div>
 			</div>
-			
+			<div class="row">
+				<div>
+					<h3>Books</h3>
+					@foreach ($person->books as $book)
+						<h4>{{$book->title}}</h4>
+						<p>{{$book->description}}</p>
+					@endforeach
+					</ul>
+				</div>
+			</div>
 			<div class="row">
 				@if(count($person->media))
 					<h2>Media:</h2>
-					<div class="container">
+					<div>
 						<form action="/media/delete" method="POST">
 						{{ csrf_field() }}
 					@foreach($person->media->chunk(3) as $chunk)

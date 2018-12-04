@@ -19,5 +19,6 @@ class DatabaseSeeder extends Seeder
         $this->call(MediaPersonTableSeeder::class);
         $this->call(CategoriesTableSeeder::class);
         $this->call(CategoryPersonTableSeeder::class);
+        $this->call(BookPersonTableSeeder::class);
     }
 }

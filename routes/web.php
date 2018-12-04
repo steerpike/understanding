@@ -13,7 +13,8 @@
 
 Route::get('/', 'PeopleController@list')->name('people');
 Route::post('/', 'PeopleController@search')->name('search');
-Route::get('/test', 'TestController@book');
+Route::get('/test', 'TestController@bookParse');
+Route::get('/book/{id?}', 'TestController@book');
 Route::get('/events/{event?}', 'EventsController@events');
 Route::get('/philosophers/media', 'PeopleController@media');
 Route::get('/philosophers/timeline', 'PeopleController@timeline');
