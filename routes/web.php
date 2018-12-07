@@ -13,7 +13,6 @@
 
 Route::get('/', 'PeopleController@list')->name('people');
 Route::post('/', 'PeopleController@search')->name('search');
-Route::get('/philosophers/media', 'PeopleController@media');
 Route::get('/philosophers/timeline', 'PeopleController@timeline');
 Route::get('/philosophers/process/{event?}', 'PeopleController@process');
 Route::get('/philosophers/categories', 'PeopleController@categories');
@@ -28,6 +27,7 @@ if (App::environment('local')) {
     Route::get('/test', 'TestController@bookParse');
     Route::get('/book/{id?}', 'TestController@book');
     Route::get('/events/{event?}', 'EventsController@events');
+    Route::get('/philosophers/media', 'PeopleController@media');
 }
 
 
