@@ -9,6 +9,7 @@ use App\Person;
 use App\Media;
 use App\Category;
 use App\Book;
+use App;
 use App\Jobs\ProcessNewPhilosopher;
 use App\Jobs\ProcessGeoLookup;
 use App\Jobs\ProcessCategories;
