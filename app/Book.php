@@ -13,4 +13,9 @@ class Book extends Model
     {
         return $this->belongsToMany('App\Person');
     }
+    public function topics()
+    {
+        return $this->belongsToMany('App\Category')
+            ->where('categories.type', '=', 'topic');
+    }
 }

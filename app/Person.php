@@ -21,12 +21,15 @@ class Person extends Model
     }
     public function categories()
     {
-        return $this->belongsToMany('App\Category')->whereNull('categories.deleted_at');
+        return $this->belongsToMany('App\Category')
+            ->where('categories.type', '=', 'category')
+            ->whereNull('categories.deleted_at');
     }
     public function books()
     {
         return $this->belongsToMany('App\Book');
     }
+
     public function scopeGender($query, $gender=null)
     {
         if($gender != null){

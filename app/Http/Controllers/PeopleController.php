@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Person;
 use App\Media;
 use App\Category;
+use App\Book;
 use App\Jobs\ProcessNewPhilosopher;
 use App\Jobs\ProcessGeoLookup;
 use App\Jobs\ProcessCategories;
@@ -47,6 +48,15 @@ class PeopleController extends Controller
             ->orderBy('people_count', 'desc')
             ->paginate(60);
         return view('categories', ['categories' => $categories]); 
+    }
+    public function topic($topic=null) {
+        $books = Book::with('people')
+                    ->whereHas('topics', function($q) use ($topic){
+                        $q->where('name', $topic)->where('type', '=', 'topic');
+                    })
+                    ->paginate(60);
+
+        return view('books', ['books' => $books, 'topic'=>$topic]); 
     }
     public function search(Request $request) 
     {
@@ -99,8 +109,15 @@ class PeopleController extends Controller
             ->sameAs($person->wikipedia_canonical_url)
             ->birthDate($person->date_of_birth)
             ->deathDate($person->date_of_death);
+        $permissions = false;
+        if (App::environment('local')) {
+            $permissions = true;
+        }
+            
+            
         return view('person', ['person' => $person, 'people'=>$people, 
-                            'schema'=>$schemaPerson, 'title'=>$person->name]);
+                            'schema'=>$schemaPerson, 'title'=>$person->name,
+                            'permissions'=>$permissions]);
     }
     public function media()
     {

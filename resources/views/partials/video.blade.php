@@ -8,8 +8,10 @@
                  </a>
             </h5>
             <p class="card-text">{{$media->description}}</p>
+            @if($permissions)
             <input class="media-checkbox" type="checkbox" id="{{$media->id}}" name="delete[]" value="{{$media->id}}">
             <label for="{{$media->id}}">Delete this video</label>
+            @endif
         </div>
     </div>
 </div>

@@ -21,7 +21,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => '6th-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:29',
                 'updated_at' => '2018-11-14 20:40:29',
@@ -30,7 +30,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'name' => 'Ancient Greek metaphysicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:29',
                 'updated_at' => '2018-11-14 20:40:29',
@@ -39,7 +39,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'name' => 'Philosophers of ancient Ionia',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:29',
                 'updated_at' => '2018-11-14 20:40:29',
@@ -48,7 +48,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'name' => 'Presocratic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:29',
                 'updated_at' => '2018-11-14 20:40:29',
@@ -57,7 +57,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'name' => 'Metaphysics writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:30',
                 'updated_at' => '2018-11-14 20:40:30',
@@ -66,7 +66,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 6,
                 'name' => 'Mythological cosmologies',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:30',
                 'updated_at' => '2018-11-14 20:40:30',
@@ -75,7 +75,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'name' => 'Natural philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:30',
                 'updated_at' => '2018-11-14 20:40:30',
@@ -84,7 +84,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 8,
                 'name' => 'Pythagoreans',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:31',
                 'updated_at' => '2018-11-14 20:40:31',
@@ -93,7 +93,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 9,
                 'name' => 'Ancient Greek music theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:31',
                 'updated_at' => '2018-11-14 20:40:31',
@@ -102,7 +102,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'name' => 'Mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:31',
                 'updated_at' => '2018-11-14 20:40:31',
@@ -111,7 +111,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'name' => 'Philosophy of mathematics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:32',
                 'updated_at' => '2018-11-14 20:40:32',
@@ -120,7 +120,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'name' => 'Philosophy of music',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:32',
                 'updated_at' => '2018-11-14 20:40:32',
@@ -129,7 +129,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'name' => 'Ancient Greek epistemologists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:32',
                 'updated_at' => '2018-11-14 20:40:32',
@@ -138,7 +138,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 14,
                 'name' => 'Greek theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:32',
                 'updated_at' => '2018-11-14 20:40:32',
@@ -147,7 +147,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 15,
                 'name' => 'Deist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:32',
                 'updated_at' => '2018-11-14 20:40:32',
@@ -156,7 +156,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'name' => '5th-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:33',
                 'updated_at' => '2018-11-14 20:40:33',
@@ -165,7 +165,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 17,
                 'name' => 'Ontologists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:33',
                 'updated_at' => '2018-11-14 20:40:33',
@@ -174,7 +174,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 18,
                 'name' => 'Eleatic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:34',
                 'updated_at' => '2018-11-14 20:40:34',
@@ -183,7 +183,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 19,
                 'name' => 'Philosophers of Magna Graecia',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:34',
                 'updated_at' => '2018-11-14 20:40:34',
@@ -192,7 +192,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 20,
                 'name' => 'Pluralist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:34',
                 'updated_at' => '2018-11-14 20:40:34',
@@ -201,7 +201,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 21,
                 'name' => 'Metic philosophers in Classical Athens',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:34',
                 'updated_at' => '2018-11-14 20:40:34',
@@ -210,7 +210,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 22,
                 'name' => 'Philosophers of science',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:35',
                 'updated_at' => '2018-11-14 20:40:35',
@@ -219,7 +219,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 23,
                 'name' => 'Metaphysicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:35',
                 'updated_at' => '2018-11-14 20:40:35',
@@ -228,7 +228,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 24,
                 'name' => 'Sophists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:36',
                 'updated_at' => '2018-11-14 20:40:36',
@@ -237,7 +237,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 25,
                 'name' => 'Philosophers of nihilism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:36',
                 'updated_at' => '2018-11-14 20:40:36',
@@ -246,7 +246,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 26,
                 'name' => 'Nihilists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:36',
                 'updated_at' => '2018-11-14 20:40:36',
@@ -255,7 +255,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 27,
                 'name' => 'Ancient Athenian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:36',
                 'updated_at' => '2018-11-14 20:40:36',
@@ -264,7 +264,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 28,
                 'name' => 'Ancient Greek ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:36',
                 'updated_at' => '2018-11-14 20:40:36',
@@ -273,7 +273,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 29,
                 'name' => 'Epistemologists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:37',
                 'updated_at' => '2018-11-14 20:40:37',
@@ -282,7 +282,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 30,
                 'name' => 'Executed philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:37',
                 'updated_at' => '2018-11-14 20:40:37',
@@ -291,7 +291,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 31,
                 'name' => 'Irony theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:37',
                 'updated_at' => '2018-11-14 20:40:37',
@@ -300,7 +300,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 32,
                 'name' => 'Critics of religions',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:37',
                 'updated_at' => '2018-11-14 20:40:37',
@@ -309,7 +309,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 33,
                 'name' => 'Ancient Greek atomist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:37',
                 'updated_at' => '2018-11-14 20:40:37',
@@ -318,7 +318,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 34,
                 'name' => 'Atheist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:39',
                 'updated_at' => '2018-11-14 20:40:39',
@@ -327,7 +327,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 35,
                 'name' => '4th-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:39',
                 'updated_at' => '2018-11-14 20:40:39',
@@ -336,7 +336,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 36,
                 'name' => 'Cynic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:39',
                 'updated_at' => '2018-11-14 20:40:39',
@@ -345,7 +345,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 37,
                 'name' => 'Cyrenaic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:40',
                 'updated_at' => '2018-11-14 20:40:40',
@@ -354,7 +354,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 38,
                 'name' => 'Academic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:40',
                 'updated_at' => '2018-11-14 20:40:40',
@@ -363,7 +363,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 39,
                 'name' => 'Ancient Greek metaphilosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:41',
                 'updated_at' => '2018-11-14 20:40:41',
@@ -372,7 +372,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 40,
                 'name' => 'Ancient Greek political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:41',
                 'updated_at' => '2018-11-14 20:40:41',
@@ -381,7 +381,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 41,
                 'name' => 'Philosophers of education',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:41',
                 'updated_at' => '2018-11-14 20:40:41',
@@ -390,7 +390,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 42,
                 'name' => 'Philosophers of language',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:41',
                 'updated_at' => '2018-11-14 20:40:41',
@@ -399,7 +399,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 43,
                 'name' => 'Philosophers of law',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:41',
                 'updated_at' => '2018-11-14 20:40:41',
@@ -408,7 +408,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 44,
                 'name' => 'Moral realists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:42',
                 'updated_at' => '2018-11-14 20:40:42',
@@ -417,7 +417,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 45,
                 'name' => 'Classical Greek philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:42',
                 'updated_at' => '2018-11-14 20:40:42',
@@ -426,7 +426,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 46,
                 'name' => 'Philosophers and tutors of Alexander the Great',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:43',
                 'updated_at' => '2018-11-14 20:40:43',
@@ -435,7 +435,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 47,
                 'name' => 'Acting theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:43',
                 'updated_at' => '2018-11-14 20:40:43',
@@ -444,7 +444,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 48,
                 'name' => 'Ancient Greek logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:44',
                 'updated_at' => '2018-11-14 20:40:44',
@@ -453,7 +453,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 49,
                 'name' => 'Ancient Greek philosophers of language',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:44',
                 'updated_at' => '2018-11-14 20:40:44',
@@ -462,7 +462,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 50,
                 'name' => 'Ancient Greek philosophers of mind',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:44',
                 'updated_at' => '2018-11-14 20:40:44',
@@ -471,7 +471,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 51,
                 'name' => 'Logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:45',
                 'updated_at' => '2018-11-14 20:40:45',
@@ -480,7 +480,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 52,
                 'name' => 'Peripatetic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:45',
                 'updated_at' => '2018-11-14 20:40:45',
@@ -489,7 +489,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 53,
                 'name' => 'Philosophers of ancient Chalcidice',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:45',
                 'updated_at' => '2018-11-14 20:40:45',
@@ -498,7 +498,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 54,
                 'name' => 'Philosophers of technology',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:45',
                 'updated_at' => '2018-11-14 20:40:45',
@@ -507,7 +507,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 55,
                 'name' => 'Rhetoric theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:46',
                 'updated_at' => '2018-11-14 20:40:46',
@@ -516,7 +516,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 56,
                 'name' => 'Trope theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:46',
                 'updated_at' => '2018-11-14 20:40:46',
@@ -525,7 +525,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 57,
                 'name' => 'Virtue ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:46',
                 'updated_at' => '2018-11-14 20:40:46',
@@ -534,7 +534,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 58,
                 'name' => 'Ancient Skeptic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:47',
                 'updated_at' => '2018-11-14 20:40:47',
@@ -543,7 +543,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 59,
                 'name' => 'Hellenistic-era philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:47',
                 'updated_at' => '2018-11-14 20:40:47',
@@ -552,7 +552,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 60,
                 'name' => 'Indo-Greek religions and philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:47',
                 'updated_at' => '2018-11-14 20:40:47',
@@ -561,7 +561,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 61,
                 'name' => '3rd-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:47',
                 'updated_at' => '2018-11-14 20:40:47',
@@ -570,7 +570,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 62,
                 'name' => 'Hellenistic-era philosophers in Athens',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:47',
                 'updated_at' => '2018-11-14 20:40:47',
@@ -579,7 +579,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 63,
                 'name' => 'Epicurean philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:48',
                 'updated_at' => '2018-11-14 20:40:48',
@@ -588,7 +588,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 64,
                 'name' => 'Materialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:48',
                 'updated_at' => '2018-11-14 20:40:48',
@@ -597,7 +597,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 65,
                 'name' => 'Stoic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:49',
                 'updated_at' => '2018-11-14 20:40:49',
@@ -606,7 +606,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 66,
                 'name' => 'Hellenistic-era philosophers from Anatolia',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:50',
                 'updated_at' => '2018-11-14 20:40:50',
@@ -615,7 +615,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 67,
                 'name' => '2nd-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:50',
                 'updated_at' => '2018-11-14 20:40:50',
@@ -624,7 +624,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 68,
                 'name' => '1st-century BC philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -633,7 +633,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 69,
                 'name' => 'Roman-era Epicurean philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -642,7 +642,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 70,
                 'name' => 'Roman-era philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -651,7 +651,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 71,
                 'name' => 'Ancient Roman political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -660,7 +660,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 72,
                 'name' => 'Philosophers of Roman Italy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -669,7 +669,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 73,
                 'name' => 'Murdered philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:51',
                 'updated_at' => '2018-11-14 20:40:51',
@@ -678,7 +678,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 74,
                 'name' => 'Jewish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:52',
                 'updated_at' => '2018-11-14 20:40:52',
@@ -687,7 +687,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 75,
                 'name' => '1st-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:52',
                 'updated_at' => '2018-11-14 20:40:52',
@@ -696,7 +696,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 76,
                 'name' => 'Philosophers who committed suicide',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:52',
                 'updated_at' => '2018-11-14 20:40:52',
@@ -705,7 +705,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 77,
                 'name' => 'Roman-era Stoic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:52',
                 'updated_at' => '2018-11-14 20:40:52',
@@ -714,7 +714,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 78,
                 'name' => 'Spanish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:52',
                 'updated_at' => '2018-11-14 20:40:52',
@@ -723,7 +723,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 79,
                 'name' => '2nd-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:53',
                 'updated_at' => '2018-11-14 20:40:53',
@@ -732,7 +732,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 80,
                 'name' => 'Stoicism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:53',
                 'updated_at' => '2018-11-14 20:40:53',
@@ -741,7 +741,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 81,
                 'name' => 'Roman-era Skeptic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -750,7 +750,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 82,
                 'name' => 'Roman-era philosophers in Rome',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -759,7 +759,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 83,
                 'name' => 'Roman-era philosophers in Athens',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -768,7 +768,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 84,
                 'name' => 'Roman-era philosophers in Alexandria',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -777,7 +777,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 85,
                 'name' => '3rd-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -786,7 +786,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 86,
                 'name' => 'Egyptian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -795,7 +795,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 87,
                 'name' => 'Classical mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -804,7 +804,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 88,
                 'name' => 'Critics of atheism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:54',
                 'updated_at' => '2018-11-14 20:40:54',
@@ -813,7 +813,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 89,
                 'name' => '4th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -822,7 +822,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 90,
                 'name' => 'Neo-Pythagoreans',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -831,7 +831,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 91,
                 'name' => 'Syrian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -840,7 +840,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 92,
                 'name' => '4th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -849,7 +849,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 93,
                 'name' => '4th-century Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -858,7 +858,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 94,
                 'name' => '5th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:55',
                 'updated_at' => '2018-11-14 20:40:55',
@@ -867,7 +867,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 95,
                 'name' => '5th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -876,7 +876,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 96,
                 'name' => '5th-century Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -885,7 +885,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 97,
                 'name' => '5th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -894,7 +894,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 98,
                 'name' => 'African philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -903,7 +903,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 99,
                 'name' => 'Ancient Roman saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -912,7 +912,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 100,
                 'name' => 'Berber Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -921,7 +921,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 101,
                 'name' => 'Christian ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -930,7 +930,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 102,
                 'name' => 'Christian existentialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -939,7 +939,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 103,
                 'name' => 'Christian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -948,7 +948,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 104,
                 'name' => 'Existentialist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -957,7 +957,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 105,
                 'name' => 'Music theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:56',
                 'updated_at' => '2018-11-14 20:40:56',
@@ -966,7 +966,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 106,
                 'name' => 'Numidian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -975,7 +975,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 107,
             'name' => 'Saints from Roman Africa (province)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -984,7 +984,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 108,
                 'name' => 'Systematic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -993,7 +993,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 109,
                 'name' => 'Ancient Roman Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -1002,7 +1002,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 110,
                 'name' => 'Philosophers of mathematics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -1011,7 +1011,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 111,
                 'name' => '6th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -1020,7 +1020,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 112,
                 'name' => '6th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:57',
                 'updated_at' => '2018-11-14 20:40:57',
@@ -1029,7 +1029,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 113,
                 'name' => 'Roman Catholic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:58',
                 'updated_at' => '2018-11-14 20:40:58',
@@ -1038,7 +1038,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 114,
                 'name' => '6th-century Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:58',
                 'updated_at' => '2018-11-14 20:40:58',
@@ -1047,7 +1047,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 115,
                 'name' => 'Byzantine philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:58',
                 'updated_at' => '2018-11-14 20:40:58',
@@ -1056,7 +1056,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 116,
                 'name' => 'Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:58',
                 'updated_at' => '2018-11-14 20:40:58',
@@ -1065,7 +1065,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 117,
                 'name' => '9th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1074,7 +1074,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 118,
                 'name' => 'Musical theorists of medieval Islam',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1083,7 +1083,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 119,
                 'name' => 'Medieval Arab philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1092,7 +1092,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 120,
                 'name' => 'Islamic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1101,7 +1101,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 121,
                 'name' => '9th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1110,7 +1110,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 122,
                 'name' => '9th-century Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1119,7 +1119,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 123,
                 'name' => 'Irish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1128,7 +1128,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 124,
                 'name' => 'Irish Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1137,7 +1137,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 125,
                 'name' => 'Medieval philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:40:59',
                 'updated_at' => '2018-11-14 20:40:59',
@@ -1146,7 +1146,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 126,
                 'name' => 'Roman Catholic mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1155,7 +1155,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 127,
                 'name' => 'Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1164,7 +1164,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 128,
                 'name' => 'Scholastic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1173,7 +1173,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 129,
                 'name' => '10th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1182,7 +1182,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 130,
                 'name' => 'Medieval Jewish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1191,7 +1191,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 131,
                 'name' => 'Philosophers of Judaism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:00',
                 'updated_at' => '2018-11-14 20:41:00',
@@ -1200,7 +1200,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 132,
                 'name' => 'Persian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:01',
                 'updated_at' => '2018-11-14 20:41:01',
@@ -1209,7 +1209,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 133,
                 'name' => 'Medieval Persian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:01',
                 'updated_at' => '2018-11-14 20:41:01',
@@ -1218,7 +1218,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 134,
                 'name' => 'Aristotelian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:01',
                 'updated_at' => '2018-11-14 20:41:01',
@@ -1227,7 +1227,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 135,
                 'name' => 'Ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:02',
                 'updated_at' => '2018-11-14 20:41:02',
@@ -1236,7 +1236,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 136,
                 'name' => '11th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:02',
                 'updated_at' => '2018-11-14 20:41:02',
@@ -1245,7 +1245,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 137,
                 'name' => '12th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:03',
                 'updated_at' => '2018-11-14 20:41:03',
@@ -1254,7 +1254,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 138,
                 'name' => '11th-century Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:03',
                 'updated_at' => '2018-11-14 20:41:03',
@@ -1263,7 +1263,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 139,
                 'name' => '12th-century Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:03',
                 'updated_at' => '2018-11-14 20:41:03',
@@ -1272,7 +1272,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 140,
                 'name' => '11th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:04',
                 'updated_at' => '2018-11-14 20:41:04',
@@ -1281,7 +1281,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 141,
                 'name' => '12th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:04',
                 'updated_at' => '2018-11-14 20:41:04',
@@ -1290,7 +1290,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 142,
                 'name' => 'Benedictine philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:04',
                 'updated_at' => '2018-11-14 20:41:04',
@@ -1299,7 +1299,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 143,
                 'name' => 'Benedictine saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:04',
                 'updated_at' => '2018-11-14 20:41:04',
@@ -1308,7 +1308,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 144,
                 'name' => 'Benedictine theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:04',
                 'updated_at' => '2018-11-14 20:41:04',
@@ -1317,7 +1317,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 145,
                 'name' => 'Pre-Reformation saints of the Lutheran liturgical calendar',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1326,7 +1326,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 146,
                 'name' => 'Medieval English theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1335,7 +1335,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 147,
                 'name' => 'Medieval French theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1344,7 +1344,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 148,
                 'name' => 'English Roman Catholic saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1353,7 +1353,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 149,
                 'name' => 'French Roman Catholic saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1362,7 +1362,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 150,
                 'name' => 'Burgundian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:05',
                 'updated_at' => '2018-11-14 20:41:05',
@@ -1371,7 +1371,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 151,
                 'name' => 'Pre-Reformation Anglican saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:06',
                 'updated_at' => '2018-11-14 20:41:06',
@@ -1380,7 +1380,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 152,
                 'name' => 'Benedictine mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:06',
                 'updated_at' => '2018-11-14 20:41:06',
@@ -1389,7 +1389,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 153,
                 'name' => 'French logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:07',
                 'updated_at' => '2018-11-14 20:41:07',
@@ -1398,7 +1398,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 154,
                 'name' => 'Italian Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:07',
                 'updated_at' => '2018-11-14 20:41:07',
@@ -1407,7 +1407,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 155,
                 'name' => 'Medieval Italian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:07',
                 'updated_at' => '2018-11-14 20:41:07',
@@ -1416,7 +1416,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 156,
                 'name' => '12th-century Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1425,7 +1425,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 157,
                 'name' => '13th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1434,7 +1434,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 158,
                 'name' => '12th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1443,7 +1443,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 159,
                 'name' => '13th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1452,7 +1452,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 160,
                 'name' => '13th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1461,7 +1461,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 161,
                 'name' => 'Franciscan mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:10',
                 'updated_at' => '2018-11-14 20:41:10',
@@ -1470,7 +1470,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 162,
                 'name' => 'Franciscan saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:11',
                 'updated_at' => '2018-11-14 20:41:11',
@@ -1479,7 +1479,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 163,
                 'name' => 'Italian Roman Catholic saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:11',
                 'updated_at' => '2018-11-14 20:41:11',
@@ -1488,7 +1488,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 164,
                 'name' => 'Medieval Italian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:11',
                 'updated_at' => '2018-11-14 20:41:11',
@@ -1497,7 +1497,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 165,
                 'name' => 'English philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:11',
                 'updated_at' => '2018-11-14 20:41:11',
@@ -1506,7 +1506,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 166,
                 'name' => '13th-century Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:12',
                 'updated_at' => '2018-11-14 20:41:12',
@@ -1515,7 +1515,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 167,
                 'name' => 'German music theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:13',
                 'updated_at' => '2018-11-14 20:41:13',
@@ -1524,7 +1524,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 168,
                 'name' => 'German philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:13',
                 'updated_at' => '2018-11-14 20:41:13',
@@ -1533,7 +1533,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 169,
                 'name' => 'German Roman Catholic saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:13',
                 'updated_at' => '2018-11-14 20:41:13',
@@ -1542,7 +1542,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 170,
                 'name' => 'Medieval German theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:13',
                 'updated_at' => '2018-11-14 20:41:13',
@@ -1551,7 +1551,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 171,
                 'name' => 'Dominican mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:14',
                 'updated_at' => '2018-11-14 20:41:14',
@@ -1560,7 +1560,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 172,
                 'name' => 'Dominican saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:14',
                 'updated_at' => '2018-11-14 20:41:14',
@@ -1569,7 +1569,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 173,
                 'name' => 'Incorrupt saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:14',
                 'updated_at' => '2018-11-14 20:41:14',
@@ -1578,7 +1578,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 174,
                 'name' => 'Alsatian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:15',
                 'updated_at' => '2018-11-14 20:41:15',
@@ -1587,7 +1587,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 175,
                 'name' => 'English music theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:15',
                 'updated_at' => '2018-11-14 20:41:15',
@@ -1596,7 +1596,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 176,
                 'name' => 'Critics of Islam',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:16',
                 'updated_at' => '2018-11-14 20:41:16',
@@ -1605,7 +1605,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 177,
                 'name' => 'Italian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:16',
                 'updated_at' => '2018-11-14 20:41:16',
@@ -1614,7 +1614,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 178,
                 'name' => 'Italian Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:17',
                 'updated_at' => '2018-11-14 20:41:17',
@@ -1623,7 +1623,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 179,
                 'name' => 'Roman Catholic moral theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:19',
                 'updated_at' => '2018-11-14 20:41:19',
@@ -1632,7 +1632,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 180,
                 'name' => 'Dominican theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:19',
                 'updated_at' => '2018-11-14 20:41:19',
@@ -1641,7 +1641,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 181,
                 'name' => 'Franciscan theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:20',
                 'updated_at' => '2018-11-14 20:41:20',
@@ -1650,7 +1650,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 182,
                 'name' => 'Belgian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:20',
                 'updated_at' => '2018-11-14 20:41:20',
@@ -1659,7 +1659,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 183,
                 'name' => 'Dutch philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:20',
                 'updated_at' => '2018-11-14 20:41:20',
@@ -1668,7 +1668,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 184,
                 'name' => '14th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:21',
                 'updated_at' => '2018-11-14 20:41:21',
@@ -1677,7 +1677,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 185,
                 'name' => '14th-century Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:21',
                 'updated_at' => '2018-11-14 20:41:21',
@@ -1686,7 +1686,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 186,
                 'name' => '14th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:21',
                 'updated_at' => '2018-11-14 20:41:21',
@@ -1695,7 +1695,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 187,
                 'name' => 'German Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:22',
                 'updated_at' => '2018-11-14 20:41:22',
@@ -1704,7 +1704,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 188,
                 'name' => 'Rhineland mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:22',
                 'updated_at' => '2018-11-14 20:41:22',
@@ -1713,7 +1713,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 189,
                 'name' => 'Scottish logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:23',
                 'updated_at' => '2018-11-14 20:41:23',
@@ -1722,7 +1722,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 190,
                 'name' => 'Scottish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:25',
                 'updated_at' => '2018-11-14 20:41:25',
@@ -1731,7 +1731,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 191,
                 'name' => 'English logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:26',
                 'updated_at' => '2018-11-14 20:41:26',
@@ -1740,7 +1740,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 192,
                 'name' => 'English Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:27',
                 'updated_at' => '2018-11-14 20:41:27',
@@ -1749,7 +1749,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 193,
                 'name' => '14th-century Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:27',
                 'updated_at' => '2018-11-14 20:41:27',
@@ -1758,7 +1758,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 194,
                 'name' => 'French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:28',
                 'updated_at' => '2018-11-14 20:41:28',
@@ -1767,7 +1767,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 195,
                 'name' => 'Critics of the Catholic Church',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:29',
                 'updated_at' => '2018-11-14 20:41:29',
@@ -1776,7 +1776,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 196,
                 'name' => 'Catalan philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:30',
                 'updated_at' => '2018-11-14 20:41:30',
@@ -1785,7 +1785,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 197,
                 'name' => 'Christianity and Hellenistic philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:30',
                 'updated_at' => '2018-11-14 20:41:30',
@@ -1794,7 +1794,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 198,
                 'name' => '15th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:30',
                 'updated_at' => '2018-11-14 20:41:30',
@@ -1803,7 +1803,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 199,
                 'name' => '15th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:31',
                 'updated_at' => '2018-11-14 20:41:31',
@@ -1812,7 +1812,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 200,
                 'name' => '15th-century Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:31',
                 'updated_at' => '2018-11-14 20:41:31',
@@ -1821,7 +1821,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 201,
                 'name' => 'Perennial philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:32',
                 'updated_at' => '2018-11-14 20:41:32',
@@ -1830,7 +1830,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 202,
                 'name' => 'Dutch Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:33',
                 'updated_at' => '2018-11-14 20:41:33',
@@ -1839,7 +1839,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 203,
                 'name' => 'Early Modern philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:34',
                 'updated_at' => '2018-11-14 20:41:34',
@@ -1848,7 +1848,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 204,
                 'name' => 'Italian political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:34',
                 'updated_at' => '2018-11-14 20:41:34',
@@ -1857,7 +1857,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 205,
                 'name' => 'Military theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:34',
                 'updated_at' => '2018-11-14 20:41:34',
@@ -1866,7 +1866,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 206,
                 'name' => '16th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:35',
                 'updated_at' => '2018-11-14 20:41:35',
@@ -1875,7 +1875,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 207,
                 'name' => 'Critics of multiculturalism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:35',
                 'updated_at' => '2018-11-14 20:41:35',
@@ -1884,7 +1884,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 208,
                 'name' => '16th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:35',
                 'updated_at' => '2018-11-14 20:41:35',
@@ -1893,7 +1893,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 209,
                 'name' => 'Anglican saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:35',
                 'updated_at' => '2018-11-14 20:41:35',
@@ -1902,7 +1902,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 210,
                 'name' => 'English saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:35',
                 'updated_at' => '2018-11-14 20:41:35',
@@ -1911,7 +1911,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 211,
                 'name' => '16th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:36',
                 'updated_at' => '2018-11-14 20:41:36',
@@ -1920,7 +1920,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 212,
                 'name' => '16th-century German Protestant theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:36',
                 'updated_at' => '2018-11-14 20:41:36',
@@ -1929,7 +1929,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 213,
                 'name' => 'Burials at All Saints\' Church, Wittenberg',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:36',
                 'updated_at' => '2018-11-14 20:41:36',
@@ -1938,7 +1938,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 214,
                 'name' => 'German Lutheran theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:37',
                 'updated_at' => '2018-11-14 20:41:37',
@@ -1947,7 +1947,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 215,
                 'name' => 'Protestant mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:38',
                 'updated_at' => '2018-11-14 20:41:38',
@@ -1956,7 +1956,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 216,
                 'name' => 'Calvinist and Reformed philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:39',
                 'updated_at' => '2018-11-14 20:41:39',
@@ -1965,7 +1965,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 217,
                 'name' => 'Theologians from the Republic of Geneva',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:39',
                 'updated_at' => '2018-11-14 20:41:39',
@@ -1974,7 +1974,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 218,
                 'name' => '16th-century Calvinist and Reformed theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:40',
                 'updated_at' => '2018-11-14 20:41:40',
@@ -1983,7 +1983,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 219,
                 'name' => '16th-century French theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:40',
                 'updated_at' => '2018-11-14 20:41:40',
@@ -1992,7 +1992,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 220,
                 'name' => 'French Calvinist and Reformed theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:41',
                 'updated_at' => '2018-11-14 20:41:41',
@@ -2001,7 +2001,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 221,
                 'name' => '16th-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:41',
                 'updated_at' => '2018-11-14 20:41:41',
@@ -2010,7 +2010,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 222,
                 'name' => '16th-century French Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:42',
                 'updated_at' => '2018-11-14 20:41:42',
@@ -2019,7 +2019,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 223,
                 'name' => 'Atomists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:43',
                 'updated_at' => '2018-11-14 20:41:43',
@@ -2028,7 +2028,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 224,
                 'name' => '17th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:44',
                 'updated_at' => '2018-11-14 20:41:44',
@@ -2037,7 +2037,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 225,
                 'name' => 'Jesuit philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:44',
                 'updated_at' => '2018-11-14 20:41:44',
@@ -2046,7 +2046,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 226,
                 'name' => 'Spanish Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:46',
                 'updated_at' => '2018-11-14 20:41:46',
@@ -2055,7 +2055,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 227,
                 'name' => '17th-century Calvinist and Reformed theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:49',
                 'updated_at' => '2018-11-14 20:41:49',
@@ -2064,7 +2064,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 228,
                 'name' => '17th-century Dutch philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:50',
                 'updated_at' => '2018-11-14 20:41:50',
@@ -2073,7 +2073,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 229,
                 'name' => 'Dutch Calvinist and Reformed theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:50',
                 'updated_at' => '2018-11-14 20:41:50',
@@ -2082,7 +2082,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 230,
                 'name' => 'Dutch political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:50',
                 'updated_at' => '2018-11-14 20:41:50',
@@ -2091,7 +2091,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 231,
                 'name' => '17th-century Dutch political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:50',
                 'updated_at' => '2018-11-14 20:41:50',
@@ -2100,7 +2100,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 232,
                 'name' => 'Political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:51',
                 'updated_at' => '2018-11-14 20:41:51',
@@ -2109,7 +2109,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 233,
                 'name' => 'Philosophy and thought in the Dutch Republic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:51',
                 'updated_at' => '2018-11-14 20:41:51',
@@ -2118,7 +2118,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 234,
                 'name' => '17th-century Dutch theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:51',
                 'updated_at' => '2018-11-14 20:41:51',
@@ -2127,7 +2127,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 235,
                 'name' => 'Number theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:52',
                 'updated_at' => '2018-11-14 20:41:52',
@@ -2136,7 +2136,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 236,
                 'name' => 'French music theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:52',
                 'updated_at' => '2018-11-14 20:41:52',
@@ -2145,7 +2145,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 237,
                 'name' => 'English political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:52',
                 'updated_at' => '2018-11-14 20:41:52',
@@ -2154,7 +2154,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 238,
                 'name' => '17th-century French Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:52',
                 'updated_at' => '2018-11-14 20:41:52',
@@ -2163,7 +2163,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 239,
                 'name' => 'Consciousness researchers and theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:53',
                 'updated_at' => '2018-11-14 20:41:53',
@@ -2172,7 +2172,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 240,
                 'name' => 'Critics of animal rights',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:53',
                 'updated_at' => '2018-11-14 20:41:53',
@@ -2181,7 +2181,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 241,
                 'name' => 'Enlightenment philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:53',
                 'updated_at' => '2018-11-14 20:41:53',
@@ -2190,7 +2190,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 242,
                 'name' => '17th-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:54',
                 'updated_at' => '2018-11-14 20:41:54',
@@ -2199,7 +2199,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 243,
                 'name' => 'Philosophers of mind',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:54',
                 'updated_at' => '2018-11-14 20:41:54',
@@ -2208,7 +2208,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 244,
                 'name' => 'English political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:56',
                 'updated_at' => '2018-11-14 20:41:56',
@@ -2217,7 +2217,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 245,
                 'name' => '17th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:41:58',
                 'updated_at' => '2018-11-14 20:41:58',
@@ -2226,7 +2226,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 246,
                 'name' => '17th-century English philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:00',
                 'updated_at' => '2018-11-14 20:42:00',
@@ -2235,7 +2235,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 247,
                 'name' => '17th-century English theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:00',
                 'updated_at' => '2018-11-14 20:42:00',
@@ -2244,7 +2244,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 248,
                 'name' => 'Anglican philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:00',
                 'updated_at' => '2018-11-14 20:42:00',
@@ -2253,7 +2253,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 249,
                 'name' => 'English Anglican theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:00',
                 'updated_at' => '2018-11-14 20:42:00',
@@ -2262,7 +2262,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 250,
                 'name' => '17th-century French theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:01',
                 'updated_at' => '2018-11-14 20:42:01',
@@ -2271,7 +2271,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 251,
                 'name' => 'Probability theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:01',
                 'updated_at' => '2018-11-14 20:42:01',
@@ -2280,7 +2280,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 252,
                 'name' => 'Flemish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:02',
                 'updated_at' => '2018-11-14 20:42:02',
@@ -2289,7 +2289,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 253,
                 'name' => '17th-century Irish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:04',
                 'updated_at' => '2018-11-14 20:42:04',
@@ -2298,7 +2298,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 254,
                 'name' => '17th-century Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:06',
                 'updated_at' => '2018-11-14 20:42:06',
@@ -2307,7 +2307,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 255,
                 'name' => 'Critics of Judaism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:06',
                 'updated_at' => '2018-11-14 20:42:06',
@@ -2316,7 +2316,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 256,
                 'name' => '18th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:12',
                 'updated_at' => '2018-11-14 20:42:12',
@@ -2325,7 +2325,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 257,
                 'name' => '18th-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:13',
                 'updated_at' => '2018-11-14 20:42:13',
@@ -2334,7 +2334,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 258,
                 'name' => '18th-century Dutch philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:13',
                 'updated_at' => '2018-11-14 20:42:13',
@@ -2343,7 +2343,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 259,
                 'name' => 'Protestant philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:13',
                 'updated_at' => '2018-11-14 20:42:13',
@@ -2352,7 +2352,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 260,
                 'name' => 'English feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:14',
                 'updated_at' => '2018-11-14 20:42:14',
@@ -2361,7 +2361,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 261,
                 'name' => 'Feminist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:14',
                 'updated_at' => '2018-11-14 20:42:14',
@@ -2370,7 +2370,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 262,
                 'name' => 'Moral philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:14',
                 'updated_at' => '2018-11-14 20:42:14',
@@ -2379,7 +2379,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 263,
                 'name' => 'English theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:15',
                 'updated_at' => '2018-11-14 20:42:15',
@@ -2388,7 +2388,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 264,
                 'name' => 'Feminist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:15',
                 'updated_at' => '2018-11-14 20:42:15',
@@ -2397,7 +2397,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 265,
                 'name' => '18th-century Irish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:15',
                 'updated_at' => '2018-11-14 20:42:15',
@@ -2406,7 +2406,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 266,
                 'name' => '18th-century German philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:16',
                 'updated_at' => '2018-11-14 20:42:16',
@@ -2415,7 +2415,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 267,
                 'name' => '17th-century German philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:16',
                 'updated_at' => '2018-11-14 20:42:16',
@@ -2424,7 +2424,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 268,
                 'name' => 'German logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:16',
                 'updated_at' => '2018-11-14 20:42:16',
@@ -2433,7 +2433,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 269,
                 'name' => 'German political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:17',
                 'updated_at' => '2018-11-14 20:42:17',
@@ -2442,7 +2442,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 270,
                 'name' => 'French materialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:18',
                 'updated_at' => '2018-11-14 20:42:18',
@@ -2451,7 +2451,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 271,
                 'name' => 'Social philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:19',
                 'updated_at' => '2018-11-14 20:42:19',
@@ -2460,7 +2460,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 272,
                 'name' => '18th-century British philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:20',
                 'updated_at' => '2018-11-14 20:42:20',
@@ -2469,7 +2469,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 273,
                 'name' => 'Irish natural philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:22',
                 'updated_at' => '2018-11-14 20:42:22',
@@ -2478,7 +2478,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 274,
                 'name' => 'Philosophers of history',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:23',
                 'updated_at' => '2018-11-14 20:42:23',
@@ -2487,7 +2487,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 275,
                 'name' => '18th-century Anglican theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:23',
                 'updated_at' => '2018-11-14 20:42:23',
@@ -2496,7 +2496,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 276,
                 'name' => 'Critics of deism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:24',
                 'updated_at' => '2018-11-14 20:42:24',
@@ -2505,7 +2505,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 277,
                 'name' => 'Philosophers of psychology',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:26',
                 'updated_at' => '2018-11-14 20:42:26',
@@ -2514,7 +2514,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 278,
                 'name' => 'Philosophers of sexuality',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:27',
                 'updated_at' => '2018-11-14 20:42:27',
@@ -2523,7 +2523,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 279,
                 'name' => 'British Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:28',
                 'updated_at' => '2018-11-14 20:42:28',
@@ -2532,7 +2532,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 280,
                 'name' => 'Philosophers of art',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:29',
                 'updated_at' => '2018-11-14 20:42:29',
@@ -2541,7 +2541,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 281,
                 'name' => 'Philosophers of religion',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:29',
                 'updated_at' => '2018-11-14 20:42:29',
@@ -2550,7 +2550,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 282,
                 'name' => 'Philosophers from the Republic of Geneva',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:30',
                 'updated_at' => '2018-11-14 20:42:30',
@@ -2559,7 +2559,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 283,
                 'name' => 'Political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:30',
                 'updated_at' => '2018-11-14 20:42:30',
@@ -2568,7 +2568,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 284,
                 'name' => 'French ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:32',
                 'updated_at' => '2018-11-14 20:42:32',
@@ -2577,7 +2577,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 285,
                 'name' => 'Scottish business theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:34',
                 'updated_at' => '2018-11-14 20:42:34',
@@ -2586,7 +2586,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 286,
                 'name' => 'Welsh philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:34',
                 'updated_at' => '2018-11-14 20:42:34',
@@ -2595,7 +2595,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 287,
                 'name' => 'Continental philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:35',
                 'updated_at' => '2018-11-14 20:42:35',
@@ -2604,7 +2604,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 288,
                 'name' => 'Kantian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:35',
                 'updated_at' => '2018-11-14 20:42:35',
@@ -2613,7 +2613,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 289,
                 'name' => '18th-century German Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:36',
                 'updated_at' => '2018-11-14 20:42:36',
@@ -2622,7 +2622,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 290,
                 'name' => '18th-century German Protestant theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:37',
                 'updated_at' => '2018-11-14 20:42:37',
@@ -2631,7 +2631,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 291,
                 'name' => 'Irish political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:37',
                 'updated_at' => '2018-11-14 20:42:37',
@@ -2640,7 +2640,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 292,
                 'name' => 'British political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:37',
                 'updated_at' => '2018-11-14 20:42:37',
@@ -2649,7 +2649,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 293,
                 'name' => 'British political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:37',
                 'updated_at' => '2018-11-14 20:42:37',
@@ -2658,7 +2658,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 294,
                 'name' => 'American political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:38',
                 'updated_at' => '2018-11-14 20:42:38',
@@ -2667,7 +2667,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 295,
                 'name' => 'Philosophers from Virginia',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:38',
                 'updated_at' => '2018-11-14 20:42:38',
@@ -2676,7 +2676,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 296,
                 'name' => '18th-century American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:39',
                 'updated_at' => '2018-11-14 20:42:39',
@@ -2685,7 +2685,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 297,
                 'name' => '19th-century American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:39',
                 'updated_at' => '2018-11-14 20:42:39',
@@ -2694,7 +2694,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 298,
                 'name' => '19th-century British philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:39',
                 'updated_at' => '2018-11-14 20:42:39',
@@ -2703,7 +2703,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 299,
                 'name' => 'British ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:39',
                 'updated_at' => '2018-11-14 20:42:39',
@@ -2712,7 +2712,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 300,
                 'name' => 'Social philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:40',
                 'updated_at' => '2018-11-14 20:42:40',
@@ -2721,7 +2721,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 301,
                 'name' => 'English feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:41',
                 'updated_at' => '2018-11-14 20:42:41',
@@ -2730,7 +2730,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 302,
                 'name' => 'Feminist theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:42',
                 'updated_at' => '2018-11-14 20:42:42',
@@ -2739,7 +2739,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 303,
                 'name' => 'Feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:42',
                 'updated_at' => '2018-11-14 20:42:42',
@@ -2748,7 +2748,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 304,
                 'name' => 'German literary theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:42',
                 'updated_at' => '2018-11-14 20:42:42',
@@ -2757,7 +2757,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 305,
                 'name' => '19th-century German philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:42',
                 'updated_at' => '2018-11-14 20:42:42',
@@ -2766,7 +2766,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 306,
                 'name' => '19th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:43',
                 'updated_at' => '2018-11-14 20:42:43',
@@ -2775,7 +2775,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 307,
                 'name' => 'French political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:43',
                 'updated_at' => '2018-11-14 20:42:43',
@@ -2784,7 +2784,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 308,
                 'name' => 'Knights of the Order of Saints Maurice and Lazarus',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:44',
                 'updated_at' => '2018-11-14 20:42:44',
@@ -2793,7 +2793,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 309,
                 'name' => '19th-century German Protestant theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:44',
                 'updated_at' => '2018-11-14 20:42:44',
@@ -2802,7 +2802,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 310,
                 'name' => 'Christian Universalist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:45',
                 'updated_at' => '2018-11-14 20:42:45',
@@ -2811,7 +2811,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 311,
                 'name' => 'Death of God theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:46',
                 'updated_at' => '2018-11-14 20:42:46',
@@ -2820,7 +2820,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 312,
                 'name' => 'German historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:46',
                 'updated_at' => '2018-11-14 20:42:46',
@@ -2829,7 +2829,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 313,
                 'name' => 'Hegelian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:46',
                 'updated_at' => '2018-11-14 20:42:46',
@@ -2838,7 +2838,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 314,
                 'name' => 'Scottish political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:47',
                 'updated_at' => '2018-11-14 20:42:47',
@@ -2847,7 +2847,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 315,
                 'name' => 'Lutheran philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:48',
                 'updated_at' => '2018-11-14 20:42:48',
@@ -2856,7 +2856,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 316,
                 'name' => 'Czech philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:48',
                 'updated_at' => '2018-11-14 20:42:48',
@@ -2865,7 +2865,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 317,
                 'name' => 'Mathematical logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:48',
                 'updated_at' => '2018-11-14 20:42:48',
@@ -2874,7 +2874,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 318,
                 'name' => 'Presidents of the Geological Society of London',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:50',
                 'updated_at' => '2018-11-14 20:42:50',
@@ -2883,7 +2883,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 319,
                 'name' => 'Philosophers of social science',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:50',
                 'updated_at' => '2018-11-14 20:42:50',
@@ -2892,7 +2892,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 320,
                 'name' => 'Structural functionalism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:50',
                 'updated_at' => '2018-11-14 20:42:50',
@@ -2901,7 +2901,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 321,
                 'name' => '19th-century theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:51',
                 'updated_at' => '2018-11-14 20:42:51',
@@ -2910,7 +2910,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 322,
                 'name' => 'Philosophers from Massachusetts',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:51',
                 'updated_at' => '2018-11-14 20:42:51',
@@ -2919,7 +2919,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 323,
                 'name' => 'French political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:52',
                 'updated_at' => '2018-11-14 20:42:52',
@@ -2928,7 +2928,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 324,
                 'name' => 'Critics of work and the work ethic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:52',
                 'updated_at' => '2018-11-14 20:42:52',
@@ -2937,7 +2937,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 325,
                 'name' => '19th-century English philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:53',
                 'updated_at' => '2018-11-14 20:42:53',
@@ -2946,7 +2946,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 326,
                 'name' => 'Feminist economists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:54',
                 'updated_at' => '2018-11-14 20:42:54',
@@ -2955,7 +2955,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 327,
                 'name' => 'Individualist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:54',
                 'updated_at' => '2018-11-14 20:42:54',
@@ -2964,7 +2964,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 328,
                 'name' => 'Male feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:54',
                 'updated_at' => '2018-11-14 20:42:54',
@@ -2973,7 +2973,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 329,
                 'name' => 'Voting theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:54',
                 'updated_at' => '2018-11-14 20:42:54',
@@ -2982,7 +2982,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 330,
                 'name' => 'Anarchist theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:55',
                 'updated_at' => '2018-11-14 20:42:55',
@@ -2991,7 +2991,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 331,
                 'name' => 'Fellows of the Royal Entomological Society',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:55',
                 'updated_at' => '2018-11-14 20:42:55',
@@ -3000,7 +3000,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 332,
                 'name' => 'Fellows of the Zoological Society of London',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:55',
                 'updated_at' => '2018-11-14 20:42:55',
@@ -3009,7 +3009,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 333,
                 'name' => 'Human evolution theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:55',
                 'updated_at' => '2018-11-14 20:42:55',
@@ -3018,7 +3018,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 334,
                 'name' => 'American feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:56',
                 'updated_at' => '2018-11-14 20:42:56',
@@ -3027,7 +3027,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 335,
                 'name' => '19th-century Protestant theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:56',
                 'updated_at' => '2018-11-14 20:42:56',
@@ -3036,7 +3036,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 336,
                 'name' => 'Danish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:57',
                 'updated_at' => '2018-11-14 20:42:57',
@@ -3045,7 +3045,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 337,
                 'name' => 'Ecological succession',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:57',
                 'updated_at' => '2018-11-14 20:42:57',
@@ -3054,7 +3054,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 338,
                 'name' => '19th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:58',
                 'updated_at' => '2018-11-14 20:42:58',
@@ -3063,7 +3063,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 339,
                 'name' => 'African-American feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:58',
                 'updated_at' => '2018-11-14 20:42:58',
@@ -3072,7 +3072,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 340,
                 'name' => 'American feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:58',
                 'updated_at' => '2018-11-14 20:42:58',
@@ -3081,7 +3081,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 341,
                 'name' => 'Christian female saints of the Late Modern era',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:59',
                 'updated_at' => '2018-11-14 20:42:59',
@@ -3090,7 +3090,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 342,
                 'name' => 'Methodist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:59',
                 'updated_at' => '2018-11-14 20:42:59',
@@ -3099,7 +3099,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 343,
                 'name' => 'Russian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:59',
                 'updated_at' => '2018-11-14 20:42:59',
@@ -3108,7 +3108,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 344,
                 'name' => 'Revolution theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:42:59',
                 'updated_at' => '2018-11-14 20:42:59',
@@ -3117,7 +3117,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 345,
                 'name' => 'Critics of Marxism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:00',
                 'updated_at' => '2018-11-14 20:43:00',
@@ -3126,7 +3126,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 346,
                 'name' => 'Christian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:00',
                 'updated_at' => '2018-11-14 20:43:00',
@@ -3135,7 +3135,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 347,
                 'name' => 'Marxist theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:01',
                 'updated_at' => '2018-11-14 20:43:01',
@@ -3144,7 +3144,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 348,
                 'name' => 'Philosophers of economics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:01',
                 'updated_at' => '2018-11-14 20:43:01',
@@ -3153,7 +3153,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 349,
                 'name' => 'German political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:02',
                 'updated_at' => '2018-11-14 20:43:02',
@@ -3162,7 +3162,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 350,
                 'name' => 'Urban theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:02',
                 'updated_at' => '2018-11-14 20:43:02',
@@ -3171,7 +3171,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 351,
                 'name' => 'Libertarian theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:03',
                 'updated_at' => '2018-11-14 20:43:03',
@@ -3180,7 +3180,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 352,
                 'name' => 'Quaker feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:04',
                 'updated_at' => '2018-11-14 20:43:04',
@@ -3189,7 +3189,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 353,
                 'name' => 'White\'s Professors of Moral Philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:05',
                 'updated_at' => '2018-11-14 20:43:05',
@@ -3198,7 +3198,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 354,
                 'name' => 'Cambridge University Moral Sciences Club',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:05',
                 'updated_at' => '2018-11-14 20:43:05',
@@ -3207,7 +3207,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 355,
                 'name' => '20th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:06',
                 'updated_at' => '2018-11-14 20:43:06',
@@ -3216,7 +3216,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 356,
                 'name' => 'Austrian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:06',
                 'updated_at' => '2018-11-14 20:43:06',
@@ -3225,7 +3225,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 357,
                 'name' => '20th-century American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:07',
                 'updated_at' => '2018-11-14 20:43:07',
@@ -3234,7 +3234,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 358,
                 'name' => 'American logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:07',
                 'updated_at' => '2018-11-14 20:43:07',
@@ -3243,7 +3243,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 359,
                 'name' => 'Critical theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:07',
                 'updated_at' => '2018-11-14 20:43:07',
@@ -3252,7 +3252,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 360,
                 'name' => 'American semioticians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:08',
                 'updated_at' => '2018-11-14 20:43:08',
@@ -3261,7 +3261,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 361,
                 'name' => 'Lattice theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:08',
                 'updated_at' => '2018-11-14 20:43:08',
@@ -3270,7 +3270,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 362,
                 'name' => 'Modal logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:08',
                 'updated_at' => '2018-11-14 20:43:08',
@@ -3279,7 +3279,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 363,
                 'name' => 'Philosophers from Pennsylvania',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:08',
                 'updated_at' => '2018-11-14 20:43:08',
@@ -3288,7 +3288,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 364,
             'name' => 'Philosophers from New York (state)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:09',
                 'updated_at' => '2018-11-14 20:43:09',
@@ -3297,7 +3297,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 365,
                 'name' => 'Presidents of the American Psychological Association',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:09',
                 'updated_at' => '2018-11-14 20:43:09',
@@ -3306,7 +3306,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 366,
                 'name' => 'Atheist existentialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:10',
                 'updated_at' => '2018-11-14 20:43:10',
@@ -3315,7 +3315,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 367,
                 'name' => 'Critics of Christianity',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:10',
                 'updated_at' => '2018-11-14 20:43:10',
@@ -3324,7 +3324,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 368,
                 'name' => 'Existentialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:10',
                 'updated_at' => '2018-11-14 20:43:10',
@@ -3333,7 +3333,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 369,
                 'name' => 'Relativity theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:11',
                 'updated_at' => '2018-11-14 20:43:11',
@@ -3342,7 +3342,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 370,
                 'name' => 'British philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:11',
                 'updated_at' => '2018-11-14 20:43:11',
@@ -3351,7 +3351,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 371,
                 'name' => 'Analytic philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:12',
                 'updated_at' => '2018-11-14 20:43:12',
@@ -3360,7 +3360,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 372,
                 'name' => 'Set theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:13',
                 'updated_at' => '2018-11-14 20:43:13',
@@ -3369,7 +3369,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 373,
                 'name' => 'Wykeham Professors of Logic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:13',
                 'updated_at' => '2018-11-14 20:43:13',
@@ -3378,7 +3378,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 374,
                 'name' => '20th-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:14',
                 'updated_at' => '2018-11-14 20:43:14',
@@ -3387,7 +3387,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 375,
                 'name' => 'Chaos theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:15',
                 'updated_at' => '2018-11-14 20:43:15',
@@ -3396,7 +3396,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 376,
                 'name' => 'Dynamical systems theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:15',
                 'updated_at' => '2018-11-14 20:43:15',
@@ -3405,7 +3405,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 377,
                 'name' => 'Philosophers from California',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:15',
                 'updated_at' => '2018-11-14 20:43:15',
@@ -3414,7 +3414,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 378,
                 'name' => 'Semioticians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:15',
                 'updated_at' => '2018-11-14 20:43:15',
@@ -3423,7 +3423,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 379,
                 'name' => 'Structuralists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:16',
                 'updated_at' => '2018-11-14 20:43:16',
@@ -3432,7 +3432,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 380,
                 'name' => '19th-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:16',
                 'updated_at' => '2018-11-14 20:43:16',
@@ -3441,7 +3441,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 381,
                 'name' => '20th-century Italian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:16',
                 'updated_at' => '2018-11-14 20:43:16',
@@ -3450,7 +3450,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 382,
                 'name' => '20th-century German philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:17',
                 'updated_at' => '2018-11-14 20:43:17',
@@ -3459,7 +3459,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 383,
                 'name' => '19th-century educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:17',
                 'updated_at' => '2018-11-14 20:43:17',
@@ -3468,7 +3468,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 384,
                 'name' => '20th-century educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:17',
                 'updated_at' => '2018-11-14 20:43:17',
@@ -3477,7 +3477,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 385,
                 'name' => 'Australian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:18',
                 'updated_at' => '2018-11-14 20:43:18',
@@ -3486,7 +3486,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 386,
                 'name' => 'Process theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:19',
                 'updated_at' => '2018-11-14 20:43:19',
@@ -3495,7 +3495,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 387,
                 'name' => 'Members of the Académie des sciences morales et politiques',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:19',
                 'updated_at' => '2018-11-14 20:43:19',
@@ -3504,7 +3504,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 388,
                 'name' => 'Process philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:19',
                 'updated_at' => '2018-11-14 20:43:19',
@@ -3513,7 +3513,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 389,
                 'name' => 'American educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:19',
                 'updated_at' => '2018-11-14 20:43:19',
@@ -3522,7 +3522,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 390,
                 'name' => 'American political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:20',
                 'updated_at' => '2018-11-14 20:43:20',
@@ -3531,7 +3531,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 391,
                 'name' => 'Philosophy of education',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:20',
                 'updated_at' => '2018-11-14 20:43:20',
@@ -3540,7 +3540,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 392,
                 'name' => 'Philosophers from Illinois',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:20',
                 'updated_at' => '2018-11-14 20:43:20',
@@ -3549,7 +3549,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 393,
                 'name' => '20th-century English theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:21',
                 'updated_at' => '2018-11-14 20:43:21',
@@ -3558,7 +3558,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 394,
                 'name' => 'American theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:22',
                 'updated_at' => '2018-11-14 20:43:22',
@@ -3567,7 +3567,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 395,
                 'name' => 'Rationality theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:23',
                 'updated_at' => '2018-11-14 20:43:23',
@@ -3576,7 +3576,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 396,
                 'name' => 'Basque philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:23',
                 'updated_at' => '2018-11-14 20:43:23',
@@ -3585,7 +3585,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 397,
                 'name' => 'Philosophy of time',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:24',
                 'updated_at' => '2018-11-14 20:43:24',
@@ -3594,7 +3594,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 398,
                 'name' => 'American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:24',
                 'updated_at' => '2018-11-14 20:43:24',
@@ -3603,7 +3603,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 399,
                 'name' => 'Anarcha-feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:24',
                 'updated_at' => '2018-11-14 20:43:24',
@@ -3612,7 +3612,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 400,
                 'name' => 'Atheist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:25',
                 'updated_at' => '2018-11-14 20:43:25',
@@ -3621,7 +3621,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 401,
                 'name' => 'Jewish feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:25',
                 'updated_at' => '2018-11-14 20:43:25',
@@ -3630,7 +3630,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 402,
                 'name' => 'Socialist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:25',
                 'updated_at' => '2018-11-14 20:43:25',
@@ -3639,7 +3639,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 403,
                 'name' => 'Israel Prize in humanities recipients who were philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:27',
                 'updated_at' => '2018-11-14 20:43:27',
@@ -3648,7 +3648,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 404,
                 'name' => 'Relational ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:27',
                 'updated_at' => '2018-11-14 20:43:27',
@@ -3657,7 +3657,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 405,
                 'name' => 'Austrian Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:27',
                 'updated_at' => '2018-11-14 20:43:27',
@@ -3666,7 +3666,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 406,
                 'name' => 'Israeli philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:27',
                 'updated_at' => '2018-11-14 20:43:27',
@@ -3675,7 +3675,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 407,
                 'name' => 'Jewish existentialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:27',
                 'updated_at' => '2018-11-14 20:43:27',
@@ -3684,7 +3684,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 408,
                 'name' => 'Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:28',
                 'updated_at' => '2018-11-14 20:43:28',
@@ -3693,7 +3693,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 409,
                 'name' => '20th-century Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:28',
                 'updated_at' => '2018-11-14 20:43:28',
@@ -3702,7 +3702,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 410,
                 'name' => '19th-century Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:28',
                 'updated_at' => '2018-11-14 20:43:28',
@@ -3711,7 +3711,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 411,
                 'name' => 'British historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:29',
                 'updated_at' => '2018-11-14 20:43:29',
@@ -3720,7 +3720,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 412,
                 'name' => 'British logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:30',
                 'updated_at' => '2018-11-14 20:43:30',
@@ -3729,7 +3729,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 413,
                 'name' => 'John F. Kennedy conspiracy theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:30',
                 'updated_at' => '2018-11-14 20:43:30',
@@ -3738,7 +3738,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 414,
                 'name' => '19th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:31',
                 'updated_at' => '2018-11-14 20:43:31',
@@ -3747,7 +3747,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 415,
                 'name' => '20th-century Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:31',
                 'updated_at' => '2018-11-14 20:43:31',
@@ -3756,7 +3756,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 416,
                 'name' => 'Eastern Orthodox mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:31',
                 'updated_at' => '2018-11-14 20:43:31',
@@ -3765,7 +3765,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 417,
                 'name' => 'Eastern Orthodox philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:31',
                 'updated_at' => '2018-11-14 20:43:31',
@@ -3774,7 +3774,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 418,
                 'name' => 'Russian Christian mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:31',
                 'updated_at' => '2018-11-14 20:43:31',
@@ -3783,7 +3783,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 419,
                 'name' => 'German semioticians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:32',
                 'updated_at' => '2018-11-14 20:43:32',
@@ -3792,7 +3792,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 420,
                 'name' => 'British scholars of ancient Greek philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:33',
                 'updated_at' => '2018-11-14 20:43:33',
@@ -3801,7 +3801,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 421,
                 'name' => '20th-century French Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:33',
                 'updated_at' => '2018-11-14 20:43:33',
@@ -3810,7 +3810,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 422,
                 'name' => 'French paleontologists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:34',
                 'updated_at' => '2018-11-14 20:43:34',
@@ -3819,7 +3819,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 423,
                 'name' => 'Jesuit theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:34',
                 'updated_at' => '2018-11-14 20:43:34',
@@ -3828,7 +3828,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 424,
                 'name' => 'Logical positivism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:35',
                 'updated_at' => '2018-11-14 20:43:35',
@@ -3837,7 +3837,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 425,
                 'name' => 'Vienna Circle',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:35',
                 'updated_at' => '2018-11-14 20:43:35',
@@ -3846,7 +3846,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 426,
                 'name' => 'Philosophy of biology',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:37',
                 'updated_at' => '2018-11-14 20:43:37',
@@ -3855,7 +3855,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 427,
                 'name' => 'Thomist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:37',
                 'updated_at' => '2018-11-14 20:43:37',
@@ -3864,7 +3864,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 428,
                 'name' => 'American philosophy academics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:38',
                 'updated_at' => '2018-11-14 20:43:38',
@@ -3873,7 +3873,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 429,
                 'name' => 'Philosophy teachers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:39',
                 'updated_at' => '2018-11-14 20:43:39',
@@ -3882,7 +3882,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 430,
                 'name' => 'Hungarian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:39',
                 'updated_at' => '2018-11-14 20:43:39',
@@ -3891,7 +3891,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 431,
                 'name' => 'Literary theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:40',
                 'updated_at' => '2018-11-14 20:43:40',
@@ -3900,7 +3900,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 432,
                 'name' => 'Philosophy academics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:40',
                 'updated_at' => '2018-11-14 20:43:40',
@@ -3909,7 +3909,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 433,
                 'name' => 'Christian socialist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:41',
                 'updated_at' => '2018-11-14 20:43:41',
@@ -3918,7 +3918,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 434,
                 'name' => 'English historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:41',
                 'updated_at' => '2018-11-14 20:43:41',
@@ -3927,7 +3927,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 435,
                 'name' => 'Austrian logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:42',
                 'updated_at' => '2018-11-14 20:43:42',
@@ -3936,7 +3936,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 436,
                 'name' => 'Ordinary language philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:42',
                 'updated_at' => '2018-11-14 20:43:42',
@@ -3945,7 +3945,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 437,
                 'name' => 'Wittgensteinian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:43',
                 'updated_at' => '2018-11-14 20:43:43',
@@ -3954,7 +3954,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 438,
                 'name' => 'Enactive cognition',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:44',
                 'updated_at' => '2018-11-14 20:43:44',
@@ -3963,7 +3963,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 439,
                 'name' => 'UCLA Philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:47',
                 'updated_at' => '2018-11-14 20:43:47',
@@ -3972,7 +3972,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 440,
                 'name' => 'Philosophy of logic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:47',
                 'updated_at' => '2018-11-14 20:43:47',
@@ -3981,7 +3981,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 441,
                 'name' => 'Philosophers from Michigan',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:48',
                 'updated_at' => '2018-11-14 20:43:48',
@@ -3990,7 +3990,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 442,
                 'name' => 'Philosophers from Montana',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:49',
                 'updated_at' => '2018-11-14 20:43:49',
@@ -3999,7 +3999,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 443,
                 'name' => 'Philosophers from Ohio',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:49',
                 'updated_at' => '2018-11-14 20:43:49',
@@ -4008,7 +4008,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 444,
                 'name' => 'Polish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:49',
                 'updated_at' => '2018-11-14 20:43:49',
@@ -4017,7 +4017,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 445,
                 'name' => 'Philosophers from Connecticut',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:50',
                 'updated_at' => '2018-11-14 20:43:50',
@@ -4026,7 +4026,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 446,
                 'name' => 'American historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:53',
                 'updated_at' => '2018-11-14 20:43:53',
@@ -4035,7 +4035,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 447,
                 'name' => 'American Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:53',
                 'updated_at' => '2018-11-14 20:43:53',
@@ -4044,7 +4044,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 448,
                 'name' => 'German Jewish theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:55',
                 'updated_at' => '2018-11-14 20:43:55',
@@ -4053,7 +4053,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 449,
                 'name' => 'German scholars of ancient Greek philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:55',
                 'updated_at' => '2018-11-14 20:43:55',
@@ -4062,7 +4062,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 450,
                 'name' => '20th-century British philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:57',
                 'updated_at' => '2018-11-14 20:43:57',
@@ -4071,7 +4071,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 451,
                 'name' => 'Waynflete Professors of Metaphysical Philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:43:58',
                 'updated_at' => '2018-11-14 20:43:58',
@@ -4080,7 +4080,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 452,
                 'name' => 'Poststructuralists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:44:00',
                 'updated_at' => '2018-11-14 20:44:00',
@@ -4089,7 +4089,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 453,
                 'name' => 'French semioticians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:44:00',
                 'updated_at' => '2018-11-14 20:44:00',
@@ -4098,7 +4098,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 454,
                 'name' => 'Computability theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:44:00',
                 'updated_at' => '2018-11-14 20:44:00',
@@ -4107,7 +4107,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 455,
                 'name' => 'Polish logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:44:01',
                 'updated_at' => '2018-11-14 20:44:01',
@@ -4116,7 +4116,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 456,
                 'name' => 'Model theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:44:01',
                 'updated_at' => '2018-11-14 20:44:01',
@@ -4125,7 +4125,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 457,
                 'name' => 'Kyoto laureates in Arts and Philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:47:58',
                 'updated_at' => '2018-11-14 20:47:58',
@@ -4134,7 +4134,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 458,
                 'name' => 'American ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:47:59',
                 'updated_at' => '2018-11-14 20:47:59',
@@ -4143,7 +4143,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 459,
                 'name' => 'Female critics of feminism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:04',
                 'updated_at' => '2018-11-14 20:48:04',
@@ -4152,7 +4152,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 460,
                 'name' => '20th-century Russian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:05',
                 'updated_at' => '2018-11-14 20:48:05',
@@ -4161,7 +4161,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 461,
                 'name' => 'Lithuanian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:05',
                 'updated_at' => '2018-11-14 20:48:05',
@@ -4170,7 +4170,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 462,
                 'name' => '20th-century French theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:06',
                 'updated_at' => '2018-11-14 20:48:06',
@@ -4179,7 +4179,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 463,
                 'name' => 'Contemporary philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:06',
                 'updated_at' => '2018-11-14 20:48:06',
@@ -4188,7 +4188,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 464,
                 'name' => 'Bisexual feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:09',
                 'updated_at' => '2018-11-14 20:48:09',
@@ -4197,7 +4197,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 465,
                 'name' => 'Feminist studies scholars',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:10',
                 'updated_at' => '2018-11-14 20:48:10',
@@ -4206,7 +4206,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 466,
                 'name' => 'French feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:10',
                 'updated_at' => '2018-11-14 20:48:10',
@@ -4215,7 +4215,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 467,
                 'name' => 'French feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:10',
                 'updated_at' => '2018-11-14 20:48:10',
@@ -4224,7 +4224,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 468,
                 'name' => 'Marxist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:10',
                 'updated_at' => '2018-11-14 20:48:10',
@@ -4233,7 +4233,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 469,
                 'name' => 'Action theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:14',
                 'updated_at' => '2018-11-14 20:48:14',
@@ -4242,7 +4242,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 470,
                 'name' => 'Canadian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:14',
                 'updated_at' => '2018-11-14 20:48:14',
@@ -4251,7 +4251,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 471,
                 'name' => 'Communication theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:14',
                 'updated_at' => '2018-11-14 20:48:14',
@@ -4260,7 +4260,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 472,
                 'name' => 'Literacy and society theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:15',
                 'updated_at' => '2018-11-14 20:48:15',
@@ -4269,7 +4269,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 473,
                 'name' => 'Literary critics of English',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:15',
                 'updated_at' => '2018-11-14 20:48:15',
@@ -4278,7 +4278,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 474,
                 'name' => 'Media theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:15',
                 'updated_at' => '2018-11-14 20:48:15',
@@ -4287,7 +4287,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 475,
                 'name' => 'Theorists on Western civilization',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:15',
                 'updated_at' => '2018-11-14 20:48:15',
@@ -4296,7 +4296,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 476,
                 'name' => 'Presidents of the Metaphysical Society of America',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:16',
                 'updated_at' => '2018-11-14 20:48:16',
@@ -4305,7 +4305,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 477,
                 'name' => '21st-century French philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:17',
                 'updated_at' => '2018-11-14 20:48:17',
@@ -4314,7 +4314,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 478,
                 'name' => 'French literary theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:17',
                 'updated_at' => '2018-11-14 20:48:17',
@@ -4323,7 +4323,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 479,
                 'name' => 'Metaphor theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:17',
                 'updated_at' => '2018-11-14 20:48:17',
@@ -4332,7 +4332,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 480,
                 'name' => 'Stanford University Department of Philosophy faculty',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:19',
                 'updated_at' => '2018-11-14 20:48:19',
@@ -4341,7 +4341,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 481,
                 'name' => '21st-century American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:21',
                 'updated_at' => '2018-11-14 20:48:21',
@@ -4350,7 +4350,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 482,
                 'name' => 'Deontological ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:22',
                 'updated_at' => '2018-11-14 20:48:22',
@@ -4359,7 +4359,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 483,
                 'name' => '21st-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:22',
                 'updated_at' => '2018-11-14 20:48:22',
@@ -4368,7 +4368,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 484,
                 'name' => 'Critics of postmodernism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:23',
                 'updated_at' => '2018-11-14 20:48:23',
@@ -4377,7 +4377,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 485,
                 'name' => 'Martiniquais philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:23',
                 'updated_at' => '2018-11-14 20:48:23',
@@ -4386,7 +4386,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 486,
                 'name' => 'French historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:24',
                 'updated_at' => '2018-11-14 20:48:24',
@@ -4395,7 +4395,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 487,
                 'name' => 'Philosophy articles needing expert attention',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:25',
                 'updated_at' => '2018-11-14 20:48:25',
@@ -4404,7 +4404,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 488,
                 'name' => 'Structuralism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:26',
                 'updated_at' => '2018-11-14 20:48:26',
@@ -4413,7 +4413,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 489,
                 'name' => 'Mennonite theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:27',
                 'updated_at' => '2018-11-14 20:48:27',
@@ -4422,7 +4422,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 490,
                 'name' => 'Cognitive scientists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:28',
                 'updated_at' => '2018-11-14 20:48:28',
@@ -4431,7 +4431,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 491,
                 'name' => 'Critics of neoconservatism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:29',
                 'updated_at' => '2018-11-14 20:48:29',
@@ -4440,7 +4440,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 492,
                 'name' => 'Fellows of the Cognitive Science Society',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:29',
                 'updated_at' => '2018-11-14 20:48:29',
@@ -4449,7 +4449,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 493,
                 'name' => 'Propaganda theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:29',
                 'updated_at' => '2018-11-14 20:48:29',
@@ -4458,7 +4458,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 494,
                 'name' => 'Hyperreality theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:31',
                 'updated_at' => '2018-11-14 20:48:31',
@@ -4467,7 +4467,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 495,
                 'name' => 'Finnish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:34',
                 'updated_at' => '2018-11-14 20:48:34',
@@ -4476,7 +4476,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 496,
                 'name' => 'Game theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:34',
                 'updated_at' => '2018-11-14 20:48:34',
@@ -4485,7 +4485,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 497,
                 'name' => 'Scottish political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:35',
                 'updated_at' => '2018-11-14 20:48:35',
@@ -4494,7 +4494,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 498,
                 'name' => 'Scottish historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:35',
                 'updated_at' => '2018-11-14 20:48:35',
@@ -4503,7 +4503,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 499,
                 'name' => 'Philosophers from Indiana',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:35',
                 'updated_at' => '2018-11-14 20:48:35',
@@ -4512,7 +4512,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 500,
                 'name' => 'American scholars of ancient Greek philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:36',
                 'updated_at' => '2018-11-14 20:48:36',
@@ -4523,7 +4523,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 501,
                 'name' => 'Canadian political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:41',
                 'updated_at' => '2018-11-14 20:48:41',
@@ -4532,7 +4532,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 502,
                 'name' => 'Canadian political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:41',
                 'updated_at' => '2018-11-14 20:48:41',
@@ -4541,7 +4541,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 503,
                 'name' => '20th-century theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:43',
                 'updated_at' => '2018-11-14 20:48:43',
@@ -4550,7 +4550,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 504,
                 'name' => '21st-century theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:43',
                 'updated_at' => '2018-11-14 20:48:43',
@@ -4559,7 +4559,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 505,
                 'name' => 'Maoist theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:46',
                 'updated_at' => '2018-11-14 20:48:46',
@@ -4568,7 +4568,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 506,
                 'name' => 'Moroccan philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:46',
                 'updated_at' => '2018-11-14 20:48:46',
@@ -4577,7 +4577,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 507,
             'name' => 'Critics of Objectivism (Ayn Rand)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:47',
                 'updated_at' => '2018-11-14 20:48:47',
@@ -4586,7 +4586,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 508,
                 'name' => 'Philosophy of Robert Nozick',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:48',
                 'updated_at' => '2018-11-14 20:48:48',
@@ -4595,7 +4595,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 509,
                 'name' => 'American metaphysics writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:49',
                 'updated_at' => '2018-11-14 20:48:49',
@@ -4604,7 +4604,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 510,
                 'name' => 'Philosophers from Nebraska',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:50',
                 'updated_at' => '2018-11-14 20:48:50',
@@ -4613,7 +4613,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 511,
                 'name' => 'Philosopher\'s Annual Prize winners',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:51',
                 'updated_at' => '2018-11-14 20:48:51',
@@ -4622,7 +4622,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 512,
                 'name' => 'Philosophers of culture',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:52',
                 'updated_at' => '2018-11-14 20:48:52',
@@ -4631,7 +4631,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 513,
                 'name' => 'Scholars of modern philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:52',
                 'updated_at' => '2018-11-14 20:48:52',
@@ -4640,7 +4640,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 514,
                 'name' => 'Literary critics of Basque',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:52',
                 'updated_at' => '2018-11-14 20:48:52',
@@ -4649,7 +4649,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 515,
                 'name' => 'Meta-ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:53',
                 'updated_at' => '2018-11-14 20:48:53',
@@ -4658,7 +4658,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 516,
                 'name' => 'Indian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:54',
                 'updated_at' => '2018-11-14 20:48:54',
@@ -4667,7 +4667,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 517,
                 'name' => 'Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:54',
                 'updated_at' => '2018-11-14 20:48:54',
@@ -4676,7 +4676,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 518,
                 'name' => 'Contemporary Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:54',
                 'updated_at' => '2018-11-14 20:48:54',
@@ -4685,7 +4685,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 519,
                 'name' => '21st-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:55',
                 'updated_at' => '2018-11-14 20:48:55',
@@ -4694,7 +4694,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 520,
                 'name' => '20th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:55',
                 'updated_at' => '2018-11-14 20:48:55',
@@ -4703,7 +4703,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 521,
                 'name' => 'Bioethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:56',
                 'updated_at' => '2018-11-14 20:48:56',
@@ -4712,7 +4712,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 522,
                 'name' => 'Environmental philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:56',
                 'updated_at' => '2018-11-14 20:48:56',
@@ -4721,7 +4721,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 523,
                 'name' => 'Film theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:57',
                 'updated_at' => '2018-11-14 20:48:57',
@@ -4730,7 +4730,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 524,
                 'name' => 'Slovenian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:57',
                 'updated_at' => '2018-11-14 20:48:57',
@@ -4739,7 +4739,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 525,
                 'name' => 'Slovenian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:58',
                 'updated_at' => '2018-11-14 20:48:58',
@@ -4748,7 +4748,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 526,
                 'name' => 'Atheist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:58',
                 'updated_at' => '2018-11-14 20:48:58',
@@ -4757,7 +4757,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 527,
                 'name' => 'African-American philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:59',
                 'updated_at' => '2018-11-14 20:48:59',
@@ -4766,7 +4766,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 528,
             'name' => 'Union Theological Seminary (New York City) faculty',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:48:59',
                 'updated_at' => '2018-11-14 20:48:59',
@@ -4775,7 +4775,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 529,
                 'name' => 'Framing theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:00',
                 'updated_at' => '2018-11-14 20:49:00',
@@ -4784,7 +4784,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 530,
                 'name' => 'Lesbian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:01',
                 'updated_at' => '2018-11-14 20:49:01',
@@ -4793,7 +4793,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 531,
                 'name' => 'Postmodern feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:01',
                 'updated_at' => '2018-11-14 20:49:01',
@@ -4802,7 +4802,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 532,
                 'name' => 'Queer theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:01',
                 'updated_at' => '2018-11-14 20:49:01',
@@ -4811,7 +4811,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 533,
                 'name' => 'Transfeminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:01',
                 'updated_at' => '2018-11-14 20:49:01',
@@ -4820,7 +4820,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 534,
             'name' => 'Legalism (Chinese philosophy)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:02',
                 'updated_at' => '2018-11-14 20:49:02',
@@ -4829,7 +4829,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 535,
                 'name' => 'Zhou dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:02',
                 'updated_at' => '2018-11-14 20:49:02',
@@ -4838,7 +4838,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 536,
             'name' => 'Philosophers from Lu (state)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:02',
                 'updated_at' => '2018-11-14 20:49:02',
@@ -4847,7 +4847,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 537,
                 'name' => 'People whose existence is disputed',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:03',
                 'updated_at' => '2018-11-14 20:49:03',
@@ -4856,7 +4856,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 538,
                 'name' => 'Chinese philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:03',
                 'updated_at' => '2018-11-14 20:49:03',
@@ -4865,7 +4865,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 539,
                 'name' => 'Philosophy books',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:03',
                 'updated_at' => '2018-11-14 20:49:03',
@@ -4874,7 +4874,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 540,
                 'name' => 'Chinese ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:04',
                 'updated_at' => '2018-11-14 20:49:04',
@@ -4883,7 +4883,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 541,
                 'name' => 'Chinese logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:04',
                 'updated_at' => '2018-11-14 20:49:04',
@@ -4892,7 +4892,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 542,
                 'name' => 'Chinese political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:04',
                 'updated_at' => '2018-11-14 20:49:04',
@@ -4901,7 +4901,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 543,
                 'name' => 'Moral psychology',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:04',
                 'updated_at' => '2018-11-14 20:49:04',
@@ -4910,7 +4910,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 544,
                 'name' => 'History of logic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:05',
                 'updated_at' => '2018-11-14 20:49:05',
@@ -4919,7 +4919,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 545,
                 'name' => 'Ancient Chinese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:05',
                 'updated_at' => '2018-11-14 20:49:05',
@@ -4928,7 +4928,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 546,
                 'name' => 'Qin dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:06',
                 'updated_at' => '2018-11-14 20:49:06',
@@ -4937,7 +4937,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 547,
                 'name' => 'Philosophers from Henan',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:06',
                 'updated_at' => '2018-11-14 20:49:06',
@@ -4946,7 +4946,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 548,
                 'name' => 'Philosophers from Anhui',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:08',
                 'updated_at' => '2018-11-14 20:49:08',
@@ -4955,7 +4955,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 549,
                 'name' => 'Philosophers from Shanxi',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:08',
                 'updated_at' => '2018-11-14 20:49:08',
@@ -4964,7 +4964,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 550,
                 'name' => 'Philosophers from Shandong',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:09',
                 'updated_at' => '2018-11-14 20:49:09',
@@ -4973,7 +4973,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 551,
                 'name' => 'Han dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:09',
                 'updated_at' => '2018-11-14 20:49:09',
@@ -4982,7 +4982,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 552,
                 'name' => 'Philosophers from Hebei',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:09',
                 'updated_at' => '2018-11-14 20:49:09',
@@ -4991,7 +4991,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 553,
                 'name' => 'Three Kingdoms philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:09',
                 'updated_at' => '2018-11-14 20:49:09',
@@ -5000,7 +5000,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 554,
                 'name' => 'Philosophers from Zhejiang',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:10',
                 'updated_at' => '2018-11-14 20:49:10',
@@ -5009,7 +5009,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 555,
             'name' => 'Jin dynasty (265-420) philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:10',
                 'updated_at' => '2018-11-14 20:49:10',
@@ -5018,7 +5018,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 556,
                 'name' => 'Buddhist philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:11',
                 'updated_at' => '2018-11-14 20:49:11',
@@ -5027,7 +5027,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 557,
                 'name' => 'Sixteen Kingdoms philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:11',
                 'updated_at' => '2018-11-14 20:49:11',
@@ -5036,7 +5036,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 558,
                 'name' => 'Philosophers from Shaanxi',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:11',
                 'updated_at' => '2018-11-14 20:49:11',
@@ -5045,7 +5045,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 559,
                 'name' => 'Philosophers from Jiangsu',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:12',
                 'updated_at' => '2018-11-14 20:49:12',
@@ -5054,7 +5054,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 560,
                 'name' => '7th-century philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:12',
                 'updated_at' => '2018-11-14 20:49:12',
@@ -5063,7 +5063,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 561,
                 'name' => 'Northern and Southern dynasties philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:12',
                 'updated_at' => '2018-11-14 20:49:12',
@@ -5072,7 +5072,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 562,
                 'name' => 'Sui dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:12',
                 'updated_at' => '2018-11-14 20:49:12',
@@ -5081,7 +5081,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 563,
                 'name' => 'Tang dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:12',
                 'updated_at' => '2018-11-14 20:49:12',
@@ -5090,7 +5090,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 564,
                 'name' => 'Philosophers from Gansu',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:13',
                 'updated_at' => '2018-11-14 20:49:13',
@@ -5099,7 +5099,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 565,
                 'name' => 'Critics of Buddhism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:13',
                 'updated_at' => '2018-11-14 20:49:13',
@@ -5108,7 +5108,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 566,
                 'name' => 'Philosophers from Sichuan',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:13',
                 'updated_at' => '2018-11-14 20:49:13',
@@ -5117,7 +5117,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 567,
                 'name' => 'Song dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:14',
                 'updated_at' => '2018-11-14 20:49:14',
@@ -5126,7 +5126,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 568,
                 'name' => 'Philosophers from Hubei',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:15',
                 'updated_at' => '2018-11-14 20:49:15',
@@ -5135,7 +5135,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 569,
                 'name' => 'Philosophers from Hunan',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:15',
                 'updated_at' => '2018-11-14 20:49:15',
@@ -5144,7 +5144,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 570,
                 'name' => 'Philosophers from Fujian',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:16',
                 'updated_at' => '2018-11-14 20:49:16',
@@ -5153,7 +5153,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 571,
                 'name' => 'Philosophers from Jiangxi',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:16',
                 'updated_at' => '2018-11-14 20:49:16',
@@ -5162,7 +5162,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 572,
                 'name' => 'Qing dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:17',
                 'updated_at' => '2018-11-14 20:49:17',
@@ -5171,7 +5171,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 573,
                 'name' => 'Ming dynasty philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:17',
                 'updated_at' => '2018-11-14 20:49:17',
@@ -5180,7 +5180,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 574,
                 'name' => 'Philosophers from Guangdong',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:17',
                 'updated_at' => '2018-11-14 20:49:17',
@@ -5189,7 +5189,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 575,
                 'name' => 'Cao Dai saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:18',
                 'updated_at' => '2018-11-14 20:49:18',
@@ -5198,7 +5198,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 576,
                 'name' => 'Chinese feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:20',
                 'updated_at' => '2018-11-14 20:49:20',
@@ -5207,7 +5207,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 577,
                 'name' => 'Republic of China philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:20',
                 'updated_at' => '2018-11-14 20:49:20',
@@ -5216,7 +5216,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 578,
                 'name' => 'Contemporary Chinese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:20',
                 'updated_at' => '2018-11-14 20:49:20',
@@ -5225,7 +5225,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 579,
                 'name' => 'Taiwanese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:21',
                 'updated_at' => '2018-11-14 20:49:21',
@@ -5234,7 +5234,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 580,
                 'name' => 'Historians of philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:21',
                 'updated_at' => '2018-11-14 20:49:21',
@@ -5243,7 +5243,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 581,
                 'name' => 'People\'s Republic of China philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:21',
                 'updated_at' => '2018-11-14 20:49:21',
@@ -5252,7 +5252,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 582,
                 'name' => 'New Confucian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:22',
                 'updated_at' => '2018-11-14 20:49:22',
@@ -5261,7 +5261,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 583,
                 'name' => 'Hong Kong philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:22',
                 'updated_at' => '2018-11-14 20:49:22',
@@ -5270,7 +5270,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 584,
                 'name' => 'Philosophers from Shanghai',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:23',
                 'updated_at' => '2018-11-14 20:49:23',
@@ -5279,7 +5279,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 585,
                 'name' => 'Philosophers from Beijing',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:23',
                 'updated_at' => '2018-11-14 20:49:23',
@@ -5288,7 +5288,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 586,
                 'name' => 'Guerrilla warfare theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:24',
                 'updated_at' => '2018-11-14 20:49:24',
@@ -5297,7 +5297,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 587,
                 'name' => '6th-century BC Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:25',
                 'updated_at' => '2018-11-14 20:49:25',
@@ -5306,7 +5306,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 588,
                 'name' => 'Ancient Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:25',
                 'updated_at' => '2018-11-14 20:49:25',
@@ -5315,7 +5315,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 589,
                 'name' => '5th-century BC Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:26',
                 'updated_at' => '2018-11-14 20:49:26',
@@ -5324,7 +5324,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 590,
                 'name' => 'Hindu philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:26',
                 'updated_at' => '2018-11-14 20:49:26',
@@ -5333,7 +5333,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 591,
                 'name' => '4th-century BC Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:26',
                 'updated_at' => '2018-11-14 20:49:26',
@@ -5342,7 +5342,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 592,
                 'name' => '4th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:27',
                 'updated_at' => '2018-11-14 20:49:27',
@@ -5351,7 +5351,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 593,
                 'name' => 'Epistemology literature',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:27',
                 'updated_at' => '2018-11-14 20:49:27',
@@ -5360,7 +5360,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 594,
                 'name' => 'Logic literature',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:27',
                 'updated_at' => '2018-11-14 20:49:27',
@@ -5369,7 +5369,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 595,
                 'name' => 'Metaphysics literature',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:27',
                 'updated_at' => '2018-11-14 20:49:27',
@@ -5378,7 +5378,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 596,
                 'name' => '3rd-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:27',
                 'updated_at' => '2018-11-14 20:49:27',
@@ -5387,7 +5387,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 597,
                 'name' => '2nd-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:28',
                 'updated_at' => '2018-11-14 20:49:28',
@@ -5396,7 +5396,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 598,
                 'name' => 'Jain philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:28',
                 'updated_at' => '2018-11-14 20:49:28',
@@ -5405,7 +5405,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 599,
                 'name' => 'Buddhist logic',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:29',
                 'updated_at' => '2018-11-14 20:49:29',
@@ -5414,7 +5414,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 600,
                 'name' => 'Indian logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:29',
                 'updated_at' => '2018-11-14 20:49:29',
@@ -5423,7 +5423,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 601,
                 'name' => 'Pakistani philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:29',
                 'updated_at' => '2018-11-14 20:49:29',
@@ -5432,7 +5432,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 602,
                 'name' => 'Philosophy of love',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:30',
                 'updated_at' => '2018-11-14 20:49:30',
@@ -5441,7 +5441,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 603,
                 'name' => '6th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:30',
                 'updated_at' => '2018-11-14 20:49:30',
@@ -5450,7 +5450,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 604,
                 'name' => 'Eastern philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:31',
                 'updated_at' => '2018-11-14 20:49:31',
@@ -5459,7 +5459,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 605,
                 'name' => '5th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:31',
                 'updated_at' => '2018-11-14 20:49:31',
@@ -5468,7 +5468,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 606,
                 'name' => '8th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:32',
                 'updated_at' => '2018-11-14 20:49:32',
@@ -5477,7 +5477,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 607,
                 'name' => '10th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:32',
                 'updated_at' => '2018-11-14 20:49:32',
@@ -5486,7 +5486,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 608,
                 'name' => 'Philosophers of Mithila',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:32',
                 'updated_at' => '2018-11-14 20:49:32',
@@ -5495,7 +5495,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 609,
                 'name' => '7th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:33',
                 'updated_at' => '2018-11-14 20:49:33',
@@ -5504,7 +5504,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 610,
                 'name' => 'Advaitin philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:34',
                 'updated_at' => '2018-11-14 20:49:34',
@@ -5513,7 +5513,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 611,
                 'name' => '9th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:34',
                 'updated_at' => '2018-11-14 20:49:34',
@@ -5522,7 +5522,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 612,
                 'name' => '11th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:36',
                 'updated_at' => '2018-11-14 20:49:36',
@@ -5531,7 +5531,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 613,
                 'name' => '12th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:36',
                 'updated_at' => '2018-11-14 20:49:36',
@@ -5540,7 +5540,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 614,
                 'name' => 'Vishishtadvaita Vedanta',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:36',
                 'updated_at' => '2018-11-14 20:49:36',
@@ -5549,7 +5549,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 615,
                 'name' => 'Vaishnava saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:36',
                 'updated_at' => '2018-11-14 20:49:36',
@@ -5558,7 +5558,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 616,
                 'name' => 'Hindu mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:37',
                 'updated_at' => '2018-11-14 20:49:37',
@@ -5567,7 +5567,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 617,
                 'name' => 'Hindu saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:37',
                 'updated_at' => '2018-11-14 20:49:37',
@@ -5576,7 +5576,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 618,
                 'name' => 'Lingayat saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:37',
                 'updated_at' => '2018-11-14 20:49:37',
@@ -5585,7 +5585,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 619,
                 'name' => '13th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:37',
                 'updated_at' => '2018-11-14 20:49:37',
@@ -5594,7 +5594,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 620,
                 'name' => '14th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:38',
                 'updated_at' => '2018-11-14 20:49:38',
@@ -5603,7 +5603,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 621,
                 'name' => '15th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:39',
                 'updated_at' => '2018-11-14 20:49:39',
@@ -5612,7 +5612,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 622,
                 'name' => '16th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:39',
                 'updated_at' => '2018-11-14 20:49:39',
@@ -5621,7 +5621,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 623,
                 'name' => 'Sant Mat gurus',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:39',
                 'updated_at' => '2018-11-14 20:49:39',
@@ -5630,7 +5630,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 624,
                 'name' => 'Dalit saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:41',
                 'updated_at' => '2018-11-14 20:49:41',
@@ -5639,7 +5639,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 625,
                 'name' => 'Sikh gurus',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:41',
                 'updated_at' => '2018-11-14 20:49:41',
@@ -5648,7 +5648,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 626,
                 'name' => 'Sikhism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:41',
                 'updated_at' => '2018-11-14 20:49:41',
@@ -5657,7 +5657,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 627,
                 'name' => 'Bengali philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:42',
                 'updated_at' => '2018-11-14 20:49:42',
@@ -5666,7 +5666,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 628,
                 'name' => '17th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:42',
                 'updated_at' => '2018-11-14 20:49:42',
@@ -5675,7 +5675,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 629,
                 'name' => 'Indian Sufi saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:43',
                 'updated_at' => '2018-11-14 20:49:43',
@@ -5684,7 +5684,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 630,
                 'name' => 'Advaita',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:43',
                 'updated_at' => '2018-11-14 20:49:43',
@@ -5693,7 +5693,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 631,
                 'name' => 'Neo-Advaita',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:43',
                 'updated_at' => '2018-11-14 20:49:43',
@@ -5702,7 +5702,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 632,
                 'name' => '19th-century Indian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:44',
                 'updated_at' => '2018-11-14 20:49:44',
@@ -5711,7 +5711,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 633,
                 'name' => '19th-century Indian educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:44',
                 'updated_at' => '2018-11-14 20:49:44',
@@ -5720,7 +5720,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 634,
                 'name' => '20th-century Indian educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:45',
                 'updated_at' => '2018-11-14 20:49:45',
@@ -5729,7 +5729,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 635,
                 'name' => 'Indian political philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:46',
                 'updated_at' => '2018-11-14 20:49:46',
@@ -5738,7 +5738,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 636,
                 'name' => 'Urdu theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:47',
                 'updated_at' => '2018-11-14 20:49:47',
@@ -5747,7 +5747,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 637,
                 'name' => 'Spalding Professors of Eastern Religion and Ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:49',
                 'updated_at' => '2018-11-14 20:49:49',
@@ -5756,7 +5756,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 638,
                 'name' => 'Bangladeshi philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:50',
                 'updated_at' => '2018-11-14 20:49:50',
@@ -5765,7 +5765,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 639,
                 'name' => 'Former Theosophists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:52',
                 'updated_at' => '2018-11-14 20:49:52',
@@ -5774,7 +5774,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 640,
                 'name' => 'Indian political theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:54',
                 'updated_at' => '2018-11-14 20:49:54',
@@ -5783,7 +5783,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 641,
                 'name' => 'Japanese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:55',
                 'updated_at' => '2018-11-14 20:49:55',
@@ -5792,7 +5792,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 642,
                 'name' => 'Japanese Theosophists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:57',
                 'updated_at' => '2018-11-14 20:49:57',
@@ -5801,7 +5801,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 643,
                 'name' => 'Buddhist existentialists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:58',
                 'updated_at' => '2018-11-14 20:49:58',
@@ -5810,7 +5810,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 644,
                 'name' => 'Japanese ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:49:58',
                 'updated_at' => '2018-11-14 20:49:58',
@@ -5819,7 +5819,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 645,
                 'name' => 'Korean philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:00',
                 'updated_at' => '2018-11-14 20:50:00',
@@ -5828,7 +5828,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 646,
                 'name' => 'South Korean philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:02',
                 'updated_at' => '2018-11-14 20:50:02',
@@ -5837,7 +5837,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 647,
                 'name' => 'Quaker philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:02',
                 'updated_at' => '2018-11-14 20:50:02',
@@ -5846,7 +5846,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 648,
                 'name' => 'Tibetan philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:02',
                 'updated_at' => '2018-11-14 20:50:02',
@@ -5855,7 +5855,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 649,
                 'name' => 'Nepalese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:02',
                 'updated_at' => '2018-11-14 20:50:02',
@@ -5864,7 +5864,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 650,
                 'name' => 'Ancient Greek philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:04',
                 'updated_at' => '2018-11-14 20:50:04',
@@ -5873,7 +5873,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 651,
                 'name' => 'Pythagoreans of Magna Graecia',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:05',
                 'updated_at' => '2018-11-14 20:50:05',
@@ -5882,7 +5882,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 652,
                 'name' => 'Women philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:06',
                 'updated_at' => '2018-11-14 20:50:06',
@@ -5891,7 +5891,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 653,
                 'name' => 'Megarian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5900,7 +5900,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 654,
                 'name' => '4th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5909,7 +5909,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 655,
                 'name' => 'Coptic Orthodox saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5918,7 +5918,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 656,
                 'name' => 'Egyptian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5927,7 +5927,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 657,
                 'name' => 'Egyptian Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5936,7 +5936,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 658,
                 'name' => 'Late Ancient Christian female saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5945,7 +5945,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 659,
                 'name' => 'Saints from Roman Egypt',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:07',
                 'updated_at' => '2018-11-14 20:50:07',
@@ -5954,7 +5954,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 660,
                 'name' => 'Ancient Greek philosophers of art',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:08',
                 'updated_at' => '2018-11-14 20:50:08',
@@ -5963,7 +5963,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 661,
                 'name' => 'Chinese philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:09',
                 'updated_at' => '2018-11-14 20:50:09',
@@ -5972,7 +5972,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 662,
                 'name' => '14th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:12',
                 'updated_at' => '2018-11-14 20:50:12',
@@ -5981,7 +5981,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 663,
                 'name' => 'Female saints of medieval Italy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:12',
                 'updated_at' => '2018-11-14 20:50:12',
@@ -5990,7 +5990,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 664,
                 'name' => 'Female saints of medieval Germany',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:13',
                 'updated_at' => '2018-11-14 20:50:13',
@@ -5999,7 +5999,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 665,
                 'name' => 'Medieval German saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:13',
                 'updated_at' => '2018-11-14 20:50:13',
@@ -6008,7 +6008,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 666,
                 'name' => 'English educational theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:14',
                 'updated_at' => '2018-11-14 20:50:14',
@@ -6017,7 +6017,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 667,
                 'name' => 'British feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:14',
                 'updated_at' => '2018-11-14 20:50:14',
@@ -6026,7 +6026,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 668,
                 'name' => 'American Theosophists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:15',
                 'updated_at' => '2018-11-14 20:50:15',
@@ -6035,7 +6035,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 669,
                 'name' => 'Congregationalist feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:15',
                 'updated_at' => '2018-11-14 20:50:15',
@@ -6044,7 +6044,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 670,
                 'name' => 'Unitarian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:16',
                 'updated_at' => '2018-11-14 20:50:16',
@@ -6053,7 +6053,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 671,
                 'name' => 'Austrian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:18',
                 'updated_at' => '2018-11-14 20:50:18',
@@ -6062,7 +6062,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 672,
                 'name' => 'Mexican philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:19',
                 'updated_at' => '2018-11-14 20:50:19',
@@ -6071,7 +6071,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 673,
                 'name' => '20th-century Christian saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:20',
                 'updated_at' => '2018-11-14 20:50:20',
@@ -6080,7 +6080,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 674,
                 'name' => '20th-century German Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:20',
                 'updated_at' => '2018-11-14 20:50:20',
@@ -6089,7 +6089,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 675,
                 'name' => 'Carmelite mystics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:20',
                 'updated_at' => '2018-11-14 20:50:20',
@@ -6098,7 +6098,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 676,
                 'name' => 'Carmelite saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:20',
                 'updated_at' => '2018-11-14 20:50:20',
@@ -6107,7 +6107,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 677,
                 'name' => 'Catholic saints and blesseds of the Nazi era',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:20',
                 'updated_at' => '2018-11-14 20:50:20',
@@ -6116,7 +6116,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 678,
                 'name' => 'Philosophers from Rhode Island',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:21',
                 'updated_at' => '2018-11-14 20:50:21',
@@ -6125,7 +6125,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 679,
                 'name' => 'American Episcopal theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:22',
                 'updated_at' => '2018-11-14 20:50:22',
@@ -6134,7 +6134,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 680,
                 'name' => 'Christian feminist theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:22',
                 'updated_at' => '2018-11-14 20:50:22',
@@ -6143,7 +6143,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 681,
                 'name' => 'Presidents of the Society for Medieval and Renaissance Philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:23',
                 'updated_at' => '2018-11-14 20:50:23',
@@ -6152,7 +6152,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 682,
                 'name' => 'Princeton Theological Seminary alumni',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:23',
                 'updated_at' => '2018-11-14 20:50:23',
@@ -6161,7 +6161,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 683,
                 'name' => 'Scholars of medieval philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:23',
                 'updated_at' => '2018-11-14 20:50:23',
@@ -6170,7 +6170,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 684,
                 'name' => 'Anglican feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:23',
                 'updated_at' => '2018-11-14 20:50:23',
@@ -6179,7 +6179,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 685,
                 'name' => 'Philosophers from New Hampshire',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:26',
                 'updated_at' => '2018-11-14 20:50:26',
@@ -6188,7 +6188,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 686,
                 'name' => 'Philosophers from Florida',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:26',
                 'updated_at' => '2018-11-14 20:50:26',
@@ -6197,7 +6197,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 687,
                 'name' => 'Philosophers from Wisconsin',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:27',
                 'updated_at' => '2018-11-14 20:50:27',
@@ -6206,7 +6206,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 688,
                 'name' => 'Philosophers from Arizona',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:27',
                 'updated_at' => '2018-11-14 20:50:27',
@@ -6215,7 +6215,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 689,
                 'name' => 'New Zealand philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:32',
                 'updated_at' => '2018-11-14 20:50:32',
@@ -6224,7 +6224,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 690,
                 'name' => 'Turkish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:35',
                 'updated_at' => '2018-11-14 20:50:35',
@@ -6233,7 +6233,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 691,
                 'name' => 'Norwegian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:39',
                 'updated_at' => '2018-11-14 20:50:39',
@@ -6242,7 +6242,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 692,
             'name' => 'Philosophers from Washington (state)',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:44',
                 'updated_at' => '2018-11-14 20:50:44',
@@ -6251,7 +6251,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 693,
                 'name' => 'Ecofeminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:46',
                 'updated_at' => '2018-11-14 20:50:46',
@@ -6260,7 +6260,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 694,
                 'name' => 'French philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:47',
                 'updated_at' => '2018-11-14 20:50:47',
@@ -6269,7 +6269,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 695,
                 'name' => 'Scholars of contemporary philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:47',
                 'updated_at' => '2018-11-14 20:50:47',
@@ -6278,7 +6278,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 696,
                 'name' => 'Australian feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:47',
                 'updated_at' => '2018-11-14 20:50:47',
@@ -6287,7 +6287,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 697,
                 'name' => 'Radical feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:52',
                 'updated_at' => '2018-11-14 20:50:52',
@@ -6296,7 +6296,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 698,
                 'name' => 'Africana philosophy',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:55',
                 'updated_at' => '2018-11-14 20:50:55',
@@ -6305,7 +6305,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 699,
                 'name' => 'Existentialism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:57',
                 'updated_at' => '2018-11-14 20:50:57',
@@ -6314,7 +6314,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 700,
                 'name' => 'Philosophers from Hawaii',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:58',
                 'updated_at' => '2018-11-14 20:50:58',
@@ -6323,7 +6323,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 701,
                 'name' => 'Philosophers from Colorado',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:50:59',
                 'updated_at' => '2018-11-14 20:50:59',
@@ -6332,7 +6332,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 702,
                 'name' => 'Swiss philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:03',
                 'updated_at' => '2018-11-14 20:51:03',
@@ -6341,7 +6341,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 703,
                 'name' => 'Philosophy of physics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:08',
                 'updated_at' => '2018-11-14 20:51:08',
@@ -6350,7 +6350,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 704,
                 'name' => 'Canadian logicians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:09',
                 'updated_at' => '2018-11-14 20:51:09',
@@ -6359,7 +6359,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 705,
                 'name' => 'Bulgarian literary theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:14',
                 'updated_at' => '2018-11-14 20:51:14',
@@ -6368,7 +6368,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 706,
                 'name' => 'Bulgarian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:14',
                 'updated_at' => '2018-11-14 20:51:14',
@@ -6377,7 +6377,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 707,
                 'name' => 'Bulgarian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:14',
                 'updated_at' => '2018-11-14 20:51:14',
@@ -6386,7 +6386,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 708,
                 'name' => 'Bulgarian semioticians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:14',
                 'updated_at' => '2018-11-14 20:51:14',
@@ -6395,7 +6395,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 709,
                 'name' => 'Environmental ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:26',
                 'updated_at' => '2018-11-14 20:51:26',
@@ -6404,7 +6404,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 710,
                 'name' => 'American Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:27',
                 'updated_at' => '2018-11-14 20:51:27',
@@ -6413,7 +6413,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 711,
                 'name' => 'Graduate Theological Union alumni',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:27',
                 'updated_at' => '2018-11-14 20:51:27',
@@ -6422,7 +6422,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 712,
                 'name' => 'Fuller Theological Seminary faculty',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:27',
                 'updated_at' => '2018-11-14 20:51:27',
@@ -6431,7 +6431,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 713,
                 'name' => 'Women Christian theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:28',
                 'updated_at' => '2018-11-14 20:51:28',
@@ -6440,7 +6440,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 714,
                 'name' => 'Philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:31',
                 'updated_at' => '2018-11-14 20:51:31',
@@ -6449,7 +6449,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 715,
                 'name' => 'Feminist ethics',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:32',
                 'updated_at' => '2018-11-14 20:51:32',
@@ -6458,7 +6458,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 716,
                 'name' => 'Ecotheology',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:36',
                 'updated_at' => '2018-11-14 20:51:36',
@@ -6467,7 +6467,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 717,
                 'name' => '20th-century American Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:36',
                 'updated_at' => '2018-11-14 20:51:36',
@@ -6476,7 +6476,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 718,
                 'name' => '21st-century American Roman Catholic theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:36',
                 'updated_at' => '2018-11-14 20:51:36',
@@ -6485,7 +6485,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 719,
                 'name' => 'Roman Catholic feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:36',
                 'updated_at' => '2018-11-14 20:51:36',
@@ -6494,7 +6494,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 720,
                 'name' => 'Liberation theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:36',
                 'updated_at' => '2018-11-14 20:51:36',
@@ -6503,7 +6503,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 721,
                 'name' => 'American literary theorists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:38',
                 'updated_at' => '2018-11-14 20:51:38',
@@ -6512,7 +6512,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 722,
                 'name' => 'Literary critics of German',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:38',
                 'updated_at' => '2018-11-14 20:51:38',
@@ -6521,7 +6521,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 723,
                 'name' => 'Philosophy of law',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:42',
                 'updated_at' => '2018-11-14 20:51:42',
@@ -6530,7 +6530,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 724,
                 'name' => 'Hindu feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:43',
                 'updated_at' => '2018-11-14 20:51:43',
@@ -6539,7 +6539,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 725,
                 'name' => 'Indian feminist writers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:43',
                 'updated_at' => '2018-11-14 20:51:43',
@@ -6548,7 +6548,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 726,
                 'name' => 'Canadian feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:44',
                 'updated_at' => '2018-11-14 20:51:44',
@@ -6557,7 +6557,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 727,
                 'name' => 'Medical ethicists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:45',
                 'updated_at' => '2018-11-14 20:51:45',
@@ -6566,7 +6566,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 728,
                 'name' => 'German feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:46',
                 'updated_at' => '2018-11-14 20:51:46',
@@ -6575,7 +6575,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 729,
                 'name' => 'Philosophers from Tennessee',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:47',
                 'updated_at' => '2018-11-14 20:51:47',
@@ -6584,7 +6584,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 730,
                 'name' => 'Feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:54',
                 'updated_at' => '2018-11-14 20:51:54',
@@ -6593,7 +6593,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 731,
                 'name' => 'Feminist historians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:51:54',
                 'updated_at' => '2018-11-14 20:51:54',
@@ -6602,7 +6602,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 732,
                 'name' => 'Brazilian philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:08',
                 'updated_at' => '2018-11-14 20:53:08',
@@ -6611,7 +6611,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 733,
                 'name' => 'Modern philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:08',
                 'updated_at' => '2018-11-14 20:53:08',
@@ -6620,7 +6620,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 734,
                 'name' => 'LGBT feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:09',
                 'updated_at' => '2018-11-14 20:53:09',
@@ -6629,7 +6629,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 735,
                 'name' => 'Women cognitive scientists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:10',
                 'updated_at' => '2018-11-14 20:53:10',
@@ -6638,7 +6638,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 736,
                 'name' => 'Danish Protestant theologians',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:12',
                 'updated_at' => '2018-11-14 20:53:12',
@@ -6647,7 +6647,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 737,
                 'name' => 'Republic of Venice philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:18',
                 'updated_at' => '2018-11-14 20:53:18',
@@ -6656,7 +6656,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 738,
                 'name' => 'Spanish Roman Catholic saints',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:21',
                 'updated_at' => '2018-11-14 20:53:21',
@@ -6665,7 +6665,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 739,
                 'name' => 'Christian female saints of the Early Modern era',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:22',
                 'updated_at' => '2018-11-14 20:53:22',
@@ -6674,7 +6674,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 740,
                 'name' => 'Scottish feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:23',
                 'updated_at' => '2018-11-14 20:53:23',
@@ -6683,7 +6683,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 741,
                 'name' => 'Critics of creationism',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 20:53:24',
                 'updated_at' => '2018-11-14 20:53:24',
@@ -6692,7 +6692,7 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 742,
                 'name' => 'Sex-positive feminists',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-14 22:43:13',
                 'updated_at' => '2018-11-14 22:43:13',
@@ -6701,10 +6701,2478 @@ class CategoriesTableSeeder extends Seeder
             array (
                 'id' => 743,
                 'name' => 'Swedish philosophers',
-                'type' => NULL,
+                'type' => 'category',
                 'deleted_at' => NULL,
                 'created_at' => '2018-11-16 09:59:37',
                 'updated_at' => '2018-11-16 09:59:37',
+            ),
+            243 => 
+            array (
+                'id' => 744,
+                'name' => 'Political philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 02:56:28',
+                'updated_at' => '2018-12-04 02:56:28',
+            ),
+            244 => 
+            array (
+                'id' => 745,
+                'name' => 'Botany',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            245 => 
+            array (
+                'id' => 746,
+                'name' => 'Philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            246 => 
+            array (
+                'id' => 747,
+                'name' => 'Meditations',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            247 => 
+            array (
+                'id' => 748,
+                'name' => 'Christian philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            248 => 
+            array (
+                'id' => 749,
+                'name' => 'Medical literature',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            249 => 
+            array (
+                'id' => 750,
+                'name' => 'Islamic philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:41',
+                'updated_at' => '2018-12-04 03:03:41',
+            ),
+            250 => 
+            array (
+                'id' => 751,
+                'name' => 'Islamic ethics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            251 => 
+            array (
+                'id' => 752,
+                'name' => 'Christianity',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            252 => 
+            array (
+                'id' => 753,
+                'name' => 'Comedy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            253 => 
+            array (
+                'id' => 754,
+                'name' => 'Non-fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            254 => 
+            array (
+                'id' => 755,
+                'name' => 'Dialogue',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            255 => 
+            array (
+                'id' => 756,
+                'name' => 'War',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            256 => 
+            array (
+                'id' => 757,
+                'name' => 'Religion',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            257 => 
+            array (
+                'id' => 758,
+                'name' => 'Hymnal',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            258 => 
+            array (
+                'id' => 759,
+                'name' => 'Theology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:42',
+                'updated_at' => '2018-12-04 03:03:42',
+            ),
+            259 => 
+            array (
+                'id' => 760,
+                'name' => 'Essay',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            260 => 
+            array (
+                'id' => 761,
+                'name' => 'Barsoom',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            261 => 
+            array (
+                'id' => 762,
+                'name' => 'Utopian novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            262 => 
+            array (
+                'id' => 763,
+                'name' => 'Science fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            263 => 
+            array (
+                'id' => 764,
+                'name' => 'Astronomy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            264 => 
+            array (
+                'id' => 765,
+                'name' => 'Law',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            265 => 
+            array (
+                'id' => 766,
+                'name' => 'Law of the sea',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:43',
+                'updated_at' => '2018-12-04 03:03:43',
+            ),
+            266 => 
+            array (
+                'id' => 767,
+                'name' => 'Chemistry',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:44',
+                'updated_at' => '2018-12-04 03:03:44',
+            ),
+            267 => 
+            array (
+                'id' => 768,
+                'name' => 'Epistemology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:44',
+                'updated_at' => '2018-12-04 03:03:44',
+            ),
+            268 => 
+            array (
+                'id' => 769,
+                'name' => 'Education',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:44',
+                'updated_at' => '2018-12-04 03:03:44',
+            ),
+            269 => 
+            array (
+                'id' => 770,
+                'name' => 'Chronology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:44',
+                'updated_at' => '2018-12-04 03:03:44',
+            ),
+            270 => 
+            array (
+                'id' => 771,
+                'name' => 'Historical essay',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:44',
+                'updated_at' => '2018-12-04 03:03:44',
+            ),
+            271 => 
+            array (
+                'id' => 772,
+                'name' => 'Tragedy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            272 => 
+            array (
+                'id' => 773,
+                'name' => 'Conte philosophique',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            273 => 
+            array (
+                'id' => 774,
+                'name' => 'Bildungsroman',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            274 => 
+            array (
+                'id' => 775,
+                'name' => 'Satire',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            275 => 
+            array (
+                'id' => 776,
+                'name' => 'Picaresque novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            276 => 
+            array (
+                'id' => 777,
+                'name' => 'History',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            277 => 
+            array (
+                'id' => 778,
+                'name' => 'History of Europe',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            278 => 
+            array (
+                'id' => 779,
+                'name' => 'Historiography',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:45',
+                'updated_at' => '2018-12-04 03:03:45',
+            ),
+            279 => 
+            array (
+                'id' => 780,
+                'name' => 'History of France',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:46',
+                'updated_at' => '2018-12-04 03:03:46',
+            ),
+            280 => 
+            array (
+                'id' => 781,
+                'name' => 'Philosophical novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:46',
+                'updated_at' => '2018-12-04 03:03:46',
+            ),
+            281 => 
+            array (
+                'id' => 782,
+                'name' => 'Novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:46',
+                'updated_at' => '2018-12-04 03:03:46',
+            ),
+            282 => 
+            array (
+                'id' => 783,
+                'name' => 'Literary criticism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:46',
+                'updated_at' => '2018-12-04 03:03:46',
+            ),
+            283 => 
+            array (
+                'id' => 784,
+                'name' => 'Theatre',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:46',
+                'updated_at' => '2018-12-04 03:03:46',
+            ),
+            284 => 
+            array (
+                'id' => 785,
+                'name' => 'Autobiography',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:47',
+                'updated_at' => '2018-12-04 03:03:47',
+            ),
+            285 => 
+            array (
+                'id' => 786,
+                'name' => 'Reference work',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:47',
+                'updated_at' => '2018-12-04 03:03:47',
+            ),
+            286 => 
+            array (
+                'id' => 787,
+                'name' => 'Encyclopaedia',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:47',
+                'updated_at' => '2018-12-04 03:03:47',
+            ),
+            287 => 
+            array (
+                'id' => 788,
+                'name' => 'Drama',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            288 => 
+            array (
+                'id' => 789,
+                'name' => 'Economics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            289 => 
+            array (
+                'id' => 790,
+                'name' => 'Morality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            290 => 
+            array (
+                'id' => 791,
+                'name' => 'Human nature',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            291 => 
+            array (
+                'id' => 792,
+                'name' => 'Ethics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            292 => 
+            array (
+                'id' => 793,
+                'name' => 'Philosophy of religion',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:48',
+                'updated_at' => '2018-12-04 03:03:48',
+            ),
+            293 => 
+            array (
+                'id' => 794,
+                'name' => 'Aesthetics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:49',
+                'updated_at' => '2018-12-04 03:03:49',
+            ),
+            294 => 
+            array (
+                'id' => 795,
+                'name' => 'Critique of Pure Reason',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:49',
+                'updated_at' => '2018-12-04 03:03:49',
+            ),
+            295 => 
+            array (
+                'id' => 796,
+                'name' => 'Immortality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:49',
+                'updated_at' => '2018-12-04 03:03:49',
+            ),
+            296 => 
+            array (
+                'id' => 797,
+                'name' => 'Bourgeois tragedy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:49',
+                'updated_at' => '2018-12-04 03:03:49',
+            ),
+            297 => 
+            array (
+                'id' => 798,
+                'name' => 'Political theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:49',
+                'updated_at' => '2018-12-04 03:03:49',
+            ),
+            298 => 
+            array (
+                'id' => 799,
+                'name' => 'Christian apologetics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:50',
+                'updated_at' => '2018-12-04 03:03:50',
+            ),
+            299 => 
+            array (
+                'id' => 800,
+                'name' => 'Evolution',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:50',
+                'updated_at' => '2018-12-04 03:03:50',
+            ),
+            300 => 
+            array (
+                'id' => 801,
+                'name' => 'Zoology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:50',
+                'updated_at' => '2018-12-04 03:03:50',
+            ),
+            301 => 
+            array (
+                'id' => 802,
+                'name' => 'Metaphysics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            302 => 
+            array (
+                'id' => 803,
+                'name' => 'Nonfiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            303 => 
+            array (
+                'id' => 804,
+                'name' => 'Evolutionary biology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            304 => 
+            array (
+                'id' => 805,
+                'name' => 'Natural selection',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            305 => 
+            array (
+                'id' => 806,
+                'name' => 'Biology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            306 => 
+            array (
+                'id' => 807,
+                'name' => 'Science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:51',
+                'updated_at' => '2018-12-04 03:03:51',
+            ),
+            307 => 
+            array (
+                'id' => 808,
+                'name' => 'Evolutionary theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:52',
+                'updated_at' => '2018-12-04 03:03:52',
+            ),
+            308 => 
+            array (
+                'id' => 809,
+                'name' => 'Geology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:52',
+                'updated_at' => '2018-12-04 03:03:52',
+            ),
+            309 => 
+            array (
+                'id' => 810,
+                'name' => 'Artificial selection',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:52',
+                'updated_at' => '2018-12-04 03:03:52',
+            ),
+            310 => 
+            array (
+                'id' => 811,
+                'name' => 'Earthworm',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:52',
+                'updated_at' => '2018-12-04 03:03:52',
+            ),
+            311 => 
+            array (
+                'id' => 812,
+                'name' => 'Christianity, philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:52',
+                'updated_at' => '2018-12-04 03:03:52',
+            ),
+            312 => 
+            array (
+                'id' => 813,
+                'name' => 'Moral philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:53',
+                'updated_at' => '2018-12-04 03:03:53',
+            ),
+            313 => 
+            array (
+                'id' => 814,
+                'name' => 'Psychology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:54',
+                'updated_at' => '2018-12-04 03:03:54',
+            ),
+            314 => 
+            array (
+                'id' => 815,
+                'name' => 'Memoir',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:54',
+                'updated_at' => '2018-12-04 03:03:54',
+            ),
+            315 => 
+            array (
+                'id' => 816,
+                'name' => 'Politics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:54',
+                'updated_at' => '2018-12-04 03:03:54',
+            ),
+            316 => 
+            array (
+                'id' => 817,
+                'name' => 'Political economy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:54',
+                'updated_at' => '2018-12-04 03:03:54',
+            ),
+            317 => 
+            array (
+                'id' => 818,
+                'name' => 'Comedic novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:54',
+                'updated_at' => '2018-12-04 03:03:54',
+            ),
+            318 => 
+            array (
+                'id' => 819,
+                'name' => 'Politics, economics, sociology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:55',
+                'updated_at' => '2018-12-04 03:03:55',
+            ),
+            319 => 
+            array (
+                'id' => 820,
+                'name' => 'Political Theory and Philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:55',
+                'updated_at' => '2018-12-04 03:03:55',
+            ),
+            320 => 
+            array (
+                'id' => 821,
+                'name' => 'Elitism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:55',
+                'updated_at' => '2018-12-04 03:03:55',
+            ),
+            321 => 
+            array (
+                'id' => 822,
+                'name' => 'Jesus',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:56',
+                'updated_at' => '2018-12-04 03:03:56',
+            ),
+            322 => 
+            array (
+                'id' => 823,
+                'name' => 'Saint Paul',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:56',
+                'updated_at' => '2018-12-04 03:03:56',
+            ),
+            323 => 
+            array (
+                'id' => 824,
+                'name' => 'Plutocracy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:56',
+                'updated_at' => '2018-12-04 03:03:56',
+            ),
+            324 => 
+            array (
+                'id' => 825,
+                'name' => 'Democracy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:56',
+                'updated_at' => '2018-12-04 03:03:56',
+            ),
+            325 => 
+            array (
+                'id' => 826,
+                'name' => 'Poetry',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            326 => 
+            array (
+                'id' => 827,
+                'name' => 'Anti-semitism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            327 => 
+            array (
+                'id' => 828,
+                'name' => 'Philosophy of art',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            328 => 
+            array (
+                'id' => 829,
+                'name' => 'Richard Wagner',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            329 => 
+            array (
+                'id' => 830,
+                'name' => 'Apollonian and Dionysian',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            330 => 
+            array (
+                'id' => 831,
+                'name' => 'Classical Athens',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            331 => 
+            array (
+                'id' => 832,
+                'name' => 'God is dead',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:57',
+                'updated_at' => '2018-12-04 03:03:57',
+            ),
+            332 => 
+            array (
+                'id' => 833,
+                'name' => 'Immanuel Kant',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:58',
+                'updated_at' => '2018-12-04 03:03:58',
+            ),
+            333 => 
+            array (
+                'id' => 834,
+                'name' => 'Linguistics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:58',
+                'updated_at' => '2018-12-04 03:03:58',
+            ),
+            334 => 
+            array (
+                'id' => 835,
+                'name' => 'Sociology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:58',
+                'updated_at' => '2018-12-04 03:03:58',
+            ),
+            335 => 
+            array (
+                'id' => 836,
+                'name' => 'Suicide',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:58',
+                'updated_at' => '2018-12-04 03:03:58',
+            ),
+            336 => 
+            array (
+                'id' => 837,
+            'name' => 'Phenomenology (philosophy)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:59',
+                'updated_at' => '2018-12-04 03:03:59',
+            ),
+            337 => 
+            array (
+                'id' => 838,
+                'name' => 'Philosophy of Mathematics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:59',
+                'updated_at' => '2018-12-04 03:03:59',
+            ),
+            338 => 
+            array (
+                'id' => 839,
+                'name' => 'Logic',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:03:59',
+                'updated_at' => '2018-12-04 03:03:59',
+            ),
+            339 => 
+            array (
+                'id' => 840,
+                'name' => 'Economic sociology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:00',
+                'updated_at' => '2018-12-04 03:04:00',
+            ),
+            340 => 
+            array (
+                'id' => 841,
+                'name' => 'Sociology of religion',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:00',
+                'updated_at' => '2018-12-04 03:04:00',
+            ),
+            341 => 
+            array (
+                'id' => 842,
+                'name' => 'Soviet Union',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:00',
+                'updated_at' => '2018-12-04 03:04:00',
+            ),
+            342 => 
+            array (
+                'id' => 843,
+                'name' => 'Anarchism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:00',
+                'updated_at' => '2018-12-04 03:04:00',
+            ),
+            343 => 
+            array (
+                'id' => 844,
+                'name' => 'Political sociology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:01',
+                'updated_at' => '2018-12-04 03:04:01',
+            ),
+            344 => 
+            array (
+                'id' => 845,
+                'name' => 'Social philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:01',
+                'updated_at' => '2018-12-04 03:04:01',
+            ),
+            345 => 
+            array (
+                'id' => 846,
+                'name' => 'Philosophical anthropology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:01',
+                'updated_at' => '2018-12-04 03:04:01',
+            ),
+            346 => 
+            array (
+                'id' => 847,
+                'name' => 'Symbolic logic',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:01',
+                'updated_at' => '2018-12-04 03:04:01',
+            ),
+            347 => 
+            array (
+                'id' => 848,
+                'name' => 'Foundations of mathematics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:01',
+                'updated_at' => '2018-12-04 03:04:01',
+            ),
+            348 => 
+            array (
+                'id' => 849,
+                'name' => 'Essay Collection',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:02',
+                'updated_at' => '2018-12-04 03:04:02',
+            ),
+            349 => 
+            array (
+                'id' => 850,
+                'name' => 'Western philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:02',
+                'updated_at' => '2018-12-04 03:04:02',
+            ),
+            350 => 
+            array (
+                'id' => 851,
+                'name' => 'Anthropology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:02',
+                'updated_at' => '2018-12-04 03:04:02',
+            ),
+            351 => 
+            array (
+                'id' => 852,
+                'name' => 'Speculative philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:03',
+                'updated_at' => '2018-12-04 03:04:03',
+            ),
+            352 => 
+            array (
+                'id' => 853,
+                'name' => 'Architecture',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:03',
+                'updated_at' => '2018-12-04 03:04:03',
+            ),
+            353 => 
+            array (
+                'id' => 854,
+                'name' => 'Karl Marx',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:03',
+                'updated_at' => '2018-12-04 03:04:03',
+            ),
+            354 => 
+            array (
+                'id' => 855,
+                'name' => 'Marxism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:03',
+                'updated_at' => '2018-12-04 03:04:03',
+            ),
+            355 => 
+            array (
+                'id' => 856,
+                'name' => 'Georg Wilhelm Friedrich Hegel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:03',
+                'updated_at' => '2018-12-04 03:04:03',
+            ),
+            356 => 
+            array (
+                'id' => 857,
+                'name' => 'Mysticism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:04',
+                'updated_at' => '2018-12-04 03:04:04',
+            ),
+            357 => 
+            array (
+                'id' => 858,
+                'name' => 'Being',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:04',
+                'updated_at' => '2018-12-04 03:04:04',
+            ),
+            358 => 
+            array (
+                'id' => 859,
+                'name' => 'Ontology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:04',
+                'updated_at' => '2018-12-04 03:04:04',
+            ),
+            359 => 
+            array (
+                'id' => 860,
+                'name' => 'Hermeneutics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:04',
+                'updated_at' => '2018-12-04 03:04:04',
+            ),
+            360 => 
+            array (
+                'id' => 861,
+                'name' => 'Philosophy of technology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:05',
+                'updated_at' => '2018-12-04 03:04:05',
+            ),
+            361 => 
+            array (
+                'id' => 862,
+                'name' => 'Historical fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:05',
+                'updated_at' => '2018-12-04 03:04:05',
+            ),
+            362 => 
+            array (
+                'id' => 863,
+                'name' => 'Erotic literature',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:05',
+                'updated_at' => '2018-12-04 03:04:05',
+            ),
+            363 => 
+            array (
+                'id' => 864,
+                'name' => 'New Left',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:05',
+                'updated_at' => '2018-12-04 03:04:05',
+            ),
+            364 => 
+            array (
+                'id' => 865,
+                'name' => 'Capitalism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:05',
+                'updated_at' => '2018-12-04 03:04:05',
+            ),
+            365 => 
+            array (
+                'id' => 866,
+                'name' => 'Toleration',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:06',
+                'updated_at' => '2018-12-04 03:04:06',
+            ),
+            366 => 
+            array (
+                'id' => 867,
+                'name' => 'Freedom of speech',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:06',
+                'updated_at' => '2018-12-04 03:04:06',
+            ),
+            367 => 
+            array (
+                'id' => 868,
+                'name' => 'Ideology of the Communist Party of the Soviet Union',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:06',
+                'updated_at' => '2018-12-04 03:04:06',
+            ),
+            368 => 
+            array (
+                'id' => 869,
+                'name' => 'Sigmund Freud',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:06',
+                'updated_at' => '2018-12-04 03:04:06',
+            ),
+            369 => 
+            array (
+                'id' => 870,
+                'name' => 'Philosophy of mind',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:07',
+                'updated_at' => '2018-12-04 03:04:07',
+            ),
+            370 => 
+            array (
+                'id' => 871,
+                'name' => 'Psychoanalysis',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:07',
+                'updated_at' => '2018-12-04 03:04:07',
+            ),
+            371 => 
+            array (
+                'id' => 872,
+                'name' => 'Probability',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:07',
+                'updated_at' => '2018-12-04 03:04:07',
+            ),
+            372 => 
+            array (
+                'id' => 873,
+                'name' => 'Philosophy of science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:07',
+                'updated_at' => '2018-12-04 03:04:07',
+            ),
+            373 => 
+            array (
+                'id' => 874,
+                'name' => 'Historicism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:07',
+                'updated_at' => '2018-12-04 03:04:07',
+            ),
+            374 => 
+            array (
+                'id' => 875,
+                'name' => 'Emotion',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:08',
+                'updated_at' => '2018-12-04 03:04:08',
+            ),
+            375 => 
+            array (
+                'id' => 876,
+                'name' => 'Existentialism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:08',
+                'updated_at' => '2018-12-04 03:04:08',
+            ),
+            376 => 
+            array (
+                'id' => 877,
+                'name' => 'Jean Genet',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:08',
+                'updated_at' => '2018-12-04 03:04:08',
+            ),
+            377 => 
+            array (
+                'id' => 878,
+                'name' => 'Imagination',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:09',
+                'updated_at' => '2018-12-04 03:04:09',
+            ),
+            378 => 
+            array (
+                'id' => 879,
+                'name' => 'Antisemitism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:09',
+                'updated_at' => '2018-12-04 03:04:09',
+            ),
+            379 => 
+            array (
+                'id' => 880,
+                'name' => 'Political drama',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:09',
+                'updated_at' => '2018-12-04 03:04:09',
+            ),
+            380 => 
+            array (
+                'id' => 881,
+                'name' => 'Short story',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:09',
+                'updated_at' => '2018-12-04 03:04:09',
+            ),
+            381 => 
+            array (
+                'id' => 882,
+                'name' => 'History of philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:09',
+                'updated_at' => '2018-12-04 03:04:09',
+            ),
+            382 => 
+            array (
+                'id' => 883,
+                'name' => 'Fiction writing',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:10',
+                'updated_at' => '2018-12-04 03:04:10',
+            ),
+            383 => 
+            array (
+                'id' => 884,
+                'name' => 'Autobiographical novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:10',
+                'updated_at' => '2018-12-04 03:04:10',
+            ),
+            384 => 
+            array (
+                'id' => 885,
+            'name' => 'Objectivism (Ayn Rand)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:10',
+                'updated_at' => '2018-12-04 03:04:10',
+            ),
+            385 => 
+            array (
+                'id' => 886,
+                'name' => 'Utopia',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:10',
+                'updated_at' => '2018-12-04 03:04:10',
+            ),
+            386 => 
+            array (
+                'id' => 887,
+                'name' => 'Mystery fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:11',
+                'updated_at' => '2018-12-04 03:04:11',
+            ),
+            387 => 
+            array (
+                'id' => 888,
+                'name' => 'Romance novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:11',
+                'updated_at' => '2018-12-04 03:04:11',
+            ),
+            388 => 
+            array (
+                'id' => 889,
+                'name' => 'Philosophical fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:11',
+                'updated_at' => '2018-12-04 03:04:11',
+            ),
+            389 => 
+            array (
+                'id' => 890,
+                'name' => 'Courtroom drama',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:11',
+                'updated_at' => '2018-12-04 03:04:11',
+            ),
+            390 => 
+            array (
+                'id' => 891,
+                'name' => 'Melodrama',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:11',
+                'updated_at' => '2018-12-04 03:04:11',
+            ),
+            391 => 
+            array (
+                'id' => 892,
+                'name' => 'Stalinism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            392 => 
+            array (
+                'id' => 893,
+                'name' => 'Nazism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            393 => 
+            array (
+                'id' => 894,
+                'name' => 'Totalitarianism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            394 => 
+            array (
+                'id' => 895,
+                'name' => 'Human body',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            395 => 
+            array (
+                'id' => 896,
+                'name' => 'Perception',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            396 => 
+            array (
+                'id' => 897,
+                'name' => 'Feminism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            397 => 
+            array (
+                'id' => 898,
+                'name' => 'Metaphysical novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:12',
+                'updated_at' => '2018-12-04 03:04:12',
+            ),
+            398 => 
+            array (
+                'id' => 899,
+                'name' => 'Language',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            399 => 
+            array (
+                'id' => 900,
+                'name' => 'Media studies',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            400 => 
+            array (
+                'id' => 901,
+                'name' => 'History of communication',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            401 => 
+            array (
+                'id' => 902,
+                'name' => 'Communications',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            402 => 
+            array (
+                'id' => 903,
+                'name' => 'Absurdism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            403 => 
+            array (
+                'id' => 904,
+                'name' => 'Rebellion',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:13',
+                'updated_at' => '2018-12-04 03:04:13',
+            ),
+            404 => 
+            array (
+                'id' => 905,
+                'name' => 'Literary realism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:14',
+                'updated_at' => '2018-12-04 03:04:14',
+            ),
+            405 => 
+            array (
+                'id' => 906,
+                'name' => 'Existentialist',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:14',
+                'updated_at' => '2018-12-04 03:04:14',
+            ),
+            406 => 
+            array (
+                'id' => 907,
+                'name' => 'Cultural studies',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:14',
+                'updated_at' => '2018-12-04 03:04:14',
+            ),
+            407 => 
+            array (
+                'id' => 908,
+                'name' => 'Semiotics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:14',
+                'updated_at' => '2018-12-04 03:04:14',
+            ),
+            408 => 
+            array (
+                'id' => 909,
+                'name' => 'Structuralism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            409 => 
+            array (
+                'id' => 910,
+                'name' => 'Photography',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            410 => 
+            array (
+                'id' => 911,
+                'name' => 'Sarrasine',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            411 => 
+            array (
+                'id' => 912,
+                'name' => 'Reading Capital',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            412 => 
+            array (
+                'id' => 913,
+                'name' => 'Capital: Critique of Political Economy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            413 => 
+            array (
+                'id' => 914,
+                'name' => 'For Marx',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:15',
+                'updated_at' => '2018-12-04 03:04:15',
+            ),
+            414 => 
+            array (
+                'id' => 915,
+                'name' => 'Vladimir Lenin',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            415 => 
+            array (
+                'id' => 916,
+                'name' => 'Justice',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            416 => 
+            array (
+                'id' => 917,
+                'name' => 'A Theory of Justice',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            417 => 
+            array (
+                'id' => 918,
+                'name' => 'Distributive justice',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            418 => 
+            array (
+                'id' => 919,
+                'name' => 'Violence',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            419 => 
+            array (
+                'id' => 920,
+                'name' => 'Racism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            420 => 
+            array (
+                'id' => 921,
+                'name' => 'Post-colonialism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:16',
+                'updated_at' => '2018-12-04 03:04:16',
+            ),
+            421 => 
+            array (
+                'id' => 922,
+                'name' => 'Revolution',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            422 => 
+            array (
+                'id' => 923,
+                'name' => 'Third-world development',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            423 => 
+            array (
+                'id' => 924,
+                'name' => 'Colonialism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            424 => 
+            array (
+                'id' => 925,
+                'name' => 'Friedrich Nietzsche',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            425 => 
+            array (
+                'id' => 926,
+                'name' => 'Baruch Spinoza',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            426 => 
+            array (
+                'id' => 927,
+                'name' => 'Literature',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            427 => 
+            array (
+                'id' => 928,
+                'name' => 'Leopold von Sacher-Masoch',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:17',
+                'updated_at' => '2018-12-04 03:04:17',
+            ),
+            428 => 
+            array (
+                'id' => 929,
+            'name' => 'Desire (philosophy)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            429 => 
+            array (
+                'id' => 930,
+                'name' => 'Film theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            430 => 
+            array (
+                'id' => 931,
+            'name' => 'Francis Bacon (artist)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            431 => 
+            array (
+                'id' => 932,
+                'name' => 'Marcel Proust',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            432 => 
+            array (
+                'id' => 933,
+                'name' => 'Human science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            433 => 
+            array (
+                'id' => 934,
+                'name' => 'Insanity',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:18',
+                'updated_at' => '2018-12-04 03:04:18',
+            ),
+            434 => 
+            array (
+                'id' => 935,
+                'name' => 'History of human sexuality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            435 => 
+            array (
+                'id' => 936,
+                'name' => 'International politics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            436 => 
+            array (
+                'id' => 937,
+                'name' => 'Natural language',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            437 => 
+            array (
+                'id' => 938,
+                'name' => 'Neoliberalism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            438 => 
+            array (
+                'id' => 939,
+            'name' => 'Power (social and political)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            439 => 
+            array (
+                'id' => 940,
+                'name' => 'Hegemony',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            440 => 
+            array (
+                'id' => 941,
+                'name' => 'Politics of the United States',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:19',
+                'updated_at' => '2018-12-04 03:04:19',
+            ),
+            441 => 
+            array (
+                'id' => 942,
+                'name' => 'Foreign policy of the United States',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:20',
+                'updated_at' => '2018-12-04 03:04:20',
+            ),
+            442 => 
+            array (
+                'id' => 943,
+                'name' => 'Gulf War',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:20',
+                'updated_at' => '2018-12-04 03:04:20',
+            ),
+            443 => 
+            array (
+                'id' => 944,
+                'name' => 'Political science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:21',
+                'updated_at' => '2018-12-04 03:04:21',
+            ),
+            444 => 
+            array (
+                'id' => 945,
+                'name' => 'Mass media',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:21',
+                'updated_at' => '2018-12-04 03:04:21',
+            ),
+            445 => 
+            array (
+                'id' => 946,
+                'name' => 'Cultural critic',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:22',
+                'updated_at' => '2018-12-04 03:04:22',
+            ),
+            446 => 
+            array (
+                'id' => 947,
+                'name' => 'Social criticism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:22',
+                'updated_at' => '2018-12-04 03:04:22',
+            ),
+            447 => 
+            array (
+                'id' => 948,
+                'name' => 'Edmund Husserl',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:22',
+                'updated_at' => '2018-12-04 03:04:22',
+            ),
+            448 => 
+            array (
+                'id' => 949,
+                'name' => 'Epistolary literature',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:22',
+                'updated_at' => '2018-12-04 03:04:22',
+            ),
+            449 => 
+            array (
+                'id' => 950,
+                'name' => 'J. L. Austin',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:22',
+                'updated_at' => '2018-12-04 03:04:22',
+            ),
+            450 => 
+            array (
+                'id' => 951,
+                'name' => 'Archive',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:23',
+                'updated_at' => '2018-12-04 03:04:23',
+            ),
+            451 => 
+            array (
+                'id' => 952,
+            'name' => 'Spectacle (critical theory)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:23',
+                'updated_at' => '2018-12-04 03:04:23',
+            ),
+            452 => 
+            array (
+                'id' => 953,
+                'name' => 'Culture',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:23',
+                'updated_at' => '2018-12-04 03:04:23',
+            ),
+            453 => 
+            array (
+                'id' => 954,
+                'name' => 'Teleology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:24',
+                'updated_at' => '2018-12-04 03:04:24',
+            ),
+            454 => 
+            array (
+                'id' => 955,
+                'name' => 'Reductionism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:24',
+                'updated_at' => '2018-12-04 03:04:24',
+            ),
+            455 => 
+            array (
+                'id' => 956,
+                'name' => 'Mind-body problem',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:24',
+                'updated_at' => '2018-12-04 03:04:24',
+            ),
+            456 => 
+            array (
+                'id' => 957,
+                'name' => 'Materialism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:24',
+                'updated_at' => '2018-12-04 03:04:24',
+            ),
+            457 => 
+            array (
+                'id' => 958,
+                'name' => 'Consciousness',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:24',
+                'updated_at' => '2018-12-04 03:04:24',
+            ),
+            458 => 
+            array (
+                'id' => 959,
+                'name' => 'Philosophy of physics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:25',
+                'updated_at' => '2018-12-04 03:04:25',
+            ),
+            459 => 
+            array (
+                'id' => 960,
+                'name' => 'Animal rights',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:25',
+                'updated_at' => '2018-12-04 03:04:25',
+            ),
+            460 => 
+            array (
+                'id' => 961,
+                'name' => 'Rationality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:25',
+                'updated_at' => '2018-12-04 03:04:25',
+            ),
+            461 => 
+            array (
+                'id' => 962,
+                'name' => 'Personal identity',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            462 => 
+            array (
+                'id' => 963,
+                'name' => 'Humanitarianism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            463 => 
+            array (
+                'id' => 964,
+                'name' => 'Poverty',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            464 => 
+            array (
+                'id' => 965,
+            'name' => 'Charity (practice)',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            465 => 
+            array (
+                'id' => 966,
+                'name' => 'Fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            466 => 
+            array (
+                'id' => 967,
+                'name' => 'Normative ethics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:26',
+                'updated_at' => '2018-12-04 03:04:26',
+            ),
+            467 => 
+            array (
+                'id' => 968,
+                'name' => 'Globalization',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            468 => 
+            array (
+                'id' => 969,
+                'name' => 'September 11 attacks',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            469 => 
+            array (
+                'id' => 970,
+                'name' => 'Krzysztof Kieślowski',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            470 => 
+            array (
+                'id' => 971,
+                'name' => 'Ideology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            471 => 
+            array (
+                'id' => 972,
+                'name' => 'Relationship between religion and science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            472 => 
+            array (
+                'id' => 973,
+                'name' => 'Economic inequality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:27',
+                'updated_at' => '2018-12-04 03:04:27',
+            ),
+            473 => 
+            array (
+                'id' => 974,
+                'name' => 'Social science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:28',
+                'updated_at' => '2018-12-04 03:04:28',
+            ),
+            474 => 
+            array (
+                'id' => 975,
+                'name' => 'Gender',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:28',
+                'updated_at' => '2018-12-04 03:04:28',
+            ),
+            475 => 
+            array (
+                'id' => 976,
+                'name' => 'Queer theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:28',
+                'updated_at' => '2018-12-04 03:04:28',
+            ),
+            476 => 
+            array (
+                'id' => 977,
+                'name' => 'Hegelianism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:28',
+                'updated_at' => '2018-12-04 03:04:28',
+            ),
+            477 => 
+            array (
+                'id' => 978,
+                'name' => 'International relations theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:28',
+                'updated_at' => '2018-12-04 03:04:28',
+            ),
+            478 => 
+            array (
+                'id' => 979,
+                'name' => 'Military strategy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:29',
+                'updated_at' => '2018-12-04 03:04:29',
+            ),
+            479 => 
+            array (
+                'id' => 980,
+                'name' => 'Military tactics',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:29',
+                'updated_at' => '2018-12-04 03:04:29',
+            ),
+            480 => 
+            array (
+                'id' => 981,
+                'name' => 'Chinese mythology',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            481 => 
+            array (
+                'id' => 982,
+                'name' => 'Wuxia',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            482 => 
+            array (
+                'id' => 983,
+                'name' => 'Chinese philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            483 => 
+            array (
+                'id' => 984,
+                'name' => 'Advaita Vedanta',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            484 => 
+            array (
+                'id' => 985,
+                'name' => 'Hindu philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            485 => 
+            array (
+                'id' => 986,
+                'name' => 'Advaita',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            486 => 
+            array (
+                'id' => 987,
+                'name' => 'Vedanta',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            487 => 
+            array (
+                'id' => 988,
+                'name' => 'Indian philosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:30',
+                'updated_at' => '2018-12-04 03:04:30',
+            ),
+            488 => 
+            array (
+                'id' => 989,
+                'name' => 'Novella',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:31',
+                'updated_at' => '2018-12-04 03:04:31',
+            ),
+            489 => 
+            array (
+                'id' => 990,
+                'name' => 'Poem',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:31',
+                'updated_at' => '2018-12-04 03:04:31',
+            ),
+            490 => 
+            array (
+                'id' => 991,
+                'name' => 'Nationalist',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            491 => 
+            array (
+                'id' => 992,
+                'name' => 'Spirituality',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            492 => 
+            array (
+                'id' => 993,
+                'name' => 'Upanishads',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            493 => 
+            array (
+                'id' => 994,
+                'name' => 'Dhammapada',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            494 => 
+            array (
+                'id' => 995,
+                'name' => 'Religious text',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            495 => 
+            array (
+                'id' => 996,
+                'name' => 'Theosophy',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:32',
+                'updated_at' => '2018-12-04 03:04:32',
+            ),
+            496 => 
+            array (
+                'id' => 997,
+                'name' => 'Nihilism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:33',
+                'updated_at' => '2018-12-04 03:04:33',
+            ),
+            497 => 
+            array (
+                'id' => 998,
+                'name' => 'Short story compilation',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+            498 => 
+            array (
+                'id' => 999,
+                'name' => 'Horror fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+            499 => 
+            array (
+                'id' => 1000,
+                'name' => 'Historical novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+        ));
+        \DB::table('categories')->insert(array (
+            0 => 
+            array (
+                'id' => 1001,
+                'name' => 'Feminist theory',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+            1 => 
+            array (
+                'id' => 1002,
+                'name' => 'Art history',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+            2 => 
+            array (
+                'id' => 1003,
+                'name' => 'Abjection',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:34',
+                'updated_at' => '2018-12-04 03:04:34',
+            ),
+            3 => 
+            array (
+                'id' => 1004,
+                'name' => 'LGBT rights in the United States',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:35',
+                'updated_at' => '2018-12-04 03:04:35',
+            ),
+            4 => 
+            array (
+                'id' => 1005,
+                'name' => 'Feminist novel',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:35',
+                'updated_at' => '2018-12-04 03:04:35',
+            ),
+            5 => 
+            array (
+                'id' => 1006,
+                'name' => 'Feminist science fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:35',
+                'updated_at' => '2018-12-04 03:04:35',
+            ),
+            6 => 
+            array (
+                'id' => 1007,
+                'name' => 'Utopian and dystopian fiction',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:35',
+                'updated_at' => '2018-12-04 03:04:35',
+            ),
+            7 => 
+            array (
+                'id' => 1008,
+                'name' => 'Captivity narrative',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:35',
+                'updated_at' => '2018-12-04 03:04:35',
+            ),
+            8 => 
+            array (
+                'id' => 1009,
+                'name' => 'Women\'s health',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:36',
+                'updated_at' => '2018-12-04 03:04:36',
+            ),
+            9 => 
+            array (
+                'id' => 1010,
+                'name' => 'Christian mysticism',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:36',
+                'updated_at' => '2018-12-04 03:04:36',
+            ),
+            10 => 
+            array (
+                'id' => 1011,
+                'name' => 'Free will',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:36',
+                'updated_at' => '2018-12-04 03:04:36',
+            ),
+            11 => 
+            array (
+                'id' => 1012,
+                'name' => 'Visual arts',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:36',
+                'updated_at' => '2018-12-04 03:04:36',
+            ),
+            12 => 
+            array (
+                'id' => 1013,
+                'name' => 'Applied arts',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:36',
+                'updated_at' => '2018-12-04 03:04:36',
+            ),
+            13 => 
+            array (
+                'id' => 1014,
+                'name' => 'Art',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:37',
+                'updated_at' => '2018-12-04 03:04:37',
+            ),
+            14 => 
+            array (
+                'id' => 1015,
+                'name' => 'Decadent movement',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:37',
+                'updated_at' => '2018-12-04 03:04:37',
+            ),
+            15 => 
+            array (
+                'id' => 1016,
+                'name' => 'Anthropic principle',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:37',
+                'updated_at' => '2018-12-04 03:04:37',
+            ),
+            16 => 
+            array (
+                'id' => 1017,
+                'name' => 'History of Science',
+                'type' => 'topic',
+                'deleted_at' => NULL,
+                'created_at' => '2018-12-04 03:04:38',
+                'updated_at' => '2018-12-04 03:04:38',
             ),
         ));
         

@@ -48,33 +48,47 @@
 					</ul>
 				</div>
 			</div>
+			@if(count($person->books))
 			<div class="row">
 				<div>
 					<h3>Books</h3>
+					<h4>Topics</h4>
+					<ul class="list-inline">
 					@foreach ($person->books as $book)
-						<h4>{{$book->title}}</h4>
-						<p>{{$book->description}}</p>
+						@foreach ($book->topics as $topic)
+						<li class="list-inline-item"><a href="/philosophers/topics/{{$topic->name}}">{{$topic->name}}</a></li>
+						@endforeach
+					@endforeach
+					</ul>
+					@foreach ($person->books as $book)
+						<h5>{{$book->title}}</h5>
+						<p class="small">{{$book->description}}</p>
 					@endforeach
 					</ul>
 				</div>
 			</div>
+			@endif
 			<div class="row">
 				@if(count($person->media))
 					<h2>Media:</h2>
 					<div>
+						@if($permissions)
 						<form action="/media/delete" method="POST">
 						{{ csrf_field() }}
+						@endif
 					@foreach($person->media->chunk(3) as $chunk)
 						<div class="row">
 							@foreach ($chunk as $media)
-								@include('partials.video', array('media' => $media))
+								@include('partials.video', array('media' => $media, 'permissions'=>$permissions))
 							  @endforeach
 						</div>
 					@endforeach
+					@if($permissions)
 							<p><input class="select-all-checkbox" type="checkbox" id="select-all">
 							<label for="select-all">Select all videos for deletion</label></p>
 							<input class="btn btn-primary" type="submit" value="Submit">
 						</form>
+					@endif
 					</div>
 				@endif
 			</div>	

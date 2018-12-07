@@ -7,6 +7,7 @@ use App\Media;
 use App\Requests\Wikipedia;
 use App\Person;
 use App\Book;
+use App\Category;
 use Carbon\Carbon;
 use Curl\Curl;
 
@@ -122,36 +123,39 @@ class TestController extends Controller
                     //echo $keyval."<br>";
                     if($keyval === "http://dbpedia.org/ontology/literaryGenre" && $category == '') {
                         echo "Literary Genre for <b>".$book->id."</b> (".$book->title.")<br />";
-                        print_r($val);
-                        echo "<br />";
+                        $this->getCategory($val, $book);
                     }
                     if($keyval === "http://dbpedia.org/property/genre" && $category == '') {
                         echo "Genre for <b>".$book->id."</b> (".$book->title.")<br />";
-                        print_r($val);
-                        echo "<br />";
+                        $this->getCategory($val, $book);
                     }
                     if($keyval === "http://dbpedia.org/ontology/genre" && $category == '') {
                         echo "Ontology Genre for <b>".$book->id."</b> (".$book->title.")<br />";
-                        print_r($val);
-                        echo "<br />";
+                        $this->getCategory($val, $book);
                     }
                     if($keyval === "http://dbpedia.org/ontology/nonFictionSubject" && $category == '') {
                         echo "Non-fic subject for <b>".$book->id."</b> (".$book->title.")<br />";
-                        print_r($val);
-                        echo "<br />";
+                        $this->getCategory($val, $book);
                     }
-                    /*
-                    if($keyval === "http://purl.org/dc/terms/subject" && $category == '') {
-                        echo "Subject term for <b>".$book->id."</b> (".$book->title.")<br />";
-                        print_r($val);
-                        echo "<br />";
-                    }
-                    */
                 }
             }  
         }
     }
-
+    public function getCategory($val, $book) {
+        foreach($val as $item) {
+            if($item->type =="uri") {
+                $url = $item->value;
+                $array = explode("/", $url);
+                $words = end($array);
+                $category = str_replace("_", " ", $words);
+            } else {
+                $category = $item->value;
+            }
+            $model_genre = Category::updateOrCreate(['name'=>$category, 'type'=>'topic']);
+            $book->topics()->syncWithoutDetaching($model_genre->id);
+            echo $category."<br />";
+        }
+    }
     public function getEnglish($thing) {
         $result = '';
         foreach($thing as $language) {
